@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disclosure Archives | Department of War UAP Mirror Portal</title>
+  <meta name="description" content="Official public mirror portal for the Presidential Unsealing and Reporting System for UAP Encounters (PURSUE). Read declassified transcripts, view military flight videos, and analyze reports.">
+  <meta name="keywords" content="UFO, UAP, AARO, Department of War, DOW, Pentagon, Declassified, Aliens, Sandia, Los Alamos, FBI Vault, NASA, ODNI, CIA">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top-Secret Banner -->
+  <div class="classified-banner">
+    // RESTRICTED ACCESS // DECLASSIFIED AUTHORITY: PRESIDENTIAL DIRECTIVE PURSUE // WAVE 01 & WAVE 02 RELEASED //
+  </div>
+
+  <div class="wrapper">
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="#" class="logo-container">
+        <div class="logo-icon">▲</div>
+        <div class="logo-text">DISCLOSURE<span>ARCHIVES</span></div>
+      </a>
+      <nav class="nav-links">
+        <a href="#" class="nav-link active" data-route="home">Home</a>
+        <a href="#" class="nav-link" data-route="browser">Archives</a>
+        <a href="#" class="nav-link" data-route="store">Store & Gear</a>
+        <a href="#" class="nav-link" data-route="news">Terminal Feed</a>
+      </nav>
+    </header>
+
+    <!-- ==================== 1. HOME DASHBOARD ==================== -->
+    <main id="home-view" class="view-container active">
+      <section class="hero-section">
+        <div class="hero-radar-ring"></div>
+        <span class="hero-subtitle">Department of War // UAP Archives</span>
+        <h1 class="hero-title">THE TRUTH IS <br><span>OUT THERE.</span></h1>
+        <p class="hero-desc">
+          Explore officially declassified UAP dossiers, military cockpit recordings, and multi-agency intelligence logs unsealed under the Presidential PURSUE initiative.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-route" data-route="browser">Browse Declassified Dossiers</button>
+          <button class="btn btn-secondary btn-route" data-route="news">Explore Latest Feed</button>
+        </div>
+      </section>
+
+      <!-- Declassification Wave Counters -->
+      <section class="stats-container">
+        <div class="glass-panel stat-card">
+          <div class="stat-number" id="stat-total-files">--</div>
+          <div class="stat-label">Total Records</div>
+        </div>
+        <div class="glass-panel stat-card">
+          <div class="stat-number gold" id="stat-wave1-files">--</div>
+          <div class="stat-label">Wave 01 (May 8)</div>
+        </div>
+        <div class="glass-panel stat-card">
+          <div class="stat-number orange" id="stat-wave2-files">--</div>
+          <div class="stat-label">Wave 02 (May 22)</div>
+        </div>
+      </section>
+
+      <!-- Discoverable Categories -->
+      <h2 class="category-heading">Browse Records By Category</h2>
+      <section class="category-grid" id="home-category-grid">
+        <!-- Rendered Dynamically via JS -->
+      </section>
+    </main>
+
+    <!-- ==================== 2. INTERACTIVE BROWSER ==================== -->
+    <div id="browser-view" class="view-container">
+      <div class="browser-layout" style="margin-top: 40px;">
+        <!-- Filters Sidebar -->
+        <aside class="filter-sidebar">
+          <div class="glass-panel">
+            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 20px;">REFINE ARCHIVES</h3>
+            
+            <!-- Clear Filters -->
+            <button id="btn-clear-sidebar" class="btn btn-secondary" style="width:100%; font-size:12px; padding:8px; margin-bottom:20px;">
+              Reset All Filters
+            </button>
+
+            <!-- Release Filter -->
+            <div class="filter-group">
+              <h4 class="filter-title">Declassification Wave</h4>
+              <div class="filter-options">
+                <button class="filter-btn" data-filter-type="release" data-filter-value="5/8/26">
+                  <span>Wave 01 (May 8)</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="release" data-filter-value="5/22/26">
+                  <span>Wave 02 (May 22)</span>
+                  <span class="filter-badge">0</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-group" style="margin-top: 20px;">
+              <h4 class="filter-title">Custom Categories</h4>
+              <div class="filter-options">
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-MSF">
+                  <span>Sensor Footage</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-NWS">
+                  <span>Nuclear Base Security</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-IAD">
+                  <span>Agency Dossiers</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-SEA">
+                  <span>Space Anomalies</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-HAL">
+                  <span>Atmospheric Logs</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="category" data-filter-value="UAP-CBR">
+                  <span>Consciousness & Bio</span>
+                  <span class="filter-badge">0</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Media Type Filter -->
+            <div class="filter-group" style="margin-top: 20px;">
+              <h4 class="filter-title">Media Type</h4>
+              <div class="filter-options">
+                <button class="filter-btn" data-filter-type="type" data-filter-value="PDF">
+                  <span>PDF Documents</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="type" data-filter-value="VID">
+                  <span>Military Videos</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="type" data-filter-value="AUD">
+                  <span>Audio Recordings</span>
+                  <span class="filter-badge">0</span>
+                </button>
+                <button class="filter-btn" data-filter-type="type" data-filter-value="IMG">
+                  <span>Evidence Images</span>
+                  <span class="filter-badge">0</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </aside>
+
+        <!-- Browser Main Area -->
+        <main class="browser-main">
+          <!-- Live Search Bar -->
+          <div class="search-bar-container">
+            <div class="search-input-wrapper">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="search-input" class="search-input" placeholder="Search files by keyword, title, agency, location...">
+            </div>
+          </div>
+
+          <!-- List Header -->
+          <div class="results-header">
+            <span class="results-count" id="results-count-number">0 files matched</span>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span class="mono-text" style="font-size:11px; color:var(--text-muted);">Sort By:</span>
+              <select id="sort-select" class="sort-select">
+                <option value="id-asc">Record ID (Ascending)</option>
+                <option value="id-desc">Record ID (Descending)</option>
+                <option value="title-asc">Title (A-Z)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Document List -->
+          <div class="document-list" id="browser-document-list">
+            <!-- Rendered Dynamically via JS -->
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- ==================== 3. DECLASSIFIED READING ROOM ==================== -->
+    <div id="detail-view" class="view-container">
+      <div style="margin-top: 30px; margin-bottom: 20px;">
+        <button class="btn btn-secondary btn-route" data-route="browser" style="padding: 8px 16px; font-size: 13px;">
+          ← Return to Archives Browser
+        </button>
+      </div>
+
+      <div class="reading-room-layout">
+        <!-- Reading Room Left Side: Media Viewer / Transcripts -->
+        <div class="reading-room-left">
+          <div class="viewer-tabs">
+            <button class="viewer-tab active" id="btn-view-media">Media Stream</button>
+            <button class="viewer-tab" id="btn-view-transcript">Declassified Transcript</button>
+          </div>
+
+          <!-- Media Player Panel -->
+          <div id="reading-room-media-panel" class="glass-panel" style="padding: 12px;">
+            <div class="media-viewer-box" id="reading-room-media-viewer">
+              <!-- Rendered Dynamically via JS (Video Player or PDF placeholder) -->
+            </div>
+          </div>
+
+          <!-- Text Transcript Panel -->
+          <div id="reading-room-text-panel" style="display: none;">
+            <div class="dossier-text-container" id="reading-room-transcript-text">
+              <!-- Rendered Dynamically via JS -->
+            </div>
+          </div>
+
+          <!-- Download Action -->
+          <div style="display: flex; gap: 16px; justify-content: flex-end;">
+            <a class="btn btn-primary" id="reading-room-btn-raw" href="#" target="_blank">
+              Download Raw Dossier File
+            </a>
+          </div>
+        </div>
+
+        <!-- Reading Room Right Side: Metadata / AI Summary / Key Topics -->
+        <div class="reading-room-right">
+          <!-- Record Header -->
+          <div class="glass-panel">
+            <span class="mono-text" style="color:var(--color-crimson); font-weight:700;" id="reading-room-doc-id">DOW-UAP-000</span>
+            <h2 style="font-size:24px; color:#fff; line-height:1.2; margin-top:6px; margin-bottom:16px;" id="reading-room-doc-title">Document Title</h2>
+            
+            <!-- Metadata table -->
+            <div class="metadata-table">
+              <div class="metadata-row">
+                <span class="metadata-label">Unsealing Date</span>
+                <span class="metadata-value" id="reading-room-meta-release">--</span>
+              </div>
+              <div class="metadata-row">
+                <span class="metadata-label">Reporting Agency</span>
+                <span class="metadata-value" id="reading-room-meta-agency">--</span>
+              </div>
+              <div class="metadata-row">
+                <span class="metadata-label">Incident Date</span>
+                <span class="metadata-value" id="reading-room-meta-date">--</span>
+              </div>
+              <div class="metadata-row">
+                <span class="metadata-label">Incident Location</span>
+                <span class="metadata-value" id="reading-room-meta-location">--</span>
+              </div>
+              <div class="metadata-row">
+                <span class="metadata-label">Asset Format</span>
+                <span class="metadata-value" id="reading-room-meta-type">--</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Agent Summary -->
+          <div class="glass-panel">
+            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">AGENT SUMMARY</h3>
+            <div class="agent-summary-box">
+              <p id="reading-room-agent-summary">
+                Summary undergoing decryption...
+              </p>
+            </div>
+          </div>
+
+          <!-- Key Topics -->
+          <div class="glass-panel">
+            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">KEY ANALYSIS TOPICS</h3>
+            <div class="key-topics-list" id="reading-room-key-topics">
+              <!-- Rendered Dynamically via JS -->
+            </div>
+          </div>
+
+          <!-- Related Records -->
+          <div class="glass-panel">
+            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">RELATED DOSSIERS</h3>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;" id="reading-room-related-records">
+              <!-- Rendered Dynamically via JS -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 4. MERCH & GEAR STOREFRONT ==================== -->
+    <main id="store-view" class="view-container">
+      <section class="hero-section" style="padding: 40px 0 20px 0;">
+        <span class="hero-subtitle">Official Merchandise & OSINT Equipment</span>
+        <h2 class="hero-title" style="font-size: 38px;">DISCLOSURE<span>GEAR CO.</span></h2>
+        <p class="hero-desc" style="font-size:15px; max-width:600px;">
+          Support declassification transparency! Fund our investigative mirroring server by purchasing exclusive PURSUE apparel, or get ready to track the night skies with our curated Amazon Affiliate equipment.
+        </p>
+      </section>
+
+      <!-- Products Grid -->
+      <section class="store-grid" id="store-products-grid">
+        <!-- Rendered Dynamically via JS -->
+      </section>
+    </main>
+
+    <!-- ==================== 5. ENCRYPTED TERMINAL NEWS ==================== -->
+    <main id="news-view" class="view-container">
+      <section class="hero-section" style="padding: 40px 0 20px 0;">
+        <span class="hero-subtitle">Agentic Declassification Newsuplink</span>
+        <h2 class="hero-title" style="font-size: 38px;">DECLASSIFICATION<span>FEED</span></h2>
+        <p class="hero-desc" style="font-size:15px; max-width:600px;">
+          Dynamic declassification news uploads. This channel is synchronized agentically, fetching congressional testimony transcripts, release wave warnings, and global radar sightings.
+        </p>
+      </section>
+
+      <!-- Terminal Box -->
+      <div class="terminal-news-box">
+        <div class="terminal-header">
+          <span class="mono-text">SECURE SHELL: agent@disclosure-archives.org:~$ log -n 5</span>
+          <div class="terminal-controls">
+            <div class="terminal-dot active"></div>
+            <div class="terminal-dot active yellow"></div>
+            <div class="terminal-dot active crimson"></div>
+          </div>
+        </div>
+
+        <!-- Terminal Console Live Stream Logs -->
+        <div id="terminal-console-logs" style="border-bottom:1px dashed var(--color-teal); padding-bottom:16px; margin-bottom:24px; font-size:11px;">
+          <!-- Log lines populated dynamically -->
+        </div>
+
+        <div class="terminal-feed" id="terminal-news-feed">
+          <!-- Rendered Dynamically via JS -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-logo">DISCLOSURE<span>ARCHIVES</span></div>
+      <p class="footer-desc">
+        Disclosure Archives is an independent public-interest mirror site providing declassified records from the Department of War's PURSUE project. This portal is funded through apparel sales and Amazon affiliate links.
+      </p>
+      <div class="footer-links">
+        <a href="#" class="footer-link btn-route" data-route="home">Home</a>
+        <a href="#" class="footer-link btn-route" data-route="browser">Archives Browser</a>
+        <a href="#" class="footer-link btn-route" data-route="store">Store storefront</a>
+        <a href="#" class="footer-link btn-route" data-route="news">Terminal Logs</a>
+      </div>
+      <div class="copyright">
+        // SECURITY CERTIFIED // SYSTEM STATE: FULLY DECLASSIFIED // © 2026 DISCLOSURE ARCHIVES. ALL RIGHTS RECLAIMED.
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Javascript Modules -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
