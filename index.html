@@ -17,6 +17,9 @@
     // RESTRICTED ACCESS // DECLASSIFIED AUTHORITY: PRESIDENTIAL DIRECTIVE PURSUE // WAVE 01 & WAVE 02 RELEASED //
   </div>
 
+  <!-- Mobile Drawer Backdrop Overlay -->
+  <div class="drawer-backdrop" id="filters-backdrop"></div>
+
   <div class="wrapper">
     <!-- Navbar -->
     <header class="navbar">
@@ -73,10 +76,18 @@
     <!-- ==================== 2. INTERACTIVE BROWSER ==================== -->
     <div id="browser-view" class="view-container">
       <div class="browser-layout" style="margin-top: 40px;">
-        <!-- Filters Sidebar -->
-        <aside class="filter-sidebar">
+        
+        <!-- Filters Sidebar (Becomes Slide-up Drawer on Mobile) -->
+        <aside class="filter-sidebar" id="archives-sidebar">
           <div class="glass-panel">
-            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 20px;">REFINE ARCHIVES</h3>
+            
+            <!-- Mobile Drawer Header -->
+            <div class="drawer-header">
+              <h3>FILTER ARCHIVES</h3>
+              <button id="btn-close-filters">✕</button>
+            </div>
+
+            <h3 class="category-heading desktop-only-heading" style="font-size: 15px; margin-bottom: 20px;">REFINE ARCHIVES</h3>
             
             <!-- Clear Filters -->
             <button id="btn-clear-sidebar" class="btn btn-secondary" style="width:100%; font-size:12px; padding:8px; margin-bottom:20px;">
@@ -152,23 +163,34 @@
               </div>
             </div>
 
+            <!-- Mobile Apply Filters Button -->
+            <button class="btn btn-primary" id="btn-apply-filters">
+              Apply & View Results
+            </button>
+
           </div>
         </aside>
 
         <!-- Browser Main Area -->
         <main class="browser-main">
-          <!-- Live Search Bar -->
-          <div class="search-bar-container">
+          <!-- Live Search Bar & Mobile Filter Trigger -->
+          <div class="search-bar-container" style="flex-direction: column; gap: 0;">
             <div class="search-input-wrapper">
               <span class="search-icon">🔍</span>
               <input type="text" id="search-input" class="search-input" placeholder="Search files by keyword, title, agency, location...">
             </div>
+            
+            <!-- Mobile Filter & Sort Drawer Trigger -->
+            <button class="btn btn-filter-trigger" id="btn-toggle-filters">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px;"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+              FILTER & SORT ARCHIVES
+            </button>
           </div>
 
           <!-- List Header -->
           <div class="results-header">
             <span class="results-count" id="results-count-number">0 files matched</span>
-            <div style="display:flex; align-items:center; gap:8px;">
+            <div class="sort-container" style="display:flex; align-items:center; gap:8px;">
               <span class="mono-text" style="font-size:11px; color:var(--text-muted);">Sort By:</span>
               <select id="sort-select" class="sort-select">
                 <option value="id-asc">Record ID (Ascending)</option>
@@ -228,8 +250,8 @@
         <div class="reading-room-right">
           <!-- Record Header -->
           <div class="glass-panel">
-            <span class="mono-text" style="color:var(--color-crimson); font-weight:700;" id="reading-room-doc-id">DOW-UAP-000</span>
-            <h2 style="font-size:24px; color:#fff; line-height:1.2; margin-top:6px; margin-bottom:16px;" id="reading-room-doc-title">Document Title</h2>
+            <span class="mono-text" style="color:var(--color-teal); font-weight:700;" id="reading-room-doc-id">DOW-UAP-000</span>
+            <h2 style="font-size:20px; color:#fff; line-height:1.2; margin-top:6px; margin-bottom:16px;" id="reading-room-doc-title">Document Title</h2>
             
             <!-- Metadata table -->
             <div class="metadata-table">
@@ -258,7 +280,7 @@
 
           <!-- Agent Summary -->
           <div class="glass-panel">
-            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">AGENT SUMMARY</h3>
+            <h3 class="category-heading" style="font-size: 14px; margin-bottom: 12px;">AGENT SUMMARY</h3>
             <div class="agent-summary-box">
               <p id="reading-room-agent-summary">
                 Summary undergoing decryption...
@@ -268,7 +290,7 @@
 
           <!-- Key Topics -->
           <div class="glass-panel">
-            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">KEY ANALYSIS TOPICS</h3>
+            <h3 class="category-heading" style="font-size: 14px; margin-bottom: 12px;">KEY ANALYSIS TOPICS</h3>
             <div class="key-topics-list" id="reading-room-key-topics">
               <!-- Rendered Dynamically via JS -->
             </div>
@@ -276,7 +298,7 @@
 
           <!-- Related Records -->
           <div class="glass-panel">
-            <h3 class="category-heading" style="font-size: 15px; margin-bottom: 14px;">RELATED DOSSIERS</h3>
+            <h3 class="category-heading" style="font-size: 14px; margin-bottom: 12px;">RELATED DOSSIERS</h3>
             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;" id="reading-room-related-records">
               <!-- Rendered Dynamically via JS -->
             </div>
@@ -290,8 +312,8 @@
     <main id="store-view" class="view-container">
       <section class="hero-section" style="padding: 40px 0 20px 0;">
         <span class="hero-subtitle">Official Merchandise & OSINT Equipment</span>
-        <h2 class="hero-title" style="font-size: 38px;">DISCLOSURE<span>GEAR CO.</span></h2>
-        <p class="hero-desc" style="font-size:15px; max-width:600px;">
+        <h2 class="hero-title" style="font-size: 32px;">DISCLOSURE<span>GEAR CO.</span></h2>
+        <p class="hero-desc" style="font-size:14px; max-width:600px;">
           Support declassification transparency! Fund our investigative mirroring server by purchasing exclusive PURSUE apparel, or get ready to track the night skies with our curated Amazon Affiliate equipment.
         </p>
       </section>
@@ -306,8 +328,8 @@
     <main id="news-view" class="view-container">
       <section class="hero-section" style="padding: 40px 0 20px 0;">
         <span class="hero-subtitle">Agentic Declassification Newsuplink</span>
-        <h2 class="hero-title" style="font-size: 38px;">DECLASSIFICATION<span>FEED</span></h2>
-        <p class="hero-desc" style="font-size:15px; max-width:600px;">
+        <h2 class="hero-title" style="font-size: 32px;">DECLASSIFICATION<span>FEED</span></h2>
+        <p class="hero-desc" style="font-size:14px; max-width:600px;">
           Dynamic declassification news uploads. This channel is synchronized agentically, fetching congressional testimony transcripts, release wave warnings, and global radar sightings.
         </p>
       </section>
@@ -352,6 +374,26 @@
     </footer>
 
   </div>
+
+  <!-- Premium Responsive Mobile Bottom Navigation Bar (Visible only on mobile) -->
+  <nav class="mobile-bottom-nav">
+    <button class="mobile-nav-item active" data-route="home">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </button>
+    <button class="mobile-nav-item" data-route="browser">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+      <span>Archives</span>
+    </button>
+    <button class="mobile-nav-item" data-route="store">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      <span>Store</span>
+    </button>
+    <button class="mobile-nav-item" data-route="news">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+      <span>Terminal</span>
+    </button>
+  </nav>
 
   <!-- Javascript Modules -->
   <script type="module" src="js/app.js"></script>

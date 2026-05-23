@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   initSearch();
   initFilters();
+  initMobileFiltersDrawer();
   initStore();
   renderApp();
   
@@ -39,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // View Routing & Navigation
 function initNavigation() {
-  const navLinks = document.querySelectorAll('.nav-link, .btn-route');
+  const navLinks = document.querySelectorAll('.nav-link, .btn-route, .mobile-nav-item');
   navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
@@ -69,6 +70,15 @@ export function switchView(viewName, recordId = null) {
 
   // Update navbar active states
   document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.getAttribute('data-route') === viewName) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+
+  // Update mobile bottom nav active states
+  document.querySelectorAll('.mobile-nav-item').forEach(link => {
     if (link.getAttribute('data-route') === viewName) {
       link.classList.add('active');
     } else {
@@ -124,6 +134,34 @@ function initFilters() {
       renderBrowserList();
     });
   });
+}
+
+// Mobile Filter Drawer Handlers
+function initMobileFiltersDrawer() {
+  const btnToggleFilters = document.getElementById('btn-toggle-filters');
+  const btnCloseFilters = document.getElementById('btn-close-filters');
+  const btnApplyFilters = document.getElementById('btn-apply-filters');
+  const filtersSidebar = document.getElementById('archives-sidebar');
+  const filtersBackdrop = document.getElementById('filters-backdrop');
+
+  if (btnToggleFilters && filtersSidebar && filtersBackdrop) {
+    const openDrawer = () => {
+      filtersSidebar.classList.add('active');
+      filtersBackdrop.classList.add('active');
+      document.body.style.overflow = 'hidden'; // prevent background scrolling
+    };
+    
+    const closeDrawer = () => {
+      filtersSidebar.classList.remove('active');
+      filtersBackdrop.classList.remove('active');
+      document.body.style.overflow = ''; // restore scrolling
+    };
+
+    btnToggleFilters.addEventListener('click', openDrawer);
+    if (btnCloseFilters) btnCloseFilters.addEventListener('click', closeDrawer);
+    if (btnApplyFilters) btnApplyFilters.addEventListener('click', closeDrawer);
+    filtersBackdrop.addEventListener('click', closeDrawer);
+  }
 }
 
 // Render Master Controller
