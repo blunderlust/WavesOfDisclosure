@@ -10,7 +10,22 @@ const STATE = {
     category: '',
     type: ''
   },
-  cart: []
+  cart: [],
+  // Mock Tactical Debriefing Comments for Videos
+  videoComments: {
+    'DOW-UAP-001': [
+      { agent: 'Agent Vance', time: '14:32:10', msg: 'Tactical analysis confirms non-inertial flight paths. G-forces calculated at over 400g.' },
+      { agent: 'Analyst Reyes', time: '15:10:45', msg: 'Radar cross-section matches the Wave 01 Sandia Base unsealed logs.' }
+    ],
+    'DOW-UAP-002': [
+      { agent: 'Agent Miller', time: '09:12:04', msg: 'Supersonic acceleration signature confirmed. Zero thermal exhaust registered on IR sensors.' },
+      { agent: 'OSINT Specialist Chen', time: '11:44:20', msg: 'Visual frames demonstrate high metallic reflectivity under solar angle.' }
+    ],
+    'DOW-UAP-003': [
+      { agent: 'Director Hayes', time: '16:05:12', msg: 'Declassified aircraft tracking confirms speed parameters exceeding standard flight envelope.' },
+      { agent: 'Tactical Lead Vance', time: '16:48:30', msg: 'Visual shape details match the Sandia Base Wave 2 declassification logs.' }
+    ]
+  }
 };
 
 // Category Definitions
@@ -30,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initFilters();
   initMobileFiltersDrawer();
   initStore();
+  initWatchRoomNavigation();
+  initAgentCommentsForm();
   renderApp();
   
   // Set default terminal message
@@ -654,6 +671,11 @@ function renderWatchRoom() {
     item.addEventListener('click', () => {
       WATCH_STATE.activeVideoId = v.id;
       renderWatchRoom();
+      // Smoothly scroll back up to the video player container
+      const playerBox = document.querySelector('.featured-player-box');
+      if (playerBox) {
+        playerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     });
 
     container.appendChild(item);
@@ -706,6 +728,41 @@ function renderWatchRoom() {
         `;
       }
     }
+
+    // Render button navigation states & counter
+    const activeIndex = videos.findIndex(v => v.id === WATCH_STATE.activeVideoId);
+    const prevBtn = document.getElementById('watch-btn-prev');
+    const nextBtn = document.getElementById('watch-btn-next');
+    const counterEl = document.getElementById('watch-video-counter');
+    
+    if (counterEl) {
+      counterEl.innerText = `Video ${activeIndex + 1} of ${videos.length}`;
+    }
+    if (prevBtn) {
+      if (activeIndex > 0) {
+        prevBtn.removeAttribute('disabled');
+        prevBtn.style.opacity = '1';
+        prevBtn.style.pointerEvents = 'auto';
+      } else {
+        prevBtn.setAttribute('disabled', 'true');
+        prevBtn.style.opacity = '0.4';
+        prevBtn.style.pointerEvents = 'none';
+      }
+    }
+    if (nextBtn) {
+      if (activeIndex < videos.length - 1) {
+        nextBtn.removeAttribute('disabled');
+        nextBtn.style.opacity = '1';
+        nextBtn.style.pointerEvents = 'auto';
+      } else {
+        nextBtn.setAttribute('disabled', 'true');
+        nextBtn.style.opacity = '0.4';
+        nextBtn.style.pointerEvents = 'none';
+      }
+    }
+
+    // Render active comments thread
+    renderAgentComments(activeVideo.id);
   }
 }
 
@@ -795,6 +852,102 @@ function renderNews() {
     `;
     feed.appendChild(el);
   });
+}
+
+// Comments & Navigation Systems for Watch Room
+function getCommentsForVideo(videoId) {
+  if (!STATE.videoComments) {
+    STATE.videoComments = {};
+  }
+  if (!STATE.videoComments[videoId]) {
+    STATE.videoComments[videoId] = [
+      { agent: 'Intelligence Analyst', time: '08:30:15', msg: `Initiating multi-agency sensor log analysis for UAP record ${videoId}.` },
+      { agent: 'Aviation Safety Inspector', time: '09:15:44', msg: 'No active transponder signature recorded during visual contact window.' }
+    ];
+  }
+  return STATE.videoComments[videoId];
+}
+
+function renderAgentComments(videoId) {
+  const thread = document.getElementById('agent-comments-thread');
+  if (!thread) return;
+  
+  const comments = getCommentsForVideo(videoId);
+  thread.innerHTML = '';
+  
+  comments.forEach(c => {
+    const div = document.createElement('div');
+    div.style.cssText = 'background:rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.03); padding:8px 10px; border-radius:6px; font-size:12px; margin-bottom: 8px;';
+    div.innerHTML = `
+      <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-family:var(--font-mono); font-size:10px; color:var(--color-teal); font-weight:bold;">
+        <span>> ${c.agent}</span>
+        <span style="color:var(--text-muted); font-weight:normal;">[${c.time}]</span>
+      </div>
+      <div style="color:var(--text-primary); line-height:1.4;">${c.msg}</div>
+    `;
+    thread.appendChild(div);
+  });
+  
+  thread.scrollTop = thread.scrollHeight;
+}
+
+function initWatchRoomNavigation() {
+  const prevBtn = document.getElementById('watch-btn-prev');
+  const nextBtn = document.getElementById('watch-btn-next');
+  
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+      const videos = UAP_DATABASE.filter(r => r.type === 'VID');
+      const activeIndex = videos.findIndex(v => v.id === WATCH_STATE.activeVideoId);
+      if (activeIndex > 0) {
+        WATCH_STATE.activeVideoId = videos[activeIndex - 1].id;
+        renderWatchRoom();
+        const playerBox = document.querySelector('.featured-player-box');
+        if (playerBox) playerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+    
+    nextBtn.addEventListener('click', () => {
+      const videos = UAP_DATABASE.filter(r => r.type === 'VID');
+      const activeIndex = videos.findIndex(v => v.id === WATCH_STATE.activeVideoId);
+      if (activeIndex < videos.length - 1) {
+        WATCH_STATE.activeVideoId = videos[activeIndex + 1].id;
+        renderWatchRoom();
+        const playerBox = document.querySelector('.featured-player-box');
+        if (playerBox) playerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  }
+}
+
+function initAgentCommentsForm() {
+  const form = document.getElementById('agent-comment-form');
+  const input = document.getElementById('agent-comment-input');
+  
+  if (form && input) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const msgText = input.value.trim();
+      if (!msgText) return;
+      
+      const activeVideoId = WATCH_STATE.activeVideoId || (UAP_DATABASE.filter(r => r.type === 'VID')[0] || {}).id;
+      if (!activeVideoId) return;
+      
+      const comments = getCommentsForVideo(activeVideoId);
+      const now = new Date();
+      const timeStr = now.toTimeString().split(' ')[0];
+      
+      comments.push({
+        agent: 'OSINT Citizen Agent',
+        time: timeStr,
+        msg: msgText
+      });
+      
+      input.value = '';
+      renderAgentComments(activeVideoId);
+      logTerminal(`OSINT DEBRIEF UPLOADED: UAP REFERENCE ${activeVideoId}`);
+    });
+  }
 }
 
 // Log message to news page terminal header console!

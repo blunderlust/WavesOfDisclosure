@@ -363,12 +363,8 @@
 
     <!-- ==================== 6. DECLASSIFIED WATCH ROOM ==================== -->
     <main id="media-view" class="view-container">
-      <section class="hero-section" style="padding: 40px 0 20px 0;">
-        <span class="hero-subtitle">Department of War // PURSUE Interactive Media Feed</span>
-        <h2 class="hero-title" style="font-size: 32px;">DECLASSIFIED<span>WATCH ROOM</span></h2>
-        <p class="hero-desc" style="font-size:14px; max-width:600px;">
-          Stream unsealed military sensor logs, tactical cockpit recordings, and multi-agency flight anomaly video dossiers.
-        </p>
+      <section class="hero-section" style="padding: 24px 0 10px 0;">
+        <h2 class="hero-title" style="font-size: 32px; margin-bottom: 0;">DECLASSIFIED<span>WATCH ROOM</span></h2>
       </section>
 
       <div class="watch-room-layout">
@@ -378,7 +374,19 @@
             <div class="featured-player-box" id="watch-featured-player">
               <!-- Dynamically populated video player -->
             </div>
+            
+            <!-- Prev/Next Navigation Control Bar -->
+            <div class="video-nav-control-bar" style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; padding-top:12px; border-top:1px solid rgba(255,255,255,0.05);">
+              <button class="btn btn-secondary" id="watch-btn-prev" style="padding:6px 12px; font-size:12px; display:flex; align-items:center; gap:6px;">
+                ◀ Prev Video
+              </button>
+              <span class="mono-text" id="watch-video-counter" style="font-size:11px; color:var(--text-muted);">Video -- of --</span>
+              <button class="btn btn-secondary" id="watch-btn-next" style="padding:6px 12px; font-size:12px; display:flex; align-items:center; gap:6px;">
+                Next Video ▶
+              </button>
+            </div>
           </div>
+          
           <div class="glass-panel watch-metadata-panel">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
               <span class="mono-text" style="color:var(--color-teal); font-weight:700;" id="watch-doc-id">DOW-UAP-000</span>
@@ -402,6 +410,24 @@
                 <strong id="watch-doc-location" style="color:#fff; font-size:13px;">--</strong>
               </div>
             </div>
+          </div>
+
+          <!-- Immersive Agent Comments Panel -->
+          <div class="glass-panel agent-comments-panel" style="margin-top: 16px;">
+            <h3 class="category-heading" style="font-size:14px; margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              INTELLIGENCE DEBRIEFING LOGS & ANNOTATIONS
+            </h3>
+            
+            <div id="agent-comments-thread" class="comments-thread" style="display:flex; flex-direction:column; gap:10px; max-height:220px; overflow-y:auto; padding-right:6px; margin-bottom:14px;">
+              <!-- Dynamically populated comments -->
+            </div>
+            
+            <!-- Comment Submission Form -->
+            <form id="agent-comment-form" style="display:flex; gap:10px; border-top:1px dashed rgba(255,255,255,0.06); padding-top:12px; margin-bottom: 0;">
+              <input type="text" id="agent-comment-input" placeholder="Type tactical annotation or observation log..." class="search-input" style="flex:1; font-size:12.5px; height:36px; padding: 0 12px; border-radius:6px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass);" required>
+              <button type="submit" class="btn btn-primary" style="padding:0 16px; font-size:12px; height:36px; border-radius:6px;">Submit Log</button>
+            </form>
           </div>
         </div>
 
