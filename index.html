@@ -80,7 +80,17 @@
 
     <!-- ==================== 2. INTERACTIVE BROWSER ==================== -->
     <div id="browser-view" class="view-container">
-      <div class="browser-layout" style="margin-top: 40px;">
+      <section class="hero-section" style="padding: 24px 0 10px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <span class="hero-subtitle">Interactive OSINT Database</span>
+          <h2 class="hero-title" style="font-size: 32px; margin-bottom: 0;">DECLASSIFIED<span>DOSSIER BROWSER</span></h2>
+        </div>
+        <button class="btn btn-secondary btn-share-page" data-page-route="browser" style="padding: 6px 12px; font-size: 12px; display: flex; align-items: center; gap: 6px; height: 32px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share Browser
+        </button>
+      </section>
+      <div class="browser-layout" style="margin-top: 20px;">
         
         <!-- Filters Sidebar (Becomes Slide-up Drawer on Mobile) -->
         <aside class="filter-sidebar" id="archives-sidebar">
@@ -243,9 +253,13 @@
             </div>
           </div>
 
-          <!-- Download Action -->
-          <div style="display: flex; gap: 16px; justify-content: flex-end;">
-            <a class="btn btn-primary" id="reading-room-btn-raw" href="#" target="_blank">
+          <!-- Download and Share Action -->
+          <div style="display: flex; gap: 12px; justify-content: flex-end; margin-top: 16px;">
+            <button class="btn btn-secondary" id="reading-room-btn-share" style="padding: 8px 16px; font-size: 13px; display: flex; align-items: center; gap: 6px; height: 36px; border-radius: 8px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              Copy Share Link
+            </button>
+            <a class="btn btn-primary" id="reading-room-btn-raw" href="#" target="_blank" style="height: 36px; display: flex; align-items: center; justify-content: center; font-weight: 700; border-radius: 8px; font-size: 13px; padding: 0 16px; text-decoration: none;">
               Download Raw Dossier File
             </a>
           </div>
@@ -331,12 +345,18 @@
 
     <!-- ==================== 5. ENCRYPTED TERMINAL NEWS ==================== -->
     <main id="news-view" class="view-container">
-      <section class="hero-section" style="padding: 40px 0 20px 0;">
-        <span class="hero-subtitle">Agentic Declassification Newsuplink</span>
-        <h2 class="hero-title" style="font-size: 32px;">DECLASSIFICATION<span>FEED</span></h2>
-        <p class="hero-desc" style="font-size:14px; max-width:600px;">
-          Dynamic declassification news uploads. This channel is synchronized agentically, fetching congressional testimony transcripts, release wave warnings, and global radar sightings.
-        </p>
+      <section class="hero-section" style="padding: 40px 0 20px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <span class="hero-subtitle">Agentic Declassification Newsuplink</span>
+          <h2 class="hero-title" style="font-size: 32px; margin-bottom: 8px;">DECLASSIFICATION<span>FEED</span></h2>
+          <p class="hero-desc" style="font-size:14px; max-width:600px; margin-bottom:0;">
+            Dynamic declassification news uploads. This channel is synchronized agentically, fetching congressional testimony transcripts, release wave warnings, and global radar sightings.
+          </p>
+        </div>
+        <button class="btn btn-secondary btn-share-page" data-page-route="news" style="padding: 6px 12px; font-size: 12px; display: flex; align-items: center; gap: 6px; height: 32px; margin-top: 10px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share Newsfeed
+        </button>
       </section>
 
       <!-- Terminal Box -->
@@ -363,8 +383,12 @@
 
     <!-- ==================== 6. DECLASSIFIED WATCH ROOM ==================== -->
     <main id="media-view" class="view-container">
-      <section class="hero-section" style="padding: 24px 0 10px 0;">
+      <section class="hero-section" style="padding: 24px 0 10px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
         <h2 class="hero-title" style="font-size: 32px; margin-bottom: 0;">DECLASSIFIED<span>WATCH ROOM</span></h2>
+        <button class="btn btn-secondary btn-share-page" data-page-route="media" style="padding: 6px 12px; font-size: 12px; display: flex; align-items: center; gap: 6px; height: 32px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share Watch Room
+        </button>
       </section>
 
       <div class="watch-room-layout">
@@ -385,12 +409,30 @@
                 Next Video ▶
               </button>
             </div>
+            
+            <!-- Share & Download Actions Bar (Second Row) -->
+            <div class="video-actions-control-bar" style="display:flex; justify-content:space-between; align-items:center; margin-top:10px; padding-top:10px; border-top:1px dashed rgba(255,255,255,0.05);">
+              <button class="btn btn-secondary" id="watch-btn-share" style="flex:1; margin-right:8px; padding:6px 12px; font-size:12px; display:flex; align-items:center; justify-content:center; gap:6px; height:32px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                Copy Share Link
+              </button>
+              <a class="btn btn-primary" id="watch-btn-download" href="#" target="_blank" style="flex:1; margin-left:8px; padding:6px 12px; font-size:12px; display:flex; align-items:center; justify-content:center; gap:6px; text-decoration:none; height:32px; font-weight:700;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download Video
+              </a>
+            </div>
           </div>
           
           <div class="glass-panel watch-metadata-panel">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
               <span class="mono-text" style="color:var(--color-teal); font-weight:700;" id="watch-doc-id">DOW-UAP-000</span>
-              <span class="doc-type-badge vid">VID</span>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <button class="btn btn-secondary" id="watch-desc-btn-share" style="padding: 4px 8px; font-size: 11px; display: inline-flex; align-items: center; gap: 4px; border-radius: 4px; height: auto;" title="Copy share link for this video">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                  Share Video
+                </button>
+                <span class="doc-type-badge vid">VID</span>
+              </div>
             </div>
             <h3 id="watch-doc-title" style="font-size:20px; color:#fff; margin-bottom:12px; line-height:1.2;">Select a Video to Begin Playback</h3>
             <p id="watch-doc-desc" style="font-size:13.5px; color:var(--text-muted); line-height:1.5; margin-bottom:16px;">

@@ -47,12 +47,56 @@ document.addEventListener('DOMContentLoaded', () => {
   initStore();
   initWatchRoomNavigation();
   initAgentCommentsForm();
-  renderApp();
+  initPageSharing();
+  
+  // Dynamic home landing page button text update
+  const videosCount = UAP_DATABASE.filter(r => r.type === 'VID').length;
+  const watchNowBtn = document.querySelector('.btn-watch-now');
+  if (watchNowBtn) {
+    watchNowBtn.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      Watch ${videosCount} Declassified Videos
+    `;
+  }
+
+  // Parse Deep Links from URL search params
+  const urlParams = new URLSearchParams(window.location.search);
+  const routeParam = urlParams.get('route') || urlParams.get('view');
+  const videoParam = urlParams.get('video') || urlParams.get('id');
+  
+  if (routeParam === 'media') {
+    if (videoParam) {
+      const resolved = resolveVideoId(videoParam);
+      if (resolved) {
+        WATCH_STATE.activeVideoId = resolved;
+      }
+    }
+    switchView('media');
+  } else if (routeParam === 'detail' && videoParam) {
+    const resolved = resolveVideoId(videoParam) || UAP_DATABASE.find(r => r.id.toLowerCase() === videoParam.toLowerCase())?.id;
+    if (resolved) {
+      switchView('detail', resolved);
+    } else {
+      switchView('detail', videoParam);
+    }
+  } else if (routeParam === 'browser') {
+    switchView('browser');
+  } else if (routeParam === 'store') {
+    switchView('store');
+  } else if (routeParam === 'news') {
+    switchView('news');
+  } else {
+    renderApp();
+  }
   
   // Set default terminal message
   logTerminal("SECURE DECLASSIFIED TERMINAL BOOTUP... SUCCESS.");
   logTerminal("ESTABLISHING PURSUE ENCRYPTED DATASTREAM... SUCCESS.");
   logTerminal(`222 UAP RECORDS SYNCHRONIZED [WAVE 1: 158, WAVE 2: 64].`);
+  logTerminal("ALERT: SIGNAL INTELLIGENCE DETECTED IMMINENT BUNDLE WAVE 03.");
+  if (videoParam) {
+    logTerminal(`URL PARSED DEEP LINK UPLINK: RESOURCE ${videoParam}`);
+  }
 });
 
 // View Routing & Navigation
@@ -346,6 +390,12 @@ function renderBrowserList() {
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
          </button>`;
 
+    const shareBtnHtml = `
+      <button class="doc-card-share-btn" data-doc-id="${r.id}" title="Copy share link for this record">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      </button>
+    `;
+
     card.innerHTML = `
       <div class="doc-badge-index">${idx + 1}</div>
       <div class="doc-card-main">
@@ -363,17 +413,50 @@ function renderBrowserList() {
           <span><strong>Release:</strong> ${r.release_date === '5/8/26' ? 'Wave 01' : 'Wave 02'}</span>
         </div>
       </div>
-      ${downloadBtnHtml}
+      <div style="display:flex; flex-direction:column; gap:8px; align-items:center;">
+        ${downloadBtnHtml}
+        ${shareBtnHtml}
+      </div>
     `;
 
     // Click on card routes to Reading Room
     card.addEventListener('click', (e) => {
-      // If clicked download button, don't open details
-      if (e.target.closest('.doc-download-btn')) {
+      // If clicked download button or share button, don't open details
+      if (e.target.closest('.doc-download-btn') || e.target.closest('.doc-card-share-btn')) {
         return;
       }
       switchView('detail', r.id);
     });
+
+    const cardShareBtn = card.querySelector('.doc-card-share-btn');
+    if (cardShareBtn) {
+      cardShareBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // prevent opening details
+        const docId = cardShareBtn.getAttribute('data-doc-id');
+        const baseUrl = window.location.origin + window.location.pathname;
+        const targetRoute = r.type === 'VID' ? 'media' : 'detail';
+        const shareUrl = `${baseUrl}?route=${targetRoute}&video=${docId}`;
+        
+        navigator.clipboard.writeText(shareUrl).then(() => {
+          logTerminal(`SHARE LINK EXPORTED (CARD): ${shareUrl}`);
+          const originalHtml = cardShareBtn.innerHTML;
+          cardShareBtn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          `;
+          cardShareBtn.style.color = 'var(--color-teal)';
+          cardShareBtn.style.borderColor = 'var(--color-teal)';
+          
+          setTimeout(() => {
+            cardShareBtn.innerHTML = originalHtml;
+            cardShareBtn.style.color = '';
+            cardShareBtn.style.borderColor = '';
+          }, 2000);
+        }).catch(err => {
+          console.error(err);
+          alert(`Share link generated:\n${shareUrl}`);
+        });
+      });
+    }
 
     container.appendChild(card);
   });
@@ -459,6 +542,38 @@ function renderReadingRoom() {
       rawDownload.style.cursor = 'not-allowed';
       rawDownload.innerText = 'Raw Dossier Restricted / Wave Processing';
     }
+  }
+
+  // Handle Dossier Detail Share Button
+  const detailShareBtn = document.getElementById('reading-room-btn-share');
+  if (detailShareBtn) {
+    const newBtn = detailShareBtn.cloneNode(true);
+    detailShareBtn.parentNode.replaceChild(newBtn, detailShareBtn);
+    newBtn.addEventListener('click', () => {
+      const baseUrl = window.location.origin + window.location.pathname;
+      const targetRoute = r.type === 'VID' ? 'media' : 'detail';
+      const shareUrl = `${baseUrl}?route=${targetRoute}&video=${r.id}`;
+      
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        logTerminal(`SHARE LINK EXPORTED (READING ROOM): ${shareUrl}`);
+        const originalText = newBtn.innerHTML;
+        newBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Link Copied!
+        `;
+        newBtn.style.borderColor = 'var(--color-teal)';
+        newBtn.style.color = 'var(--color-teal)';
+        
+        setTimeout(() => {
+          newBtn.innerHTML = originalText;
+          newBtn.style.borderColor = '';
+          newBtn.style.color = '';
+        }, 2000);
+      }).catch(err => {
+        console.error(err);
+        alert(`Share link generated:\n${shareUrl}`);
+      });
+    });
   }
 
   // Populate Agent Summary and Key Topics safely
@@ -659,16 +774,25 @@ function renderWatchRoom() {
     item.className = `playlist-item ${isActive ? 'active' : ''}`;
     
     item.innerHTML = `
-      <div class="playlist-icon-box">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="${isActive ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-      </div>
-      <div class="playlist-info">
-        <h4 class="playlist-title">${v.id}: ${v.title}</h4>
-        <span class="playlist-meta">${v.agency} // ${v.incident_date}</span>
+      <div style="display:flex; align-items:center; width:100%; gap:10px;">
+        <div class="playlist-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="${isActive ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="playlist-info" style="flex:1;">
+          <h4 class="playlist-title">${v.id}: ${v.title}</h4>
+          <span class="playlist-meta">${v.agency} // ${v.incident_date}</span>
+        </div>
+        <button class="playlist-item-share-btn" data-video-id="${v.id}" title="Copy share link for this video">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </button>
       </div>
     `;
 
-    item.addEventListener('click', () => {
+    item.addEventListener('click', (e) => {
+      // If clicked the share button inside, don't trigger playlist selection
+      if (e.target.closest('.playlist-item-share-btn')) {
+        return;
+      }
       WATCH_STATE.activeVideoId = v.id;
       renderWatchRoom();
       // Smoothly scroll back up to the video player container
@@ -677,6 +801,33 @@ function renderWatchRoom() {
         playerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     });
+
+    const playlistShareBtn = item.querySelector('.playlist-item-share-btn');
+    if (playlistShareBtn) {
+      playlistShareBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const videoId = playlistShareBtn.getAttribute('data-video-id');
+        const baseUrl = window.location.origin + window.location.pathname;
+        const shareUrl = `${baseUrl}?route=media&video=${videoId}`;
+        
+        navigator.clipboard.writeText(shareUrl).then(() => {
+          logTerminal(`SHARE LINK EXPORTED (PLAYLIST): ${shareUrl}`);
+          const originalHtml = playlistShareBtn.innerHTML;
+          playlistShareBtn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          `;
+          playlistShareBtn.style.color = 'var(--color-teal)';
+          
+          setTimeout(() => {
+            playlistShareBtn.innerHTML = originalHtml;
+            playlistShareBtn.style.color = '';
+          }, 2000);
+        }).catch(err => {
+          console.error(err);
+          alert(`Share link generated:\n${shareUrl}`);
+        });
+      });
+    }
 
     container.appendChild(item);
   });
@@ -761,6 +912,66 @@ function renderWatchRoom() {
       }
     }
 
+    // Render dynamic download button state
+    const downloadBtn = document.getElementById('watch-btn-download');
+    if (downloadBtn) {
+      if (activeVideo.link && activeVideo.link.trim() !== '') {
+        downloadBtn.setAttribute('href', activeVideo.link);
+        downloadBtn.removeAttribute('disabled');
+        downloadBtn.style.opacity = '1';
+        downloadBtn.style.pointerEvents = 'auto';
+        downloadBtn.style.cursor = 'pointer';
+        downloadBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Video
+        `;
+      } else {
+        downloadBtn.removeAttribute('href');
+        downloadBtn.setAttribute('disabled', 'true');
+        downloadBtn.style.opacity = '0.4';
+        downloadBtn.style.pointerEvents = 'none';
+        downloadBtn.style.cursor = 'not-allowed';
+        downloadBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Download Restricted
+        `;
+      }
+    }
+
+    // Description Share Button handler with safe duplication prevention
+    const descShareBtn = document.getElementById('watch-desc-btn-share');
+    if (descShareBtn) {
+      const newBtn = descShareBtn.cloneNode(true);
+      descShareBtn.parentNode.replaceChild(newBtn, descShareBtn);
+      newBtn.addEventListener('click', () => {
+        const activeVideoId = WATCH_STATE.activeVideoId || (UAP_DATABASE.filter(r => r.type === 'VID')[0] || {}).id;
+        if (!activeVideoId) return;
+        
+        const baseUrl = window.location.origin + window.location.pathname;
+        const shareUrl = `${baseUrl}?route=media&video=${activeVideoId}`;
+        
+        navigator.clipboard.writeText(shareUrl).then(() => {
+          logTerminal(`SHARE LINK EXPORTED (METADATA): ${shareUrl}`);
+          const originalText = newBtn.innerHTML;
+          newBtn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Link Copied!
+          `;
+          newBtn.style.borderColor = 'var(--color-teal)';
+          newBtn.style.color = 'var(--color-teal)';
+          
+          setTimeout(() => {
+            newBtn.innerHTML = originalText;
+            newBtn.style.borderColor = '';
+            newBtn.style.color = '';
+          }, 2000);
+        }).catch(err => {
+          console.error(err);
+          alert(`Share link generated:\n${shareUrl}`);
+        });
+      });
+    }
+
     // Render active comments thread
     renderAgentComments(activeVideo.id);
   }
@@ -835,6 +1046,7 @@ function renderNews() {
   if (!feed) return;
 
   const NEWS = [
+    { date: 'MAY 24, 2026', time: '21:15 UTC', author: 'INTEL UPLINK', title: 'PURSUE WAVE 03 EXPECTED IMMINENTLY', content: 'Sub-agencies report that the Presidential Directive PURSUE Wave 3 declassification tranche is undergoing final cryptographic sanitization. Inside sources suggest the release will focus on historical naval anomalous sonar logs and tactical satellite intercepts from the Pacific theater. Mirror portal servers are primed for immediate synchronization.' },
     { date: 'MAY 22, 2026', time: '18:00 UTC', author: 'AGENTIC SECURE FEED', title: 'WAVE 02 DECLASSIFICATION BUNDLE UPLOADED', content: 'The Department of War has unsealed 64 new files. This batch includes the historic ODNI narrative from a senior intelligence official detailing a May 2025 multi-orb encounter at a nuclear weapons depot, alongside 51 declassified military jet tracking recordings.' },
     { date: 'MAY 18, 2026', time: '14:30 UTC', author: 'OSINT WATCH', title: 'AARO CONGRESSIONAL BRIEFING TRANSCRIPTS SYNCHRONIZED', content: 'Completed full-text OCR alignment of congressional testimonies from late 2025. Records clarify high-speed visual anomalies reported near Sandia Base and Los Alamos facilities.' },
     { date: 'MAY 08, 2026', time: '09:00 UTC', author: 'AGENTIC SECURE FEED', title: 'WAVE 01 PRESIDENTIAL DIRECTIVE DECLASSIFIED', content: 'Historic day. At the instruction of the President, PURSUE unseals the first massive tranche of declassified records (158 files) dating back to 1947. FBI case files and general Manhattan Project correspondence are now public.' }
@@ -894,6 +1106,7 @@ function renderAgentComments(videoId) {
 function initWatchRoomNavigation() {
   const prevBtn = document.getElementById('watch-btn-prev');
   const nextBtn = document.getElementById('watch-btn-next');
+  const shareBtn = document.getElementById('watch-btn-share');
   
   if (prevBtn && nextBtn) {
     prevBtn.addEventListener('click', () => {
@@ -916,6 +1129,40 @@ function initWatchRoomNavigation() {
         const playerBox = document.querySelector('.featured-player-box');
         if (playerBox) playerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
+    });
+  }
+
+  if (shareBtn) {
+    shareBtn.addEventListener('click', () => {
+      const activeVideoId = WATCH_STATE.activeVideoId || (UAP_DATABASE.filter(r => r.type === 'VID')[0] || {}).id;
+      if (!activeVideoId) return;
+      
+      // Generate deep link
+      const baseUrl = window.location.origin + window.location.pathname;
+      const shareUrl = `${baseUrl}?route=media&video=${activeVideoId}`;
+      
+      // Copy to clipboard
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        logTerminal(`SHARE LINK EXPORTED: ${shareUrl}`);
+        
+        // Show temporary success feedback on the button
+        const originalText = shareBtn.innerHTML;
+        shareBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Link Copied!
+        `;
+        shareBtn.style.borderColor = 'var(--color-teal)';
+        shareBtn.style.color = 'var(--color-teal)';
+        
+        setTimeout(() => {
+          shareBtn.innerHTML = originalText;
+          shareBtn.style.borderColor = '';
+          shareBtn.style.color = '';
+        }, 2000);
+      }).catch(err => {
+        console.error('Failed to copy share link: ', err);
+        alert(`Share link generated:\n${shareUrl}`);
+      });
     });
   }
 }
@@ -964,4 +1211,71 @@ function logTerminal(msg) {
       terminalLogs.removeChild(terminalLogs.firstChild);
     }
   }
+}
+
+// Helper to resolve video parameter to actual database ID (resolving short strings, index numbers, etc.)
+function resolveVideoId(param) {
+  if (!param) return null;
+  const videos = UAP_DATABASE.filter(r => r.type === 'VID');
+  if (videos.length === 0) return null;
+
+  // 1. Is it a pure number? e.g. "21" or "71"
+  if (/^\d+$/.test(param)) {
+    const idx = parseInt(param, 10) - 1;
+    if (idx >= 0 && idx < videos.length) {
+      return videos[idx].id;
+    }
+    // Try to find if any database record ID ends with this exact number padded to 3 digits
+    const paddedNum = param.padStart(3, '0');
+    const matchedPadded = UAP_DATABASE.find(r => r.id.endsWith(paddedNum) || r.id === param);
+    if (matchedPadded) return matchedPadded.id;
+  }
+
+  // 2. Exact match in database
+  const exact = UAP_DATABASE.find(r => r.id.toLowerCase() === param.toLowerCase());
+  if (exact) return exact.id;
+
+  // 3. Partial match in database
+  const partial = UAP_DATABASE.find(r => r.id.toLowerCase().includes(param.toLowerCase()) || r.title.toLowerCase().includes(param.toLowerCase()));
+  if (partial) return partial.id;
+
+  return null;
+}
+
+// Global View/Page Share click listener using event delegation
+function initPageSharing() {
+  document.body.addEventListener('click', (e) => {
+    const btn = e.target.closest('.btn-share-page');
+    if (!btn) return;
+    
+    e.preventDefault();
+    const route = btn.getAttribute('data-page-route');
+    if (!route) return;
+
+    // Generate deep link
+    const baseUrl = window.location.origin + window.location.pathname;
+    const shareUrl = `${baseUrl}?route=${route}`;
+
+    // Copy to clipboard
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      logTerminal(`SHARE LINK EXPORTED (PAGE VIEW): ${shareUrl}`);
+      
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Link Copied!
+      `;
+      btn.style.borderColor = 'var(--color-teal)';
+      btn.style.color = 'var(--color-teal)';
+      
+      setTimeout(() => {
+        btn.innerHTML = originalHtml;
+        btn.style.borderColor = '';
+        btn.style.color = '';
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy share link: ', err);
+      alert(`Share link generated:\n${shareUrl}`);
+    });
+  });
 }

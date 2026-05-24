@@ -1787,4 +1787,67 @@ iframe, video, img {
   box-sizing: border-box !important;
 }
 
+/* ==================== CUSTOM MULTI-POINT SHARING STYLES ==================== */
+.doc-card-share-btn {
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.doc-card:hover .doc-card-share-btn {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.doc-card-share-btn:hover {
+  color: var(--color-teal) !important;
+  border-color: var(--color-teal) !important;
+  background: rgba(11, 121, 120, 0.1) !important;
+  transform: scale(1.1);
+}
+
+.playlist-item-share-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  opacity: 0.5;
+  transition: all var(--transition-speed);
+}
+
+.playlist-item:hover .playlist-item-share-btn {
+  opacity: 0.8;
+}
+
+.playlist-item-share-btn:hover {
+  color: var(--color-teal) !important;
+  opacity: 1 !important;
+  transform: scale(1.15);
+}
+
+.btn-share-page {
+  transition: all var(--transition-speed);
+}
+
+.btn-share-page:hover {
+  color: var(--color-teal) !important;
+  border-color: var(--color-teal) !important;
+  background: rgba(11, 121, 120, 0.1) !important;
+}
+
+
 
