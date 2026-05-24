@@ -1548,6 +1548,18 @@ footer.main-footer {
 
 .metadata-grid-mini {
   margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  border-top: 1px dashed rgba(255,255,255,0.06);
+  padding-top: 12px;
+}
+
+@media(max-width: 768px) {
+  .metadata-grid-mini {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
 }
 
 .watch-playlist-area {
@@ -1732,6 +1744,47 @@ footer.main-footer {
 
 .media-pdf-preview:hover .preview-overlay .btn {
   transform: translateY(0);
+}
+
+/* ==================== DEFENSIVE RESPONSIVE MOBILE OVERRIDES ==================== */
+html, body {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.glass-panel {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.watch-room-layout, .reading-room-layout, .browser-layout {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.watch-featured-area, .watch-playlist-area, .reading-room-left, .reading-room-right, .browser-main {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.featured-player-box, .media-viewer-box {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+iframe, video, img {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 
