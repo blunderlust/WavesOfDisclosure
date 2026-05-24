@@ -183,6 +183,8 @@ function renderView(viewName) {
     renderReadingRoom();
   } else if (viewName === 'news') {
     renderNews();
+  } else if (viewName === 'media') {
+    renderWatchRoom();
   }
 }
 
@@ -502,17 +504,37 @@ function renderReadingRoom() {
           </div>
         `;
       }
-    } else {
-      // PDF or Image placeholder
+    } else if (r.type === 'IMG') {
+      // Display the actual declassified image directly in the viewer
       viewerBox.innerHTML = `
-        <div class="media-placeholder-logo">
-          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
-          <h3>DECLASSIFIED DOSSIER</h3>
-          <p>Dossier Reference ID: <strong>${r.id}</strong></p>
-          <p style="font-size:12px; margin-top:14px; opacity:0.8;">Full transcript OCR rendering is detailed below. To read the official original PDF scanner snapshot, click "Download Raw Dossier" below.</p>
-          ${r.link ? `<a class="btn btn-secondary" href="${r.link}" target="_blank" style="margin-top:20px;">Open Raw Document Source</a>` : ''}
+        <div class="media-image-wrapper">
+          <img src="${r.link || r.modal_image}" alt="${r.title}" loading="lazy">
         </div>
       `;
+    } else {
+      // PDF or general document: Check if a document thumbnail (modal_image) exists
+      if (r.modal_image && r.modal_image.trim() !== '') {
+        viewerBox.innerHTML = `
+          <div class="media-pdf-preview" onclick="if (event.target.tagName !== 'A') window.open('${r.link}', '_blank');">
+            <img src="${r.modal_image}" alt="${r.title} Document Snapshot" loading="lazy">
+            <div class="preview-overlay">
+              ${r.link ? `<a class="btn btn-primary" href="${r.link}" target="_blank" style="pointer-events:auto; text-decoration:none;">Open Raw Document Source</a>` : '<span class="mono-text" style="color:#fff;">Raw File Restricted</span>'}
+            </div>
+            <p style="font-family:var(--font-mono); font-size:10px; color:var(--text-muted); margin-top:12px; letter-spacing:0.05em;">DECLASSIFIED DOSSIER PREVIEW (TAP/HOVER TO VIEW RAW)</p>
+          </div>
+        `;
+      } else {
+        // Fallback to default PDF placeholder
+        viewerBox.innerHTML = `
+          <div class="media-placeholder-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+            <h3>DECLASSIFIED DOSSIER</h3>
+            <p>Dossier Reference ID: <strong>${r.id}</strong></p>
+            <p style="font-size:12px; margin-top:14px; opacity:0.8;">Full transcript OCR rendering is detailed below. To read the official original PDF scanner snapshot, click "Download Raw Dossier" below.</p>
+            ${r.link ? `<a class="btn btn-secondary" href="${r.link}" target="_blank" style="margin-top:20px;">Open Raw Document Source</a>` : ''}
+          </div>
+        `;
+      }
     }
   }
 
@@ -586,6 +608,103 @@ function renderReadingRoom() {
         });
         recsContainer.appendChild(item);
       });
+    }
+  }
+}
+
+// ==================== 6. DECLASSIFIED WATCH ROOM LOGIC ====================
+const WATCH_STATE = {
+  activeVideoId: null
+};
+
+function renderWatchRoom() {
+  const container = document.getElementById('watch-playlist-container');
+  if (!container) return;
+
+  // Filter only VID records
+  const videos = UAP_DATABASE.filter(r => r.type === 'VID');
+
+  container.innerHTML = '';
+
+  if (videos.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size:13px; font-style:italic; padding: 16px; text-align: center;">No declassified videos available.</p>`;
+    return;
+  }
+
+  // If no video is active, default to the first one
+  if (!WATCH_STATE.activeVideoId && videos.length > 0) {
+    WATCH_STATE.activeVideoId = videos[0].id;
+  }
+
+  videos.forEach(v => {
+    const isActive = v.id === WATCH_STATE.activeVideoId;
+    const item = document.createElement('div');
+    item.className = `playlist-item ${isActive ? 'active' : ''}`;
+    
+    item.innerHTML = `
+      <div class="playlist-icon-box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="${isActive ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <div class="playlist-info">
+        <h4 class="playlist-title">${v.id}: ${v.title}</h4>
+        <span class="playlist-meta">${v.agency} // ${v.incident_date}</span>
+      </div>
+    `;
+
+    item.addEventListener('click', () => {
+      WATCH_STATE.activeVideoId = v.id;
+      renderWatchRoom();
+    });
+
+    container.appendChild(item);
+  });
+
+  // Render active featured video details
+  const activeVideo = videos.find(v => v.id === WATCH_STATE.activeVideoId);
+  if (activeVideo) {
+    const playerEl = document.getElementById('watch-featured-player');
+    const idEl = document.getElementById('watch-doc-id');
+    const titleEl = document.getElementById('watch-doc-title');
+    const descEl = document.getElementById('watch-doc-desc');
+    const agencyEl = document.getElementById('watch-doc-agency');
+    const dateEl = document.getElementById('watch-doc-date');
+    const locationEl = document.getElementById('watch-doc-location');
+
+    if (idEl) idEl.innerText = activeVideo.id;
+    if (titleEl) titleEl.innerText = activeVideo.title;
+    if (descEl) descEl.innerText = activeVideo.description;
+    if (agencyEl) agencyEl.innerText = activeVideo.agency;
+    if (dateEl) dateEl.innerText = activeVideo.incident_date || 'N/A';
+    if (locationEl) locationEl.innerText = activeVideo.incident_location || 'N/A';
+
+    if (playerEl) {
+      if (activeVideo.dvids_video_id) {
+        playerEl.innerHTML = `
+          <iframe 
+            src="https://www.dvidshub.net/video/embed/${activeVideo.dvids_video_id}" 
+            class="w-full h-full" 
+            frameborder="0" 
+            allowfullscreen
+            allow="autoplay; encrypted-media; picture-in-picture">
+          </iframe>
+        `;
+      } else if (activeVideo.link && activeVideo.link.trim() !== '' && !activeVideo.link.toLowerCase().endsWith('.pdf')) {
+        playerEl.innerHTML = `
+          <video controls autoplay playsinline muted class="w-full h-full">
+            <source src="${activeVideo.link}" type="video/mp4">
+            Your browser does not support declassified video streams.
+          </video>
+        `;
+      } else {
+        playerEl.innerHTML = `
+          <div class="media-placeholder-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <h3>VIDEO DATASTREAM CLASSIFIED</h3>
+            <p>Dossier Reference ID: <strong>${activeVideo.id}</strong></p>
+            <p style="font-size:12px; margin-top:14px; opacity:0.8;">The raw video feed for this file is unsealed on AARO's DVIDS distribution network. Standard OCR transcript is detailed in the main Archives browser.</p>
+          </div>
+        `;
+      }
     }
   }
 }

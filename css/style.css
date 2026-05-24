@@ -1440,3 +1440,252 @@ footer.main-footer {
   }
 }
 
+/* ==================== 6. DECLASSIFIED WATCH ROOM STYLES ==================== */
+.watch-room-layout {
+  display: grid;
+  grid-template-cols: 1fr 380px;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+@media(max-width: 992px) {
+  .watch-room-layout {
+    grid-template-cols: 1fr;
+  }
+}
+
+.watch-featured-area {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.featured-player-box {
+  width: 100%;
+  height: 450px;
+  background: #000;
+  border: 1px solid var(--border-glass);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.75), 0 0 20px rgba(11, 121, 120, 0.1);
+}
+
+@media(max-width: 992px) {
+  .featured-player-box {
+    height: 320px;
+  }
+}
+
+@media(max-width: 480px) {
+  .featured-player-box {
+    height: 210px;
+  }
+}
+
+.featured-player-box iframe, .featured-player-box video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #000;
+}
+
+.watch-metadata-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.metadata-grid-mini {
+  margin-top: 16px;
+}
+
+.watch-playlist-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.watch-playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 600px;
+  padding-right: 6px;
+}
+
+/* Custom Scrollbar for watch-playlist */
+.watch-playlist::-webkit-scrollbar {
+  width: 4px;
+}
+
+.watch-playlist::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.watch-playlist::-webkit-scrollbar-thumb {
+  background: rgba(11, 121, 120, 0.3);
+  border-radius: 4px;
+}
+
+.watch-playlist::-webkit-scrollbar-thumb:hover {
+  background: var(--color-teal);
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+}
+
+.playlist-item:hover {
+  border-color: var(--border-glass-hover);
+  transform: translateX(3px);
+  box-shadow: 0 4px 15px rgba(11, 121, 120, 0.1);
+}
+
+.playlist-item.active {
+  border-left: 3px solid var(--color-teal);
+  background: rgba(11, 121, 120, 0.06);
+  border-color: rgba(11, 121, 120, 0.25);
+}
+
+.playlist-icon-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transition: all var(--transition-speed);
+}
+
+.playlist-item:hover .playlist-icon-box {
+  color: var(--color-teal);
+  background: rgba(11, 121, 120, 0.08);
+  border-color: rgba(11, 121, 120, 0.15);
+}
+
+.playlist-item.active .playlist-icon-box {
+  color: #fff;
+  background: var(--color-teal);
+  border-color: var(--color-teal);
+  box-shadow: 0 0 10px rgba(11, 121, 120, 0.5);
+}
+
+.playlist-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.playlist-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2px;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.playlist-item:hover .playlist-title {
+  color: var(--color-teal);
+}
+
+.playlist-meta {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+  display: block;
+}
+
+/* ==================== INLINE DOSSIER PREVIEWS STYLES ==================== */
+.media-image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020305;
+  padding: 10px;
+}
+
+.media-image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.media-pdf-preview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #020305;
+  padding: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.media-pdf-preview img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.media-pdf-preview:hover img {
+  transform: scale(1.03) translateY(-4px);
+  box-shadow: 0 15px 40px rgba(11, 121, 120, 0.3);
+  border-color: rgba(11, 121, 120, 0.4);
+}
+
+.preview-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.media-pdf-preview:hover .preview-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.preview-overlay .btn {
+  transform: translateY(10px);
+  transition: transform 0.25s ease;
+}
+
+.media-pdf-preview:hover .preview-overlay .btn {
+  transform: translateY(0);
+}
+
+

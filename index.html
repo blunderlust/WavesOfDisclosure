@@ -30,6 +30,7 @@
       <nav class="nav-links">
         <a href="#" class="nav-link active" data-route="home">Home</a>
         <a href="#" class="nav-link" data-route="browser">Archives</a>
+        <a href="#" class="nav-link" data-route="media">Watch Room</a>
         <a href="#" class="nav-link" data-route="store">Store & Gear</a>
         <a href="#" class="nav-link" data-route="news">Terminal Feed</a>
       </nav>
@@ -40,7 +41,7 @@
       <section class="hero-section">
         <div class="hero-radar-ring"></div>
         <span class="hero-subtitle">Department of War // UAP Archives</span>
-        <h1 class="hero-title">THE TRUTH IS <br><span>OUT THERE.</span></h1>
+        <h1 class="hero-title">THE TRUTH <br><span>IS HERE.</span></h1>
         <p class="hero-desc">
           Explore officially declassified UAP dossiers, military cockpit recordings, and multi-agency intelligence logs unsealed under the Presidential PURSUE initiative.
         </p>
@@ -356,6 +357,60 @@
       </div>
     </main>
 
+    <!-- ==================== 6. DECLASSIFIED WATCH ROOM ==================== -->
+    <main id="media-view" class="view-container">
+      <section class="hero-section" style="padding: 40px 0 20px 0;">
+        <span class="hero-subtitle">Department of War // PURSUE Interactive Media Feed</span>
+        <h2 class="hero-title" style="font-size: 32px;">DECLASSIFIED<span>WATCH ROOM</span></h2>
+        <p class="hero-desc" style="font-size:14px; max-width:600px;">
+          Stream unsealed military sensor logs, tactical cockpit recordings, and multi-agency flight anomaly video dossiers.
+        </p>
+      </section>
+
+      <div class="watch-room-layout">
+        <!-- Featured Video Player Area -->
+        <div class="watch-featured-area">
+          <div class="glass-panel" style="padding: 12px; margin-bottom: 16px;">
+            <div class="featured-player-box" id="watch-featured-player">
+              <!-- Dynamically populated video player -->
+            </div>
+          </div>
+          <div class="glass-panel watch-metadata-panel">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+              <span class="mono-text" style="color:var(--color-teal); font-weight:700;" id="watch-doc-id">DOW-UAP-000</span>
+              <span class="doc-type-badge vid">VID</span>
+            </div>
+            <h3 id="watch-doc-title" style="font-size:20px; color:#fff; margin-bottom:12px; line-height:1.2;">Select a Video to Begin Playback</h3>
+            <p id="watch-doc-desc" style="font-size:13.5px; color:var(--text-muted); line-height:1.5; margin-bottom:16px;">
+              Choose any of the declassified cockpit logs or tracking recordings from the playlist to watch the stream with official agency transcripts.
+            </p>
+            <div class="metadata-grid-mini" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap:12px; border-top:1px dashed rgba(255,255,255,0.06); padding-top:12px;">
+              <div>
+                <span style="font-size:10px; text-transform:uppercase; color:var(--text-muted); display:block; font-family:var(--font-mono);">Agency</span>
+                <strong id="watch-doc-agency" style="color:#fff; font-size:13px;">--</strong>
+              </div>
+              <div>
+                <span style="font-size:10px; text-transform:uppercase; color:var(--text-muted); display:block; font-family:var(--font-mono);">Incident Date</span>
+                <strong id="watch-doc-date" style="color:#fff; font-size:13px;">--</strong>
+              </div>
+              <div>
+                <span style="font-size:10px; text-transform:uppercase; color:var(--text-muted); display:block; font-family:var(--font-mono);">Location</span>
+                <strong id="watch-doc-location" style="color:#fff; font-size:13px;">--</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Playlist / Video Feed List -->
+        <div class="watch-playlist-area">
+          <h3 class="category-heading" style="font-size: 14px; margin-bottom: 12px;">DECLASSIFIED PLAYLIST</h3>
+          <div class="watch-playlist" id="watch-playlist-container">
+            <!-- Dynamically populated list of videos -->
+          </div>
+        </div>
+      </div>
+    </main>
+
     <!-- Footer -->
     <footer class="main-footer">
       <div class="footer-logo">DISCLOSURE<span>ARCHIVES</span></div>
@@ -365,6 +420,7 @@
       <div class="footer-links">
         <a href="#" class="footer-link btn-route" data-route="home">Home</a>
         <a href="#" class="footer-link btn-route" data-route="browser">Archives Browser</a>
+        <a href="#" class="footer-link btn-route" data-route="media">Watch Room</a>
         <a href="#" class="footer-link btn-route" data-route="store">Store storefront</a>
         <a href="#" class="footer-link btn-route" data-route="news">Terminal Logs</a>
       </div>
@@ -378,12 +434,16 @@
   <!-- Premium Responsive Mobile Bottom Navigation Bar (Visible only on mobile) -->
   <nav class="mobile-bottom-nav">
     <button class="mobile-nav-item active" data-route="home">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
       <span>Home</span>
     </button>
     <button class="mobile-nav-item" data-route="browser">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2 2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
       <span>Archives</span>
+    </button>
+    <button class="mobile-nav-item" data-route="media">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <span>Watch</span>
     </button>
     <button class="mobile-nav-item" data-route="store">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
