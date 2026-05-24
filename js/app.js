@@ -317,6 +317,16 @@ function renderBrowserList() {
   filtered.forEach((r, idx) => {
     const card = document.createElement('div');
     card.className = 'doc-card';
+    
+    const hasLink = r.link && r.link.trim() !== '';
+    const downloadBtnHtml = hasLink 
+      ? `<a class="doc-download-btn" href="${r.link}" target="_blank" title="Download raw declassified dossier file">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+         </a>`
+      : `<button class="doc-download-btn restricted" title="Raw file restricted / Wave processing" disabled style="opacity: 0.25; cursor: not-allowed; border: none; background: transparent; pointer-events: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+         </button>`;
+
     card.innerHTML = `
       <div class="doc-badge-index">${idx + 1}</div>
       <div class="doc-card-main">
@@ -334,9 +344,7 @@ function renderBrowserList() {
           <span><strong>Release:</strong> ${r.release_date === '5/8/26' ? 'Wave 01' : 'Wave 02'}</span>
         </div>
       </div>
-      <a class="doc-download-btn" href="${r.link}" target="_blank" title="Download raw dossier file">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      </a>
+      ${downloadBtnHtml}
     `;
 
     // Click on card routes to Reading Room
@@ -398,21 +406,45 @@ function renderReadingRoom() {
     return;
   }
 
-  // Set Title and Breadcrumb
-  document.getElementById('reading-room-doc-id').innerText = r.id;
-  document.getElementById('reading-room-doc-title').innerText = r.title;
-  document.getElementById('reading-room-meta-title').innerText = r.title;
-  document.getElementById('reading-room-meta-agency').innerText = r.agency;
-  document.getElementById('reading-room-meta-date').innerText = r.incident_date;
-  document.getElementById('reading-room-meta-location').innerText = r.incident_location;
-  document.getElementById('reading-room-meta-type').innerText = r.type;
-  document.getElementById('reading-room-meta-release').innerText = r.release_date === '5/8/26' ? 'Wave 01 (May 8, 2026)' : 'Wave 02 (May 22, 2026)';
+  // Set Title and Breadcrumb with safe DOM checks to prevent crash
+  const elDocId = document.getElementById('reading-room-doc-id');
+  const elDocTitle = document.getElementById('reading-room-doc-title');
+  const elMetaTitle = document.getElementById('reading-room-meta-title');
+  const elMetaAgency = document.getElementById('reading-room-meta-agency');
+  const elMetaDate = document.getElementById('reading-room-meta-date');
+  const elMetaLocation = document.getElementById('reading-room-meta-location');
+  const elMetaType = document.getElementById('reading-room-meta-type');
+  const elMetaRelease = document.getElementById('reading-room-meta-release');
+
+  if (elDocId) elDocId.innerText = r.id;
+  if (elDocTitle) elDocTitle.innerText = r.title;
+  if (elMetaTitle) elMetaTitle.innerText = r.title;
+  if (elMetaAgency) elMetaAgency.innerText = r.agency;
+  if (elMetaDate) elMetaDate.innerText = r.incident_date || 'N/A';
+  if (elMetaLocation) elMetaLocation.innerText = r.incident_location || 'N/A';
+  if (elMetaType) elMetaType.innerText = r.type;
+  if (elMetaRelease) elMetaRelease.innerText = r.release_date === '5/8/26' ? 'Wave 01 (May 8, 2026)' : 'Wave 02 (May 22, 2026)';
   
   const rawDownload = document.getElementById('reading-room-btn-raw');
-  if (rawDownload) rawDownload.setAttribute('href', r.link);
+  if (rawDownload) {
+    if (r.link && r.link.trim() !== '') {
+      rawDownload.setAttribute('href', r.link);
+      rawDownload.style.opacity = '1';
+      rawDownload.style.pointerEvents = 'auto';
+      rawDownload.style.cursor = 'pointer';
+      rawDownload.innerText = 'Download Raw Dossier File';
+    } else {
+      rawDownload.removeAttribute('href');
+      rawDownload.style.opacity = '0.4';
+      rawDownload.style.pointerEvents = 'none';
+      rawDownload.style.cursor = 'not-allowed';
+      rawDownload.innerText = 'Raw Dossier Restricted / Wave Processing';
+    }
+  }
 
-  // Populate Agent Summary and Key Topics
-  document.getElementById('reading-room-agent-summary').innerText = r.agent_summary;
+  // Populate Agent Summary and Key Topics safely
+  const elSummary = document.getElementById('reading-room-agent-summary');
+  if (elSummary) elSummary.innerText = r.agent_summary;
   
   const topicsContainer = document.getElementById('reading-room-key-topics');
   if (topicsContainer) {
@@ -428,7 +460,7 @@ function renderReadingRoom() {
     });
   }
 
-  // Render Viewer Content based on Tabs
+  // Render Viewer Content based on Tabs safely
   const transcriptText = document.getElementById('reading-room-transcript-text');
   if (transcriptText) {
     transcriptText.innerText = r.transcript_preview || "No transcript preview text available.";
@@ -439,14 +471,37 @@ function renderReadingRoom() {
   if (viewerBox) {
     viewerBox.innerHTML = '';
     
-    if (r.type === 'VID') {
-      // Render standard Video Player streaming from CDN link!
-      viewerBox.innerHTML = `
-        <video controls autoplay class="w-full h-full">
-          <source src="${r.link}" type="video/mp4">
-          Your browser does not support declassified video streams.
-        </video>
-      `;
+    if (r.type === 'VID' || r.type === 'AUD') {
+      if (r.dvids_video_id) {
+        // High premium responsive DVIDS secure iframe player integration
+        viewerBox.innerHTML = `
+          <iframe 
+            src="https://www.dvidshub.net/video/embed/${r.dvids_video_id}" 
+            class="w-full h-full" 
+            frameborder="0" 
+            allowfullscreen
+            allow="autoplay; encrypted-media; picture-in-picture">
+          </iframe>
+        `;
+      } else if (r.link && r.link.trim() !== '' && !r.link.toLowerCase().endsWith('.pdf')) {
+        // Standard video player with playsinline and muted for maximum mobile compatibility
+        viewerBox.innerHTML = `
+          <video controls autoplay playsinline muted class="w-full h-full">
+            <source src="${r.link}" type="video/mp4">
+            Your browser does not support declassified video streams.
+          </video>
+        `;
+      } else {
+        // Mock classification placeholder
+        viewerBox.innerHTML = `
+          <div class="media-placeholder-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <h3>VIDEO DATASTREAM CLASSIFIED</h3>
+            <p>Dossier Reference ID: <strong>${r.id}</strong></p>
+            <p style="font-size:12px; margin-top:14px; opacity:0.8;">The raw video feed for this file is unsealed on AARO's DVIDS distribution network. Standard OCR transcript is detailed in the tab above.</p>
+          </div>
+        `;
+      }
     } else {
       // PDF or Image placeholder
       viewerBox.innerHTML = `
@@ -455,13 +510,13 @@ function renderReadingRoom() {
           <h3>DECLASSIFIED DOSSIER</h3>
           <p>Dossier Reference ID: <strong>${r.id}</strong></p>
           <p style="font-size:12px; margin-top:14px; opacity:0.8;">Full transcript OCR rendering is detailed below. To read the official original PDF scanner snapshot, click "Download Raw Dossier" below.</p>
-          <a class="btn btn-secondary" href="${r.link}" target="_blank" style="margin-top:20px;">Open Raw Document Source</a>
+          ${r.link ? `<a class="btn btn-secondary" href="${r.link}" target="_blank" style="margin-top:20px;">Open Raw Document Source</a>` : ''}
         </div>
       `;
     }
   }
 
-  // Setup viewer tabs
+  // Setup viewer tabs safely
   const btnViewer = document.getElementById('btn-view-media');
   const btnTranscript = document.getElementById('btn-view-transcript');
   const panelMedia = document.getElementById('reading-room-media-panel');
@@ -469,7 +524,7 @@ function renderReadingRoom() {
 
   if (btnViewer && btnTranscript && panelMedia && panelText) {
     // default tab
-    if (r.type === 'VID') {
+    if (r.type === 'VID' || r.type === 'AUD') {
       btnViewer.classList.add('active');
       btnTranscript.classList.remove('active');
       panelMedia.style.display = 'block';
