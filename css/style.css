@@ -1432,6 +1432,71 @@ header.navbar {
 }
 .news-source-link:hover { color: var(--color-orange); text-decoration: underline; }
 
+/* News Desk: make the reporting feed the feature, not a cramped terminal inset. */
+.news-hero {
+  align-items: flex-start;
+}
+.news-hero .hero-subtitle {
+  margin-bottom: 8px;
+}
+.news-hero-desc {
+  max-width: 760px !important;
+  line-height: 1.55;
+}
+.terminal-news-box {
+  padding: 24px;
+  min-height: 0;
+}
+.terminal-feed {
+  max-height: none;
+  gap: 34px;
+}
+.news-item {
+  padding: 8px 12px 8px 20px;
+}
+.news-item-title {
+  font-size: 19px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.news-item-content {
+  font-size: 14px;
+  line-height: 1.65;
+  max-width: 900px;
+}
+.news-item-footer {
+  margin-top: 16px;
+  font-size: 12px;
+}
+#watch-doc-desc {
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+}
+
+@media(max-width: 600px) {
+  .news-hero {
+    padding-top: 14px !important;
+    padding-bottom: 10px !important;
+  }
+  .news-hero .hero-subtitle {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .terminal-news-box {
+    padding: 18px;
+  }
+  .news-item {
+    padding-left: 16px;
+    padding-right: 2px;
+  }
+  .news-item-title {
+    font-size: 18px;
+  }
+  .news-item-content {
+    font-size: 13.5px;
+  }
+}
+
 /* Footer Section */
 footer.main-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.05);

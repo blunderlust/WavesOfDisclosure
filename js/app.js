@@ -733,6 +733,19 @@ const WATCH_STATE = {
   activeVideoId: null
 };
 
+// Lead with the record-specific portion of long DVIDS descriptions. The official
+// records repeat a common provenance paragraph before the actual shot-by-shot
+// description, which made the metadata card appear unchanged while navigating.
+function getVideoDisplayDescription(record) {
+  const raw = String(record?.description || '').trim();
+  const marker = /video description\s*:/i;
+  const match = raw.match(marker);
+  const specific = match ? raw.slice(match.index + match[0].length).trim() : raw;
+  const cleaned = specific.replace(/\s+/g, ' ').trim();
+  if (!cleaned) return 'No source description is available for this record.';
+  return cleaned.length > 720 ? `${cleaned.slice(0, 720).trim()}…` : cleaned;
+}
+
 function renderWatchRoom() {
   const container = document.getElementById('watch-playlist-container');
   if (!container) return;
@@ -829,7 +842,7 @@ function renderWatchRoom() {
 
     if (idEl) idEl.innerText = activeVideo.id;
     if (titleEl) titleEl.innerText = activeVideo.title;
-    if (descEl) descEl.innerText = activeVideo.description;
+    if (descEl) descEl.innerText = getVideoDisplayDescription(activeVideo);
     if (agencyEl) agencyEl.innerText = activeVideo.agency;
     if (dateEl) dateEl.innerText = activeVideo.incident_date || 'N/A';
     if (locationEl) locationEl.innerText = activeVideo.incident_location || 'N/A';
