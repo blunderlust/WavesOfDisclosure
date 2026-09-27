@@ -1,5 +1,8 @@
 import UAP_DATABASE from './uap-database.js';
 
+let NEWS_ITEMS = [];
+let NEWS_META = {};
+
 // Application State
 const STATE = {
   currentView: 'home',
@@ -10,24 +13,8 @@ const STATE = {
     category: '',
     type: ''
   },
-  cart: [],
-  // Mock Tactical Debriefing Comments for Videos
-  videoComments: {
-    'DOW-UAP-001': [
-      { agent: 'Agent Vance', time: '14:32:10', msg: 'Tactical analysis confirms non-inertial flight paths. G-forces calculated at over 400g.' },
-      { agent: 'Analyst Reyes', time: '15:10:45', msg: 'Radar cross-section matches the Wave 01 Sandia Base unsealed logs.' }
-    ],
-    'DOW-UAP-002': [
-      { agent: 'Agent Miller', time: '09:12:04', msg: 'Supersonic acceleration signature confirmed. Zero thermal exhaust registered on IR sensors.' },
-      { agent: 'OSINT Specialist Chen', time: '11:44:20', msg: 'Visual frames demonstrate high metallic reflectivity under solar angle.' }
-    ],
-    'DOW-UAP-003': [
-      { agent: 'Director Hayes', time: '16:05:12', msg: 'Declassified aircraft tracking confirms speed parameters exceeding standard flight envelope.' },
-      { agent: 'Tactical Lead Vance', time: '16:48:30', msg: 'Visual shape details match the Sandia Base Wave 2 declassification logs.' }
-    ]
-  }
+  cart: []
 };
-
 // Category Definitions
 const CATEGORY_NAMES = {
   'UAP-MSF': { name: 'Military Sensor Footage & Encounters', icon: 'zap' },
@@ -44,18 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
   initSearch();
   initFilters();
   initMobileFiltersDrawer();
-  initStore();
   initWatchRoomNavigation();
-  initAgentCommentsForm();
   initPageSharing();
+  loadNewsData();
   
-  // Dynamic home landing page button text update
   const videosCount = UAP_DATABASE.filter(r => r.type === 'VID').length;
   const watchNowBtn = document.querySelector('.btn-watch-now');
   if (watchNowBtn) {
     watchNowBtn.innerHTML = `
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-      Watch ${videosCount} Declassified Videos
+      Watch ${videosCount} Videos
     `;
   }
 
@@ -82,20 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
   } else if (routeParam === 'browser') {
     switchView('browser');
   } else if (routeParam === 'store') {
-    switchView('store');
+    // Retained legacy store code is not a public route in Phase 1.
+    switchView('home');
   } else if (routeParam === 'news') {
     switchView('news');
   } else {
     renderApp();
   }
   
-  // Set default terminal message
-  logTerminal("SECURE DECLASSIFIED TERMINAL BOOTUP... SUCCESS.");
-  logTerminal("ESTABLISHING PURSUE ENCRYPTED DATASTREAM... SUCCESS.");
-  logTerminal(`222 UAP RECORDS SYNCHRONIZED [WAVE 1: 158, WAVE 2: 64].`);
-  logTerminal("ALERT: SIGNAL INTELLIGENCE DETECTED IMMINENT BUNDLE WAVE 03.");
   if (videoParam) {
-    logTerminal(`URL PARSED DEEP LINK UPLINK: RESOURCE ${videoParam}`);
+    logTerminal(`Deep link opened for record ${videoParam}.`);
   }
 });
 
@@ -123,6 +104,9 @@ function initNavigation() {
 }
 
 export function switchView(viewName, recordId = null) {
+  if (viewName === 'store') {
+    viewName = 'home';
+  }
   STATE.currentView = viewName;
   
   if (recordId) {
@@ -386,7 +370,7 @@ function renderBrowserList() {
       ? `<a class="doc-download-btn" href="${r.link}" target="_blank" title="Download raw declassified dossier file">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
          </a>`
-      : `<button class="doc-download-btn restricted" title="Raw file restricted / Wave processing" disabled style="opacity: 0.25; cursor: not-allowed; border: none; background: transparent; pointer-events: none;">
+      : `<button class="doc-download-btn unavailable" title="Source file unavailable" disabled style="opacity: 0.25; cursor: not-allowed; border: none; background: transparent; pointer-events: none;">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
          </button>`;
 
@@ -576,9 +560,9 @@ function renderReadingRoom() {
     });
   }
 
-  // Populate Agent Summary and Key Topics safely
+  // Populate source description and key topics safely
   const elSummary = document.getElementById('reading-room-agent-summary');
-  if (elSummary) elSummary.innerText = r.agent_summary;
+  if (elSummary) elSummary.innerText = r.description || 'No source description is available.';
   
   const topicsContainer = document.getElementById('reading-room-key-topics');
   if (topicsContainer) {
@@ -607,7 +591,7 @@ function renderReadingRoom() {
     
     if (r.type === 'VID' || r.type === 'AUD') {
       if (r.dvids_video_id) {
-        // High premium responsive DVIDS secure iframe player integration
+        // Embed the source-hosted player when the record provides one.
         viewerBox.innerHTML = `
           <iframe 
             src="https://www.dvidshub.net/video/embed/${r.dvids_video_id}" 
@@ -630,9 +614,9 @@ function renderReadingRoom() {
         viewerBox.innerHTML = `
           <div class="media-placeholder-logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-            <h3>VIDEO DATASTREAM CLASSIFIED</h3>
+            <h3>VIDEO SOURCE NOT EMBEDDED</h3>
             <p>Dossier Reference ID: <strong>${r.id}</strong></p>
-            <p style="font-size:12px; margin-top:14px; opacity:0.8;">The raw video feed for this file is unsealed on AARO's DVIDS distribution network. Standard OCR transcript is detailed in the tab above.</p>
+            <p style="font-size:12px; margin-top:14px; opacity:0.8;">No playable source is attached to this record. The record description and transcript preview remain available in the archive.</p>
           </div>
         `;
       }
@@ -872,9 +856,9 @@ function renderWatchRoom() {
         playerEl.innerHTML = `
           <div class="media-placeholder-logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 10px rgba(11, 121, 120, 0.4))"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-            <h3>VIDEO DATASTREAM CLASSIFIED</h3>
+            <h3>VIDEO SOURCE NOT EMBEDDED</h3>
             <p>Dossier Reference ID: <strong>${activeVideo.id}</strong></p>
-            <p style="font-size:12px; margin-top:14px; opacity:0.8;">The raw video feed for this file is unsealed on AARO's DVIDS distribution network. Standard OCR transcript is detailed in the main Archives browser.</p>
+            <p style="font-size:12px; margin-top:14px; opacity:0.8;">No playable source is attached to this record. The record description and transcript preview remain available in the archive.</p>
           </div>
         `;
       }
@@ -972,8 +956,6 @@ function renderWatchRoom() {
       });
     }
 
-    // Render active comments thread
-    renderAgentComments(activeVideo.id);
   }
 }
 
@@ -1040,69 +1022,59 @@ function initStore() {
   });
 }
 
-// 5. Encrypted Terminal News Updates
-function renderNews() {
+// 5. News Desk data and rendering
+async function loadNewsData() {
+  try {
+    const response = await fetch('news/news.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    NEWS_ITEMS = Array.isArray(payload.items) ? payload.items : [];
+    NEWS_META = payload.meta || {};
+    renderNews();
+  } catch (error) {
+    NEWS_ITEMS = [];
+    NEWS_META = {};
+    renderNews(`The daily file could not be loaded (${error.message}). No unsourced fallback is shown.`);
+  }
+}
+
+function escapeHtml(value = '') {
+  return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+}
+
+function renderNews(errorMessage = '') {
   const feed = document.getElementById('terminal-news-feed');
+  const status = document.getElementById('news-desk-status');
   if (!feed) return;
 
-  const NEWS = [
-    { date: 'MAY 24, 2026', time: '21:15 UTC', author: 'INTEL UPLINK', title: 'PURSUE WAVE 03 EXPECTED IMMINENTLY', content: 'Sub-agencies report that the Presidential Directive PURSUE Wave 3 declassification tranche is undergoing final cryptographic sanitization. Inside sources suggest the release will focus on historical naval anomalous sonar logs and tactical satellite intercepts from the Pacific theater. Mirror portal servers are primed for immediate synchronization.' },
-    { date: 'MAY 22, 2026', time: '18:00 UTC', author: 'AGENTIC SECURE FEED', title: 'WAVE 02 DECLASSIFICATION BUNDLE UPLOADED', content: 'The Department of War has unsealed 64 new files. This batch includes the historic ODNI narrative from a senior intelligence official detailing a May 2025 multi-orb encounter at a nuclear weapons depot, alongside 51 declassified military jet tracking recordings.' },
-    { date: 'MAY 18, 2026', time: '14:30 UTC', author: 'OSINT WATCH', title: 'AARO CONGRESSIONAL BRIEFING TRANSCRIPTS SYNCHRONIZED', content: 'Completed full-text OCR alignment of congressional testimonies from late 2025. Records clarify high-speed visual anomalies reported near Sandia Base and Los Alamos facilities.' },
-    { date: 'MAY 08, 2026', time: '09:00 UTC', author: 'AGENTIC SECURE FEED', title: 'WAVE 01 PRESIDENTIAL DIRECTIVE DECLASSIFIED', content: 'Historic day. At the instruction of the President, PURSUE unseals the first massive tranche of declassified records (158 files) dating back to 1947. FBI case files and general Manhattan Project correspondence are now public.' }
-  ];
-
-  feed.innerHTML = '';
-
-  NEWS.forEach(item => {
-    const el = document.createElement('div');
-    el.className = 'news-item';
-    el.innerHTML = `
-      <div class="news-item-meta">> [${item.date} // ${item.time}] // BY: ${item.author}</div>
-      <h4 class="news-item-title">${item.title}</h4>
-      <p class="news-item-content">${item.content}</p>
-    `;
-    feed.appendChild(el);
-  });
-}
-
-// Comments & Navigation Systems for Watch Room
-function getCommentsForVideo(videoId) {
-  if (!STATE.videoComments) {
-    STATE.videoComments = {};
+  if (errorMessage) {
+    if (status) status.innerHTML = `<span class="news-status-warning">${escapeHtml(errorMessage)}</span>`;
+    feed.innerHTML = '';
+    return;
   }
-  if (!STATE.videoComments[videoId]) {
-    STATE.videoComments[videoId] = [
-      { agent: 'Intelligence Analyst', time: '08:30:15', msg: `Initiating multi-agency sensor log analysis for UAP record ${videoId}.` },
-      { agent: 'Aviation Safety Inspector', time: '09:15:44', msg: 'No active transponder signature recorded during visual contact window.' }
-    ];
-  }
-  return STATE.videoComments[videoId];
-}
 
-function renderAgentComments(videoId) {
-  const thread = document.getElementById('agent-comments-thread');
-  if (!thread) return;
-  
-  const comments = getCommentsForVideo(videoId);
-  thread.innerHTML = '';
-  
-  comments.forEach(c => {
-    const div = document.createElement('div');
-    div.style.cssText = 'background:rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.03); padding:8px 10px; border-radius:6px; font-size:12px; margin-bottom: 8px;';
-    div.innerHTML = `
-      <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-family:var(--font-mono); font-size:10px; color:var(--color-teal); font-weight:bold;">
-        <span>> ${c.agent}</span>
-        <span style="color:var(--text-muted); font-weight:normal;">[${c.time}]</span>
+  const checked = NEWS_META.checked_at ? `Sources checked ${escapeHtml(NEWS_META.checked_at)}.` : '';
+  if (status) {
+    status.innerHTML = `<span class="news-status-label">EDITORIAL METHOD</span> ${escapeHtml(NEWS_META.method || 'Each item is labeled by evidence status and links to its original source.')} ${checked}`;
+  }
+
+  if (!NEWS_ITEMS.length) {
+    feed.innerHTML = '<div class="news-item"><h4 class="news-item-title">No briefing items are loaded.</h4><p class="news-item-content">The desk publishes only sourced material.</p></div>';
+    return;
+  }
+
+  feed.innerHTML = NEWS_ITEMS.map(item => `
+    <article class="news-item">
+      <div class="news-item-meta">${escapeHtml(item.date)} · ${escapeHtml(item.status)} · ${escapeHtml(item.source_type)}</div>
+      <h4 class="news-item-title">${escapeHtml(item.headline)}</h4>
+      <p class="news-item-content">${escapeHtml(item.summary)}</p>
+      <div class="news-item-footer">
+        <span class="news-source-name">Source: ${escapeHtml(item.source_name)}</span>
+        <a class="news-source-link" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">Read original source ↗</a>
       </div>
-      <div style="color:var(--text-primary); line-height:1.4;">${c.msg}</div>
-    `;
-    thread.appendChild(div);
-  });
-  
-  thread.scrollTop = thread.scrollHeight;
+    </article>
+  `).join('');
 }
-
 function initWatchRoomNavigation() {
   const prevBtn = document.getElementById('watch-btn-prev');
   const nextBtn = document.getElementById('watch-btn-next');
@@ -1167,37 +1139,7 @@ function initWatchRoomNavigation() {
   }
 }
 
-function initAgentCommentsForm() {
-  const form = document.getElementById('agent-comment-form');
-  const input = document.getElementById('agent-comment-input');
-  
-  if (form && input) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const msgText = input.value.trim();
-      if (!msgText) return;
-      
-      const activeVideoId = WATCH_STATE.activeVideoId || (UAP_DATABASE.filter(r => r.type === 'VID')[0] || {}).id;
-      if (!activeVideoId) return;
-      
-      const comments = getCommentsForVideo(activeVideoId);
-      const now = new Date();
-      const timeStr = now.toTimeString().split(' ')[0];
-      
-      comments.push({
-        agent: 'OSINT Citizen Agent',
-        time: timeStr,
-        msg: msgText
-      });
-      
-      input.value = '';
-      renderAgentComments(activeVideoId);
-      logTerminal(`OSINT DEBRIEF UPLOADED: UAP REFERENCE ${activeVideoId}`);
-    });
-  }
-}
-
-// Log message to news page terminal header console!
+// Legacy store interactions remain retained but are not initialized or publicly routed.
 function logTerminal(msg) {
   const terminalLogs = document.getElementById('terminal-console-logs');
   if (terminalLogs) {

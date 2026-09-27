@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "checked_at": "2026-09-27T00:05:03Z",
+    "method": "This desk separates official statements from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
+    "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
+    "community_roundup": {
+      "label": "COMMUNITY ROUNDUP",
+      "window": "2026-09-26T00:00:00Z/2026-09-27T00:00:52Z",
+      "reddit": "Checked r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Reddit returned access-blocked responses in this run, so no thread-level claim is promoted and no community signal is presented as evidence.",
+      "x": "Checked public X search and the maintained watchlist. X redirected search to login, preventing reliable post-level verification in this run; no account statement is reported as fact.",
+      "editorial_note": "Community chatter remains separate from the verified desk. No new development was added from unverified discussion."
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "AARO public record: cases, reports, and official releases",
+      "summary": "The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.",
+      "source_name": "AARO / U.S. Department of Defense",
+      "source_url": "https://www.aaro.mil/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "NASA UAP research and public material",
+      "summary": "NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/uap/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "NASA news releases: check before calling a development news",
+      "summary": "A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.",
+      "source_name": "NASA News",
+      "source_url": "https://www.nasa.gov/news/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "Defense Department releases and statements",
+      "summary": "The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.",
+      "source_name": "U.S. Department of Defense",
+      "source_url": "https://www.defense.gov/News/Releases/"
+    }
+  ]
+}
