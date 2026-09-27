@@ -746,6 +746,10 @@ function getVideoDisplayDescription(record) {
   return cleaned.length > 720 ? `${cleaned.slice(0, 720).trim()}…` : cleaned;
 }
 
+function getVideoPageUrl(record) {
+  return record?.videoPageUrl || (record?.dvids_video_id ? `https://www.dvidshub.net/video/${record.dvids_video_id}` : '');
+}
+
 function renderWatchRoom() {
   const container = document.getElementById('watch-playlist-container');
   if (!container) return;
@@ -909,18 +913,23 @@ function renderWatchRoom() {
       }
     }
 
-    // Render dynamic download button state
+    // Keep the playable video and accompanying report as separate resources.
     const downloadBtn = document.getElementById('watch-btn-download');
+    const reportBtn = document.getElementById('watch-btn-report');
     if (downloadBtn) {
-      if (activeVideo.link && activeVideo.link.trim() !== '') {
-        downloadBtn.setAttribute('href', activeVideo.link);
+      const videoUrl = activeVideo.videoDownloadUrl || '';
+      const videoPageUrl = getVideoPageUrl(activeVideo);
+      const destination = videoUrl || videoPageUrl;
+      const fallback = !videoUrl && Boolean(videoPageUrl);
+      if (destination) {
+        downloadBtn.setAttribute('href', destination);
         downloadBtn.removeAttribute('disabled');
         downloadBtn.style.opacity = '1';
         downloadBtn.style.pointerEvents = 'auto';
         downloadBtn.style.cursor = 'pointer';
         downloadBtn.innerHTML = `
           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download Video
+          ${fallback ? 'Download on DVIDS ↗' : 'Download Video'}
         `;
       } else {
         downloadBtn.removeAttribute('href');
@@ -929,9 +938,18 @@ function renderWatchRoom() {
         downloadBtn.style.pointerEvents = 'none';
         downloadBtn.style.cursor = 'not-allowed';
         downloadBtn.innerHTML = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Download Restricted
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Video Unavailable
         `;
+      }
+    }
+    if (reportBtn) {
+      if (activeVideo.reportUrl) {
+        reportBtn.href = activeVideo.reportUrl;
+        reportBtn.style.display = 'flex';
+      } else {
+        reportBtn.removeAttribute('href');
+        reportBtn.style.display = 'none';
       }
     }
 

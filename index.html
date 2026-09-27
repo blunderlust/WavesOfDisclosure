@@ -401,13 +401,17 @@
               </button>
             </div>
             
-            <!-- Share & Download Actions Bar (Second Row) -->
-            <div class="video-actions-control-bar" style="display:flex; justify-content:space-between; align-items:center; margin-top:10px; padding-top:10px; border-top:1px dashed rgba(255,255,255,0.05);">
+            <!-- Share, report, and download actions -->
+            <div class="video-actions-control-bar" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-top:10px; padding-top:10px; border-top:1px dashed rgba(255,255,255,0.05);">
               <button class="btn btn-secondary" id="watch-btn-share" style="flex:1; margin-right:8px; padding:6px 12px; font-size:12px; display:flex; align-items:center; justify-content:center; gap:6px; height:32px;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
                 Copy Share Link
               </button>
-              <a class="btn btn-primary" id="watch-btn-download" href="#" target="_blank" style="flex:1; margin-left:8px; padding:6px 12px; font-size:12px; display:flex; align-items:center; justify-content:center; gap:6px; text-decoration:none; height:32px; font-weight:700;">
+              <a class="btn btn-secondary watch-report-btn" id="watch-btn-report" href="#" target="_blank" rel="noopener noreferrer" style="display:none; flex:1; margin:0 8px; padding:6px 12px; font-size:12px; align-items:center; justify-content:center; gap:6px; text-decoration:none; height:32px; font-weight:700;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/></svg>
+                Mission Report
+              </a>
+              <a class="btn btn-primary" id="watch-btn-download" href="#" target="_blank" rel="noopener noreferrer" style="flex:1; margin-left:8px; padding:6px 12px; font-size:12px; display:flex; align-items:center; justify-content:center; gap:6px; text-decoration:none; height:32px; font-weight:700;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Download Video
               </a>
