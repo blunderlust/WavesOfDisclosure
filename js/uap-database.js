@@ -5269,3 +5269,5 @@ const UAP_DATABASE = [
     "tranche": "5/6"
   }
 ];
+
+export default UAP_DATABASE;
