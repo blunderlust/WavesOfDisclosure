@@ -4,11 +4,96 @@
     "method": "This desk separates official statements from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
-      "label": "COMMUNITY ROUNDUP",
-      "window": "2026-09-30T00:01:10Z/2026-09-30T12:01:07Z",
-      "reddit": "COMMUNITY ROUNDUP: Attempted a roughly 20-thread active-feed scan across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Reddit JSON/API endpoints returned HTTP 403/block pages and the old Reddit RSS route redirected to login, so thread titles, dates, ranking, and claims could not be reliably verified in this edition window. Reddit therefore supplies no reportable development or evidence here.",
-      "x": "COMMUNITY ROUNDUP: Checked the public X search route for UAP and all 50 maintained watchlist profile URLs. All 50 profile URLs returned HTTP 200, but the search route redirected to an onboarding/login shell with no post text or status links. A reachable profile is not evidence that an account posted, nor evidence of a claim or expertise. No watchlist statement is reported as fact.",
-      "editorial_note": "COMMUNITY ROUNDUP records access and attention signals, not verified events. NASA Science and NASA News were reachable; AARO and the Defense Department releases page returned HTTP 403. A broad news search surfaced an unverified media claim about alleged recovered craft, but no accessible primary document or independent corroboration established it during this window. SOURCE WATCH items are retained rather than converted into headlines."
+      "label": "COMMUNITY DAILY ROUNDUP",
+      "window": "2026-09-30",
+      "date": "2026-09-30",
+      "title": "Joe Rogan and David Grusch: the claims that are already reshaping the UAP conversation",
+      "lede": "JRE #2560 is community news because David Grusch is one of the people the UAP community watches most closely. The episode adds a far darker criminal narrative to his earlier crash-retrieval claims, including an on-air affirmation that government officers were involved in child trafficking for money. That allegation is recorded here as an allegation—not as an established fact—and the episode does not publicly prove that trafficking funded UAP programs.",
+      "sections": [
+        {
+          "heading": "The statement everyone will clip",
+          "body": "Around 06:23–06:36, Rogan presses Grusch about the criminal activity he says he encountered while following money under national-security cover. Rogan asks whether he means trafficking, then specifies child trafficking. Grusch agrees. When Rogan summarizes the claim as government involvement in child trafficking for money, Grusch answers: “Officers of the government. That’s true.” This is a real, direct on-air allegation. It is not the same as proof that human trafficking financed UAP crash-retrieval or reverse-engineering programs. The public exchange gives no names, victims, dates, agency records, financial trail, or documentary evidence.",
+          "sources": [
+            {
+              "name": "JRE #2560",
+              "credit": "Original episode · 06:23–06:36",
+              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
+            }
+          ]
+        },
+        {
+          "heading": "What is new compared with 2023",
+          "body": "The 2023 congressional story centered on people with direct knowledge telling Grusch about a multi-decade crash-retrieval and reverse-engineering program and recovered non-human biologics. On Rogan, he adds a criminal-underbelly narrative: government officers, trafficking, washed money, alleged threats, and a claimed connection to a CIA officer called David Rush who allegedly possessed roughly $40 million in gold. He also gives more specific alleged craft shapes, biological categories, dead-body video, underwater installations, and a 1952 Lincoln Laboratory recording. More detail makes the claims more testable; it does not independently verify them.",
+          "sources": [
+            {
+              "name": "2023 House hearing transcript",
+              "credit": "Congress.gov · prior public record",
+              "url": "https://docs.house.gov/meetings/GO/GO06/20230726/116255/HHRG-118-GO06-Transcript-20230726.pdf"
+            },
+            {
+              "name": "JRE #2560 episode analysis",
+              "credit": "Timestamped episode page",
+              "url": "https://finance.biggo.com/podcast/75f92c3fb0df2b95"
+            }
+          ]
+        },
+        {
+          "heading": "The contractor-liability explanation",
+          "body": "Around 46:33–48:00, Grusch and Rogan discuss a claimed 2004 disclosure pros-and-cons study. Grusch says the central obstacle was federal contract fraud and liability: contractors allegedly received sole-source contracts and exclusive access to recovered technology, then sold results back to the government. His proposed motive for secrecy is therefore institutional culpability and legal exposure—not simply public psychological shock. This is one of the episode’s most important new explanatory claims, but the underlying study, contracts, and legal analysis still need to be produced and checked.",
+          "sources": [
+            {
+              "name": "JRE #2560",
+              "credit": "Original episode · 46:33–48:00",
+              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
+            }
+          ]
+        },
+        {
+          "heading": "The threats and the biological claims",
+          "body": "Grusch describes Havana-syndrome-style symptoms among people helping him, a message threatening him and his wife, and a Senate SCIF meeting where he says staffers told him people wanted him killed. He also discusses alleged dead non-human bodies, gray and reptilian forms, tall Nordic or “Greek god” beings, and a crash in which alleged reptilians were killed. These are extraordinary claims presented in an interview; they remain uncorroborated in the public material reviewed here and should be labeled as firsthand, secondhand, inference, or speculation rather than blended together.",
+          "sources": [
+            {
+              "name": "JRE #2560",
+              "credit": "Original episode · threats and beings discussion",
+              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
+            }
+          ]
+        },
+        {
+          "heading": "The incongruities worth watching",
+          "body": "The episode mixes firsthand experience, classified briefings, reports from other people, and interpretation. Grusch says he saw video of alleged bodies but does not have the underlying biological assessment reports or origin data. He connects criminal activity to national-security cover, but the public exchange does not establish that trafficking funded UAP programs. “Government,” agencies, contractors, officers, congressional staff, and alleged rogue actors are also treated as one broad ecosystem even though those categories carry different evidentiary meanings. The right response is not to dismiss the interview or promote it as proven disclosure, but to preserve the claims and track whether documents, witnesses, court records, or official investigations follow.",
+          "sources": [
+            {
+              "name": "JRE #2560",
+              "credit": "Original episode",
+              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
+            },
+            {
+              "name": "Full community analysis",
+              "credit": "The Disclosure Files · detailed claim review",
+              "url": "https://github.com/blunderlust/WavesOfDisclosure/blob/main/news/articles/jre-2560-david-grusch-fine-tooth-comb.md"
+            }
+          ]
+        }
+      ],
+      "media": [
+        {
+          "title": "Watch JRE #2560 — David Grusch",
+          "credit": "Joe Rogan Experience / YouTube",
+          "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
+        },
+        {
+          "title": "Read the full fine-tooth-comb breakdown",
+          "credit": "The Disclosure Files article",
+          "url": "https://github.com/blunderlust/WavesOfDisclosure/blob/main/news/articles/jre-2560-david-grusch-fine-tooth-comb.md"
+        },
+        {
+          "title": "2023 House hearing transcript",
+          "credit": "Congress.gov",
+          "url": "https://docs.house.gov/meetings/GO/GO06/20230726/116255/HHRG-118-GO06-Transcript-20230726.pdf"
+        }
+      ],
+      "editorial_note": "COMMUNITY DAILY ROUNDUP: This is community news because a major UAP figure made new public claims on a high-reach podcast. “Grusch said X” is the reportable event; the truth of X remains a separate verification question. The trafficking allegation is not presented as established fact."
     }
   },
   "items": [
