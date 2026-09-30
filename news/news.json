@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-09-30T00:01:10Z",
+    "checked_at": "2026-09-30T12:01:07Z",
     "method": "This desk separates official statements from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY ROUNDUP",
-      "window": "2026-09-29T00:01:10Z/2026-09-30T00:01:10Z",
-      "reddit": "COMMUNITY ROUNDUP: Attempted a roughly 20-thread hot-feed scan across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Reddit JSON and old Reddit RSS returned HTTP 403/block responses, so thread titles, dates, ranking, and claims could not be reliably verified. No Reddit discussion is promoted as evidence or reported as a sourced development.",
-      "x": "COMMUNITY ROUNDUP: Checked public X search for UAP and checked all 50 maintained watchlist profile URLs. The public search shell exposed no post text or status links, so no account statement could be verified during this window. A reachable profile is not evidence that an account posted, nor evidence of a claim or expertise. No watchlist statement is reported as fact.",
-      "editorial_note": "COMMUNITY ROUNDUP records access and attention signals, not verified events. NASA Science and NASA News were reachable; AARO and the Defense Department releases page returned HTTP 403. No new primary document or independently verified UAP development was established in the edition window. SOURCE WATCH items are retained rather than converted into headlines."
+      "window": "2026-09-30T00:01:10Z/2026-09-30T12:01:07Z",
+      "reddit": "COMMUNITY ROUNDUP: Attempted a roughly 20-thread active-feed scan across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Reddit JSON/API endpoints returned HTTP 403/block pages and the old Reddit RSS route redirected to login, so thread titles, dates, ranking, and claims could not be reliably verified in this edition window. Reddit therefore supplies no reportable development or evidence here.",
+      "x": "COMMUNITY ROUNDUP: Checked the public X search route for UAP and all 50 maintained watchlist profile URLs. All 50 profile URLs returned HTTP 200, but the search route redirected to an onboarding/login shell with no post text or status links. A reachable profile is not evidence that an account posted, nor evidence of a claim or expertise. No watchlist statement is reported as fact.",
+      "editorial_note": "COMMUNITY ROUNDUP records access and attention signals, not verified events. NASA Science and NASA News were reachable; AARO and the Defense Department releases page returned HTTP 403. A broad news search surfaced an unverified media claim about alleged recovered craft, but no accessible primary document or independent corroboration established it during this window. SOURCE WATCH items are retained rather than converted into headlines."
     }
   },
   "items": [
