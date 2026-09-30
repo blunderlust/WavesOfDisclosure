@@ -1094,7 +1094,26 @@ function renderNews(errorMessage = '') {
     return;
   }
 
-  feed.innerHTML = NEWS_ITEMS.map(item => `
+  const roundup = NEWS_META.community_roundup;
+  const roundupHtml = roundup && typeof roundup === 'object' ? `
+    <article class="community-roundup">
+      <div class="community-roundup-kicker">COMMUNITY DAILY ROUNDUP · DISCUSSION SIGNALS, NOT VERIFIED NEWS</div>
+      <h3 class="community-roundup-title">${escapeHtml(roundup.title || 'What the community is talking about')}</h3>
+      ${roundup.date ? `<div class="news-item-meta">${escapeHtml(roundup.date)}</div>` : ''}
+      ${roundup.lede ? `<p class="community-roundup-lede">${escapeHtml(roundup.lede)}</p>` : ''}
+      ${(Array.isArray(roundup.sections) ? roundup.sections : []).map(section => `
+        <section class="community-roundup-section">
+          <h4>${escapeHtml(section.heading || '')}</h4>
+          <p>${escapeHtml(section.body || '')}</p>
+          ${Array.isArray(section.sources) && section.sources.length ? `<div class="community-roundup-links">${section.sources.map(source => `<a href="${escapeHtml(source.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.credit || source.name || 'Source')} ↗</a>`).join('')}</div>` : ''}
+        </section>
+      `).join('')}
+      ${Array.isArray(roundup.media) && roundup.media.length ? `<div class="community-roundup-media"><strong>Videos / images / links</strong>${roundup.media.map(media => `<a href="${escapeHtml(media.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(media.title || media.credit || 'Open media')} ↗</a>`).join('')}</div>` : ''}
+      <div class="community-roundup-disclaimer">Community discussion is reported as discussion. Claims remain unverified unless separately labeled and sourced in the News Desk below.</div>
+    </article>
+  ` : '';
+
+  feed.innerHTML = roundupHtml + NEWS_ITEMS.map(item => `
     <article class="news-item">
       <div class="news-item-meta">${escapeHtml(item.date)} · ${escapeHtml(item.status)} · ${escapeHtml(item.source_type)}</div>
       <h4 class="news-item-title">${escapeHtml(item.headline)}</h4>
