@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
     switchView('home');
   } else if (routeParam === 'news') {
     switchView('news');
+  } else if (routeParam === 'community') {
+    switchView('community');
   } else {
     renderApp();
   }
@@ -1074,26 +1076,6 @@ function escapeHtml(value = '') {
 }
 
 function renderNews(errorMessage = '') {
-  const feed = document.getElementById('terminal-news-feed');
-  const status = document.getElementById('news-desk-status');
-  if (!feed) return;
-
-  if (errorMessage) {
-    if (status) status.innerHTML = `<span class="news-status-warning">${escapeHtml(errorMessage)}</span>`;
-    feed.innerHTML = '';
-    return;
-  }
-
-  const checked = NEWS_META.checked_at ? `Sources checked ${escapeHtml(NEWS_META.checked_at)}.` : '';
-  if (status) {
-    status.innerHTML = `<span class="news-status-label">EDITORIAL METHOD</span> ${escapeHtml(NEWS_META.method || 'Each item is labeled by evidence status and links to its original source.')} ${checked}`;
-  }
-
-  if (!NEWS_ITEMS.length) {
-    feed.innerHTML = '<div class="news-item"><h4 class="news-item-title">No briefing items are loaded.</h4><p class="news-item-content">The desk publishes only sourced material.</p></div>';
-    return;
-  }
-
   const roundup = NEWS_META.community_roundup;
   const roundupHtml = roundup && typeof roundup === 'object' ? `
     <article class="community-roundup">
@@ -1101,6 +1083,7 @@ function renderNews(errorMessage = '') {
       <h3 class="community-roundup-title">${escapeHtml(roundup.title || 'What the community is talking about')}</h3>
       ${roundup.date ? `<div class="news-item-meta">${escapeHtml(roundup.date)}</div>` : ''}
       ${roundup.lede ? `<p class="community-roundup-lede">${escapeHtml(roundup.lede)}</p>` : ''}
+      <p class="community-roundup-reading-link"><a href="news/articles/jre-2560-david-grusch-fine-tooth-comb.html">Read the full fine-tooth-comb breakdown ↗</a></p>
       ${(Array.isArray(roundup.sections) ? roundup.sections : []).map(section => `
         <section class="community-roundup-section">
           <h4>${escapeHtml(section.heading || '')}</h4>
@@ -1109,11 +1092,10 @@ function renderNews(errorMessage = '') {
         </section>
       `).join('')}
       ${Array.isArray(roundup.media) && roundup.media.length ? `<div class="community-roundup-media"><strong>Videos / images / links</strong>${roundup.media.map(media => `<a href="${escapeHtml(media.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(media.title || media.credit || 'Open media')} ↗</a>`).join('')}</div>` : ''}
-      <div class="community-roundup-disclaimer">Community discussion is reported as discussion. Claims remain unverified unless separately labeled and sourced in the News Desk below.</div>
+      <div class="community-roundup-disclaimer">Community discussion is reported as discussion. Claims remain unverified unless separately labeled and sourced in the News Desk.</div>
     </article>
   ` : '';
-
-  feed.innerHTML = roundupHtml + NEWS_ITEMS.map(item => `
+  const itemsHtml = NEWS_ITEMS.length ? NEWS_ITEMS.map(item => `
     <article class="news-item">
       <div class="news-item-meta">${escapeHtml(item.date)} · ${escapeHtml(item.status)} · ${escapeHtml(item.source_type)}</div>
       <h4 class="news-item-title">${escapeHtml(item.headline)}</h4>
@@ -1123,7 +1105,23 @@ function renderNews(errorMessage = '') {
         <a class="news-source-link" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">Read original source ↗</a>
       </div>
     </article>
-  `).join('');
+  `).join('') : '<div class="news-item"><h4 class="news-item-title">No briefing items are loaded.</h4><p class="news-item-content">The desk publishes only sourced material.</p></div>';
+
+  const targets = [
+    { feed: document.getElementById('terminal-news-feed'), status: document.getElementById('news-desk-status'), html: itemsHtml },
+    { feed: document.getElementById('community-news-feed'), status: document.getElementById('community-news-status'), html: roundupHtml || '<div class="news-item"><h4 class="news-item-title">No community roundup is loaded.</h4></div>' }
+  ];
+  targets.forEach(target => {
+    if (!target.feed) return;
+    if (errorMessage) {
+      if (target.status) target.status.innerHTML = `<span class="news-status-warning">${escapeHtml(errorMessage)}</span>`;
+      target.feed.innerHTML = '';
+      return;
+    }
+    const checked = NEWS_META.checked_at ? `Sources checked ${escapeHtml(NEWS_META.checked_at)}.` : '';
+    if (target.status) target.status.innerHTML = `<span class="news-status-label">EDITORIAL METHOD</span> ${escapeHtml(NEWS_META.method || 'Each item is labeled by evidence status and links to its original source.')} ${checked}`;
+    target.feed.innerHTML = target.html;
+  });
 }
 function initWatchRoomNavigation() {
   const prevBtn = document.getElementById('watch-btn-prev');
