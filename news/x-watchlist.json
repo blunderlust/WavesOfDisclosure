@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-27T00:00:52Z",
-  "window": "2026-09-26T00:00:00Z/2026-09-27T00:00:52Z",
+  "checked_at": "2026-09-30T00:01:10Z",
+  "window": "2026-09-29T00:01:10Z/2026-09-30T00:01:10Z",
   "method": "Public profile existence was checked at x.com/<handle>. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
   "accounts": [
     {"handle":"NASA","url":"https://x.com/NASA","role":"official science agency","profile_check":"HTTP 200"},
@@ -35,7 +35,7 @@
     {"handle":"UFOsNews","url":"https://x.com/UFOsNews","role":"UFO news account","profile_check":"HTTP 200"},
     {"handle":"UAPNews","url":"https://x.com/UAPNews","role":"UAP news account","profile_check":"HTTP 200"},
     {"handle":"UAPreporting","url":"https://x.com/UAPreporting","role":"UAP reporting account","profile_check":"HTTP 200"},
-    {"handle":"UAPReporting","url":"https://x.com/UAPReporting","role":"UAP reporting account","profile_check":"HTTP 200"},
+    {"handle":"ChrisKMellon","url":"https://x.com/ChrisKMellon","role":"former U.S. intelligence official / UAP commentator","profile_check":"HTTP 200"},
     {"handle":"UAPdisclosure","url":"https://x.com/UAPdisclosure","role":"disclosure discussion account","profile_check":"HTTP 200"},
     {"handle":"UAP_Research","url":"https://x.com/UAP_Research","role":"UAP research account","profile_check":"HTTP 200"},
     {"handle":"UFOUpdates","url":"https://x.com/UFOUpdates","role":"UFO news account","profile_check":"HTTP 200"},
