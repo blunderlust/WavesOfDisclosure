@@ -1,127 +1,83 @@
 {
   "meta": {
-    "checked_at": "2026-09-30T12:01:07Z",
-    "method": "This desk separates official statements from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
+    "checked_at": "2026-10-07T01:00:00Z",
+    "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-09-30",
-      "date": "2026-09-30",
-      "title": "Joe Rogan and David Grusch: the claims that are already reshaping the UAP conversation",
-      "lede": "I have been following the Grusch story since the 2023 hearing, and this is not just another repeat of ‘there are crash retrieval programs.’ On Rogan, he adds a much darker criminal story, talks about alleged threats and different non-human forms, and gives a new explanation for why the whole subject may have stayed buried. The trafficking statement is a real on-air allegation. It is not proof that trafficking funded UAP programs.",
+      "window": "2026-10-06T01:00:00Z/2026-10-07T01:00:00Z",
+      "date": "2026-10-07",
+      "title": "COMMUNITY ROUNDUP: The feed is busy; the evidence cupboard is not",
+      "lede": "The UAP community spent this 24-hour window circling a familiar set of big claims: a proposed XPRIZE for proof of alien visitation, a podcast allegation that DIA found missing AAWSAP files, claims about U.S. possession of non-human technology, and a NASA chief's stated willingness to stay open-minded. None cleared this desk as a newly verified development. The strongest signal is not a breakthrough but a recurring argument about provenance: where is the document, who has actually seen it, and what would count as corroboration? This is COMMUNITY DAILY ROUNDUP, a map of discussion rather than verified news.",
       "sections": [
         {
-          "heading": "The statement everyone will clip",
-          "body": "Around 06:23–06:36, Joe keeps pressing Grusch about criminal activity he says he ran into while following money under national-security cover. Joe asks if he means trafficking, then says child trafficking. Grusch agrees. When Joe summarizes it as government involvement in child trafficking for money, Grusch says: ‘Officers of the government. That’s true.’ That is what he said. It is a huge allegation, but the clip gives us no names, victims, dates, agencies, indictments, or paper trail. It also does not prove that human trafficking financed UAP crash retrieval.",
+          "heading": "Reddit's loudest threads: prizes, files, and extraordinary claims",
+          "body": "The accessible r/UFOs new-post feed was sampled at 01:00 UTC. Among its first 20 visible entries were discussion of an XPRIZE chairman reportedly exploring a prize for proof of alien visitation; a post relaying Jeremy Corbell and George Knapp's claim that DIA located missing AAWSAP files; a thread saying a guest told Avi Loeb the United States possesses alien technology; and a post linking a missing-scientist story to President Trump's alien-files order. These are accurately described as community posts and reported claims. The feed does not, by itself, establish that a prize has been announced, that files were recovered, or that alien technology is held by the U.S. government. The recurring disagreement is over whether a dramatic assertion is a lead worth pursuing or merely another lap around the rumor track.",
           "sources": [
-            {
-              "name": "JRE #2560",
-              "credit": "Original episode · 06:23–06:36",
-              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
-            }
+            {"name":"r/UFOs new-post RSS","credit":"Community scan · first 20 accessible entries at 01:00 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
+            {"name":"XPRIZE discussion","credit":"r/UFOs community post; reported exploration, not an announced prize","url":"https://www.reddit.com/r/UFOs/comments/1wzf6vn/xprize_chairman_exploring_new_xprize_for_proof_of/"},
+            {"name":"AAWSAP files claim","credit":"r/UFOs community post relaying a podcast claim; underlying records not verified","url":"https://www.reddit.com/r/UFOs/comments/1wzdmi6/knapp_dia_has_located_the_missing_aawsap_files/"},
+            {"name":"Alien-technology discussion","credit":"r/UFOs community post relaying an attributed conversation; claim unverified","url":"https://www.reddit.com/r/UFOs/comments/1wz8t5r/distinguished_guest_told_avi_loeb_the_us_is_in/"}
           ]
         },
         {
-          "heading": "What is new compared with 2023",
-          "body": "The 2023 story was already extraordinary but fairly contained: people with direct knowledge told Grusch about a long-running crash-retrieval and reverse-engineering program, and he testified about recovered non-human biologics. On Rogan, he adds a criminal-underbelly story, alleged threats, the David Rush gold-bars story, a contractor-liability motive for secrecy, and much more detail about alleged craft, bodies, and different non-human forms. More detail makes the claims more testable. It does not independently verify them.",
+          "heading": "Old cases, new attention",
+          "body": "History supplied much of the feed's oxygen: 1965's East Coast blackout, the 1984 Hudson Valley sightings, Bruno Facchini's 1950 account, the Phoenix Lights, the 1976 Tehran case, and a reconstruction of Phoenix reports in interactive 3D. This is useful attention, not new evidence. A newly posted historical explainer still needs the old-fashioned treatment—contemporaneous records, witness provenance, sensor context where available, chain of custody, and the strongest conventional explanation alongside the anomalous reading. The 3D Phoenix project is particularly useful as a presentation of reported positions and night-sky context, but a reconstruction is not a time machine. Pity; it would make archival work much easier.",
           "sources": [
-            {
-              "name": "2023 House hearing transcript",
-              "credit": "Congress.gov · prior public record",
-              "url": "https://docs.house.gov/meetings/GO/GO06/20230726/116255/HHRG-118-GO06-Transcript-20230726.pdf"
-            },
-            {
-              "name": "JRE #2560 episode analysis",
-              "credit": "Timestamped episode page",
-              "url": "https://finance.biggo.com/podcast/75f92c3fb0df2b95"
-            }
+            {"name":"Phoenix Lights interactive reconstruction","credit":"r/UFOs community post; reconstruction and historical interpretation","url":"https://www.reddit.com/r/UFOs/comments/1wz8p7p/we_reconstructed_the_phoenix_lights_reports_in/"},
+            {"name":"1984 Hudson Valley discussion","credit":"r/UFOs community post linking historical news footage","url":"https://www.reddit.com/r/UFOs/comments/1wzb5i2/1984_news_report_on_the_hudson_valley_ufo_sightings/"},
+            {"name":"1976 Tehran discussion","credit":"r/UFOs community post; historical case discussion","url":"https://www.reddit.com/r/UFOs/comments/1wxkonc/one_of_my_favorite_cases_the_1976_tehran_ufo_that/"}
           ]
         },
         {
-          "heading": "The contractor-liability explanation",
-          "body": "Around 46:33–48:00, Grusch talks about a claimed 2004 disclosure study. His version is that the main problem was not public panic but contractor liability: certain contractors allegedly received sole-source contracts and exclusive access to recovered technology, then sold results back to the government for decades. That is a more concrete motive than ‘people could not handle the truth.’ Where is the study, though? Who wrote it, who paid for it, and what contracts are involved? Until those records appear, this remains Grusch’s account.",
+          "heading": "The other Reddit rooms went quiet only because the door was locked",
+          "body": "Requests for r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned HTTP 429 rate-limit responses during the scan. That is an access limitation, not evidence of low activity, agreement, or silence. The edition therefore uses r/UFOs as the accessible community sample and does not pretend it represents the whole conversation. Experiencer and high-strangeness perspectives remain important to the beat, especially where perception, altered states, memory, and meaning are part of the account; they should still be distinguished from independently corroborated external events.",
           "sources": [
-            {
-              "name": "JRE #2560",
-              "credit": "Original episode · 46:33–48:00",
-              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
-            }
+            {"name":"r/UAP new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/UAP/new/.rss?limit=20"},
+            {"name":"r/HighStrangeness new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/HighStrangeness/new/.rss?limit=20"},
+            {"name":"r/Experiencers new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/Experiencers/new/.rss?limit=20"},
+            {"name":"r/aliens new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/aliens/new/.rss?limit=20"}
           ]
         },
         {
-          "heading": "The threats and the biological claims",
-          "body": "This is the section that will generate its own wave of clips. Grusch talks about Havana-syndrome-like symptoms among people helping him, a message threatening him and his wife, and a Senate SCIF meeting where he says staffers told him people wanted him killed. He also discusses small and tall grays, reptilian forms, tall Nordic or ‘Greek god-looking’ beings, alleged dead bodies, and a crash where alleged reptilians were killed. If true, that would be one of the most important stories in modern UAP history. Right now it is still an account on a podcast, not a verified incident report.",
+          "heading": "Podcast watch: Weaponized supplies context, not a transcript",
+          "body": "The Weaponized archive page was reachable, but no searchable transcript or dependable consequential timestamps were located during this edition. The current page remains useful as an episode index for the show's continuing claims about UAP incidents, alleged government records, and recovery narratives. Because the AAWSAP-files discussion is circulating through Reddit, the show is relevant as community context; its allegations remain allegations until documentary or witness corroboration is available. That UFO Podcast's public archive was also checked, but no new episode inside this exact window was verified. No podcast quote is used here. A transcript that cannot be checked is a fine reason not to put quotation marks on the internet.",
           "sources": [
-            {
-              "name": "JRE #2560",
-              "credit": "Original episode · threats and beings discussion",
-              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
-            }
+            {"name":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp · episode pages checked; transcript access unavailable","url":"https://www.weaponizedpodcast.com/episodes-5"},
+            {"name":"That UFO Podcast","credit":"Show archive checked; no new episode in the window verified","url":"https://www.thatufopodcast.com/thatufopodcast"}
           ]
         },
         {
-          "heading": "The incongruities worth watching",
-          "body": "The interview moves quickly between things Grusch says he saw, things other people told him, classified briefings, and his own interpretation. ‘Government’ also covers a lot of ground: an officer, a contractor, a congressional staffer, a rogue group, and an agency are not interchangeable. The biggest overstatement would be turning the interview into ‘child trafficking funded the UFO program.’ Grusch affirmed the trafficking allegation and described national-security cover, but the public exchange did not establish that funding connection.",
+          "heading": "X watch: the watchlist is intact, the posts are not verifiable here",
+          "body": "Public X search again returned the logged-out application shell rather than attributable post text or a usable timeline. The maintained watchlist was reviewed without adding a handle; no account was treated as having posted merely because its profile URL exists. The desk therefore reports no X-originated development from this window. This is a limitation of access, not a claim that nothing happened on X. The maintained list remains a research aid, not a celebrity directory or evidence ledger.",
           "sources": [
-            {
-              "name": "JRE #2560",
-              "credit": "Original episode",
-              "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
-            }
+            {"name":"Public X search","credit":"Logged-out shell; no query results or post text verified","url":"https://x.com/search?q=UAP&src=typed_query&f=live"},
+            {"name":"The Disclosure Files X watchlist","credit":"Maintained list of 50 profile URLs; no new post verified","url":"https://x.com/"}
+          ]
+        },
+        {
+          "heading": "Desk judgment: no major verified community development today",
+          "body": "There was plenty of attention and no newly verified breakthrough. The best editorial candidates are a provenance audit of the alleged AAWSAP-files recovery, a document check on the reported XPRIZE exploration, and a careful historical feature using the Phoenix reconstruction without confusing visualization for corroboration. The community's most durable question remains the right one: what primary record, named witness, or reproducible observation could move these claims from circulation to evidence? Until that answer arrives, the responsible label is COMMUNITY ROUNDUP, not NEWS.",
+          "sources": [
+            {"name":"AARO","credit":"Primary-source watch page","url":"https://www.aaro.mil/"},
+            {"name":"NASA UAP research","credit":"Primary-source watch page","url":"https://science.nasa.gov/uap/"},
+            {"name":"Department of Defense releases","credit":"Primary-source watch page","url":"https://www.defense.gov/News/Releases/"}
           ]
         }
       ],
       "media": [
-        {
-          "title": "Watch JRE #2560 — David Grusch",
-          "credit": "Joe Rogan Experience / YouTube",
-          "url": "https://www.youtube.com/watch?v=dYPXINFcvmI"
-        },
-        {
-          "title": "2023 House hearing transcript",
-          "credit": "Congress.gov",
-          "url": "https://docs.house.gov/meetings/GO/GO06/20230726/116255/HHRG-118-GO06-Transcript-20230726.pdf"
-        }
+        {"title":"Recent r/UFOs discussion feed","credit":"Reddit community · edition scan","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
+        {"title":"Phoenix Lights interactive reconstruction","credit":"Community-linked project; creator credit not identifiable from the accessible post metadata","url":"https://www.reddit.com/r/UFOs/comments/1wz8p7p/we_reconstructed_the_phoenix_lights_reports_in/"},
+        {"title":"XPRIZE discussion","credit":"r/UFOs community post; reported exploration, not an announced prize","url":"https://www.reddit.com/r/UFOs/comments/1wzf6vn/xprize_chairman_exploring_new_xprize_for_proof_of/"},
+        {"title":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp · transcript unavailable in this scan","url":"https://www.weaponizedpodcast.com/episodes-5"}
       ],
-      "editorial_note": "COMMUNITY DAILY ROUNDUP: This is community news because a major UAP figure made new public claims on a high-reach podcast. “Grusch said X” is the reportable event; whether X is true remains a separate question. The trafficking allegation is not presented as established fact."
+      "editorial_note": "COMMUNITY ROUNDUP: This article summarizes discussion, not verified news. Reddit and X are attention signals, not proof. Claims attributed to witnesses, account holders, podcast hosts, or community posters remain claims unless independently corroborated. The verified desk remains unchanged."
     }
   },
   "items": [
-    {
-      "date": "2026-09-27",
-      "status": "SOURCE WATCH",
-      "source_type": "PRIMARY SOURCE",
-      "headline": "AARO public record: cases, reports, and official releases",
-      "summary": "The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.",
-      "source_name": "AARO / U.S. Department of Defense",
-      "source_url": "https://www.aaro.mil/"
-    },
-    {
-      "date": "2026-09-27",
-      "status": "SOURCE WATCH",
-      "source_type": "PRIMARY SOURCE",
-      "headline": "NASA UAP research and public material",
-      "summary": "NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.",
-      "source_name": "NASA Science",
-      "source_url": "https://science.nasa.gov/uap/"
-    },
-    {
-      "date": "2026-09-27",
-      "status": "SOURCE WATCH",
-      "source_type": "PRIMARY SOURCE",
-      "headline": "NASA news releases: check before calling a development news",
-      "summary": "A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.",
-      "source_name": "NASA News",
-      "source_url": "https://www.nasa.gov/news/"
-    },
-    {
-      "date": "2026-09-27",
-      "status": "SOURCE WATCH",
-      "source_type": "PRIMARY SOURCE",
-      "headline": "Defense Department releases and statements",
-      "summary": "The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.",
-      "source_name": "U.S. Department of Defense",
-      "source_url": "https://www.defense.gov/News/Releases/"
-    }
+    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"AARO public record: cases, reports, and official releases","summary":"The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.","source_name":"AARO / U.S. Department of Defense","source_url":"https://www.aaro.mil/"},
+    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA UAP research and public material","summary":"NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.","source_name":"NASA Science","source_url":"https://science.nasa.gov/uap/"},
+    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA news releases: check before calling a development news","summary":"A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.","source_name":"NASA News","source_url":"https://www.nasa.gov/news/"},
+    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"Defense Department releases and statements","summary":"The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.","source_name":"U.S. Department of Defense","source_url":"https://www.defense.gov/News/Releases/"}
   ]
 }
