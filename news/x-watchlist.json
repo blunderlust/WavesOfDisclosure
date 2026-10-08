@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-07T01:00:00Z",
-  "window": "2026-10-06T01:00:00Z/2026-10-07T01:00:00Z",
+  "checked_at": "2026-10-08T01:00:36Z",
+  "window": "2026-10-07T01:00:36Z/2026-10-08T01:00:36Z",
   "method": "Public profile existence was previously checked at x.com/<handle>; this edition's public X search returned only the logged-out application shell. No new handle was added and no account was treated as having posted without attributable post text. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
   "accounts": [
     {"handle":"NASA","url":"https://x.com/NASA","role":"official science agency","profile_check":"HTTP 200"},

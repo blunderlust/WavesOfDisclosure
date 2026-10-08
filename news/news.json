@@ -1,20 +1,22 @@
 {
   "meta": {
-    "checked_at": "2026-10-07T01:00:00Z",
+    "checked_at": "2026-10-08T01:00:36Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-06T01:00:00Z/2026-10-07T01:00:00Z",
-      "date": "2026-10-07",
+      "window": "2026-10-07T01:00:36Z/2026-10-08T01:00:36Z",
+      "date": "2026-10-08",
       "title": "COMMUNITY ROUNDUP: The feed is busy; the evidence cupboard is not",
-      "lede": "The UAP community spent this 24-hour window circling a familiar set of big claims: a proposed XPRIZE for proof of alien visitation, a podcast allegation that DIA found missing AAWSAP files, claims about U.S. possession of non-human technology, and a NASA chief's stated willingness to stay open-minded. None cleared this desk as a newly verified development. The strongest signal is not a breakthrough but a recurring argument about provenance: where is the document, who has actually seen it, and what would count as corroboration? This is COMMUNITY DAILY ROUNDUP, a map of discussion rather than verified news.",
+      "lede": "This edition's accessible Reddit sample remains dominated by a reported interview in which Rep. James Comer said an Oversight Committee UAP hearing might be revisited during the November lame-duck period, alongside arguments about prominent personalities and old cases. A fresh RSS check found no materially different development in the accessible sample. The interview is a real published source; the hearing is prospective, not scheduled fact. The other monitored subreddits returned rate limits, and logged-out X search exposed no attributable posts. This is COMMUNITY ROUNDUP: attention is not proof, and a possible hearing is not a hearing.",
       "sections": [
         {
-          "heading": "Reddit's loudest threads: prizes, files, and extraordinary claims",
-          "body": "The accessible r/UFOs new-post feed was sampled at 01:00 UTC. Among its first 20 visible entries were discussion of an XPRIZE chairman reportedly exploring a prize for proof of alien visitation; a post relaying Jeremy Corbell and George Knapp's claim that DIA located missing AAWSAP files; a thread saying a guest told Avi Loeb the United States possesses alien technology; and a post linking a missing-scientist story to President Trump's alien-files order. These are accurately described as community posts and reported claims. The feed does not, by itself, establish that a prize has been announced, that files were recovered, or that alien technology is held by the U.S. government. The recurring disagreement is over whether a dramatic assertion is a lead worth pursuing or merely another lap around the rumor track.",
+          "heading": "Reddit's accessible sample: a possible hearing, and the argument around it",
+          "body": "The accessible r/UFOs new-post RSS feed was rechecked at 01:00 UTC. Its first visible thread still linked to Ask a Pol UAP's interview with House Oversight Chair James Comer. The published account says Comer discussed trying again for a UAP hearing during an ‘aggressive’ post-election lame-duck session and acknowledged that no topic had been firmly agreed. That establishes a published report and an attributed statement—not a committee notice, hearing date, or official agenda. Other visible threads revisited Grusch, Elizondo, the Energy Secretary, historical cases, and the community's growing fatigue with personality-driven disclosure. Reddit is a lead generator here, not corroboration.",
           "sources": [
-            {"name":"r/UFOs new-post RSS","credit":"Community scan · first 20 accessible entries at 01:00 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
+            {"name":"r/UFOs new-post RSS","credit":"Community scan · first 20 requested entries; feed rechecked at 01:00 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
+                        {"name":"Oversight Chair hearing discussion","credit":"r/UFOs post linking a published interview; prospective plan, not a scheduled hearing","url":"https://www.reddit.com/r/UFOs/comments/1x0a3ij/watch_now_oversight_chair_planning_uap_hearing/"},
+                        {"name":"Ask a Pol UAP interview","credit":"Published interview with attributed Comer remarks; checked 2026-10-08 UTC","url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"},
             {"name":"XPRIZE discussion","credit":"r/UFOs community post; reported exploration, not an announced prize","url":"https://www.reddit.com/r/UFOs/comments/1wzf6vn/xprize_chairman_exploring_new_xprize_for_proof_of/"},
             {"name":"AAWSAP files claim","credit":"r/UFOs community post relaying a podcast claim; underlying records not verified","url":"https://www.reddit.com/r/UFOs/comments/1wzdmi6/knapp_dia_has_located_the_missing_aawsap_files/"},
             {"name":"Alien-technology discussion","credit":"r/UFOs community post relaying an attributed conversation; claim unverified","url":"https://www.reddit.com/r/UFOs/comments/1wz8t5r/distinguished_guest_told_avi_loeb_the_us_is_in/"}
@@ -49,10 +51,10 @@
         },
         {
           "heading": "X watch: the watchlist is intact, the posts are not verifiable here",
-          "body": "Public X search again returned the logged-out application shell rather than attributable post text or a usable timeline. The maintained watchlist was reviewed without adding a handle; no account was treated as having posted merely because its profile URL exists. The desk therefore reports no X-originated development from this window. This is a limitation of access, not a claim that nothing happened on X. The maintained list remains a research aid, not a celebrity directory or evidence ledger.",
+          "body": "Public X search returned the logged-out application shell rather than attributable post text or a usable timeline. The 50-account watchlist was reviewed without adding a handle; no account was treated as having posted merely because its profile URL exists. The desk therefore reports no X-originated development from this window. This is a limitation of access, not a claim that nothing happened on X. The maintained list remains a research aid, not a celebrity directory or evidence ledger.",
           "sources": [
             {"name":"Public X search","credit":"Logged-out shell; no query results or post text verified","url":"https://x.com/search?q=UAP&src=typed_query&f=live"},
-            {"name":"The Disclosure Files X watchlist","credit":"Maintained list of 50 profile URLs; no new post verified","url":"https://x.com/"}
+            {"name":"The Disclosure Files X watchlist","credit":"Maintained list of 50 profile URLs; no new post verified in this scan","url":"https://x.com/"}
           ]
         },
         {
@@ -68,7 +70,7 @@
       "media": [
         {"title":"Recent r/UFOs discussion feed","credit":"Reddit community · edition scan","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
         {"title":"Phoenix Lights interactive reconstruction","credit":"Community-linked project; creator credit not identifiable from the accessible post metadata","url":"https://www.reddit.com/r/UFOs/comments/1wz8p7p/we_reconstructed_the_phoenix_lights_reports_in/"},
-        {"title":"XPRIZE discussion","credit":"r/UFOs community post; reported exploration, not an announced prize","url":"https://www.reddit.com/r/UFOs/comments/1wzf6vn/xprize_chairman_exploring_new_xprize_for_proof_of/"},
+        {"title":"Ask a Pol UAP hearing interview","credit":"Published interview; prospective congressional discussion, not a scheduled event","url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"},
         {"title":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp · transcript unavailable in this scan","url":"https://www.weaponizedpodcast.com/episodes-5"}
       ],
       "editorial_note": "COMMUNITY ROUNDUP: This article summarizes discussion, not verified news. Reddit and X are attention signals, not proof. Claims attributed to witnesses, account holders, podcast hosts, or community posters remain claims unless independently corroborated. The verified desk remains unchanged."
@@ -78,6 +80,7 @@
     {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"AARO public record: cases, reports, and official releases","summary":"The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.","source_name":"AARO / U.S. Department of Defense","source_url":"https://www.aaro.mil/"},
     {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA UAP research and public material","summary":"NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.","source_name":"NASA Science","source_url":"https://science.nasa.gov/uap/"},
     {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA news releases: check before calling a development news","summary":"A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.","source_name":"NASA News","source_url":"https://www.nasa.gov/news/"},
-    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"Defense Department releases and statements","summary":"The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.","source_name":"U.S. Department of Defense","source_url":"https://www.defense.gov/News/Releases/"}
+    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"Defense Department releases and statements","summary":"The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.","source_name":"U.S. Department of Defense","source_url":"https://www.defense.gov/News/Releases/"},
+    {"date":"2026-10-07","status":"REPORTED","source_type":"PUBLIC INTERVIEW","headline":"Rep. James Comer says a UAP hearing may return during the November lame-duck period","summary":"Ask a Pol UAP published an interview in which House Oversight Chair James Comer said the committee might try to pick up a UAP hearing during an ‘aggressive’ post-election lame-duck period. The report establishes an attributed public statement, not an announced hearing, date, topic, or witness list; no committee notice was independently verified in this scan.","source_name":"Ask a Pol UAP","source_url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"}
   ]
 }
