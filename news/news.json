@@ -1,65 +1,64 @@
 {
   "meta": {
-    "checked_at": "2026-10-08T01:00:36Z",
+    "checked_at": "2026-10-09T01:01:39Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-07T01:00:36Z/2026-10-08T01:00:36Z",
-      "date": "2026-10-08",
-      "title": "COMMUNITY ROUNDUP: The feed is busy; the evidence cupboard is not",
-      "lede": "This edition's accessible Reddit sample remains dominated by a reported interview in which Rep. James Comer said an Oversight Committee UAP hearing might be revisited during the November lame-duck period, alongside arguments about prominent personalities and old cases. A fresh RSS check found no materially different development in the accessible sample. The interview is a real published source; the hearing is prospective, not scheduled fact. The other monitored subreddits returned rate limits, and logged-out X search exposed no attributable posts. This is COMMUNITY ROUNDUP: attention is not proof, and a possible hearing is not a hearing.",
+      "window": "2026-10-08T01:01:39Z/2026-10-09T01:01:39Z",
+      "date": "2026-10-09",
+      "title": "COMMUNITY ROUNDUP: The CE5 challenge, UFO folklore, and a quiet podcast desk",
+      "lede": "The accessible Reddit conversation over the last 24 hours split between a familiar question—why do not more prominent creators test claimed CE5 contact methods?—and renewed attention to Mark Pilkington's BASES talk about UFO mythology, disinformation, and national-security judgment. The major podcast archives supplied context but no newly verified episode in this window, while logged-out X search exposed no attributable posts. This is COMMUNITY DAILY ROUNDUP: a map of discussion, not verified news.",
       "sections": [
         {
-          "heading": "Reddit's accessible sample: a possible hearing, and the argument around it",
-          "body": "The accessible r/UFOs new-post RSS feed was rechecked at 01:00 UTC. Its first visible thread still linked to Ask a Pol UAP's interview with House Oversight Chair James Comer. The published account says Comer discussed trying again for a UAP hearing during an ‘aggressive’ post-election lame-duck session and acknowledged that no topic had been firmly agreed. That establishes a published report and an attributed statement—not a committee notice, hearing date, or official agenda. Other visible threads revisited Grusch, Elizondo, the Energy Secretary, historical cases, and the community's growing fatigue with personality-driven disclosure. Reddit is a lead generator here, not corroboration.",
+          "heading": "The day's live argument: should influencers actually try CE5?",
+          "body": "The newest accessible r/UFOs thread asks why well-known podcasters and influencers do not test claimed CE5 contact methods in public. The post is a community prompt, not a controlled experiment: it mixes anecdote, expectation, recording problems, and the possibility that observation changes the reported experience. That last question belongs in the conversation, especially for consciousness-first interpretations, but an interesting anecdote is not the same thing as reproducible evidence. A useful test would need pre-registered methods, independent observers, timestamped raw data, and honest reporting of failures—not merely a camera pointed at a dark sky while everyone hopes the universe has good production values.",
           "sources": [
-            {"name":"r/UFOs new-post RSS","credit":"Community scan · first 20 requested entries; feed rechecked at 01:00 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
-                        {"name":"Oversight Chair hearing discussion","credit":"r/UFOs post linking a published interview; prospective plan, not a scheduled hearing","url":"https://www.reddit.com/r/UFOs/comments/1x0a3ij/watch_now_oversight_chair_planning_uap_hearing/"},
-                        {"name":"Ask a Pol UAP interview","credit":"Published interview with attributed Comer remarks; checked 2026-10-08 UTC","url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"},
-            {"name":"XPRIZE discussion","credit":"r/UFOs community post; reported exploration, not an announced prize","url":"https://www.reddit.com/r/UFOs/comments/1wzf6vn/xprize_chairman_exploring_new_xprize_for_proof_of/"},
-            {"name":"AAWSAP files claim","credit":"r/UFOs community post relaying a podcast claim; underlying records not verified","url":"https://www.reddit.com/r/UFOs/comments/1wzdmi6/knapp_dia_has_located_the_missing_aawsap_files/"},
-            {"name":"Alien-technology discussion","credit":"r/UFOs community post relaying an attributed conversation; claim unverified","url":"https://www.reddit.com/r/UFOs/comments/1wz8t5r/distinguished_guest_told_avi_loeb_the_us_is_in/"}
+            {"name":"r/UFOs: Why don't more influencers try to contact them?","credit":"Community post by u/Fun_Gain_9596; discussion and claims are unverified","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"},
+            {"name":"Area 52 interviews discussion","credit":"Referenced by the Reddit poster; original interview context was not independently audited in this edition","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"}
           ]
         },
         {
-          "heading": "Old cases, new attention",
-          "body": "History supplied much of the feed's oxygen: 1965's East Coast blackout, the 1984 Hudson Valley sightings, Bruno Facchini's 1950 account, the Phoenix Lights, the 1976 Tehran case, and a reconstruction of Phoenix reports in interactive 3D. This is useful attention, not new evidence. A newly posted historical explainer still needs the old-fashioned treatment—contemporaneous records, witness provenance, sensor context where available, chain of custody, and the strongest conventional explanation alongside the anomalous reading. The 3D Phoenix project is particularly useful as a presentation of reported positions and night-sky context, but a reconstruction is not a time machine. Pity; it would make archival work much easier.",
+          "heading": "The durable counterargument: folklore can become an institution",
+          "body": "A second prominent r/UFOs thread circulated Mark Pilkington's BASES 2024 presentation, which argues that the national-security problem may lie less in mysterious objects than in the myths, disinformation, and institutional distrust that gather around them. Commenters revisited the 1953 Robertson Panel, David Grusch, intelligence credentials, and the way secondhand stories acquire authority inside hierarchical organizations. The historical record does establish that the panel treated UFO reports as a potential psychological-warfare vulnerability. It does not, by itself, prove that every later UFO narrative was deliberately manufactured. That distinction—documented concern versus sweeping causal theory—is where the useful reporting begins.",
           "sources": [
-            {"name":"Phoenix Lights interactive reconstruction","credit":"r/UFOs community post; reconstruction and historical interpretation","url":"https://www.reddit.com/r/UFOs/comments/1wz8p7p/we_reconstructed_the_phoenix_lights_reports_in/"},
-            {"name":"1984 Hudson Valley discussion","credit":"r/UFOs community post linking historical news footage","url":"https://www.reddit.com/r/UFOs/comments/1wzb5i2/1984_news_report_on_the_hudson_valley_ufo_sightings/"},
-            {"name":"1976 Tehran discussion","credit":"r/UFOs community post; historical case discussion","url":"https://www.reddit.com/r/UFOs/comments/1wxkonc/one_of_my_favorite_cases_the_1976_tehran_ufo_that/"}
+            {"name":"Mark Pilkington BASES talk","credit":"Public video linked in the community thread; Pilkington is the speaker","url":"https://www.youtube.com/watch?v=HeLyz4Q9I8I"},
+            {"name":"r/UFOs discussion of the talk","credit":"Community post by u/fat_earther_; commentary is not independent corroboration","url":"https://www.reddit.com/r/UFOs/comments/1x15hmy/ufos_a_national_security_issue_by_mark_pilkington/"},
+            {"name":"Robertson Panel report","credit":"Declassified historical document; primary-source context, not proof of later claims","url":"https://documents.theblackvault.com/documents/ufos/robertsonpanelreport.pdf"},
+            {"name":"CIA role study on UFOs","credit":"Declassified agency history; interpretation requires reading the document in context","url":"https://www.cia.gov/resources/csi/static/cia-role-study-UFOs.pdf"}
           ]
         },
         {
-          "heading": "The other Reddit rooms went quiet only because the door was locked",
-          "body": "Requests for r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned HTTP 429 rate-limit responses during the scan. That is an access limitation, not evidence of low activity, agreement, or silence. The edition therefore uses r/UFOs as the accessible community sample and does not pretend it represents the whole conversation. Experiencer and high-strangeness perspectives remain important to the beat, especially where perception, altered states, memory, and meaning are part of the account; they should still be distinguished from independently corroborated external events.",
+          "heading": "The rest of Reddit: a locked door, not an empty room",
+          "body": "The desk attempted the requested new-post RSS scans for r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Those requests returned HTTP 429 rate-limit responses. The accessible r/UFOs feed was checked at 01:01 UTC and its available active sample reviewed; this edition does not pretend that one subreddit represents the whole field. The access failure says nothing about activity, consensus, or silence in the other communities. Experiencer and high-strangeness discussions remain relevant to the beat, particularly where memory, altered states, perception, and meaning are involved, but testimony and interpretation should remain visibly distinct from corroborated external events.",
           "sources": [
-            {"name":"r/UAP new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/UAP/new/.rss?limit=20"},
-            {"name":"r/HighStrangeness new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/HighStrangeness/new/.rss?limit=20"},
-            {"name":"r/Experiencers new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/Experiencers/new/.rss?limit=20"},
-            {"name":"r/aliens new-post RSS","credit":"HTTP 429 during desk scan","url":"https://www.reddit.com/r/aliens/new/.rss?limit=20"}
+            {"name":"r/UFOs new-post RSS","credit":"Accessible sample; checked 2026-10-09 at 01:01 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
+            {"name":"r/UAP new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/UAP/new/.rss?limit=20"},
+            {"name":"r/HighStrangeness new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/HighStrangeness/new/.rss?limit=20"},
+            {"name":"r/Experiencers new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/Experiencers/new/.rss?limit=20"},
+            {"name":"r/aliens new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/aliens/new/.rss?limit=20"}
           ]
         },
         {
-          "heading": "Podcast watch: Weaponized supplies context, not a transcript",
-          "body": "The Weaponized archive page was reachable, but no searchable transcript or dependable consequential timestamps were located during this edition. The current page remains useful as an episode index for the show's continuing claims about UAP incidents, alleged government records, and recovery narratives. Because the AAWSAP-files discussion is circulating through Reddit, the show is relevant as community context; its allegations remain allegations until documentary or witness corroboration is available. That UFO Podcast's public archive was also checked, but no new episode inside this exact window was verified. No podcast quote is used here. A transcript that cannot be checked is a fine reason not to put quotation marks on the internet.",
+          "heading": "Podcast watch: archives, not a fresh verified development",
+          "body": "Weaponized's episode archive was reachable and lists Episode 125 dated October 1, 2026; no episode published inside this exact 24-hour window was verified, and no dependable transcript or consequential timestamp was obtained. That UFO Podcast's archive was also reachable, with its newest visible entries dated September 14, 2026. The shows remain useful community sources for tracking recurring UAP claims and arguments, but this edition uses no podcast quotation. When the transcript cannot be checked, quotation marks are best left in the drawer.",
           "sources": [
-            {"name":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp · episode pages checked; transcript access unavailable","url":"https://www.weaponizedpodcast.com/episodes-5"},
+            {"name":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp; archive checked, transcript access unavailable","url":"https://www.weaponizedpodcast.com/episodes-5"},
+            {"name":"Weaponized Episode 125","credit":"Jeremy Corbell and George Knapp; archive date October 1, 2026","url":"https://www.weaponizedpodcast.com/episodes-5/episode-125"},
             {"name":"That UFO Podcast","credit":"Show archive checked; no new episode in the window verified","url":"https://www.thatufopodcast.com/thatufopodcast"}
           ]
         },
         {
-          "heading": "X watch: the watchlist is intact, the posts are not verifiable here",
-          "body": "Public X search returned the logged-out application shell rather than attributable post text or a usable timeline. The 50-account watchlist was reviewed without adding a handle; no account was treated as having posted merely because its profile URL exists. The desk therefore reports no X-originated development from this window. This is a limitation of access, not a claim that nothing happened on X. The maintained list remains a research aid, not a celebrity directory or evidence ledger.",
+          "heading": "X watch: no attributable posts verified",
+          "body": "The maintained 50-account X watchlist was reviewed without adding a handle. Logged-out public search returned the X application shell rather than attributable post text or a usable live timeline. No account was treated as having posted merely because its profile URL was reachable. That is an access limitation, not evidence that nothing happened on X. The watchlist remains a research aid, not a celebrity directory or evidence ledger.",
           "sources": [
-            {"name":"Public X search","credit":"Logged-out shell; no query results or post text verified","url":"https://x.com/search?q=UAP&src=typed_query&f=live"},
-            {"name":"The Disclosure Files X watchlist","credit":"Maintained list of 50 profile URLs; no new post verified in this scan","url":"https://x.com/"}
+            {"name":"Public X search","credit":"Logged-out application shell; no post text verified","url":"https://x.com/search?q=UAP&src=typed_query&f=live"},
+            {"name":"The Disclosure Files X watchlist","credit":"Maintained 50-account list; no new post verified in this scan","url":"https://x.com/"}
           ]
         },
         {
-          "heading": "Desk judgment: no major verified community development today",
-          "body": "There was plenty of attention and no newly verified breakthrough. The best editorial candidates are a provenance audit of the alleged AAWSAP-files recovery, a document check on the reported XPRIZE exploration, and a careful historical feature using the Phoenix reconstruction without confusing visualization for corroboration. The community's most durable question remains the right one: what primary record, named witness, or reproducible observation could move these claims from circulation to evidence? Until that answer arrives, the responsible label is COMMUNITY ROUNDUP, not NEWS.",
+          "heading": "Desk judgment: lively discussion, no major verified community development",
+          "body": "The strongest article candidates are a careful look at what a credible CE5 test would require, and a document-led history of how the Robertson Panel's real concerns became entangled with much larger claims about intelligence operations. Neither the Reddit discussion nor the public talk proves contact, disinformation, missing technology, or a nonhuman cause. The conversation is worth following precisely because it keeps colliding testimony, folklore, institutional authority, and consciousness questions. For today, the honest label remains COMMUNITY ROUNDUP—not NEWS.",
           "sources": [
             {"name":"AARO","credit":"Primary-source watch page","url":"https://www.aaro.mil/"},
             {"name":"NASA UAP research","credit":"Primary-source watch page","url":"https://science.nasa.gov/uap/"},
@@ -68,10 +67,10 @@
         }
       ],
       "media": [
-        {"title":"Recent r/UFOs discussion feed","credit":"Reddit community · edition scan","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
-        {"title":"Phoenix Lights interactive reconstruction","credit":"Community-linked project; creator credit not identifiable from the accessible post metadata","url":"https://www.reddit.com/r/UFOs/comments/1wz8p7p/we_reconstructed_the_phoenix_lights_reports_in/"},
-        {"title":"Ask a Pol UAP hearing interview","credit":"Published interview; prospective congressional discussion, not a scheduled event","url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"},
-        {"title":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp · transcript unavailable in this scan","url":"https://www.weaponizedpodcast.com/episodes-5"}
+        {"title":"Why don't more influencers try to contact them?","credit":"Reddit community post by u/Fun_Gain_9596","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"},
+        {"title":"UFOs: A National Security Issue?","credit":"Mark Pilkington, BASES 2024; public video","url":"https://www.youtube.com/watch?v=HeLyz4Q9I8I"},
+        {"title":"Robertson Panel report","credit":"Declassified historical document","url":"https://documents.theblackvault.com/documents/ufos/robertsonpanelreport.pdf"},
+        {"title":"Weaponized Episode 125 archive page","credit":"Jeremy Corbell and George Knapp; transcript unavailable in this scan","url":"https://www.weaponizedpodcast.com/episodes-5/episode-125"}
       ],
       "editorial_note": "COMMUNITY ROUNDUP: This article summarizes discussion, not verified news. Reddit and X are attention signals, not proof. Claims attributed to witnesses, account holders, podcast hosts, or community posters remain claims unless independently corroborated. The verified desk remains unchanged."
     }

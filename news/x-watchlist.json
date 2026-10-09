@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-08T01:00:36Z",
-  "window": "2026-10-07T01:00:36Z/2026-10-08T01:00:36Z",
-  "method": "Public profile existence was previously checked at x.com/<handle>; this edition's public X search returned only the logged-out application shell. No new handle was added and no account was treated as having posted without attributable post text. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
+  "checked_at": "2026-10-09T01:01:39Z",
+  "window": "2026-10-08T01:01:39Z/2026-10-09T01:01:39Z",
+  "method": "The 50-account watchlist was checked against public profile URLs and public X search during this edition. Logged-out search returned the application shell rather than attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
   "accounts": [
     {"handle":"NASA","url":"https://x.com/NASA","role":"official science agency","profile_check":"HTTP 200"},
     {"handle":"LueElizondo","url":"https://x.com/LueElizondo","role":"former U.S. government official / UAP author","profile_check":"HTTP 200"},

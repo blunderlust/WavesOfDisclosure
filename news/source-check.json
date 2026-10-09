@@ -1,31 +1,31 @@
 {
-  "checked_at": "2026-10-08T06:55:43Z",
+  "checked_at": "2026-10-09T06:56:38Z",
   "sources": [
     {
       "name": "AARO / U.S. Department of Defense",
       "url": "https://www.aaro.mil/",
-      "checked_at": "2026-10-08T06:55:43Z",
+      "checked_at": "2026-10-09T06:56:38Z",
       "status": "http-error",
       "http_status": 403
     },
     {
       "name": "NASA Science",
       "url": "https://science.nasa.gov/uap/",
-      "checked_at": "2026-10-08T06:55:44Z",
+      "checked_at": "2026-10-09T06:56:38Z",
       "status": "reachable",
       "http_status": 200
     },
     {
       "name": "NASA News",
       "url": "https://www.nasa.gov/news/",
-      "checked_at": "2026-10-08T06:55:44Z",
+      "checked_at": "2026-10-09T06:56:38Z",
       "status": "reachable",
       "http_status": 200
     },
     {
       "name": "U.S. Department of Defense",
       "url": "https://www.defense.gov/News/Releases/",
-      "checked_at": "2026-10-08T06:55:44Z",
+      "checked_at": "2026-10-09T06:56:39Z",
       "status": "http-error",
       "http_status": 403
     }
