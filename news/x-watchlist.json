@@ -1,57 +1,307 @@
 {
-  "checked_at": "2026-10-09T01:01:39Z",
-  "window": "2026-10-08T01:01:39Z/2026-10-09T01:01:39Z",
-  "method": "The 50-account watchlist was checked against public profile URLs and public X search during this edition. Logged-out search returned the application shell rather than attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
+  "checked_at": "2026-10-10T06:59:25Z",
+  "window": "2026-10-09T06:59:25Z/2026-10-10T06:59:25Z",
+  "method": "The 50-account watchlist was checked against public profile URLs and a date-bounded public X search during this edition. Logged-out search returned the login/application shell rather than attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
   "accounts": [
-    {"handle":"NASA","url":"https://x.com/NASA","role":"official science agency","profile_check":"HTTP 200"},
-    {"handle":"LueElizondo","url":"https://x.com/LueElizondo","role":"former U.S. government official / UAP author","profile_check":"HTTP 200"},
-    {"handle":"JeremyCorbell","url":"https://x.com/JeremyCorbell","role":"filmmaker / UAP publisher","profile_check":"HTTP 200"},
-    {"handle":"rosscoulthart","url":"https://x.com/rosscoulthart","role":"journalist / author","profile_check":"HTTP 200"},
-    {"handle":"GarryPNolan","url":"https://x.com/GarryPNolan","role":"immunologist / UAP researcher","profile_check":"HTTP 200"},
-    {"handle":"AviLoeb","url":"https://x.com/AviLoeb","role":"astrophysicist / Galileo Project","profile_check":"HTTP 200"},
-    {"handle":"JacquesVallee","url":"https://x.com/JacquesVallee","role":"computer scientist / UFO researcher","profile_check":"HTTP 200"},
-    {"handle":"LeslieKean","url":"https://x.com/LeslieKean","role":"journalist / author","profile_check":"HTTP 200"},
-    {"handle":"MickWest","url":"https://x.com/MickWest","role":"skeptical investigator","profile_check":"HTTP 200"},
-    {"handle":"MUFON","url":"https://x.com/MUFON","role":"case-reporting organization","profile_check":"HTTP 200"},
-    {"handle":"EnigmaLabs","url":"https://x.com/EnigmaLabs","role":"UAP reporting platform","profile_check":"HTTP 200"},
-    {"handle":"UAPCheck","url":"https://x.com/UAPCheck","role":"UAP analysis account","profile_check":"HTTP 200"},
-    {"handle":"UAPJames","url":"https://x.com/UAPJames","role":"UAP reporting account","profile_check":"HTTP 200"},
-    {"handle":"UFOJoe11","url":"https://x.com/UFOJoe11","role":"UFO media account","profile_check":"HTTP 200"},
-    {"handle":"UAPSociety","url":"https://x.com/UAPSociety","role":"UAP community organization","profile_check":"HTTP 200"},
-    {"handle":"TheUfoJoe","url":"https://x.com/TheUfoJoe","role":"UFO media account","profile_check":"HTTP 200"},
-    {"handle":"UFOChronicles","url":"https://x.com/UFOChronicles","role":"UFO media account","profile_check":"HTTP 200"},
-    {"handle":"RyanSprague","url":"https://x.com/RyanSprague","role":"author / historian","profile_check":"HTTP 200"},
-    {"handle":"BryceZabel","url":"https://x.com/BryceZabel","role":"author / producer","profile_check":"HTTP 200"},
-    {"handle":"DeanAlioto","url":"https://x.com/DeanAlioto","role":"filmmaker","profile_check":"HTTP 200"},
-    {"handle":"DavidMJacobs","url":"https://x.com/DavidMJacobs","role":"historian / author","profile_check":"HTTP 200"},
-    {"handle":"RichardDolan","url":"https://x.com/RichardDolan","role":"historian / author","profile_check":"HTTP 200"},
-    {"handle":"OpenMindsTV","url":"https://x.com/OpenMindsTV","role":"UAP research / media outlet","profile_check":"HTTP 200"},
-    {"handle":"UAPStudies","url":"https://x.com/UAPStudies","role":"UAP research account","profile_check":"HTTP 200"},
-    {"handle":"PhenomenonFilm","url":"https://x.com/PhenomenonFilm","role":"documentary project","profile_check":"HTTP 200"},
-    {"handle":"UFOThinker","url":"https://x.com/UFOThinker","role":"UFO analysis account","profile_check":"HTTP 200"},
-    {"handle":"UFO_Sightings_X","url":"https://x.com/UFO_Sightings_X","role":"sighting aggregation account","profile_check":"HTTP 200"},
-    {"handle":"UFOsDotCom","url":"https://x.com/UFOsDotCom","role":"UFO media account","profile_check":"HTTP 200"},
-    {"handle":"UFOResearcher","url":"https://x.com/UFOResearcher","role":"UFO research account","profile_check":"HTTP 200"},
-    {"handle":"UFOsNews","url":"https://x.com/UFOsNews","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"UAPNews","url":"https://x.com/UAPNews","role":"UAP news account","profile_check":"HTTP 200"},
-    {"handle":"UAPreporting","url":"https://x.com/UAPreporting","role":"UAP reporting account","profile_check":"HTTP 200"},
-    {"handle":"ChrisKMellon","url":"https://x.com/ChrisKMellon","role":"former U.S. intelligence official / UAP commentator","profile_check":"HTTP 200"},
-    {"handle":"UAPdisclosure","url":"https://x.com/UAPdisclosure","role":"disclosure discussion account","profile_check":"HTTP 200"},
-    {"handle":"UAP_Research","url":"https://x.com/UAP_Research","role":"UAP research account","profile_check":"HTTP 200"},
-    {"handle":"UFOUpdates","url":"https://x.com/UFOUpdates","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"UFO_Updates","url":"https://x.com/UFO_Updates","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"UFOlogyToday","url":"https://x.com/UFOlogyToday","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"UFOlogyNetwork","url":"https://x.com/UFOlogyNetwork","role":"UFO community account","profile_check":"HTTP 200"},
-    {"handle":"UFO_Book","url":"https://x.com/UFO_Book","role":"UFO publishing account","profile_check":"HTTP 200"},
-    {"handle":"UAPTheory","url":"https://x.com/UAPTheory","role":"UAP analysis account","profile_check":"HTTP 200"},
-    {"handle":"UFOsAndAliens","url":"https://x.com/UFOsAndAliens","role":"UFO community account","profile_check":"HTTP 200"},
-    {"handle":"UFOsDaily","url":"https://x.com/UFOsDaily","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"UAPDaily","url":"https://x.com/UAPDaily","role":"UAP news account","profile_check":"HTTP 200"},
-    {"handle":"UAPIntel","url":"https://x.com/UAPIntel","role":"UAP analysis account","profile_check":"HTTP 200"},
-    {"handle":"UFOsIntheNews","url":"https://x.com/UFOsIntheNews","role":"UFO news account","profile_check":"HTTP 200"},
-    {"handle":"NatGeo","url":"https://x.com/NatGeo","role":"science / documentary outlet","profile_check":"HTTP 200"},
-    {"handle":"TPostMillennial","url":"https://x.com/TPostMillennial","role":"general news outlet with UAP coverage","profile_check":"HTTP 200"},
-    {"handle":"ScienceAlert","url":"https://x.com/ScienceAlert","role":"science news outlet","profile_check":"HTTP 200"},
-    {"handle":"SkyNews","url":"https://x.com/SkyNews","role":"general news outlet","profile_check":"HTTP 200"}
+    {
+      "handle": "NASA",
+      "url": "https://x.com/NASA",
+      "role": "official science agency",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "LueElizondo",
+      "url": "https://x.com/LueElizondo",
+      "role": "former U.S. government official / UAP author",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "JeremyCorbell",
+      "url": "https://x.com/JeremyCorbell",
+      "role": "filmmaker / UAP publisher",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "rosscoulthart",
+      "url": "https://x.com/rosscoulthart",
+      "role": "journalist / author",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "GarryPNolan",
+      "url": "https://x.com/GarryPNolan",
+      "role": "immunologist / UAP researcher",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "AviLoeb",
+      "url": "https://x.com/AviLoeb",
+      "role": "astrophysicist / Galileo Project",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "JacquesVallee",
+      "url": "https://x.com/JacquesVallee",
+      "role": "computer scientist / UFO researcher",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "LeslieKean",
+      "url": "https://x.com/LeslieKean",
+      "role": "journalist / author",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "MickWest",
+      "url": "https://x.com/MickWest",
+      "role": "skeptical investigator",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "MUFON",
+      "url": "https://x.com/MUFON",
+      "role": "case-reporting organization",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "EnigmaLabs",
+      "url": "https://x.com/EnigmaLabs",
+      "role": "UAP reporting platform",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPCheck",
+      "url": "https://x.com/UAPCheck",
+      "role": "UAP analysis account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPJames",
+      "url": "https://x.com/UAPJames",
+      "role": "UAP reporting account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOJoe11",
+      "url": "https://x.com/UFOJoe11",
+      "role": "UFO media account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPSociety",
+      "url": "https://x.com/UAPSociety",
+      "role": "UAP community organization",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "TheUfoJoe",
+      "url": "https://x.com/TheUfoJoe",
+      "role": "UFO media account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOChronicles",
+      "url": "https://x.com/UFOChronicles",
+      "role": "UFO media account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "RyanSprague",
+      "url": "https://x.com/RyanSprague",
+      "role": "author / historian",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "BryceZabel",
+      "url": "https://x.com/BryceZabel",
+      "role": "author / producer",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "DeanAlioto",
+      "url": "https://x.com/DeanAlioto",
+      "role": "filmmaker",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "DavidMJacobs",
+      "url": "https://x.com/DavidMJacobs",
+      "role": "historian / author",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "RichardDolan",
+      "url": "https://x.com/RichardDolan",
+      "role": "historian / author",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "OpenMindsTV",
+      "url": "https://x.com/OpenMindsTV",
+      "role": "UAP research / media outlet",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPStudies",
+      "url": "https://x.com/UAPStudies",
+      "role": "UAP research account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "PhenomenonFilm",
+      "url": "https://x.com/PhenomenonFilm",
+      "role": "documentary project",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOThinker",
+      "url": "https://x.com/UFOThinker",
+      "role": "UFO analysis account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFO_Sightings_X",
+      "url": "https://x.com/UFO_Sightings_X",
+      "role": "sighting aggregation account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOsDotCom",
+      "url": "https://x.com/UFOsDotCom",
+      "role": "UFO media account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOResearcher",
+      "url": "https://x.com/UFOResearcher",
+      "role": "UFO research account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOsNews",
+      "url": "https://x.com/UFOsNews",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPNews",
+      "url": "https://x.com/UAPNews",
+      "role": "UAP news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPreporting",
+      "url": "https://x.com/UAPreporting",
+      "role": "UAP reporting account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "ChrisKMellon",
+      "url": "https://x.com/ChrisKMellon",
+      "role": "former U.S. intelligence official / UAP commentator",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPdisclosure",
+      "url": "https://x.com/UAPdisclosure",
+      "role": "disclosure discussion account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAP_Research",
+      "url": "https://x.com/UAP_Research",
+      "role": "UAP research account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOUpdates",
+      "url": "https://x.com/UFOUpdates",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFO_Updates",
+      "url": "https://x.com/UFO_Updates",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOlogyToday",
+      "url": "https://x.com/UFOlogyToday",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOlogyNetwork",
+      "url": "https://x.com/UFOlogyNetwork",
+      "role": "UFO community account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFO_Book",
+      "url": "https://x.com/UFO_Book",
+      "role": "UFO publishing account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPTheory",
+      "url": "https://x.com/UAPTheory",
+      "role": "UAP analysis account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOsAndAliens",
+      "url": "https://x.com/UFOsAndAliens",
+      "role": "UFO community account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOsDaily",
+      "url": "https://x.com/UFOsDaily",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPDaily",
+      "url": "https://x.com/UAPDaily",
+      "role": "UAP news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UAPIntel",
+      "url": "https://x.com/UAPIntel",
+      "role": "UAP analysis account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "UFOsIntheNews",
+      "url": "https://x.com/UFOsIntheNews",
+      "role": "UFO news account",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "NatGeo",
+      "url": "https://x.com/NatGeo",
+      "role": "science / documentary outlet",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "TPostMillennial",
+      "url": "https://x.com/TPostMillennial",
+      "role": "general news outlet with UAP coverage",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "ScienceAlert",
+      "url": "https://x.com/ScienceAlert",
+      "role": "science news outlet",
+      "profile_check": "HTTP 200"
+    },
+    {
+      "handle": "SkyNews",
+      "url": "https://x.com/SkyNews",
+      "role": "general news outlet",
+      "profile_check": "HTTP 200"
+    }
   ]
 }

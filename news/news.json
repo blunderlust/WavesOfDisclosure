@@ -1,85 +1,149 @@
 {
   "meta": {
-    "checked_at": "2026-10-09T01:01:39Z",
+    "checked_at": "2026-10-10T06:59:25Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-08T01:01:39Z/2026-10-09T01:01:39Z",
-      "date": "2026-10-09",
-      "title": "COMMUNITY ROUNDUP: The CE5 challenge, UFO folklore, and a quiet podcast desk",
-      "lede": "The accessible Reddit conversation over the last 24 hours split between a familiar question—why do not more prominent creators test claimed CE5 contact methods?—and renewed attention to Mark Pilkington's BASES talk about UFO mythology, disinformation, and national-security judgment. The major podcast archives supplied context but no newly verified episode in this window, while logged-out X search exposed no attributable posts. This is COMMUNITY DAILY ROUNDUP: a map of discussion, not verified news.",
+      "window": "2026-10-09T06:59:25Z/2026-10-10T06:59:25Z",
+      "date": "2026-10-10",
+      "title": "COMMUNITY ROUNDUP: a congressional question, a quiet evidence desk",
+      "lede": "The accessible signal today is a public Ask a Pol UAP report about former House Intelligence Chair Mike Turner and questions concerning Pentagon UFO files. Reddit's public feeds remained blocked and logged-out X exposed no attributable post text. That leaves one worth-following community lead, not a disclosure breakthrough.",
       "sections": [
         {
-          "heading": "The day's live argument: should influencers actually try CE5?",
-          "body": "The newest accessible r/UFOs thread asks why well-known podcasters and influencers do not test claimed CE5 contact methods in public. The post is a community prompt, not a controlled experiment: it mixes anecdote, expectation, recording problems, and the possibility that observation changes the reported experience. That last question belongs in the conversation, especially for consciousness-first interpretations, but an interesting anecdote is not the same thing as reproducible evidence. A useful test would need pre-registered methods, independent observers, timestamped raw data, and honest reporting of failures—not merely a camera pointed at a dark sky while everyone hopes the universe has good production values.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: the Mike Turner lead",
+          "body": "Ask a Pol UAP published a public item on October 9 titled ‘Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files.’ The accompanying feed identifies Episode 493 with Rep. Mike Turner and dates the interview September 16. What can be established is the publication and its framing. It does not establish that Turner possessed undisclosed files, that a new Pentagon release exists, or why any answer was allegedly avoided. The useful follow-up is documentary: obtain the full interview, check the exact exchange, and look for a congressional or Defense Department record. Public accountability is the story here; extraterrestrials have not been subpoenaed.",
           "sources": [
-            {"name":"r/UFOs: Why don't more influencers try to contact them?","credit":"Community post by u/Fun_Gain_9596; discussion and claims are unverified","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"},
-            {"name":"Area 52 interviews discussion","credit":"Referenced by the Reddit poster; original interview context was not independently audited in this edition","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"}
+            {
+              "name": "Ask a Pol UAP",
+              "credit": "Matt Laslo; public post dated October 9, 2026, 22:54 UTC",
+              "url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+            },
+            {
+              "name": "Ask a Pol UAP feed",
+              "credit": "Public RSS listing; latest item and publication time checked during this run",
+              "url": "https://www.askapoluaps.com/feed"
+            }
           ]
         },
         {
-          "heading": "The durable counterargument: folklore can become an institution",
-          "body": "A second prominent r/UFOs thread circulated Mark Pilkington's BASES 2024 presentation, which argues that the national-security problem may lie less in mysterious objects than in the myths, disinformation, and institutional distrust that gather around them. Commenters revisited the 1953 Robertson Panel, David Grusch, intelligence credentials, and the way secondhand stories acquire authority inside hierarchical organizations. The historical record does establish that the panel treated UFO reports as a potential psychological-warfare vulnerability. It does not, by itself, prove that every later UFO narrative was deliberately manufactured. That distinction—documented concern versus sweeping causal theory—is where the useful reporting begins.",
+          "heading": "TRENDING / LOUDEST: no attributable X or Reddit sample",
+          "body": "The maintained 50-account X watchlist and a date-bounded public search were checked, but logged-out X returned its login/application shell rather than post text. Reddit's public JSON and RSS routes returned access blocks or a login shell across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. No posts are being summarized as a result. That is an access limitation, not evidence of quiet communities; the internet's locked doors are not reliable barometers of public interest.",
           "sources": [
-            {"name":"Mark Pilkington BASES talk","credit":"Public video linked in the community thread; Pilkington is the speaker","url":"https://www.youtube.com/watch?v=HeLyz4Q9I8I"},
-            {"name":"r/UFOs discussion of the talk","credit":"Community post by u/fat_earther_; commentary is not independent corroboration","url":"https://www.reddit.com/r/UFOs/comments/1x15hmy/ufos_a_national_security_issue_by_mark_pilkington/"},
-            {"name":"Robertson Panel report","credit":"Declassified historical document; primary-source context, not proof of later claims","url":"https://documents.theblackvault.com/documents/ufos/robertsonpanelreport.pdf"},
-            {"name":"CIA role study on UFOs","credit":"Declassified agency history; interpretation requires reading the document in context","url":"https://www.cia.gov/resources/csi/static/cia-role-study-UFOs.pdf"}
+            {
+              "name": "Public X search",
+              "credit": "Logged-out application shell; no post text verified",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-10-09%20until%3A2026-10-10&src=typed_query&f=live"
+            },
+            {
+              "name": "Reddit public scans",
+              "credit": "Five community feeds attempted; access blocked during this scan",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            }
           ]
         },
         {
-          "heading": "The rest of Reddit: a locked door, not an empty room",
-          "body": "The desk attempted the requested new-post RSS scans for r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Those requests returned HTTP 429 rate-limit responses. The accessible r/UFOs feed was checked at 01:01 UTC and its available active sample reviewed; this edition does not pretend that one subreddit represents the whole field. The access failure says nothing about activity, consensus, or silence in the other communities. Experiencer and high-strangeness discussions remain relevant to the beat, particularly where memory, altered states, perception, and meaning are involved, but testimony and interpretation should remain visibly distinct from corroborated external events.",
+          "heading": "FUN / INTERESTING: the archive is still a map of the argument",
+          "body": "Ask a Pol UAP's public archive remains a useful community-media index, with recent entries moving from Rep. James Comer's possible post-election hearing discussion to the Turner interview item. These are attributed media reports and public statements, not independent confirmation of hidden programs. The larger pattern is worth watching: UAP coverage keeps oscillating between oversight, classified-record claims, and the interpretation of evasive political answers. A consciousness-first reading is not implicated by this item; nothing in the accessible record supports turning a congressional media exchange into evidence about the ontology of the phenomenon.",
           "sources": [
-            {"name":"r/UFOs new-post RSS","credit":"Accessible sample; checked 2026-10-09 at 01:01 UTC","url":"https://www.reddit.com/r/UFOs/new/.rss?limit=20"},
-            {"name":"r/UAP new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/UAP/new/.rss?limit=20"},
-            {"name":"r/HighStrangeness new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/HighStrangeness/new/.rss?limit=20"},
-            {"name":"r/Experiencers new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/Experiencers/new/.rss?limit=20"},
-            {"name":"r/aliens new-post RSS","credit":"HTTP 429 during desk scan; no activity conclusion drawn","url":"https://www.reddit.com/r/aliens/new/.rss?limit=20"}
+            {
+              "name": "Ask a Pol UAP archive",
+              "credit": "Public archive checked for surrounding and recent context",
+              "url": "https://www.askapoluaps.com/archive"
+            }
           ]
         },
         {
-          "heading": "Podcast watch: archives, not a fresh verified development",
-          "body": "Weaponized's episode archive was reachable and lists Episode 125 dated October 1, 2026; no episode published inside this exact 24-hour window was verified, and no dependable transcript or consequential timestamp was obtained. That UFO Podcast's archive was also reachable, with its newest visible entries dated September 14, 2026. The shows remain useful community sources for tracking recurring UAP claims and arguments, but this edition uses no podcast quotation. When the transcript cannot be checked, quotation marks are best left in the drawer.",
+          "heading": "DESK JUDGMENT: reported lead, no verified breakthrough",
+          "body": "This edition preserves one REPORTED community-media development and no claim of a new hearing, official file release, recovered technology, or nonhuman involvement. NASA, AARO, and Defense Department pages remain source-watch destinations; the latter two returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. The verified-news desk has one alert for Paul's review below; nothing is presented as confirmed without a primary record or independent corroboration.",
           "sources": [
-            {"name":"Weaponized episode archive","credit":"Jeremy Corbell and George Knapp; archive checked, transcript access unavailable","url":"https://www.weaponizedpodcast.com/episodes-5"},
-            {"name":"Weaponized Episode 125","credit":"Jeremy Corbell and George Knapp; archive date October 1, 2026","url":"https://www.weaponizedpodcast.com/episodes-5/episode-125"},
-            {"name":"That UFO Podcast","credit":"Show archive checked; no new episode in the window verified","url":"https://www.thatufopodcast.com/thatufopodcast"}
-          ]
-        },
-        {
-          "heading": "X watch: no attributable posts verified",
-          "body": "The maintained 50-account X watchlist was reviewed without adding a handle. Logged-out public search returned the X application shell rather than attributable post text or a usable live timeline. No account was treated as having posted merely because its profile URL was reachable. That is an access limitation, not evidence that nothing happened on X. The watchlist remains a research aid, not a celebrity directory or evidence ledger.",
-          "sources": [
-            {"name":"Public X search","credit":"Logged-out application shell; no post text verified","url":"https://x.com/search?q=UAP&src=typed_query&f=live"},
-            {"name":"The Disclosure Files X watchlist","credit":"Maintained 50-account list; no new post verified in this scan","url":"https://x.com/"}
-          ]
-        },
-        {
-          "heading": "Desk judgment: lively discussion, no major verified community development",
-          "body": "The strongest article candidates are a careful look at what a credible CE5 test would require, and a document-led history of how the Robertson Panel's real concerns became entangled with much larger claims about intelligence operations. Neither the Reddit discussion nor the public talk proves contact, disinformation, missing technology, or a nonhuman cause. The conversation is worth following precisely because it keeps colliding testimony, folklore, institutional authority, and consciousness questions. For today, the honest label remains COMMUNITY ROUNDUP—not NEWS.",
-          "sources": [
-            {"name":"AARO","credit":"Primary-source watch page","url":"https://www.aaro.mil/"},
-            {"name":"NASA UAP research","credit":"Primary-source watch page","url":"https://science.nasa.gov/uap/"},
-            {"name":"Department of Defense releases","credit":"Primary-source watch page","url":"https://www.defense.gov/News/Releases/"}
+            {
+              "name": "NASA UAP research",
+              "credit": "Primary-source watch page; no new UAP development verified in this scan",
+              "url": "https://science.nasa.gov/uap/"
+            },
+            {
+              "name": "AARO",
+              "credit": "Primary-source watch page; automated request returned HTTP 403",
+              "url": "https://www.aaro.mil/"
+            },
+            {
+              "name": "Department of Defense releases",
+              "credit": "Primary-source watch page; automated request returned HTTP 403",
+              "url": "https://www.defense.gov/News/Releases/"
+            }
           ]
         }
       ],
       "media": [
-        {"title":"Why don't more influencers try to contact them?","credit":"Reddit community post by u/Fun_Gain_9596","url":"https://www.reddit.com/r/UFOs/comments/1x17e6z/why_dont_more_influencers_try_to_contact_them/"},
-        {"title":"UFOs: A National Security Issue?","credit":"Mark Pilkington, BASES 2024; public video","url":"https://www.youtube.com/watch?v=HeLyz4Q9I8I"},
-        {"title":"Robertson Panel report","credit":"Declassified historical document","url":"https://documents.theblackvault.com/documents/ufos/robertsonpanelreport.pdf"},
-        {"title":"Weaponized Episode 125 archive page","credit":"Jeremy Corbell and George Knapp; transcript unavailable in this scan","url":"https://www.weaponizedpodcast.com/episodes-5/episode-125"}
+        {
+          "title": "Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files",
+          "credit": "Ask a Pol UAP / Matt Laslo",
+          "url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+        },
+        {
+          "title": "Ask a Pol UAP public feed",
+          "credit": "Public RSS; latest-item check",
+          "url": "https://www.askapoluaps.com/feed"
+        }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This article summarizes discussion, not verified news. Reddit and X are attention signals, not proof. Claims attributed to witnesses, account holders, podcast hosts, or community posters remain claims unless independently corroborated. The verified desk remains unchanged."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The Turner item is labeled REPORTED because the publication and its attributed framing are verifiable while its implications require further checking. Reddit and X access failures are recorded as limitations, not silence."
     }
   },
   "items": [
-    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"AARO public record: cases, reports, and official releases","summary":"The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.","source_name":"AARO / U.S. Department of Defense","source_url":"https://www.aaro.mil/"},
-    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA UAP research and public material","summary":"NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.","source_name":"NASA Science","source_url":"https://science.nasa.gov/uap/"},
-    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"NASA news releases: check before calling a development news","summary":"A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.","source_name":"NASA News","source_url":"https://www.nasa.gov/news/"},
-    {"date":"2026-09-27","status":"SOURCE WATCH","source_type":"PRIMARY SOURCE","headline":"Defense Department releases and statements","summary":"The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.","source_name":"U.S. Department of Defense","source_url":"https://www.defense.gov/News/Releases/"},
-    {"date":"2026-10-07","status":"REPORTED","source_type":"PUBLIC INTERVIEW","headline":"Rep. James Comer says a UAP hearing may return during the November lame-duck period","summary":"Ask a Pol UAP published an interview in which House Oversight Chair James Comer said the committee might try to pick up a UAP hearing during an ‘aggressive’ post-election lame-duck period. The report establishes an attributed public statement, not an announced hearing, date, topic, or witness list; no committee notice was independently verified in this scan.","source_name":"Ask a Pol UAP","source_url":"https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"}
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "AARO public record: cases, reports, and official releases",
+      "summary": "The All-domain Anomaly Resolution Office is the U.S. Department of Defense office assigned to receive and investigate reports of unidentified anomalous phenomena. This is a monitored source page; it is not evidence that a new case was announced today.",
+      "source_name": "AARO / U.S. Department of Defense",
+      "source_url": "https://www.aaro.mil/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "NASA UAP research and public material",
+      "summary": "NASA's UAP material explains its scientific data and research posture. It is useful for tracking what the agency has actually published, while keeping scientific interpretation separate from internet speculation.",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/uap/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "NASA news releases: check before calling a development news",
+      "summary": "A daily newsroom check begins with the agency's own releases and public statements. No headline is promoted here unless the underlying release, document, or named source can be read and linked.",
+      "source_name": "NASA News",
+      "source_url": "https://www.nasa.gov/news/"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "SOURCE WATCH",
+      "source_type": "PRIMARY SOURCE",
+      "headline": "Defense Department releases and statements",
+      "summary": "The Defense Department release archive is a first stop for official claims about military policy, investigations, and records. Official wording will be labeled as an official claim rather than silently converted into an independently verified fact.",
+      "source_name": "U.S. Department of Defense",
+      "source_url": "https://www.defense.gov/News/Releases/"
+    },
+    {
+      "date": "2026-10-07",
+      "status": "REPORTED",
+      "source_type": "PUBLIC INTERVIEW",
+      "headline": "Rep. James Comer says a UAP hearing may return during the November lame-duck period",
+      "summary": "Ask a Pol UAP published an interview in which House Oversight Chair James Comer said the committee might try to pick up a UAP hearing during an ‘aggressive’ post-election lame-duck period. The report establishes an attributed public statement, not an announced hearing, date, topic, or witness list; no committee notice was independently verified in this scan.",
+      "source_name": "Ask a Pol UAP",
+      "source_url": "https://www.askapoluaps.com/p/news-oversight-chair-planning-uap-hearing-after-election"
+    },
+    {
+      "date": "2026-10-09",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT",
+      "headline": "Ask a Pol UAP publishes a Mike Turner interview item about Pentagon UFO-file questions",
+      "summary": "Ask a Pol UAP published a public item at 22:54 UTC on October 9, 2026, titled ‘Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files.’ Its description identifies Episode 493 with Rep. Mike Turner and dates the interview September 16. This verifies the publication and its attributed framing, not the existence of undisclosed files, a new Pentagon release, or the reason for any alleged evasion.",
+      "source_name": "Ask a Pol UAP / Matt Laslo",
+      "source_url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+    }
   ]
 }
