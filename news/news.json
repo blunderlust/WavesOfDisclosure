@@ -1,34 +1,44 @@
 {
   "meta": {
-    "checked_at": "2026-10-10T06:59:25Z",
+    "checked_at": "2026-10-11T00:01:32Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-09T06:59:25Z/2026-10-10T06:59:25Z",
-      "date": "2026-10-10",
-      "title": "COMMUNITY ROUNDUP: a congressional question, a quiet evidence desk",
-      "lede": "The accessible signal today is a public Ask a Pol UAP report about former House Intelligence Chair Mike Turner and questions concerning Pentagon UFO files. Reddit's public feeds remained blocked and logged-out X exposed no attributable post text. That leaves one worth-following community lead, not a disclosure breakthrough.",
+      "window": "2026-10-10T00:01:32Z/2026-10-11T00:01:32Z",
+      "date": "2026-10-11",
+      "title": "COMMUNITY ROUNDUP: Langley drone claims return to the UAP argument",
+      "lede": "The most consequential new public item in this edition is a New York Post report that Rep. Eric Burlison is considering whether intelligence-community witnesses to a late-2025 orange-orb encounter could testify before Congress. Ask a Pol UAP also published Sen. Mark Warner's account of Chinese drones and the 2023 Langley disruption. These are reported media developments, not new official findings: the underlying documents, testimony, and technical details still require checking. Reddit feeds remained blocked and logged-out X exposed no attributable post text.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the Mike Turner lead",
-          "body": "Ask a Pol UAP published a public item on October 9 titled ‘Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files.’ The accompanying feed identifies Episode 493 with Rep. Mike Turner and dates the interview September 16. What can be established is the publication and its framing. It does not establish that Turner possessed undisclosed files, that a new Pentagon release exists, or why any answer was allegedly avoided. The useful follow-up is documentary: obtain the full interview, check the exact exchange, and look for a congressional or Defense Department record. Public accountability is the story here; extraterrestrials have not been subpoenaed.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: the Langley account",
+          "body": "A New York Post report by Shane Galvin, published October 10, says Rep. Eric Burlison told the paper he would explore whether intelligence-community witnesses to a late-2025 encounter near an undisclosed West Coast military base could testify publicly. The report says some witnesses have met members of Congress privately and have not shared all alleged video. The underlying account is not new: the report points back to a May 2026 government release containing a first-person narrative. What is new here is the reported possibility of congressional testimony—not an announced hearing, subpoena, or public witness appearance. Ask a Pol UAP's same-day report separately quotes Sen. Mark Warner's Chinese-drone explanation for the 2023 Langley disruption. Both leads deserve documents before anybody starts polishing the phrase 'disclosure breakthrough.'",
           "sources": [
             {
+              "name": "New York Post",
+              "credit": "Shane Galvin; public report published October 10, 2026, 7:45 p.m. ET",
+              "url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
+            },
+            {
               "name": "Ask a Pol UAP",
-              "credit": "Matt Laslo; public post dated October 9, 2026, 22:54 UTC",
-              "url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+              "credit": "Matt Laslo; public post dated October 10, 2026, 20:14 UTC",
+              "url": "https://www.askapoluaps.com/p/chinese-drones-shuttered-air-force-base-on-us-soil"
             },
             {
               "name": "Ask a Pol UAP feed",
               "credit": "Public RSS listing; latest item and publication time checked during this run",
               "url": "https://www.askapoluaps.com/feed"
+            },
+            {
+              "name": "Department of War / PURSUE record",
+              "credit": "Primary-source document cited by the report; automated fetch returned HTTP 403 during this run",
+              "url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: no attributable X or Reddit sample",
-          "body": "The maintained 50-account X watchlist and a date-bounded public search were checked, but logged-out X returned its login/application shell rather than post text. Reddit's public JSON and RSS routes returned access blocks or a login shell across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. No posts are being summarized as a result. That is an access limitation, not evidence of quiet communities; the internet's locked doors are not reliable barometers of public interest.",
+          "heading": "TRENDING / LOUDEST: the orb report enters the congressional conversation",
+          "body": "The New York Post report is the clearest publicly accessible attention signal found in this window: it says Rep. Eric Burlison may explore public testimony from intelligence-community witnesses connected to a late-2025 orange-orb account. The report's claims remain attributed, and the possibility of testimony is not a scheduled proceeding. Logged-out X returned its login/application shell rather than attributable post text. Reddit's public JSON and RSS routes returned access blocks across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Those limitations say nothing reliable about community silence or volume; locked doors are poor polling instruments.",
           "sources": [
             {
               "name": "Public X search",
@@ -44,7 +54,7 @@
         },
         {
           "heading": "FUN / INTERESTING: the archive is still a map of the argument",
-          "body": "Ask a Pol UAP's public archive remains a useful community-media index, with recent entries moving from Rep. James Comer's possible post-election hearing discussion to the Turner interview item. These are attributed media reports and public statements, not independent confirmation of hidden programs. The larger pattern is worth watching: UAP coverage keeps oscillating between oversight, classified-record claims, and the interpretation of evasive political answers. A consciousness-first reading is not implicated by this item; nothing in the accessible record supports turning a congressional media exchange into evidence about the ontology of the phenomenon.",
+          "body": "Ask a Pol UAP's public archive now places the Langley account beside recent items about Mike Turner and a possible post-election hearing. These are attributed media reports and public statements, not independent confirmation of hidden programs or foreign technology. The larger pattern is worth watching: UAP coverage keeps oscillating between oversight, classified-record claims, military explanations, and the interpretation of incomplete public records. A consciousness-first reading is not implicated by this item; nothing in the accessible record supports turning a reported drone account into evidence about the ontology of the phenomenon.",
           "sources": [
             {
               "name": "Ask a Pol UAP archive",
@@ -77,6 +87,16 @@
       ],
       "media": [
         {
+          "title": "US intelligence witnesses to 2025 UFO orb incident could testify before Congress",
+          "credit": "New York Post / Shane Galvin",
+          "url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
+        },
+        {
+          "title": "Senator Warner: ‘Chinese drones’ shuttered Langley AFB — on US soil! — for 17 days in 2023, not UAP",
+          "credit": "Ask a Pol UAP / Matt Laslo",
+          "url": "https://www.askapoluaps.com/p/chinese-drones-shuttered-air-force-base-on-us-soil"
+        },
+        {
           "title": "Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files",
           "credit": "Ask a Pol UAP / Matt Laslo",
           "url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
@@ -87,7 +107,7 @@
           "url": "https://www.askapoluaps.com/feed"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The Turner item is labeled REPORTED because the publication and its attributed framing are verifiable while its implications require further checking. Reddit and X access failures are recorded as limitations, not silence."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. The underlying government document is linked as a primary record but was not independently fetched in this run. Reddit and X access limitations are recorded as limitations, not silence."
     }
   },
   "items": [
@@ -144,6 +164,24 @@
       "summary": "Ask a Pol UAP published a public item at 22:54 UTC on October 9, 2026, titled ‘Former Intel Chair Mike Turner runs from Ask a Pol's questions about the Pentagon's UFO files.’ Its description identifies Episode 493 with Rep. Mike Turner and dates the interview September 16. This verifies the publication and its attributed framing, not the existence of undisclosed files, a new Pentagon release, or the reason for any alleged evasion.",
       "source_name": "Ask a Pol UAP / Matt Laslo",
       "source_url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+    },
+    {
+      "date": "2026-10-10",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT",
+      "headline": "Ask a Pol UAP reports Sen. Mark Warner's Chinese-drone explanation for the 2023 Langley disruption",
+      "summary": "Ask a Pol UAP published a public item at 20:14 UTC on October 10, 2026, reporting that Sen. Mark Warner described Chinese drones as having shuttered Langley Air Force Base for 17 days in 2023 and distinguished the episode from UAP. This verifies the publication and its attributed framing, not the underlying account, the 17-day duration, the aircraft identification, or any official finding.",
+      "source_name": "Ask a Pol UAP / Matt Laslo",
+      "source_url": "https://www.askapoluaps.com/p/chinese-drones-shuttered-air-force-base-on-us-soil"
+    },
+    {
+      "date": "2026-10-10",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT",
+      "headline": "New York Post reports Rep. Eric Burlison may explore testimony from witnesses to a late-2025 orange-orb account",
+      "summary": "The New York Post reported on October 10, 2026 that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. The report says some witnesses have met lawmakers privately and have not shared all alleged footage. This verifies the publication and attributed statement, not an announced hearing, the witnesses’ identities, the encounter’s interpretation, or the authenticity and completeness of the evidence. The report points to an underlying government-released first-person narrative that should be read separately.",
+      "source_name": "New York Post / Shane Galvin",
+      "source_url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
     }
   ]
 }
