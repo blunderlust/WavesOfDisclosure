@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-10-11T00:01:32Z",
+    "checked_at": "2026-10-12T07:05:49Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-10T00:01:32Z/2026-10-11T00:01:32Z",
-      "date": "2026-10-11",
-      "title": "COMMUNITY ROUNDUP: Langley drone claims return to the UAP argument",
-      "lede": "The most consequential new public item in this edition is a New York Post report that Rep. Eric Burlison is considering whether intelligence-community witnesses to a late-2025 orange-orb encounter could testify before Congress. Ask a Pol UAP also published Sen. Mark Warner's account of Chinese drones and the 2023 Langley disruption. These are reported media developments, not new official findings: the underlying documents, testimony, and technical details still require checking. Reddit feeds remained blocked and logged-out X exposed no attributable post text.",
+      "window": "2026-10-11T07:05:49Z/2026-10-12T07:05:49Z",
+      "date": "2026-10-12",
+      "title": "COMMUNITY ROUNDUP: no new verifiable UAP development identified overnight",
+      "lede": "The scan found no new verifiable UAP development to add to the desk. Community attention was easier to find than hard news: YouTube surfaced two same-day UFO Journal uploads presenting screen recordings of alleged UAP/orb footage. They are creator-published material, not independently authenticated evidence. The accessible r/UFOs feed was active, while logged-out X returned an application shell without attributable post text and other requested Reddit feeds were not reliably readable.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the Langley account",
-          "body": "A New York Post report by Shane Galvin, published October 10, says Rep. Eric Burlison told the paper he would explore whether intelligence-community witnesses to a late-2025 encounter near an undisclosed West Coast military base could testify publicly. The report says some witnesses have met members of Congress privately and have not shared all alleged video. The underlying account is not new: the report points back to a May 2026 government release containing a first-person narrative. What is new here is the reported possibility of congressional testimony—not an announced hearing, subpoena, or public witness appearance. Ask a Pol UAP's same-day report separately quotes Sen. Mark Warner's Chinese-drone explanation for the 2023 Langley disruption. Both leads deserve documents before anybody starts polishing the phrase 'disclosure breakthrough.'",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a reported lead, not a breakthrough",
+          "body": "The strongest public lead still on the desk is the New York Post's October 10 report that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. That is a reported possibility, not an announced hearing, subpoena, or public witness appearance. The overnight scan found no new primary record changing that status. Ask a Pol UAP's report on Sen. Mark Warner's Chinese-drone explanation for the 2023 Langley disruption remains relevant context.",
           "sources": [
             {
               "name": "New York Post",
@@ -37,8 +37,8 @@
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: the orb report enters the congressional conversation",
-          "body": "The New York Post report is the clearest publicly accessible attention signal found in this window: it says Rep. Eric Burlison may explore public testimony from intelligence-community witnesses connected to a late-2025 orange-orb account. The report's claims remain attributed, and the possibility of testimony is not a scheduled proceeding. Logged-out X returned its login/application shell rather than attributable post text. Reddit's public JSON and RSS routes returned access blocks across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. Those limitations say nothing reliable about community silence or volume; locked doors are poor polling instruments.",
+          "heading": "TRENDING / LOUDEST: attention cannot be measured cleanly this morning",
+          "body": "The accessible r/UFOs RSS feed returned roughly 20 active threads. Its visible titles included a discussion about a reportedly viral Joe Rogan Experience/Grusch interview, alongside documentary requests, historical-document claims, and speculative hypotheses. No title alone establishes the underlying claim. The other four requested Reddit feeds were not reliably readable, while logged-out X exposed only its application shell rather than attributable posts. The desk therefore records no X account as having posted. Locked doors are poor polling instruments, and virality is not evidence in any case.",
           "sources": [
             {
               "name": "Public X search",
@@ -47,25 +47,30 @@
             },
             {
               "name": "Reddit public scans",
-              "credit": "Five community feeds attempted; access blocked during this scan",
+              "credit": "Five community feeds attempted; r/UFOs RSS was readable, four other feeds were not reliably readable",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             }
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the archive is still a map of the argument",
-          "body": "Ask a Pol UAP's public archive now places the Langley account beside recent items about Mike Turner and a possible post-election hearing. These are attributed media reports and public statements, not independent confirmation of hidden programs or foreign technology. The larger pattern is worth watching: UAP coverage keeps oscillating between oversight, classified-record claims, military explanations, and the interpretation of incomplete public records. A consciousness-first reading is not implicated by this item; nothing in the accessible record supports turning a reported drone account into evidence about the ontology of the phenomenon.",
+          "heading": "FUN / INTERESTING: the archive remains a map of the argument",
+          "body": "YouTube's current results surfaced two October 12 uploads from UFO Journal: one titled ‘October 12th 2026 0614 UFO/UAP video authentication screen recording’ and a second comparing that recording with a January 6 night-orb video. The titles and descriptions establish that the channel posted the material; they do not authenticate the footage, identify an object, or establish that the comparison is technically meaningful. That is precisely the sort of community artifact worth preserving without promoting it into evidence. Ask a Pol UAP's public archive still places the Langley account beside recent items about Mike Turner and a possible post-election hearing.",
           "sources": [
             {
               "name": "Ask a Pol UAP archive",
               "credit": "Public archive checked for surrounding and recent context",
               "url": "https://www.askapoluaps.com/archive"
+            },
+            {
+              "name": "YouTube / UFO Journal",
+              "credit": "Creator-published October 12, 2026 uploads; footage and comparison not independently authenticated",
+              "url": "https://www.youtube.com/@warngill-ic3jn"
             }
           ]
         },
         {
           "heading": "DESK JUDGMENT: reported lead, no verified breakthrough",
-          "body": "This edition preserves one REPORTED community-media development and no claim of a new hearing, official file release, recovered technology, or nonhuman involvement. NASA, AARO, and Defense Department pages remain source-watch destinations; the latter two returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. The verified-news desk has one alert for Paul's review below; nothing is presented as confirmed without a primary record or independent corroboration.",
+          "body": "This edition preserves the existing REPORTED community-media developments and adds two creator-published UFO Journal videos as FUN / INTERESTING community material, not verified news. It adds no claim of a hearing, official file release, recovered technology, or nonhuman involvement. NASA remains a source-watch destination; AARO and Defense Department pages returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. Nothing is presented as confirmed without a primary record or independent corroboration.",
           "sources": [
             {
               "name": "NASA UAP research",
@@ -87,6 +92,16 @@
       ],
       "media": [
         {
+          "title": "October 12th 2026 0614 UFO/UAP video authentication screen recording",
+          "credit": "YouTube / UFO Journal",
+          "url": "https://www.youtube.com/watch?v=CZMNwvlxRO4"
+        },
+        {
+          "title": "October 12th 2026 0614 UFO/UAP screen recording compared with January 6 night orb",
+          "credit": "YouTube / UFO Journal",
+          "url": "https://www.youtube.com/watch?v=yCW0ThGmsLM"
+        },
+        {
           "title": "US intelligence witnesses to 2025 UFO orb incident could testify before Congress",
           "credit": "New York Post / Shane Galvin",
           "url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
@@ -107,7 +122,7 @@
           "url": "https://www.askapoluaps.com/feed"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. The underlying government document is linked as a primary record but was not independently fetched in this run. Reddit and X access limitations are recorded as limitations, not silence."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. The UFO Journal uploads are labeled community material; posting a video or comparison does not authenticate its contents. The underlying government document is linked as a primary record but was not independently fetched in this run. Reddit and X access limitations are recorded as limitations, not silence."
     }
   },
   "items": [
