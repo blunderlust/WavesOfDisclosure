@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-10-12T07:05:49Z",
+    "checked_at": "2026-10-13T00:00:53Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-11T07:05:49Z/2026-10-12T07:05:49Z",
-      "date": "2026-10-12",
-      "title": "COMMUNITY ROUNDUP: no new verifiable UAP development identified overnight",
-      "lede": "The scan found no new verifiable UAP development to add to the desk. Community attention was easier to find than hard news: YouTube surfaced two same-day UFO Journal uploads presenting screen recordings of alleged UAP/orb footage. They are creator-published material, not independently authenticated evidence. The accessible r/UFOs feed was active, while logged-out X returned an application shell without attributable post text and other requested Reddit feeds were not reliably readable.",
+      "window": "2026-10-12T00:00:53Z/2026-10-13T00:00:53Z",
+      "date": "2026-10-13",
+      "title": "COMMUNITY ROUNDUP: active UAP discussion, no new verifiable development identified",
+      "lede": "The scan found no new verifiable UAP development to add to the desk. The accessible r/UFOs feed was active with discussion of Jay Stratton, a viral Grusch interview, a reported Israel-border object, sighting submissions, and historical cases. Public X search returned the logged-out application shell rather than attributable post text; the other requested Reddit feeds returned rate-limit responses. Community attention is recorded as signal, not evidence.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: a reported lead, not a breakthrough",
-          "body": "The strongest public lead still on the desk is the New York Post's October 10 report that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. That is a reported possibility, not an announced hearing, subpoena, or public witness appearance. The overnight scan found no new primary record changing that status. Ask a Pol UAP's report on Sen. Mark Warner's Chinese-drone explanation for the 2023 Langley disruption remains relevant context.",
+          "body": "The strongest public lead still on the desk is the New York Post's October 10 report that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. That is a reported possibility, not an announced hearing, subpoena, or public witness appearance. This edition found no new primary record changing that status. Reddit discussion of Jay Stratton is a community lead, not confirmation of a new interview, release, or finding.",
           "sources": [
             {
               "name": "New York Post",
@@ -38,7 +38,7 @@
         },
         {
           "heading": "TRENDING / LOUDEST: attention cannot be measured cleanly this morning",
-          "body": "The accessible r/UFOs RSS feed returned roughly 20 active threads. Its visible titles included a discussion about a reportedly viral Joe Rogan Experience/Grusch interview, alongside documentary requests, historical-document claims, and speculative hypotheses. No title alone establishes the underlying claim. The other four requested Reddit feeds were not reliably readable, while logged-out X exposed only its application shell rather than attributable posts. The desk therefore records no X account as having posted. Locked doors are poor polling instruments, and virality is not evidence in any case.",
+          "body": "The accessible r/UFOs RSS feed returned 20 active threads. Visible titles included a Jay Stratton television segment, a claim about a NASA astronaut's religious interpretation, a weekly UAP roundup, new sighting submissions from Ohio, Israel, Florida, Massachusetts, and California, a Coyne Incident recreation, launch-identification chatter, the latest Grusch/Joe Rogan discussion, and older document and photograph threads. No thread establishes its underlying claim. The other four requested Reddit feeds returned HTTP 429, while logged-out X exposed only its application shell rather than attributable posts. The desk therefore records no X account as having posted.",
           "sources": [
             {
               "name": "Public X search",
@@ -54,7 +54,7 @@
         },
         {
           "heading": "FUN / INTERESTING: the archive remains a map of the argument",
-          "body": "YouTube's current results surfaced two October 12 uploads from UFO Journal: one titled ‘October 12th 2026 0614 UFO/UAP video authentication screen recording’ and a second comparing that recording with a January 6 night-orb video. The titles and descriptions establish that the channel posted the material; they do not authenticate the footage, identify an object, or establish that the comparison is technically meaningful. That is precisely the sort of community artifact worth preserving without promoting it into evidence. Ask a Pol UAP's public archive still places the Langley account beside recent items about Mike Turner and a possible post-election hearing.",
+          "body": "The most useful community leads were the Jay Stratton broadcast discussion, the Coyne Incident technical recreation, the Israel-border report, and a document-forensics thread about pre-Roswell material. They are leads and historical discussion, not independently authenticated developments. The Coyne material may suit a future archive piece if the original flight records, testimony, and technical reconstruction can be separated rather than poured into one heroic story.",
           "sources": [
             {
               "name": "Ask a Pol UAP archive",
@@ -70,7 +70,7 @@
         },
         {
           "heading": "DESK JUDGMENT: reported lead, no verified breakthrough",
-          "body": "This edition preserves the existing REPORTED community-media developments and adds two creator-published UFO Journal videos as FUN / INTERESTING community material, not verified news. It adds no claim of a hearing, official file release, recovered technology, or nonhuman involvement. NASA remains a source-watch destination; AARO and Defense Department pages returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. Nothing is presented as confirmed without a primary record or independent corroboration.",
+          "body": "This edition preserves the existing REPORTED items and adds no new verified headline. It adds no claim of a hearing, official file release, recovered technology, or nonhuman involvement. NASA remains a source-watch destination; AARO and Defense Department pages returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. Nothing is presented as confirmed without a primary record or independent corroboration.",
           "sources": [
             {
               "name": "NASA UAP research",
@@ -122,7 +122,7 @@
           "url": "https://www.askapoluaps.com/feed"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. The UFO Journal uploads are labeled community material; posting a video or comparison does not authenticate its contents. The underlying government document is linked as a primary record but was not independently fetched in this run. Reddit and X access limitations are recorded as limitations, not silence."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. Reddit threads and creator material are community leads only. Public X search exposed no attributable post text in this run; four requested Reddit feeds returned HTTP 429. Those limitations are recorded as limitations, not silence."
     }
   },
   "items": [

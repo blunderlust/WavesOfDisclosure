@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-12T00:00:16Z",
-  "window": "2026-10-11T12:01:02Z/2026-10-12T00:00:16Z",
-  "method": "The 50-account watchlist was checked against public profile URLs and a date-bounded public X search during this edition. The sampled public profile URLs returned HTTP 200. Logged-out search returned the X application shell rather than attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use.",
+  "checked_at": "2026-10-13T00:00:53Z",
+  "window": "2026-10-12T00:00:53Z/2026-10-13T00:00:53Z",
+  "method": "The 50-account watchlist was checked against its maintained public profile URLs and a date-bounded public X search during this edition. Logged-out search returned the X application shell rather than attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use. Reddit feeds for r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned HTTP 429 during this scan; r/UFOs RSS was readable and 20 active threads were reviewed.",
   "accounts": [
     {
       "handle": "NASA",

@@ -6,7 +6,7 @@ The public News Desk is a lightweight static feed. It does not scrape a page in 
 
 The verified News Desk remains on its existing twice-daily schedule. The separate **Community Daily Roundup** runs once daily after the evening desk and is stored in `meta.community_roundup` in `news/news.json`.
 
-The roundup is a blog-style attention report, not a verified-news feed. It may summarize X/Twitter and Reddit discussion, podcast episodes/transcripts, videos, images, and links. Every item should preserve direct URLs and creator/show/account credit. Label speculation, allegations, and community claims clearly; do not present repetition or virality as evidence.
+The roundup is a blog-style attention report, not a verified-news feed. It may summarize X/Twitter and Reddit discussion, podcast episodes/transcripts, videos, images, and links. Every item should preserve direct URLs and creator/show/account credit. Label speculation, allegations, and community claims clearly; do not present repetition or virality as evidence. **Editorial privacy rule: treat internal operational problems, failed runs, tool/access failures, draft disputes, and workflow mistakes as private. Do not blog about them or include them in the public Community Roundup. Publish only public-facing developments, public discussion, and public source limitations when they materially affect what readers can verify.**
 
 The roundup object uses:
 
