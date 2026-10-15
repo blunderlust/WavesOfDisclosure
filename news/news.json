@@ -1,23 +1,23 @@
 {
   "meta": {
-    "checked_at": "2026-10-13T00:00:53Z",
+    "checked_at": "2026-10-15T14:22:13Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-12T00:00:53Z/2026-10-13T00:00:53Z",
-      "date": "2026-10-13",
-      "title": "COMMUNITY ROUNDUP: active UAP discussion, no new verifiable development identified",
-      "lede": "The scan found no new verifiable UAP development to add to the desk. The accessible r/UFOs feed was active with discussion of Jay Stratton, a viral Grusch interview, a reported Israel-border object, sighting submissions, and historical cases. Public X search returned the logged-out application shell rather than attributable post text; the other requested Reddit feeds returned rate-limit responses. Community attention is recorded as signal, not evidence.",
+      "window": "2026-10-15T00:00:30Z/2026-10-15T14:22:13Z",
+      "date": "2026-10-15",
+      "title": "COMMUNITY ROUNDUP: Jay Stratton claims lead the conversation; Area 51 story adds a stranger turn",
+      "lede": "The afternoon scan found continued discussion of former UAP official Jay Stratton's new-book claims, plus a fresh r/UFOs post amplifying a Liberation Times account of a former Army sniper's alleged story about a deadly encounter near Area 51. The publications and community discussion are verifiable as media events; the underlying claims remain testimony and allegation. No new primary UAP release, hearing notice, or independently authenticated evidence was verified in this window.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: a reported lead, not a breakthrough",
-          "body": "The strongest public lead still on the desk is the New York Post's October 10 report that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. That is a reported possibility, not an announced hearing, subpoena, or public witness appearance. This edition found no new primary record changing that status. Reddit discussion of Jay Stratton is a community lead, not confirmation of a new interview, release, or finding.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a fresh media report, not a verified finding",
+          "body": "CNN published a report on October 14 about former UAP official Jay Stratton discussing claims in his new book, including alleged nonhuman craft and a claimed home encounter. The publication and interview are verifiable as media events; the underlying claims remain testimony and allegation, not independently verified evidence. The report is important because it gives the claims a new mainstream venue, not because publication settles them.",
           "sources": [
             {
-              "name": "New York Post",
-              "credit": "Shane Galvin; public report published October 10, 2026, 7:45 p.m. ET",
-              "url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
+              "name": "CNN",
+              "credit": "Public Google News listing for CNN report; published October 14, 2026, 11:27 p.m. UTC",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNzI1UU1udjEyemdmM0ItQm1mandVeW1QaVphY002X2hGemlZeGRaZEhfdEZwQkI5RzRrSHZkRnJXOFJHcVR5bElxUHFmVnhjOGFTSTNwRnk4akFfVmNDMnV6Q1dNNWRDbzAxb0dkRXc5cHJoRFFKR3V3TEpnTHRMVUx1bkMtZDRUeFlzbmVSdXhHRThQcFU2NQ?oc=5"
             },
             {
               "name": "Ask a Pol UAP",
@@ -37,8 +37,8 @@
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: attention cannot be measured cleanly this morning",
-          "body": "The accessible r/UFOs RSS feed returned 20 active threads. Visible titles included a Jay Stratton television segment, a claim about a NASA astronaut's religious interpretation, a weekly UAP roundup, new sighting submissions from Ohio, Israel, Florida, Massachusetts, and California, a Coyne Incident recreation, launch-identification chatter, the latest Grusch/Joe Rogan discussion, and older document and photograph threads. No thread establishes its underlying claim. The other four requested Reddit feeds returned HTTP 429, while logged-out X exposed only its application shell rather than attributable posts. The desk therefore records no X account as having posted.",
+          "heading": "TRENDING / LOUDEST: r/UFOs is sorting testimony from proof",
+          "body": "Among the first 20 new r/UFOs threads, the loudest cluster remained around the CNN/Jay Stratton interview, Stratton's new book, and attempts to reconstruct or contextualize the McCasland material. A new thread also pushed a Liberation Times account involving former Army sniper Nick Betts and an alleged reptilian encounter near Area 51. That is community attention around a reported story, not evidence that the event occurred. Other threads concerned NASA's older data-quality report, launch schedules, and speculative consciousness or nonhuman-intelligence theories.",
           "sources": [
             {
               "name": "Public X search",
@@ -47,30 +47,40 @@
             },
             {
               "name": "Reddit public scans",
-              "credit": "Five community feeds attempted; r/UFOs RSS was readable, four other feeds were not reliably readable",
+              "credit": "Five community feeds attempted; public requests were blocked or not reliably readable in this edition",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             }
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the archive remains a map of the argument",
-          "body": "The most useful community leads were the Jay Stratton broadcast discussion, the Coyne Incident technical recreation, the Israel-border report, and a document-forensics thread about pre-Roswell material. They are leads and historical discussion, not independently authenticated developments. The Coyne material may suit a future archive piece if the original flight records, testimony, and technical reconstruction can be separated rather than poured into one heroic story.",
+          "heading": "FUN / INTERESTING: the epistemic argument is part of the story",
+          "body": "The Area 51 account is the day's peculiar campfire story: a former Army sniper says he was told of a lethal encounter with reptilian beings, while the public record currently consists of the account as reported and the community's retelling. It is exactly the sort of material worth preserving in an archive—and exactly the sort that should not be upgraded into fact by repetition. Lower-volume threads asked whether UAP reports remain permanently at the edge of proof and whether consciousness belongs in the explanatory frame. Those questions deserve more than a sneer and less than a verdict: interpretations and research prompts are not measurements.",
           "sources": [
             {
-              "name": "Ask a Pol UAP archive",
-              "credit": "Public archive checked for surrounding and recent context",
-              "url": "https://www.askapoluaps.com/archive"
+              "name": "Liberation Times",
+              "credit": "Public report attributed to former Army sniper Nick Betts; allegation not independently authenticated",
+              "url": "https://www.liberationtimes.com/home/former-army-sniper-says-he-was-told-of-deadly-encounter-with-reptilian-beings-near-area-51"
             },
             {
-              "name": "YouTube / UFO Journal",
-              "credit": "Creator-published October 12, 2026 uploads; footage and comparison not independently authenticated",
-              "url": "https://www.youtube.com/@warngill-ic3jn"
+              "name": "r/UFOs",
+              "credit": "u/Courtly-Chris; community thread posted October 15, 2026",
+              "url": "https://www.reddit.com/r/UFOs/comments/1x6msnk/drunk_man_in_hotel_room_told_former_army_sniper/"
+            },
+            {
+              "name": "r/UFOs public feed",
+              "credit": "First 20 new threads checked; community signal only",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "NASA UAP material",
+              "credit": "Older primary-source page discussed by the community; no new release identified",
+              "url": "https://science.nasa.gov/uap/"
             }
           ]
         },
         {
           "heading": "DESK JUDGMENT: reported lead, no verified breakthrough",
-          "body": "This edition preserves the existing REPORTED items and adds no new verified headline. It adds no claim of a hearing, official file release, recovered technology, or nonhuman involvement. NASA remains a source-watch destination; AARO and Defense Department pages returned access errors in the automated reachability check, so absence of a visible release cannot be inferred. Nothing is presented as confirmed without a primary record or independent corroboration.",
+          "body": "This edition adds no new verified government development. It adds no claim of a hearing, official file release, recovered technology, or nonhuman involvement. NASA's UAP and newsroom pages were reachable and yielded no new UAP development in this scan; AARO and Defense Department pages returned HTTP 403, so absence of a visible release cannot be inferred. CNN's report is retained as a public media report, while the claims it recounts remain unverified.",
           "sources": [
             {
               "name": "NASA UAP research",
@@ -122,7 +132,7 @@
           "url": "https://www.askapoluaps.com/feed"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The New York Post and Ask a Pol items are labeled REPORTED because the publications and attributed statements are verifiable while their implications require further checking. Reddit threads and creator material are community leads only. Public X search exposed no attributable post text in this run; four requested Reddit feeds returned HTTP 429. Those limitations are recorded as limitations, not silence."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. CNN's report and Liberation Times' account are recorded as media events; the claims they recount are not independently authenticated. Reddit threads are community leads only. Public X search yielded no attributable post text in this edition. Those limitations are recorded so readers do not mistake an incomplete scan for silence."
     }
   },
   "items": [
