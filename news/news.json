@@ -1,34 +1,34 @@
 {
   "meta": {
-    "checked_at": "2026-10-16T14:30:00Z",
+    "checked_at": "2026-10-17T14:30:09Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-16T12:00:45Z/2026-10-16T14:30:00Z",
-      "date": "2026-10-16",
-      "title": "COMMUNITY ROUNDUP: Trump gets the disclosure question; Australia, Lockheed, and Jay Stratton keep the feed busy",
-      "lede": "The afternoon scan found fresh r/UFOs attention around a question put to President Trump about releasing UFO information, a community lead about Australian defence FOIA material, and a historical Lockheed presentation on soul and light. Jay Stratton’s Fox News appearance and the continuing argument over former officials’ claims remain the loudest thread. These are public discussions and reported leads—not proof of alien craft, nonhuman bodies, or a new government finding. Public X search was not usable for attributable post text in this run.",
+      "window": "2026-10-17T00:00:25Z/2026-10-17T14:30:09Z",
+      "date": "2026-10-17",
+      "title": "COMMUNITY ROUNDUP: Pentagon-file headlines, Stratton claims, and a very busy UFO feed",
+      "lede": "Today’s public scan found a louder-than-usual mix: ABC News is being surfaced with a headline saying the Pentagon released declassified UFO files, CBS News is discussing a former U.S. intelligence official’s new book alleging a UAP cover-up, and Jay Stratton’s Roswell claims are ricocheting through the feed. Those are public reports and community attention signals—not, by themselves, proof of a new official release or of nonhuman craft. The underlying documents and full interviews still matter.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: a question is not a policy",
-          "body": "A new r/UFOs thread is circulating a clip or report in which President Trump is asked whether he will disclose the truth about aliens and UFOs. The thread establishes that the exchange is being discussed; it does not, by itself, establish a new executive order, release schedule, or official finding. The useful editorial question is the boring one: was anything promised, by whom, and in what document? Until that record is checked, this belongs in the community lane.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a headline about “declassified UFO files” needs the files",
+          "body": "Google News is surfacing an ABC News headline, published October 17, saying “Pentagon releases declassified UFO files from various federal agencies.” That is consequential if the underlying release exists and is what the headline says. In this scan, the accessible evidence is the search-feed entry and headline; the original document, release page, scope of the files, and chain of custody were not independently established. CBS News is also circulating a report about a former U.S. intelligence official and a new book alleging a government UAP cover-up. The community is right to pay attention. It is not yet right to skip the paperwork.",
           "sources": [
             {
-              "name": "r/UFOs",
-              "credit": "Public community thread posted October 16, 2026; linked clip/report requires independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1x7f60p/new_president_trump_is_asked_if_he_will_disclose/"
+              "name": "ABC News via Google News",
+              "credit": "Headline published October 17, 2026; underlying Pentagon release requires review",
+              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20after%3A2026-10-16%20before%3A2026-10-18&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "Google News UAP search",
-              "credit": "Search feed checked October 16, 2026; results included older and recent UAP coverage, not a new official release",
-              "url": "https://news.google.com/rss/search?q=UAP%20UFO%20disclosure%20October%2016%202026&hl=en-US&gl=US&ceid=US:en"
+              "name": "CBS News via Google News",
+              "credit": "Headline published October 16, 2026; report concerns an allegation and a book, not a confirmed cover-up",
+              "url": "https://www.cbsnews.com/news/former-us-intel-official-new-book-alleging-uap-government-cover-up/"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Jay Stratton, Australian FOIA, and the old problem of proof",
-          "body": "The r/UFOs feed remains crowded with discussion of former UAP official Jay Stratton, including his Fox News appearance and a separate thread repeating allegations attributed to former AARO director Sean Kirkpatrick. Another thread points to purported new Australian defence FOIA documents and calls them a glaring UAP blind spot. That Australian material is a lead, not independently checked evidence here. The community is doing what communities do: sorting testimony, media, and documents into one very noisy pile.",
+          "heading": "TRENDING / LOUDEST: Jay Stratton, Roswell, and the claims machine",
+          "body": "A new wave of coverage and reposting is carrying former UAP official Jay Stratton’s claim that the 1947 Roswell crash involved recovered non-human bodies. Google News also surfaced a Fox 32 segment built around Harvard astronomer Avi Loeb breaking down a claim by a former Pentagon official. These are attributed public claims and media treatments. They do not establish the alleged bodies, the provenance of any material, or a new government finding. The internet remains undefeated at turning one assertion into a weather system.",
           "sources": [
             {
               "name": "r/UFOs",
@@ -53,8 +53,8 @@
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the soul is light, apparently, and the internet has questions",
-          "body": "A widely noticed thread shares a historical presentation titled “The Soul is Light. What, Then, is Light?” by Jim Ryder of Lockheed’s Advanced Technology Center. It is an intriguing archival and consciousness-first lead, not evidence that Lockheed proved a paranormal proposition. Nearby discussion also revisits the “epistemic trickster” idea: perhaps UAP reports remain just beyond decisive proof because the phenomenon—or our interpretation of it—behaves in ways that frustrate ordinary observation. That is a hypothesis worth describing, not a measurement wearing a cape.",
+          "heading": "FUN / INTERESTING: skies, sensors, and the paranormal miscellany",
+          "body": "The same feed offered a useful little sampler of the wider culture: photographs of UFO-like clouds over the Washington area, a Medium analysis arguing that more than 8% of PURSUE sensor videos might be birds, and fresh Coast to Coast AM listings for physical mediumship, apports, anomalies, and hauntings. None is a disclosure breakthrough. Together they show the full ecology of the subject—from sensor triage to consciousness-first and paranormal interpretations—without requiring us to pretend that every strange thing is the same strange thing.",
           "sources": [
             {
               "name": "r/UFOs",
@@ -74,8 +74,8 @@
           ]
         },
         {
-          "heading": "DESK JUDGMENT: active conversation, no verified breakthrough",
-          "body": "This update adds no verified government action, court filing, hearing notice, or independently authenticated UAP evidence. NASA’s public pages were reachable; AARO and Defense Department pages remain subject to HTTP 403 in the automated check, so silence there cannot be treated as proof that nothing happened. The Australian FOIA thread and the Trump question deserve review, but neither should be upgraded to confirmed news without the underlying document or full video and a reliable transcript.",
+          "heading": "DESK JUDGMENT: retain SOURCE WATCH; no verified breakthrough",
+          "body": "This edition records a public media cycle and community interest, not a verified extraterrestrial or nonhuman disclosure. The ABC headline is the item most deserving of immediate primary-source review. NASA’s public pages were reachable in the source check; AARO and Defense Department pages returned HTTP 403, so that access limitation cannot be treated as evidence that nothing happened. Reddit and logged-out X did not yield attributable post text in the earlier refresh. Source limitations are part of the story, not a license to fill the gaps with confidence.",
           "sources": [
             {
               "name": "NASA Science",
@@ -97,27 +97,27 @@
       ],
       "media": [
         {
-          "title": "Jay Stratton on Fox News with Jesse Watters",
-          "credit": "Fox News / r/UFOs community lead",
-          "url": "https://www.reddit.com/r/UFOs/comments/1x73txg/jay_stratton_on_fox_news_with_jesse_watters"
+          "title": "Pentagon releases declassified UFO files from various federal agencies",
+          "credit": "ABC News via Google News; primary release not yet located in this scan",
+          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20after%3A2026-10-16%20before%3A2026-10-18&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Senator Warner: “Chinese drones” shuttered Langley AFB — on US soil! — for 17 days in 2023, not UAP",
-          "credit": "Ask a Pol UAP / Matt Laslo",
-          "url": "https://www.askapoluaps.com/p/chinese-drones-shuttered-air-force-base-on-us-soil"
+          "title": "Former U.S. intel official on new book alleging UAP government cover-up",
+          "credit": "CBS News",
+          "url": "https://www.cbsnews.com/news/former-us-intel-official-new-book-alleging-uap-government-cover-up/"
         },
         {
-          "title": "Former Intel Chair Mike Turner runs from Ask a Pol’s questions about the Pentagon’s UFO files",
-          "credit": "Ask a Pol UAP / Matt Laslo",
-          "url": "https://www.askapoluaps.com/p/mike-turner-runs-from-ask-a-pol"
+          "title": "Jay Stratton Says 1947 Roswell Crash Recovered Non-Human Bodies",
+          "credit": "Publicly indexed media report; claim attributed to Jay Stratton",
+          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20after%3A2026-10-16%20before%3A2026-10-18&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Ask a Pol UAP public feed",
-          "credit": "Public RSS; latest-item check",
-          "url": "https://www.askapoluaps.com/feed"
+          "title": "UAP public search feed",
+          "credit": "Google News RSS; date-bounded discovery feed",
+          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20after%3A2026-10-16%20before%3A2026-10-18&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion and accessible community media, not verified news. The Trump question, Australian FOIA thread, Jay Stratton discussion, and historical Lockheed presentation are recorded as public leads or media events; their underlying claims are not independently authenticated here. Reddit is community signal, not proof. Public X search did not yield attributable post text in this run. Source limitations are stated so readers do not mistake an incomplete scan for silence."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The ABC and CBS headlines are preserved as leads with attribution; no underlying release or allegation is upgraded to confirmed fact here. Reddit and X source limitations are stated so readers do not mistake an incomplete scan for silence. The verified-news desk alert for the ABC headline awaits Paul’s review."
     }
   },
   "items": [
