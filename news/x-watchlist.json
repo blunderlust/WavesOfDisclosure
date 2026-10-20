@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-19T12:01:05Z",
-  "window": "2026-10-18T12:01:05Z/2026-10-19T12:01:05Z",
-  "method": "The maintained watchlist contains 50 public profile URLs previously checked for handle validity. This edition used a date-bounded public X search; logged-out search redirected to the login flow rather than exposing attributable post text or a usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Posts must be checked individually before use. Reddit’s r/UFOs public feed was readable for a current thread list; other requested community feeds returned HTTP 429 during the refresh.",
+  "checked_at": "2026-10-20T14:44:34Z",
+  "window": "2026-10-19T12:00:32Z/2026-10-20T14:44:34Z",
+  "method": "The maintained watchlist contains 50 public profile URLs previously checked for handle validity. This run used public X search, which exposed no attributable post text or usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Reddit and Google News were checked separately for community and media signals.",
   "accounts": [
     {
       "handle": "NASA",

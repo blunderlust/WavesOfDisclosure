@@ -1,86 +1,66 @@
 {
   "meta": {
-    "checked_at": "2026-10-19T14:42:17Z",
+    "checked_at": "2026-10-20T14:44:34Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-18T12:01:05Z/2026-10-19T14:42:17Z",
-      "date": "2026-10-19",
-      "title": "COMMUNITY ROUNDUP: a Pentagon-files headline, Stratton claims, and a UFO movie mystery draw attention",
-      "lede": "The 24-hour scan found no independently verified new UAP development to promote. Google News surfaced an ABC News headline about alleged declassified Pentagon files, a BroBible treatment of ex-Pentagon official Jay Stratton’s claims, and a VICE piece about a UFO-shaped object in a classic John Wayne film. These are public media leads and community conversation, not proof of a new official release or nonhuman craft. Reddit was checked for a current r/UFOs thread list; public X search exposed no attributable post text. Attention is not evidence, and an attributed claim is not a finding.",
+      "window": "2026-10-19T12:00:32Z/2026-10-20T14:44:34Z",
+      "date": "2026-10-20",
+      "title": "COMMUNITY ROUNDUP: a submarine-era UFO tale, witness reports, and consciousness talk",
+      "lede": "The latest public scan found no independently verified new UAP development to promote. Google News was dominated by culture, historical retellings, local eyewitness reports, and one consciousness-themed Coast to Coast AM listing; Reddit’s accessible r/UFOs feed remained the liveliest community signal, while public X search exposed no attributable watchlist posts. The material below records what is circulating, not what has been proved.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the files still have to be produced",
-          "body": "Google News listed an ABC News headline published October 19 saying “Pentagon releases declassified UFO files from various federal agencies.” That is a public media headline, not yet a verified release in this desk’s record: the underlying documents, release page, scope, and chain of custody remain unestablished. The desk is retaining SOURCE WATCH rather than laundering a headline into a fact.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: attention is not a release",
+          "body": "The current feed produced no readable new government document, court filing, law, or official UAP announcement. A Daily Mail headline about a former NASA worker and a Popular Mechanics retelling of a submarine-era UFO story may attract attention, but neither establishes a new official finding. The desk is keeping the verified lane quiet until primary documentation appears.",
           "sources": [
             {
-              "name": "ABC News via Google News",
-              "credit": "Headline listed October 19, 2026; underlying Pentagon release requires review",
+              "name": "Google News UAP/UFO feed",
+              "credit": "Date-bounded public discovery feed checked during this run; headlines require source-level review",
               "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "CBS News via Google News",
-              "credit": "Headline published October 16, 2026; report concerns an allegation and a book, not a confirmed cover-up",
-              "url": "https://www.cbsnews.com/news/former-us-intel-official-new-book-alleging-uap-government-cover-up/"
-            }
-          ]
-        },
-        {
-          "heading": "TRENDING / LOUDEST: Stratton, alleged files, and ordinary weirdness",
-          "body": "The r/UFOs scan supplied a current thread list, but this edition does not promote individual user-submitted sightings as verified events. The wider public conversation is being pulled toward the ABC Pentagon-files headline, coverage challenging or repeating Jay Stratton’s claims, George Knapp’s discussion of AAWSAP-related files, and familiar debates over testimony versus paperwork. These are community and media signals; they do not establish nonhuman craft, recovered bodies, or a new government release.",
-          "sources": [
-            {
-              "name": "r/UFOs",
-              "credit": "Current community thread list; community signal only",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "r/UFOs",
-              "credit": "Current community thread list; community signal only",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "r/UFOs",
-              "credit": "Fresh community thread; public-budget/accountability discussion; community signal only",
-              "url": "https://www.reddit.com/r/UFOs/comments/1x9ez5d/the_white_house_uap_science_advisory_council_has/"
-            },
-            {
-              "name": "r/UFOs",
-              "credit": "Fresh community thread; reported clip and attributed statement, community signal only",
-              "url": "https://www.reddit.com/r/UFOs/comments/1x93jel/new_previously_unseen_clips_from_the_conversation/"
-            },
-            {
-              "name": "Reddit public feed",
-              "credit": "r/UFOs new Atom feed; roughly 20 entries checked",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            }
-          ]
-        },
-        {
-          "heading": "FUN / INTERESTING: clouds, hauntings, and consciousness claims",
-          "body": "The news scan also surfaced VICE revisiting a UFO-looking object in a John Wayne movie, a Texas haunted-hotels/UFO-sightings map, the Weather Channel’s luminous ‘flying saucer clouds,’ and Coast to Coast AM listings about apports, anomalies, hauntings, and ‘ET consciousness.’ These belong in the cultural and consciousness-first conversation, not in the verified UAP ledger. The useful distinction remains the old one: an interesting experience or interpretation is not automatically a documented event.",
-          "sources": [
-            {
-              "name": "Google News",
-              "credit": "Public media discovery feed; item requires source-level review",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Coast to Coast AM via Google News",
-              "credit": "Public listing; title is an attributed claim, not independently verified evidence",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "NASA UAP material",
-              "credit": "Primary-source context; no new NASA UAP release identified",
+              "name": "NASA Science",
+              "credit": "Primary context page; no new NASA UAP release identified",
               "url": "https://science.nasa.gov/uap/"
             }
           ]
         },
         {
-          "heading": "DESK JUDGMENT: retain SOURCE WATCH; no verified overnight breakthrough",
-          "body": "This edition retains SOURCE WATCH: no new document, official release, or independently corroborated incident was identified in the accessible record. NASA’s public UAP page was reachable; AARO and Defense Department releases were not readable to the automated check. The r/UFOs public feed was checked for the active thread list, while the other requested Reddit communities were unavailable to the scan. Logged-out X search redirected to login and supplied no attributable post text. These are source-availability limits, not evidence for or against the underlying claims.",
+          "heading": "TRENDING / LOUDEST: a fresh coat of paint on old arguments",
+          "body": "The accessible r/UFOs feed supplied current community discussion spanning alleged files, historical cases, sightings, and consciousness themes. Google News also surfaced local reports of lights over Idaho and a fast object over Whitchurch. These are reports and conversations, not corroborated identifications. The maintained X watchlist yielded no attributable public post text in this scan.",
+          "sources": [
+            {
+              "name": "r/UFOs",
+              "credit": "Current public Atom feed; community signal only",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "Google News",
+              "credit": "Public discovery feed carrying attributed local reports; no independent corroboration implied",
+              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            }
+          ]
+        },
+        {
+          "heading": "FUN / INTERESTING: the witness, the submarine, and the invisible committee",
+          "body": "Popular Mechanics is circulating a dramatic account involving a nuclear submarine used to lure an alleged spacecraft; whatever one makes of the story, this is a media retelling, not fresh sensor data. Coast to Coast AM listed “Atlantis and Lemuria / Connecting with ET Consciousness,” a useful glimpse of the community’s consciousness-first vocabulary. Such frameworks can matter to experiencers and researchers, but a meaningful interpretation is not automatically an independently documented event.",
+          "sources": [
+            {
+              "name": "Popular Mechanics via Google News",
+              "credit": "Current media headline; historical account requires source-level review",
+              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "Coast to Coast AM via Google News",
+              "credit": "Current program listing; attributed consciousness claim, not verified evidence",
+              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            }
+          ]
+        },
+        {
+          "heading": "DESK JUDGMENT: SOURCE WATCH remains the honest label",
+          "body": "No new document, official release, or independently corroborated incident was identified in the accessible record. NASA’s UAP page was reachable; AARO and Defense Department pages remained blocked to the automated checker. Reddit and Google News provided public discussion and discovery leads. Those source-availability limits do not prove or disprove the underlying claims.",
           "sources": [
             {
               "name": "NASA Science",
@@ -102,27 +82,27 @@
       ],
       "media": [
         {
-          "title": "Pentagon releases declassified UFO files from various federal agencies",
-          "credit": "ABC News via Google News; primary release not yet located in this scan",
+          "title": "He Used a Nuclear Submarine to Lure an Alien Spacecraft—and Found Something That Defied Physics",
+          "credit": "Popular Mechanics via Google News; media retelling, not a verified new event",
           "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Former U.S. intel official on new book alleging UAP government cover-up",
-          "credit": "CBS News",
-          "url": "https://www.cbsnews.com/news/former-us-intel-official-new-book-alleging-uap-government-cover-up/"
-        },
-        {
-          "title": "Jay Stratton Says 1947 Roswell Crash Recovered Non-Human Bodies",
-          "credit": "Publicly indexed media report; claim attributed to Jay Stratton",
+          "title": "I worked with NASA. UFO disclosure will finally happen... but it's not coming from the White House",
+          "credit": "Daily Mail via Google News; attributed commentary/claim requiring source-level review",
           "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "UAP public search feed",
-          "credit": "Google News RSS; date-bounded discovery feed",
+          "title": "Idaho Witness Reports Swarm Of Color-Changing UFOs Over Sand Dunes",
+          "credit": "KIDO Talk Radio via Google News; local witness report, not independently corroborated",
+          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Atlantis and Lemuria / Connecting with ET Consciousness",
+          "credit": "Coast to Coast AM via Google News; program listing and attributed framework",
           "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. Reddit threads are labeled community signal; attributed statements remain attributed; no current X post was used because public search exposed no attributable text. The verified desk retains SOURCE WATCH and awaits primary documentation."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. Reddit threads are labeled community signal; media headlines remain attributed; no current X post was used because public search exposed no attributable text. Consciousness and channeling are included as reported interpretive frameworks, not established explanations."
     }
   },
   "items": [
