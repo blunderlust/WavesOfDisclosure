@@ -17,12 +17,12 @@
             {
               "name": "Cybernews via Google News",
               "credit": "Report about Ross Coulthart’s attributed claim; not independently verified",
-              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "NewsNation via Google News",
               "credit": "Fresh media coverage of an ex-government investigator’s book and claimed experiences",
-              "url": "https://news.google.com/rss/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "NASA Science",
@@ -38,12 +38,12 @@
             {
               "name": "El Paso Times via Google News",
               "credit": "Report on the Valley of Juárez creature story; witness/media account",
-              "url": "https://news.google.com/rss/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "WION via Google News",
               "credit": "Current explainers on radar and scientific investigation of unidentified objects",
-              "url": "https://news.google.com/rss/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/UFOs",
@@ -59,12 +59,12 @@
             {
               "name": "NewsNation / CUOMO via Google News",
               "credit": "Attributed first-person account; claim, not independently corroborated evidence",
-              "url": "https://news.google.com/rss/search?q=Alien+very+large+head+looked+in+my+window+ex-Pentagon+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=Alien+very+large+head+looked+in+my+window+ex-Pentagon+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Google News UAP/UFO feed",
               "credit": "Date-bounded discovery feed checked during this run",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "url": "https://news.google.com/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
@@ -94,22 +94,22 @@
         {
           "title": "Trump briefed on secret UFO program, Ross Coulthart claims",
           "credit": "Cybernews via Google News; consequential attributed claim awaiting verification",
-          "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
           "credit": "NewsNation via Google News; media report about claimed experiences",
-          "url": "https://news.google.com/rss/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "Aliens and UAPs: What can radar really tell us about an unidentified object?",
           "credit": "WION via Google News; explanatory media coverage",
-          "url": "https://news.google.com/rss/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "title": "Valley of Juárez creature mystery draws Mexico UFO researcher",
           "credit": "El Paso Times via Google News; reported creature account, not corroborated here",
-          "url": "https://news.google.com/rss/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
       "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The Cybernews/Coulthart item is included as an attributed claim and separately flagged for Paul; it is not presented as a confirmed briefing. Reddit and X did not yield attributable, date-bounded material in this run. Consciousness-first and high-strangeness interpretations receive meaningful treatment but remain labeled as interpretations, testimony, or speculation."
