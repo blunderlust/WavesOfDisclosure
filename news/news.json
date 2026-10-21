@@ -1,66 +1,76 @@
 {
   "meta": {
-    "checked_at": "2026-10-20T14:44:34Z",
+    "checked_at": "2026-10-21T14:45:51Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-19T12:00:32Z/2026-10-20T14:44:34Z",
-      "date": "2026-10-20",
-      "title": "COMMUNITY ROUNDUP: a submarine-era UFO tale, witness reports, and consciousness talk",
-      "lede": "The latest public scan found no independently verified new UAP development to promote. Google News was dominated by culture, historical retellings, local eyewitness reports, and one consciousness-themed Coast to Coast AM listing; Reddit’s accessible r/UFOs feed remained the liveliest community signal, while public X search exposed no attributable watchlist posts. The material below records what is circulating, not what has been proved.",
+      "window": "2026-10-21T12:01:39Z/2026-10-21T14:45:51Z",
+      "date": "2026-10-21",
+      "title": "COMMUNITY ROUNDUP: Coulthart claim, fresh witness stories, and the evidence problem",
+      "lede": "The public feed got louder without getting more settled. NewsNation promoted an ex-government UAP investigator’s book and claimed experiences; Cybernews recirculated Ross Coulthart’s claim that President Trump was briefed on a secret UFO program; and outlets revisited a strange-creature report from Mexico. None of that, as checked here, is a new official release or independently verified finding. Reddit and public X remained unusable for attributable, date-bounded posts in this run, so this roundup follows the accessible media conversation and labels the claims accordingly.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: attention is not a release",
-          "body": "The current feed produced no readable new government document, court filing, law, or official UAP announcement. A Daily Mail headline about a former NASA worker and a Popular Mechanics retelling of a submarine-era UFO story may attract attention, but neither establishes a new official finding. The desk is keeping the verified lane quiet until primary documentation appears.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a consequential claim is still a claim",
+          "body": "The loudest potentially consequential item was Cybernews’ report that journalist Ross Coulthart claims President Trump was briefed on a secret UFO program. That would matter if independently documented, but the accessible record checked here establishes only a media report about Coulthart’s assertion—not a White House record, briefing document, official confirmation, or corroborated disclosure. NewsNation also published a fresh item about an ex-Pentagon UAP hunter’s book and alleged encounters. The distinction is not pedantry; it is the whole job.",
           "sources": [
             {
-              "name": "Google News UAP/UFO feed",
-              "credit": "Date-bounded public discovery feed checked during this run; headlines require source-level review",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "Cybernews via Google News",
+              "credit": "Report about Ross Coulthart’s attributed claim; not independently verified",
+              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "NewsNation via Google News",
+              "credit": "Fresh media coverage of an ex-government investigator’s book and claimed experiences",
+              "url": "https://news.google.com/rss/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "NASA Science",
-              "credit": "Primary context page; no new NASA UAP release identified",
+              "credit": "Primary context page checked; no new NASA UAP release identified",
               "url": "https://science.nasa.gov/uap/"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: a fresh coat of paint on old arguments",
-          "body": "The accessible r/UFOs feed supplied current community discussion spanning alleged files, historical cases, sightings, and consciousness themes. Google News also surfaced local reports of lights over Idaho and a fast object over Whitchurch. These are reports and conversations, not corroborated identifications. The maintained X watchlist yielded no attributable public post text in this scan.",
+          "heading": "TRENDING / LOUDEST: the community’s evidence argument, with monsters",
+          "body": "Today’s accessible discussion clustered around three familiar but potent magnets: a former government investigator describing extraordinary personal experiences; a Valley of Juárez “creature” story that UFO investigator José Jaime Maussan reportedly framed in interdimensional terms; and explainers asking what radar and scientific method can—and cannot—say about an unidentified object. The strongest conventional reading is a mixture of witness report, editorial amplification, misidentification, and incomplete context. The strongest anomalous reading is that some cases may involve an actor or process not captured by ordinary aircraft-and-error categories. Neither reading turns a headline into a finding.",
           "sources": [
+            {
+              "name": "El Paso Times via Google News",
+              "credit": "Report on the Valley of Juárez creature story; witness/media account",
+              "url": "https://news.google.com/rss/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "WION via Google News",
+              "credit": "Current explainers on radar and scientific investigation of unidentified objects",
+              "url": "https://news.google.com/rss/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
+            },
             {
               "name": "r/UFOs",
-              "credit": "Current public Atom feed; community signal only",
+              "credit": "Public endpoint checked but did not yield a trustworthy in-window sample",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "Google News",
-              "credit": "Public discovery feed carrying attributed local reports; no independent corroboration implied",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the witness, the submarine, and the invisible committee",
-          "body": "Popular Mechanics is circulating a dramatic account involving a nuclear submarine used to lure an alleged spacecraft; whatever one makes of the story, this is a media retelling, not fresh sensor data. Coast to Coast AM listed “Atlantis and Lemuria / Connecting with ET Consciousness,” a useful glimpse of the community’s consciousness-first vocabulary. Such frameworks can matter to experiencers and researchers, but a meaningful interpretation is not automatically an independently documented event.",
+          "heading": "FUN / INTERESTING: the witness at the window",
+          "body": "The NewsNation/CUOMO item’s headline—an ex-Pentagon UAP hunter describing an alleged being with a “very large head” looking through a window—is precisely the sort of first-person account that drives community attention. It is also precisely the sort of material that needs careful handling: testimony can be sincere and culturally important without independently establishing what occurred. Consciousness-first interpretations deserve more than a dismissive shrug here: altered perception, dreamlike states, anomalous agency, and the observer’s role are live interpretive questions in this genre. They remain interpretations, not demonstrated mechanisms.",
           "sources": [
             {
-              "name": "Popular Mechanics via Google News",
-              "credit": "Current media headline; historical account requires source-level review",
-              "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "NewsNation / CUOMO via Google News",
+              "credit": "Attributed first-person account; claim, not independently corroborated evidence",
+              "url": "https://news.google.com/rss/search?q=Alien+very+large+head+looked+in+my+window+ex-Pentagon+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "Coast to Coast AM via Google News",
-              "credit": "Current program listing; attributed consciousness claim, not verified evidence",
+              "name": "Google News UAP/UFO feed",
+              "credit": "Date-bounded discovery feed checked during this run",
               "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "DESK JUDGMENT: SOURCE WATCH remains the honest label",
-          "body": "No new document, official release, or independently corroborated incident was identified in the accessible record. NASA’s UAP page was reachable; AARO and Defense Department pages remained blocked to the automated checker. Reddit and Google News provided public discussion and discovery leads. Those source-availability limits do not prove or disprove the underlying claims.",
+          "heading": "DESK JUDGMENT: SOURCE WATCH, with one alert for Paul",
+          "body": "No new law, court filing, official release, or independently corroborated incident was identified in the accessible record. NASA’s UAP and news pages were reachable; automated checks of AARO and the Defense Department release archive returned HTTP 403. Reddit endpoints returned an access/error response rather than a reliable timeline, and public X search exposed no attributable watchlist text. Those limitations describe the scan, not the truth value of the underlying claims. The verified-news lane stays unpublished pending source-level review.",
           "sources": [
             {
               "name": "NASA Science",
@@ -82,27 +92,27 @@
       ],
       "media": [
         {
-          "title": "He Used a Nuclear Submarine to Lure an Alien Spacecraft—and Found Something That Defied Physics",
-          "credit": "Popular Mechanics via Google News; media retelling, not a verified new event",
-          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+          "title": "Trump briefed on secret UFO program, Ross Coulthart claims",
+          "credit": "Cybernews via Google News; consequential attributed claim awaiting verification",
+          "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "I worked with NASA. UFO disclosure will finally happen... but it's not coming from the White House",
-          "credit": "Daily Mail via Google News; attributed commentary/claim requiring source-level review",
-          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+          "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
+          "credit": "NewsNation via Google News; media report about claimed experiences",
+          "url": "https://news.google.com/rss/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Idaho Witness Reports Swarm Of Color-Changing UFOs Over Sand Dunes",
-          "credit": "KIDO Talk Radio via Google News; local witness report, not independently corroborated",
-          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+          "title": "Aliens and UAPs: What can radar really tell us about an unidentified object?",
+          "credit": "WION via Google News; explanatory media coverage",
+          "url": "https://news.google.com/rss/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Atlantis and Lemuria / Connecting with ET Consciousness",
-          "credit": "Coast to Coast AM via Google News; program listing and attributed framework",
-          "url": "https://news.google.com/rss/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+          "title": "Valley of Juárez creature mystery draws Mexico UFO researcher",
+          "credit": "El Paso Times via Google News; reported creature account, not corroborated here",
+          "url": "https://news.google.com/rss/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. Reddit threads are labeled community signal; media headlines remain attributed; no current X post was used because public search exposed no attributable text. Consciousness and channeling are included as reported interpretive frameworks, not established explanations."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The Cybernews/Coulthart item is included as an attributed claim and separately flagged for Paul; it is not presented as a confirmed briefing. Reddit and X did not yield attributable, date-bounded material in this run. Consciousness-first and high-strangeness interpretations receive meaningful treatment but remain labeled as interpretations, testimony, or speculation."
     }
   },
   "items": [
