@@ -1,18 +1,34 @@
 {
   "meta": {
-    "checked_at": "2026-10-21T14:45:51Z",
+    "checked_at": "2026-10-22T14:49:27Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-21T12:01:39Z/2026-10-21T14:45:51Z",
-      "date": "2026-10-21",
-      "title": "COMMUNITY ROUNDUP: Coulthart claim, fresh witness stories, and the evidence problem",
-      "lede": "The public feed got louder without getting more settled. NewsNation promoted an ex-government UAP investigator’s book and claimed experiences; Cybernews recirculated Ross Coulthart’s claim that President Trump was briefed on a secret UFO program; and outlets revisited a strange-creature report from Mexico. None of that, as checked here, is a new official release or independently verified finding. Reddit and public X remained unusable for attributable, date-bounded posts in this run, so this roundup follows the accessible media conversation and labels the claims accordingly.",
+      "window": "2026-10-22T00:01:23Z/2026-10-22T14:49:27Z",
+      "date": "2026-10-22",
+      "title": "COMMUNITY ROUNDUP: Germany answers a UAP inquiry; the book cycle rolls on",
+      "lede": "The most consequential new document in the scan is real but sobering: Germany’s federal government answered a Bundestag inquiry on October 16, saying it has no findings on UAP, no separate UAP reporting channels, no cross-departmental UAP group, and no planned revision of existing procedures. Reddit is treating that answer as a bureaucratic dodge, while discussion also circles Jay Stratton’s book, Ross Coulthart’s briefing claim, and familiar historical material. Public X search exposed no attributable in-window watchlist posts. Community attention is not evidence; the German PDF is.",
       "sections": [
         {
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Germany’s official answer is a documented non-structure",
+          "body": "The German government’s written response, Bundestag document 21/8662 dated October 16, 2026, says responsibility for monitoring German airspace lies with the interior, transport, and defense ministries, while near-Earth object cataloguing belongs to the research/technology/space and defense ministries. It says ‘Über UAP liegen keine Erkenntnisse vor’ (there are no findings on UAP), no definitions are used, no separate UAP reporting channels exist, no cross-departmental structures or working groups exist, and no revision of existing procedures is planned. It also says airspace sensors produce fused data and space objects are compared with the public TLE catalogue, with access to partner sensor data. This establishes the government’s stated policy and information posture—not that anomalous objects do or do not exist, and not the Reddit interpretation that Germany is deliberately hiding them.",
+          "sources": [
+            {
+              "name": "Deutscher Bundestag, Drucksache 21/8662",
+              "credit": "Official German federal-government response, dated 2026-10-16; primary document",
+              "url": "https://dserver.bundestag.de/btd/21/086/2108662.pdf"
+            },
+            {
+              "name": "r/UFOs",
+              "credit": "Community discussion and interpretation of the official document; not independent verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xcgkab/update_the_german_government_officially_responded/"
+            }
+          ]
+        },
+        {
           "heading": "MOST IMPORTANT TO DISCLOSURE: a consequential claim is still a claim",
-          "body": "The loudest potentially consequential item was Cybernews’ report that journalist Ross Coulthart claims President Trump was briefed on a secret UFO program. That would matter if independently documented, but the accessible record checked here establishes only a media report about Coulthart’s assertion—not a White House record, briefing document, official confirmation, or corroborated disclosure. NewsNation also published a fresh item about an ex-Pentagon UAP hunter’s book and alleged encounters. The distinction is not pedantry; it is the whole job.",
+          "body": "The loudest U.S. discussion remained Cybernews’ report that journalist Ross Coulthart claims President Trump was briefed on a secret UFO program. That would matter if independently documented, but the accessible record checked here establishes only a media report about Coulthart’s assertion—not a White House record, briefing document, official confirmation, or corroborated disclosure. Reddit also spent substantial attention on Jay Stratton’s new book and on a short summary of its claims. The distinction is not pedantry; it is the whole job.",
           "sources": [
             {
               "name": "Cybernews via Google News",
@@ -33,7 +49,7 @@
         },
         {
           "heading": "TRENDING / LOUDEST: the community’s evidence argument, with monsters",
-          "body": "Today’s accessible discussion clustered around three familiar but potent magnets: a former government investigator describing extraordinary personal experiences; a Valley of Juárez “creature” story that UFO investigator José Jaime Maussan reportedly framed in interdimensional terms; and explainers asking what radar and scientific method can—and cannot—say about an unidentified object. The strongest conventional reading is a mixture of witness report, editorial amplification, misidentification, and incomplete context. The strongest anomalous reading is that some cases may involve an actor or process not captured by ordinary aircraft-and-error categories. Neither reading turns a headline into a finding.",
+          "body": "The first 20 accessible r/UFOs threads were dominated by the German inquiry response, Jay Stratton’s book, the Ross Coulthart/White House claim, old reverse-engineering allegations, launch identification, and a discussion of Jeffrey Kripal’s consciousness-oriented interpretation. Other requested subreddit feeds returned rate-limit responses in this scan. The strongest conventional reading is a mixture of official ambiguity, witness report, editorial amplification, and recycled claims. The strongest anomalous or consciousness-first reading is that some cases may involve an actor or process not captured by ordinary aircraft-and-error categories, or that observer and experience deserve a larger role in analysis. Those remain interpretations; the German response itself is a document.",
           "sources": [
             {
               "name": "El Paso Times via Google News",
@@ -54,7 +70,7 @@
         },
         {
           "heading": "FUN / INTERESTING: the witness at the window",
-          "body": "The NewsNation/CUOMO item’s headline—an ex-Pentagon UAP hunter describing an alleged being with a “very large head” looking through a window—is precisely the sort of first-person account that drives community attention. It is also precisely the sort of material that needs careful handling: testimony can be sincere and culturally important without independently establishing what occurred. Consciousness-first interpretations deserve more than a dismissive shrug here: altered perception, dreamlike states, anomalous agency, and the observer’s role are live interpretive questions in this genre. They remain interpretations, not demonstrated mechanisms.",
+          "body": "The community’s side conversations still include first-person encounter testimony, historical crash-retrieval claims, and the question of whether remembered or hypnotically recovered experiences should be treated as physical events. Testimony can be sincere and culturally important without independently establishing what occurred. Consciousness-first interpretations deserve more than a dismissive shrug: altered perception, dreamlike states, anomalous agency, and the observer’s role are live interpretive questions in this genre. They remain interpretations, not demonstrated mechanisms.",
           "sources": [
             {
               "name": "NewsNation / CUOMO via Google News",
@@ -70,7 +86,7 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH, with one alert for Paul",
-          "body": "No new law, court filing, official release, or independently corroborated incident was identified in the accessible record. NASA’s UAP and news pages were reachable; automated checks of AARO and the Defense Department release archive returned HTTP 403. Reddit endpoints returned an access/error response rather than a reliable timeline, and public X search exposed no attributable watchlist text. Those limitations describe the scan, not the truth value of the underlying claims. The verified-news lane stays unpublished pending source-level review.",
+          "body": "One new primary document was identified and added to the verified ledger: Germany’s Bundestag Drucksache 21/8662. No new U.S. law, court filing, U.S. official release, or independently corroborated incident was identified. NASA’s UAP and news pages were reachable; automated checks of AARO and the Defense Department release archive returned HTTP 403. r/UFOs yielded a date-bounded RSS sample; other requested Reddit feeds returned rate limits; public X search redirected to login and exposed no attributable watchlist text. Those source limitations describe the scan, not the truth value of underlying claims.",
           "sources": [
             {
               "name": "NASA Science",
@@ -112,10 +128,19 @@
           "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The Cybernews/Coulthart item is included as an attributed claim and separately flagged for Paul; it is not presented as a confirmed briefing. Reddit and X did not yield attributable, date-bounded material in this run. Consciousness-first and high-strangeness interpretations receive meaningful treatment but remain labeled as interpretations, testimony, or speculation."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The German Bundestag document is a primary-source development and is separately entered in the verified ledger. The Cybernews/Coulthart item remains an attributed claim, not a confirmed briefing. r/UFOs yielded a date-bounded sample; the other requested Reddit feeds and public X search did not yield a usable attributable timeline. Consciousness-first and high-strangeness interpretations receive meaningful treatment but remain labeled as interpretations, testimony, or speculation."
     }
   },
   "items": [
+    {
+      "date": "2026-10-16",
+      "status": "DOCUMENT",
+      "source_type": "GOVERNMENT DOCUMENT",
+      "headline": "German government says it has no UAP findings or dedicated reporting structure",
+      "summary": "In Bundestag Drucksache 21/8662, dated October 16, 2026, the German federal government says it has no findings on UAP, no uniform UAP/UFO definitions, no separate reporting channels, no cross-departmental structures or working groups, and no planned revision of existing procedures. It says airspace sensors produce fused data, space objects are compared with the public TLE catalogue, and partner sensor data are available. The document verifies the government’s stated policy and information posture; it does not establish that anomalous objects do or do not exist, nor does it substantiate community claims that the government is deliberately concealing them.",
+      "source_name": "German Bundestag / Federal Government of Germany",
+      "source_url": "https://dserver.bundestag.de/btd/21/086/2108662.pdf"
+    },
     {
       "date": "2026-09-27",
       "status": "SOURCE WATCH",
