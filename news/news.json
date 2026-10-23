@@ -8,11 +8,11 @@
       "window": "2026-10-22T14:49:27Z/2026-10-23T14:51:05Z",
       "date": "2026-10-23",
       "title": "COMMUNITY ROUNDUP: Release 07 is a documents-only drop with a Catalina cluster",
-      "lede": "The Department of War has now been checked through the browser and the official WAR.GOV/UFO page confirms Release 07, dated October 23, 2026. The page lists eight PDF records and no Release 07 video bundle. The strongest connection is a four-record Catalina Island sequence spanning 1949–1955, alongside a 2026 AARO memorandum and matching FBI FD-302 from a western U.S. national-security-site incident.",
+      "lede": "The Disclosure Files has now published a reader-friendly index of 28 locally reviewed Release 07 case files, each with an article, source-document link, historical context, and a clearly labeled recreation infographic. The package includes the Catalina records, BAASS files, Cold War reports, interagency correspondence, and 2026 AARO/FBI records. Claims remain separated from what the documents actually establish.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 moves from Reddit rumor to public reporting",
-          "body": "A fresh r/UFOs thread first pointed to a seventh tranche on the Department of War's UAP portal. Same-day Google News results then carried reports from NewsNation, KATU, Axios, and Leonard David's Inside Outer Space describing a Release 07 publication; David specifically reported a BAASS/Documatica Research document called Project Capella and linked a purported government PDF. The portal and linked PDF returned HTTP 403 to this desk, so the official page, document count, provenance, and full contents were not directly inspected. That makes this a substantial public development with secondary corroboration, not a blank cheque for every extraordinary interpretation attached to it. The records may tell an interesting story; they do not, by themselves, establish non-human technology.",
+          "body": "A fresh r/UFOs thread first pointed to a seventh tranche on the Department of War's UAP portal. Same-day Google News results then carried reports from NewsNation, KATU, Axios, and Leonard David's Inside Outer Space describing a Release 07 publication; David specifically reported a BAASS/Documatica Research document called Project Capella and linked a purported government PDF. The official browser-accessible release data was used to identify the files, and the locally downloaded regular PDFs were reviewed for this package. The resulting articles preserve the distinction between what each document says, what witnesses reported, and what later interpretation adds. That makes this a substantial public development, not a blank cheque for every extraordinary interpretation attached to it. The records may tell an interesting story; they do not, by themselves, establish non-human technology.",
           "sources": [
             {
               "name": "r/UFOs, u/CrispHotdog",
@@ -133,6 +133,11 @@
         }
       ],
       "media": [
+        {
+          "title": "Release 07 document library: 28 case files and recreations",
+          "credit": "The Disclosure Files editorial package — article index and infographics",
+          "url": "news/articles/release-07/index.html"
+        },
         {
           "title": "Trump briefed on secret UFO program, Ross Coulthart claims",
           "credit": "Cybernews via Google News; consequential attributed claim awaiting verification",
