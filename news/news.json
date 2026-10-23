@@ -1,17 +1,38 @@
 {
   "meta": {
-    "checked_at": "2026-10-22T14:49:27Z",
+    "checked_at": "2026-10-23T14:51:05Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-22T00:01:23Z/2026-10-22T14:49:27Z",
-      "date": "2026-10-22",
-      "title": "COMMUNITY ROUNDUP: Germany answers a UAP inquiry; the book cycle rolls on",
-      "lede": "The most consequential new document in the scan is real but sobering: Germany’s federal government answered a Bundestag inquiry on October 16, saying it has no findings on UAP, no separate UAP reporting channels, no cross-departmental UAP group, and no planned revision of existing procedures. Reddit is treating that answer as a bureaucratic dodge, while discussion also circles Jay Stratton’s book, Ross Coulthart’s briefing claim, and familiar historical material. Public X search exposed no attributable in-window watchlist posts. Community attention is not evidence; the German PDF is.",
+      "window": "2026-10-22T14:49:27Z/2026-10-23T14:51:05Z",
+      "date": "2026-10-23",
+      "title": "COMMUNITY ROUNDUP: Release 07 is now the loudest file-room story",
+      "lede": "The seventh UAP file tranche is no longer only a Reddit rumor: Google News carried same-day coverage naming the Department of War's Release 07, and space journalist Leonard David reported that the portal was live and linked to a Project Capella document. The government pages and PDF still returned HTTP 403 to this desk, so the release contents and official publication record could not be directly inspected here. Treat the public release as a reported development with secondary corroboration—not as proof of exotic technology or a government conclusion.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Germany’s official answer is a documented non-structure",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 moves from Reddit rumor to public reporting",
+          "body": "A fresh r/UFOs thread first pointed to a seventh tranche on the Department of War's UAP portal. Same-day Google News results then carried reports from NewsNation, KATU, Axios, and Leonard David's Inside Outer Space describing a Release 07 publication; David specifically reported a BAASS/Documatica Research document called Project Capella and linked a purported government PDF. The portal and linked PDF returned HTTP 403 to this desk, so the official page, document count, provenance, and full contents were not directly inspected. That makes this a substantial public development with secondary corroboration, not a blank cheque for every extraordinary interpretation attached to it. The records may tell an interesting story; they do not, by themselves, establish non-human technology.",
+          "sources": [
+            {
+              "name": "r/UFOs, u/CrispHotdog",
+              "credit": "Community report posted October 23, 2026; claims about contents not independently verified",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xdbcdg/7th_ufo_tranche_released/"
+            },
+            {
+              "name": "Leonard David, Inside Outer Space",
+              "credit": "Same-day secondary report describing Release 07 and linking Project Capella; direct government records not readable to this desk",
+              "url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/"
+            },
+            {
+              "name": "U.S. Department of War UAP portal",
+              "credit": "Linked Release 07 page; returned HTTP 403 during retrieval",
+              "url": "https://www.war.gov/ufo/?releaseDate=Release+07&release=07"
+            }
+          ]
+        },
+        {
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Germany’s official answer is still a documented non-structure",
           "body": "The German government’s written response, Bundestag document 21/8662 dated October 16, 2026, says responsibility for monitoring German airspace lies with the interior, transport, and defense ministries, while near-Earth object cataloguing belongs to the research/technology/space and defense ministries. It says ‘Über UAP liegen keine Erkenntnisse vor’ (there are no findings on UAP), no definitions are used, no separate UAP reporting channels exist, no cross-departmental structures or working groups exist, and no revision of existing procedures is planned. It also says airspace sensors produce fused data and space objects are compared with the public TLE catalogue, with access to partner sensor data. This establishes the government’s stated policy and information posture—not that anomalous objects do or do not exist, and not the Reddit interpretation that Germany is deliberately hiding them.",
           "sources": [
             {
@@ -27,8 +48,8 @@
           ]
         },
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: a consequential claim is still a claim",
-          "body": "The loudest U.S. discussion remained Cybernews’ report that journalist Ross Coulthart claims President Trump was briefed on a secret UFO program. That would matter if independently documented, but the accessible record checked here establishes only a media report about Coulthart’s assertion—not a White House record, briefing document, official confirmation, or corroborated disclosure. Reddit also spent substantial attention on Jay Stratton’s new book and on a short summary of its claims. The distinction is not pedantry; it is the whole job.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: no new confirmation arrived",
+          "body": "The Release 07 story is now the edition's consequential public development, but the evidence chain has a missing link: secondary reports and a Google News listing point to a government publication, while the Department of War portal and linked PDF were inaccessible to this desk. The previously logged Cybernews/Coulthart report and Jay Stratton book discussion remain attributed claims and community attention. The distinction is not pedantry; it is the whole job.",
           "sources": [
             {
               "name": "Cybernews via Google News",
@@ -44,11 +65,16 @@
               "name": "NASA Science",
               "credit": "Primary context page checked; no new NASA UAP release identified",
               "url": "https://science.nasa.gov/uap/"
+            },
+            {
+              "name": "Inside Outer Space",
+              "credit": "Secondary report dated October 23, 2026; direct government records not independently inspected",
+              "url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: the community’s evidence argument, with monsters",
+          "heading": "TRENDING / LOUDEST: the community’s evidence argument continues",
           "body": "The first 20 accessible r/UFOs threads were dominated by the German inquiry response, Jay Stratton’s book, the Ross Coulthart/White House claim, old reverse-engineering allegations, launch identification, and a discussion of Jeffrey Kripal’s consciousness-oriented interpretation. Other requested subreddit feeds returned rate-limit responses in this scan. The strongest conventional reading is a mixture of official ambiguity, witness report, editorial amplification, and recycled claims. The strongest anomalous or consciousness-first reading is that some cases may involve an actor or process not captured by ordinary aircraft-and-error categories, or that observer and experience deserve a larger role in analysis. Those remain interpretations; the German response itself is a document.",
           "sources": [
             {
@@ -69,7 +95,7 @@
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the witness at the window",
+          "heading": "FUN / INTERESTING: old stories in a new feed",
           "body": "The community’s side conversations still include first-person encounter testimony, historical crash-retrieval claims, and the question of whether remembered or hypnotically recovered experiences should be treated as physical events. Testimony can be sincere and culturally important without independently establishing what occurred. Consciousness-first interpretations deserve more than a dismissive shrug: altered perception, dreamlike states, anomalous agency, and the observer’s role are live interpretive questions in this genre. They remain interpretations, not demonstrated mechanisms.",
           "sources": [
             {
@@ -85,8 +111,8 @@
           ]
         },
         {
-          "heading": "DESK JUDGMENT: SOURCE WATCH, with one alert for Paul",
-          "body": "One new primary document was identified and added to the verified ledger: Germany’s Bundestag Drucksache 21/8662. No new U.S. law, court filing, U.S. official release, or independently corroborated incident was identified. NASA’s UAP and news pages were reachable; automated checks of AARO and the Defense Department release archive returned HTTP 403. r/UFOs yielded a date-bounded RSS sample; other requested Reddit feeds returned rate limits; public X search redirected to login and exposed no attributable watchlist text. Those source limitations describe the scan, not the truth value of underlying claims.",
+          "heading": "DESK JUDGMENT: SOURCE WATCH, with one verified-news alert for Paul",
+          "body": "The desk found a consequential public development that needs Paul's approval before it becomes verified-news copy: same-day coverage reports a Department of War Release 07 UAP-file publication, including a Project Capella document, but the official portal and linked PDF returned HTTP 403 here. The community roundup records the public discussion and source limitation without upgrading every claim in the file dump. NASA's UAP and news pages were checked; the automated AARO and Defense Department checks remain limited by HTTP errors. Public X search exposed no attributable watchlist text. These limits describe what this desk could inspect, not the truth value of the underlying release.",
           "sources": [
             {
               "name": "NASA Science",
@@ -128,10 +154,24 @@
           "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not verified news. The German Bundestag document is a primary-source development and is separately entered in the verified ledger. The Cybernews/Coulthart item remains an attributed claim, not a confirmed briefing. r/UFOs yielded a date-bounded sample; the other requested Reddit feeds and public X search did not yield a usable attributable timeline. Consciousness-first and high-strangeness interpretations receive meaningful treatment but remain labeled as interpretations, testimony, or speculation."
+      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not a verified-news feed. Same-day secondary reporting points to a Department of War Release 07 UAP-file publication and Project Capella material, but the official portal and linked PDF returned HTTP 403 and were not directly inspected here. The item remains labeled REPORTED pending direct review and Paul's approval for any verified-news treatment. The German Bundestag document remains a primary-source development. Consciousness-first and high-strangeness interpretations remain labeled as interpretations, testimony, or speculation."
     }
   },
   "items": [
+    {
+      "date": "2026-10-23",
+      "status": "REPORTED",
+      "source_type": "SECONDARY REPORT / GOVERNMENT PORTAL LINK",
+      "headline": "Public reports point to Department of War Release 07 UAP files",
+      "summary": "Same-day reports from Leonard David's Inside Outer Space and Google News-listed outlets describe a seventh Department of War UAP-file release and identify a BAASS/Documatica Project Capella document. The linked government portal and purported PDF returned HTTP 403 during this scan, so the official record and contents were not directly inspected. Labeled REPORTED pending editorial review; this is not evidence of extraterrestrial technology or a government conclusion.",
+      "source_name": "Inside Outer Space / U.S. Department of War UAP portal",
+      "source_url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/",
+      "related_urls": [
+        "https://www.war.gov/ufo/?releaseDate=Release+07&release=07",
+        "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D167-Project_Capella-December-2008.pdf",
+        "https://www.reddit.com/r/UFOs/comments/1xdbcdg/7th_ufo_tranche_released/"
+      ]
+    },
     {
       "date": "2026-10-16",
       "status": "DOCUMENT",
