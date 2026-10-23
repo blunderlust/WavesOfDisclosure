@@ -2485,7 +2485,7 @@ const UAP_DATABASE = [
       "Pilot encounter testimonies confirming anomalous flight physics."
     ],
     "transcript_preview": "Transcript text is undergoing OCR review. Click link above to view raw declassified dossier.",
-    "dvids_video_id": "",
+    "dvids_video_id": ""
   },
   {
     "id": "DOW-UAP-118",
@@ -5488,7 +5488,174 @@ const UAP_DATABASE = [
     "transcript_preview": "Transcript not yet prepared.",
     "dvids_video_id": "1014128",
     "tranche": "5/6"
+  },
+  {
+    "id": "DOW-UAP-D155",
+    "title": "DOW-UAP-D155, Air Intelligence Information Report, Saudi Arabia, 1957",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D155-Air_Intelligence_Information_Report_Saudi_Arabia-1957.pdf",
+    "modal_image": "",
+    "description": "This AIIR records a January 18, 1957, incident over Saudi Arabia in which a U.S. Air Force B-52 crew reported an unidentified return on the aircraft gunnery scope for approximately five to seven minutes. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "1/18/57",
+    "incident_location": "Saudi Arabia",
+    "category": "UAP-MSF",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D174",
+    "title": "DOW-UAP-D174, Utah Ranch Investigation Report, April 2010",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D174-Utah_Ranch_Investigation_Report_April_2010.pdf",
+    "modal_image": "",
+    "description": "An April 2010 BAASS investigation report documenting field deployments, interviews, environmental measurements, and reported anomalous activity at a Utah property and surrounding communities. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "March, April 2010",
+    "incident_location": "Las Vegas, Nevada",
+    "category": "UAP-IAD",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D176",
+    "title": "DOW-UAP-D176, Triangular UAP AARO Memorandum for Record, 2026",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D176-Triangular_UAP_AARO_MFR_2026.pdf",
+    "modal_image": "",
+    "description": "An AARO memorandum preserving witness accounts from a sensitive western U.S. site, including a reported triangular object and a corroborating account from a separate observation post. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "June, 2026",
+    "incident_location": "Western United States",
+    "category": "UAP-IAD",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D177",
+    "title": "DOW-UAP-D177, Unresolved UAP Report, Catalina Island, 1955",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D177_Unresolved_UAP_Report_Catalina_Island-1955.pdf",
+    "modal_image": "",
+    "description": "A 1955 report by Paul J. Carr describing a bright orange object over Catalina Island; the provisional assessment noted a possible astronomical explanation. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "3/15/55",
+    "incident_location": "Catalina Island, California",
+    "category": "UAP-MSF",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D178",
+    "title": "DOW-UAP-D178, Unresolved UAP Report, Catalina Island, 1953",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D178_Unresolved_UAP_Report_Catalina_Island-1953.pdf",
+    "modal_image": "",
+    "description": "A 1953 report of a round purplish-white object that remained stationary and then moved toward Los Angeles; Jupiter was noted as a possible explanation. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "11/16/53",
+    "incident_location": "Catalina Island, California",
+    "category": "UAP-MSF",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D179",
+    "title": "DOW-UAP-D179, Air Intelligence Information Report, Catalina Island, 1952",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D179_Unresolved_UAP_Report_Catalina_Island-1952.pdf",
+    "modal_image": "",
+    "description": "A 1952 AIIR describing three Boy Scouts reporting silver flying-saucer-like objects over Camp Fox on Catalina Island. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "6/25/52",
+    "incident_location": "Catalina Island, California",
+    "category": "UAP-MSF",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "DOW-UAP-D181",
+    "title": "DOW-UAP-D181, Unresolved UAP Report, Catalina Island, 1949",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "Department of War",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D181_Unresolved_UAP_Report_Catalina_Island-1949.pdf",
+    "modal_image": "",
+    "description": "Correspondence describing a 1949 report of six objects over Catalina Island; contemporary notes concluded there was insufficient data for evaluation. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "4/28/49",
+    "incident_location": "Catalina Island, California",
+    "category": "UAP-MSF",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
+  },
+  {
+    "id": "FBI-UAP-D043",
+    "title": "FBI-UAP-D043, FD-302, Unidentified Aerial Object Observation Report, 2026",
+    "release_date": "10/23/26",
+    "type": "PDF",
+    "agency": "FBI",
+    "link": "https://www.war.gov/medialink/ufo/release-07/documents/FBI-UAP-D043-FD_302_Unidentified_Aerial_Object_Observation_Report-2026.pdf",
+    "modal_image": "",
+    "description": "An FBI FD-302 recording a 2026 interview with two Federal Special Agents about a reported UAP incident at a national-security site. This catalog entry preserves the official description and does not independently validate the underlying claim.",
+    "incident_date": "June, 2026",
+    "incident_location": "Western United States",
+    "category": "UAP-IAD",
+    "agent_summary": "Official Release 07 document record; read the source PDF for the complete record and redactions.",
+    "key_topics": [
+      "Release 07",
+      "Official source document",
+      "No video pairing"
+    ],
+    "transcript_preview": "Not applicable; document release.",
+    "tranche": "7"
   }
 ];
-
 export default UAP_DATABASE;

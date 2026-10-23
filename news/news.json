@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-10-23T14:51:05Z",
+    "checked_at": "2026-10-23T16:25:00Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
       "window": "2026-10-22T14:49:27Z/2026-10-23T14:51:05Z",
       "date": "2026-10-23",
-      "title": "COMMUNITY ROUNDUP: Release 07 is now the loudest file-room story",
-      "lede": "The seventh UAP file tranche is no longer only a Reddit rumor: Google News carried same-day coverage naming the Department of War's Release 07, and space journalist Leonard David reported that the portal was live and linked to a Project Capella document. The government pages and PDF still returned HTTP 403 to this desk, so the release contents and official publication record could not be directly inspected here. Treat the public release as a reported development with secondary corroboration—not as proof of exotic technology or a government conclusion.",
+      "title": "COMMUNITY ROUNDUP: Release 07 is a documents-only drop with a Catalina cluster",
+      "lede": "The Department of War has now been checked through the browser and the official WAR.GOV/UFO page confirms Release 07, dated October 23, 2026. The page lists eight PDF records and no Release 07 video bundle. The strongest connection is a four-record Catalina Island sequence spanning 1949–1955, alongside a 2026 AARO memorandum and matching FBI FD-302 from a western U.S. national-security-site incident.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 moves from Reddit rumor to public reporting",
@@ -154,22 +154,22 @@
           "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: This is a map of public discussion, media attention, and source availability, not a verified-news feed. Same-day secondary reporting points to a Department of War Release 07 UAP-file publication and Project Capella material, but the official portal and linked PDF returned HTTP 403 and were not directly inspected here. The item remains labeled REPORTED pending direct review and Paul's approval for any verified-news treatment. The German Bundestag document remains a primary-source development. Consciousness-first and high-strangeness interpretations remain labeled as interpretations, testimony, or speculation."
+      "editorial_note": "COMMUNITY ROUNDUP: Release 07 is now directly verified as an official documents-only release. The database records the eight PDFs and preserves the official descriptions. The Catalina Island grouping and D176/FBI-D043 pairing are editorial connections in the released metadata, not proof of a common cause or non-human technology."
     }
   },
   "items": [
     {
       "date": "2026-10-23",
-      "status": "REPORTED",
-      "source_type": "SECONDARY REPORT / GOVERNMENT PORTAL LINK",
-      "headline": "Public reports point to Department of War Release 07 UAP files",
-      "summary": "Same-day reports from Leonard David's Inside Outer Space and Google News-listed outlets describe a seventh Department of War UAP-file release and identify a BAASS/Documatica Project Capella document. The linked government portal and purported PDF returned HTTP 403 during this scan, so the official record and contents were not directly inspected. Labeled REPORTED pending editorial review; this is not evidence of extraterrestrial technology or a government conclusion.",
-      "source_name": "Inside Outer Space / U.S. Department of War UAP portal",
-      "source_url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/",
+      "status": "DOCUMENT",
+      "source_type": "OFFICIAL GOVERNMENT RELEASE",
+      "headline": "Department of War releases Release 07 as a documents-only UAP tranche",
+      "summary": "The Department of War’s official WAR.GOV/UFO portal now identifies Release 07, dated October 23, 2026, and lists eight PDF records. No Release 07 video bundle is listed. The release includes a 2026 AARO memorandum and matching FBI FD-302 connected by the same western-U.S. national-security-site event, plus four Catalina Island records spanning 1949–1955 and a 2010 AAWSAP/BAASS Utah-ranch investigation report. These are official released records and descriptions, not proof of an exotic explanation.",
+      "source_name": "U.S. Department of War PURSUE / WAR.GOV/UFO",
+      "source_url": "https://www.war.gov/UFO/",
       "related_urls": [
-        "https://www.war.gov/ufo/?releaseDate=Release+07&release=07",
-        "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D167-Project_Capella-December-2008.pdf",
-        "https://www.reddit.com/r/UFOs/comments/1xdbcdg/7th_ufo_tranche_released/"
+        "https://www.war.gov/News/Releases/Release/Article/4632058/department-of-war-publishes-seventh-release-of-unidentified-anomalous-phenomena/",
+        "https://www.war.gov/medialink/ufo/release-07/documents_release_07_oct_23_2026.zip",
+        "https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=7v2"
       ]
     },
     {
