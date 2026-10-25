@@ -1,23 +1,28 @@
 {
   "meta": {
-    "checked_at": "2026-10-24T14:55:49Z",
+    "checked_at": "2026-10-25T15:00:07Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-24T00:01:49Z/2026-10-24T14:55:06Z",
-      "date": "2026-10-24",
-      "title": "COMMUNITY ROUNDUP: Release 07 still dominates, with a Tic Tac report and a Gateway debate",
-      "lede": "During this edition window, public discussion remained fixed on the Department of War's Release 07 records, while new r/UFOs posts added a 21-year-old first-person Tic Tac report and a lively argument over the CIA's Gateway documents. Reddit supplied the clearest accessible sample; public X search exposed no attributable watchlist posts. Attention is not evidence, and no separate new UAP development was verified.",
+      "window": "2026-10-25T00:01:17Z/2026-10-25T15:00:07Z",
+      "date": "2026-10-25",
+      "title": "COMMUNITY ROUNDUP: Release 07 still dominates; fresh triangle coverage adds no verification",
+      "lede": "During this edition window, the active r/UFOs feed and Google News continued to cluster around the already-recorded Release 07 documents, especially reports describing a silent triangular object. Public X search exposed no attributable watchlist post text, and several Reddit communities returned rate limits. Discussion is a lead, not proof; no separate new UAP development was verified.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 moves from Reddit rumor to public reporting",
-          "body": "A fresh r/UFOs thread first pointed to a seventh tranche on the Department of War's UAP portal. Same-day Google News results then carried reports from NewsNation, KATU, Axios, and Leonard David's Inside Outer Space describing a Release 07 publication; David specifically reported a BAASS/Documatica Research document called Project Capella and linked a purported government PDF. The official browser-accessible release data was used to identify the files, and the locally downloaded regular PDFs were reviewed for this package. The resulting articles preserve the distinction between what each document says, what witnesses reported, and what later interpretation adds. That makes this a substantial public development, not a blank cheque for every extraordinary interpretation attached to it. The records may tell an interesting story; they do not, by themselves, establish non-human technology.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 remains the attention center",
+          "body": "The active r/UFOs feed included a CBS-linked thread about federal agents allegedly encountering a large triangular craft, alongside discussion of the seventh tranche, a 1956 Guam report, the UAP Disclosure Act, and a proposed 2023 Navy Tic Tac account. Google News carried fresh NewsNation, VICE, and Fox coverage of the same Release 07 material. These are reports about released records and community discussion, not independent confirmation of the reported object's nature. The official portal was inaccessible to this desk during retrieval, so the existing verified item remains the documents-only release already recorded in the desk.",
           "sources": [
             {
-              "name": "r/UFOs, u/CrispHotdog",
-              "credit": "Community report posted October 23, 2026; claims about contents not independently verified",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xdbcdg/7th_ufo_tranche_released/"
+              "name": "r/UFOs, active feed",
+              "credit": "First 20-item public feed checked October 25, 2026; community signal, not independent verification",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "Google News, UAP/UFO search",
+              "credit": "Fresh same-day headlines from NewsNation, VICE, and Fox News; secondary coverage of Release 07",
+              "url": "https://news.google.com/rss/search?q=(UAP+OR+UFO)+when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Leonard David, Inside Outer Space",
@@ -74,8 +79,8 @@
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Release 07, a Gateway passage, and launch-identification housekeeping",
-          "body": "The accessible r/UFOs sample in this window kept returning to Release 07, but a post about the 1983 Army analysis of the Gateway Experience drew 155 upvotes and 52 comments while arguing over a passage about \"intelligent, non-corporeal energy forms.\" The document is real; the Reddit post’s leap from a cautionary passage to evidence that consciousness training contacts non-human intelligence is an interpretation. A routine launch schedule also reminded readers that rockets and space hardware remain part of the identification problem. The strongest conventional reading remains a mixture of an official document release, witness reports, media framing, and unresolved identification. The strongest consciousness-first reading is that anomalous experience may deserve study on its own terms rather than automatic reduction to aircraft misidentification; the evidence here does not demonstrate a non-corporeal mechanism.",
+          "heading": "TRENDING / LOUDEST: triangle reports, the Disclosure Act, and older files",
+          "body": "The loudest Reddit threads included the triangular-craft account, a claim about closed-door conferences on the UAP Disclosure Act, a Guam 1956 report, a Burlison interview, and a post asking what sensor data show in a reported 2023 Navy encounter. A consciousness-first reading may ask whether anomalous experience deserves study on its own terms rather than automatic reduction to misidentification, but this window adds no evidence for a non-corporeal mechanism. Routine launch information also appeared; it is useful identification housekeeping, not a UAP development.",
           "sources": [
             {
               "name": "El Paso Times via Google News",
@@ -88,9 +93,9 @@
               "url": "https://news.google.com/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs, u/Cautious-Cellist2934",
-              "credit": "Public thread posted October 23, 2026; community interpretation of a government-hosted video, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xdphby/ufo_entering_mountain_dowuappr061_spherical_uap/"
+              "name": "r/UFOs, current public feed",
+              "credit": "Threads retrieved October 25, 2026; titles and links are community leads, not verified findings",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
               "name": "r/UFOs newest feed",
@@ -120,8 +125,8 @@
           ]
         },
         {
-          "heading": "FUN / INTERESTING: old stories in a new feed",
-          "body": "A new r/UFOs post from u/Golemfrost linked a 21-year-old NUFORC report titled \"Tic Tac UFO,\" describing the poster’s own earlier report. The Reddit thread had 15 upvotes and 11 comments at retrieval. NUFORC’s page was protected by a security check in this scan, so the underlying report could not be independently read here; the responsible description is therefore a community post pointing to an archived witness record, not a newly corroborated sighting. Another thread revived a long-running chain of claims about the 1933 Magenta story, Allen Dulles, and a supposed private UFO program, alongside a video and Medium links. Historical claims in that chain remain attributed research and interpretation. Testimony can be sincere and culturally important without independently establishing what occurred. Consciousness-first interpretations deserve more than a dismissive shrug: altered perception, dreamlike states, anomalous agency, and the observer’s role are live questions. They remain interpretations, not demonstrated mechanisms.",
+          "heading": "FUN / INTERESTING: Jacques Vallée, AI, and the ontological weather",
+          "body": "One of the active threads promoted a new UAP Files Podcast interview with Jacques Vallée and framed AI as a possible route to contact before humans manage it. That is a public discussion topic and an interesting consciousness-adjacent question, not evidence that AI has contacted anyone. Other threads recycled older files and personal testimony. The useful rule remains the unglamorous one: attention finds leads; documents, data, and accountable witnesses do the heavier lifting.",
           "sources": [
             {
               "name": "r/UFOs, u/Golemfrost",
@@ -146,8 +151,8 @@
           ]
         },
         {
-          "heading": "DESK JUDGMENT: SOURCE WATCH; prior Release 07 alert remains pending approval",
-          "body": "SOURCE WATCH: no separate new development was verified in this edition window. Release 07 remained the dominant public conversation, joined by a new Reddit discussion of the Gateway documents and a first-person NUFORC-linked account. NASA's UAP page was checked. The Department of War and AARO pages remained inaccessible in automated retrieval, and public X search exposed no attributable watchlist text. Those source limitations do not establish anything about the underlying UAP claims. The prior alert for Paul remains: same-day secondary reporting described a Department of War Release 07 publication, but the official portal and linked PDF were not independently readable here.",
+          "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
+          "body": "SOURCE WATCH: no separate new UAP development was verified in this edition window. Release 07 remains the dominant public discussion and is already logged as an official documents-only release. NASA's UAP page and current Google News results were checked; public X search exposed no attributable watchlist post text; r/UFOs was readable for an initial 20-item sample while r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned rate limits. Those access conditions do not establish anything about the underlying claims. Keep the existing Release 07 item and related source-watch entries; do not manufacture a second headline from the coverage cycle.",
           "sources": [
             {
               "name": "NASA Science",
@@ -194,7 +199,7 @@
           "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "editorial_note": "COMMUNITY ROUNDUP: Release 07 is now directly verified as an official documents-only release. The database records the eight PDFs and preserves the official descriptions. The Catalina Island grouping and D176/FBI-D043 pairing are editorial connections in the released metadata, not proof of a common cause or non-human technology."
+      "editorial_note": "COMMUNITY ROUNDUP: Release 07 is logged as an official documents-only release. The database records the eight PDFs and preserves the official descriptions. The Catalina Island grouping and D176/FBI-D043 pairing are editorial connections in the released metadata, not proof of a common cause or non-human technology."
     }
   },
   "items": [
