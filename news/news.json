@@ -1,19 +1,29 @@
 {
   "meta": {
-    "checked_at": "2026-10-25T15:00:07Z",
+    "checked_at": "2026-10-26T15:02:27Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-25T00:01:17Z/2026-10-25T15:00:07Z",
-      "date": "2026-10-25",
-      "title": "COMMUNITY ROUNDUP: Release 07 still dominates; fresh triangle coverage adds no verification",
-      "lede": "During this edition window, the active r/UFOs feed and Google News continued to cluster around the already-recorded Release 07 documents, especially reports describing a silent triangular object. Public X search exposed no attributable watchlist post text, and several Reddit communities returned rate limits. Discussion is a lead, not proof; no separate new UAP development was verified.",
+      "window": "2026-10-26T00:00:50Z/2026-10-26T15:02:27Z",
+      "date": "2026-10-26",
+      "title": "COMMUNITY ROUNDUP: Carson transparency call joins the Release 07 conversation",
+      "lede": "During this edition window, the active r/UFOs feed, current video indexing, public search, and official watch pages were checked. Discussion remained centered on Release 07, while a widely circulated post highlighted a Hill report in which Rep. Andre Carson called for release of a “historical UAP record report.” That is a consequential public statement awaiting primary-document review, not proof that the report exists in the form described or that its allegations are true.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Release 07 remains the attention center",
-          "body": "The active r/UFOs feed included a CBS-linked thread about federal agents allegedly encountering a large triangular craft, alongside discussion of the seventh tranche, a 1956 Guam report, the UAP Disclosure Act, and a proposed 2023 Navy Tic Tac account. Google News carried fresh NewsNation, VICE, and Fox coverage of the same Release 07 material. These are reports about released records and community discussion, not independent confirmation of the reported object's nature. The official portal was inaccessible to this desk during retrieval, so the existing verified item remains the documents-only release already recorded in the desk.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Carson transparency call joins the Release 07 conversation",
+          "body": "The loudest current thread linked The Hill's report on Rep. Andre Carson (D-Ind.), who said the Trump administration had “slow walked” UAP transparency and called for immediate release of what he described as a “historical UAP record report.” The Hill page was protected by a human-verification screen during this scan; Google's indexed result independently displayed the central description, and the Reddit post made the story a major community topic. Treat this as an attributed public statement awaiting primary-document review—not confirmation that the report exists as described, or that it would substantiate classified-program claims. Release 07 remains the other major attention center.",
           "sources": [
+            {
+              "name": "The Hill, “How will Democrats address UFO sightings if returned to majority?”",
+              "credit": "Report attributed to Rep. Andre Carson; direct page presented a human-verification screen during retrieval; claim awaits primary-document review",
+              "url": "https://thehill.com/homenews/house/6169367-democrats-majority-congress-ufo-sightings-transparency/"
+            },
+            {
+              "name": "r/UFOs, u/TommyShelbyPFB",
+              "credit": "Community post linking The Hill report; 302 upvotes and 39 comments at retrieval; discussion signal, not independent verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xfuxdr/rep_andre_carson_accuses_the_trump_administration/"
+            },
             {
               "name": "r/UFOs, active feed",
               "credit": "First 20-item public feed checked October 25, 2026; community signal, not independent verification",
@@ -80,7 +90,7 @@
         },
         {
           "heading": "TRENDING / LOUDEST: triangle reports, the Disclosure Act, and older files",
-          "body": "The loudest Reddit threads included the triangular-craft account, a claim about closed-door conferences on the UAP Disclosure Act, a Guam 1956 report, a Burlison interview, and a post asking what sensor data show in a reported 2023 Navy encounter. A consciousness-first reading may ask whether anomalous experience deserves study on its own terms rather than automatic reduction to misidentification, but this window adds no evidence for a non-corporeal mechanism. Routine launch information also appeared; it is useful identification housekeeping, not a UAP development.",
+          "body": "The current feed also circulated declassified 1953 USAF reports, a veteran Israeli pilot's reported 1998 encounter, historical Swedish and Canadian cases, a reported RAF near-miss involving “drones,” and routine launch-identification material. YouTube search surfaced renewed NewsNation and VICE discussion of David Grusch, Jeremy Corbell, and Jake Barber, but the indexed videos are mostly older material recirculating under a 2026 query. These are community leads and historical accounts; the feed supplies no independent corroboration of extraordinary interpretations. A consciousness-first reading may ask whether anomalous experience deserves study on its own terms rather than automatic reduction to misidentification, but this window adds no evidence for a non-corporeal mechanism.",
           "sources": [
             {
               "name": "El Paso Times via Google News",
@@ -121,6 +131,11 @@
               "name": "r/UFOs, u/douwebeerda",
               "credit": "Community post with 155 upvotes and 52 comments at retrieval; interpretation of a 1983 Army Gateway document, not evidence of contact",
               "url": "https://www.reddit.com/r/UFOs/comments/1xe2dde/be_intellectually_prepared_to_react_to_possible/"
+            },
+            {
+              "name": "YouTube search, UAP whistleblower",
+              "credit": "Current result index surfaced NewsNation, VICE, and other older/recirculated whistleblower coverage; search results are not new-event verification",
+              "url": "https://www.youtube.com/results?search_query=UAP+whistleblower+October+2026"
             }
           ]
         },
@@ -152,8 +167,13 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was verified in this edition window. Release 07 remains the dominant public discussion and is already logged as an official documents-only release. NASA's UAP page and current Google News results were checked; public X search exposed no attributable watchlist post text; r/UFOs was readable for an initial 20-item sample while r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned rate limits. Those access conditions do not establish anything about the underlying claims. Keep the existing Release 07 item and related source-watch entries; do not manufacture a second headline from the coverage cycle.",
+          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The Carson transparency call is consequential enough for an alert to Paul, but it remains an attributed statement pending primary-document review. Release 07 remains the dominant documents story already logged. The first current r/UFOs sample was readable; public X search did not yield attributable watchlist post text; Google and YouTube results showed substantial secondary and recirculated coverage. Keep the existing Release 07 item and related source-watch entries; do not convert a community discussion or an official's reported call for disclosure into a verified finding.",
           "sources": [
+            {
+              "name": "Google Search, “Historical UAP Record Report” and Andre Carson",
+              "credit": "Indexed result for The Hill report, checked October 26, 2026; secondary index, not a substitute for the article or primary documents",
+              "url": "https://www.google.com/search?q=%22Historical+UAP+Record+Report%22+Andre+Carson"
+            },
             {
               "name": "NASA Science",
               "credit": "Primary-source watch page checked during this run",
