@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-10-26T15:02:27Z",
+    "checked_at": "2026-10-27T12:00:33Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-26T00:00:50Z/2026-10-26T15:02:27Z",
-      "date": "2026-10-26",
-      "title": "COMMUNITY ROUNDUP: Carson transparency call joins the Release 07 conversation",
-      "lede": "During this edition window, the active r/UFOs feed, current video indexing, public search, and official watch pages were checked. Discussion remained centered on Release 07, while a widely circulated post highlighted a Hill report in which Rep. Andre Carson called for release of a “historical UAP record report.” That is a consequential public statement awaiting primary-document review, not proof that the report exists in the form described or that its allegations are true.",
+      "window": "2026-10-27T00:00:51Z/2026-10-27T12:00:33Z",
+      "date": "2026-10-27",
+      "title": "COMMUNITY ROUNDUP: Release 07 recirculates; Burlison and Roswell lead Reddit",
+      "lede": "During this edition window, the public UAP/UFO news index, Reddit, public X search, and official watch pages were checked. Discussion continued to recirculate Release 07's black-triangle and security-site records, while r/UFOs highlighted Rep. Eric Burlison, Roswell source criticism, and older extraordinary claims. No separate new development was independently verified, and public X search exposed no attributable watchlist post text.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Carson transparency call joins the Release 07 conversation",
-          "body": "The loudest current thread linked The Hill's report on Rep. Andre Carson (D-Ind.), who said the Trump administration had “slow walked” UAP transparency and called for immediate release of what he described as a “historical UAP record report.” The Hill page was protected by a human-verification screen during this scan; Google's indexed result independently displayed the central description, and the Reddit post made the story a major community topic. Treat this as an attributed public statement awaiting primary-document review—not confirmation that the report exists as described, or that it would substantiate classified-program claims. Release 07 remains the other major attention center.",
+          "heading": "RELEVANT CONTEXT: Carson transparency call remains an attributed claim",
+          "body": "The previous edition's Carson transparency story remains a public discussion lead, not a newly verified development. The Hill attributed to Rep. Andre Carson a call for release of a “historical UAP record report”; the article was not directly readable during the earlier scan, and no primary document has since been added here. Release 07 remains the better-documented attention center, while the Carson claim stays labeled and separate from verified records.",
           "sources": [
             {
               "name": "The Hill, “How will Democrats address UFO sightings if returned to majority?”",
@@ -90,7 +90,7 @@
         },
         {
           "heading": "TRENDING / LOUDEST: triangle reports, the Disclosure Act, and older files",
-          "body": "The current feed also circulated declassified 1953 USAF reports, a veteran Israeli pilot's reported 1998 encounter, historical Swedish and Canadian cases, a reported RAF near-miss involving “drones,” and routine launch-identification material. YouTube search surfaced renewed NewsNation and VICE discussion of David Grusch, Jeremy Corbell, and Jake Barber, but the indexed videos are mostly older material recirculating under a 2026 query. These are community leads and historical accounts; the feed supplies no independent corroboration of extraordinary interpretations. A consciousness-first reading may ask whether anomalous experience deserves study on its own terms rather than automatic reduction to misidentification, but this window adds no evidence for a non-corporeal mechanism.",
+          "body": "The first 20-item r/UFOs feed was led by a Roswell evidence discussion, a Christopher Kit Green/mind-control thread, a long post asking whether John Lear claims became circular reporting, and a new interview post about Rep. Eric Burlison. Other active threads discussed a stabilized black triangle over Karlsruhe, Trump’s past UAP answers, Jay Stratton’s book, a claimed 100-foot triangle near Langley, the Library and Archives Canada dataset, and Jake Barber reportedly joining Burlison’s staff. These are community leads, testimony, interpretation, or reported public discussion—not independent confirmation. A consciousness-first reading may ask whether anomalous experience deserves study on its own terms rather than automatic reduction to misidentification, but this window adds no evidence for a non-corporeal mechanism. The other named Reddit communities were rate-limited during this retrieval, so they were not treated as corroboration.",
           "sources": [
             {
               "name": "El Paso Times via Google News",
@@ -104,8 +104,18 @@
             },
             {
               "name": "r/UFOs, current public feed",
-              "credit": "Threads retrieved October 25, 2026; titles and links are community leads, not verified findings",
+              "credit": "First 20-item public feed retrieved October 27, 2026; titles and links are community leads, not verified findings",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "r/UFOs, Rep. Eric Burlison interview thread",
+              "credit": "Community post retrieved October 27, 2026; discussion of a public interview, not verification of footage or alien claims",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xgi82h/new_interview_with_rep_eric_burlison_on/"
+            },
+            {
+              "name": "r/UFOs, Roswell evidence thread",
+              "credit": "Community post retrieved October 27, 2026; historical-source discussion, not independent verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xgn8ev/roswell_part_one_the_1947_record_and_the_material/"
             },
             {
               "name": "r/UFOs newest feed",
@@ -167,7 +177,7 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The Carson transparency call is consequential enough for an alert to Paul, but it remains an attributed statement pending primary-document review. Release 07 remains the dominant documents story already logged. The first current r/UFOs sample was readable; public X search did not yield attributable watchlist post text; Google and YouTube results showed substantial secondary and recirculated coverage. Keep the existing Release 07 item and related source-watch entries; do not convert a community discussion or an official's reported call for disclosure into a verified finding.",
+          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. Release 07 remains the dominant documents story already logged, with fresh secondary headlines repeating its contents rather than documenting a new government action. Public X search did not expose attributable watchlist post text, and the Reddit scan produced no safely attributable new development for the verified feed. Keep the existing Release 07 item and related source-watch entries; do not convert repetition, community discussion, or commentary into a verified finding.",
           "sources": [
             {
               "name": "Google Search, “Historical UAP Record Report” and Andre Carson",

@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-26T12:00:46Z",
-  "window": "2026-10-26T00:00:50Z/2026-10-26T12:00:46Z",
-  "method": "The maintained watchlist contains 50 public profile URLs previously checked for handle validity. This run checked public X search for the edition window; the page exposed no attributable post text or usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Reddit and Google News were checked separately; public attention remained centered on the already-recorded Release 07 document release, historical encounter reports, and a reported RAF near-miss account. No watchlist account was credited with a new claim. No new handle was added without a fresh public profile verification.",
+  "checked_at": "2026-10-27T12:00:33Z",
+  "window": "2026-10-27T00:00:51Z/2026-10-27T12:00:33Z",
+  "method": "The maintained watchlist contains 50 public profile URLs previously checked for handle validity. This run checked public X search for the edition window; the page exposed no attributable post text or usable timeline, so no account was treated as having posted and no handle was added. A live profile is not evidence of expertise, identity, or a claim. Reddit and Google News were checked separately; public attention remained centered on recirculation of the already-recorded Release 07 document release. No watchlist account was credited with a new claim. No new handle was added without a fresh public profile verification.",
   "accounts": [
     {
       "handle": "NASA",
