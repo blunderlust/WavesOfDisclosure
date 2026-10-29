@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-10-28T12:00:35Z",
+    "checked_at": "2026-10-29T15:08:23Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-28T00:00:35Z/2026-10-28T12:00:35Z",
-      "date": "2026-10-28",
-      "title": "COMMUNITY ROUNDUP: Release 07 recirculates; Reddit turns to Catalina, Palomar, and fresh footage",
-      "lede": "During this edition window, the public UAP/UFO news index, Reddit, public X search, and official watch pages were checked. Search results recirculated the October 23 Release 07 records and related congressional commentary; r/UFOs discussed Santa Catalina files, the Palomar photographic mystery, a World Series image, and older testimony. Public X search redirected to login and exposed no attributable watchlist post text. No separate new government action or independently verified anomalous event was identified.",
+      "window": "2026-10-29T12:00:40Z/2026-10-29T15:08:23Z",
+      "date": "2026-10-29",
+      "title": "COMMUNITY ROUNDUP: the silent triangle returns, plus fresh pilot and coastal mysteries",
+      "lede": "During this later edition window, the public Google News UAP/UFO feed and official watch pages were checked; Reddit RSS returned an access error and public X search did not expose attributable watchlist post text. Search-indexed coverage was dominated by commentary and recycled Release 07 discussion, alongside new public-interest stories about a reported British Airways encounter near Heathrow, a pill-shaped object over Ohio, and a strange vessel off North Carolina’s Outer Banks. These are attributed media and community signals, not independent verification. No separate new government action or independently verified anomalous event was identified.",
       "sections": [
         {
           "heading": "RELEVANT CONTEXT: Release 07 remains the news-cycle center",
@@ -89,8 +89,8 @@
           ]
         },
         {
-          "heading": "COMMUNITY ROUNDUP: Reddit leads with Catalina files, Palomar, and new images",
-          "body": "The first 20-item r/UFOs feed included a World Series photograph presented as a possible UAP, discussion of three 1950s Santa Catalina sightings, a challenge concerning nine 1949 Palomar photographs, a contractor-physics video, and renewed Roswell and whistleblower debate. These are community leads, testimony, interpretation, or public-media discussion—not independent confirmation. The World Series image has no independently verified object identification or sensor corroboration in the thread. The Catalina material is more useful as a document-reading lead because it points back to Release 07, but the existence of released files does not settle what the reported objects were. A consciousness-first reading can take anomalous experience seriously as a subject of inquiry without turning an image, memory, or interpretation into proof of a non-corporeal mechanism. r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens returned rate limits during this retrieval and were not treated as corroboration.",
+          "heading": "COMMUNITY ROUNDUP: Reddit’s active threads are leads, not findings",
+          "body": "The latest accessible discovery feed is noisier than it is conclusive. Google News indexed same-day coverage of a reported British Airways close encounter near Heathrow, a pilot video described as a pill-shaped object over Ohio, and a strange vessel off North Carolina’s Outer Banks that prompted social-media debate. The same feed carried a fresh LAmag treatment of the Department of War’s “silent black triangle” material, plus lighter regional UFO and alleged-abduction stories. These are reports and headlines, not a common event: no primary flight data, chain of custody, sensor package, or accountable independent corroboration was available in this scan. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
           "sources": [
             {
               "name": "r/UFOs, World Series photograph thread",
@@ -103,9 +103,39 @@
               "url": "https://www.reddit.com/r/UFOs/comments/1xhh4gf/declassified_air_force_files_document_three_1950s/"
             },
             {
+              "name": "r/UFOs, ex-Navy interview claim thread",
+              "credit": "Community post retrieved October 28, 2026; relays an interview claim about beings, portals, and alleged video; not independently verified",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xi2zkt/i_met_nordic_aliens_inside_a_secret_military_base/"
+            },
+            {
+              "name": "r/UFOs, Release 07 triangle-file analysis thread",
+              "credit": "Community document comparison retrieved October 28, 2026; useful lead, not independent identification of the object",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xi1ygc/a_june_2026_black_triangle_sat_in_the_pentagons/"
+            },
+            {
               "name": "r/UFOs, current public feed",
-              "credit": "First 20-item public feed retrieved October 28, 2026; titles and links are community leads, not verified findings",
+              "credit": "First 20-item public feed retrieved October 29, 2026; titles and links are community leads, not verified findings",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "r/UFOs, Porterville diamond-shaped-object report",
+              "credit": "Eyewitness/community report posted October 29, 2026; no independent sensor corroboration",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xifb8k/diamondshaped_object_paced_car_with_erratic/"
+            },
+            {
+              "name": "r/UFOs, insider-program allegation thread",
+              "credit": "Community relay of a lengthy public allegation posted October 29, 2026; not independently verified",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xifb7h/lengthy_twitter_post_alleging_insider_program/"
+            },
+            {
+              "name": "r/UFOs, Release 07 black-triangle discussion",
+              "credit": "Community document analysis posted October 28, 2026; does not identify the object or establish cause",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xi1yfg/a_june_2026_black_triangle_sat_in_the_pentagons/"
+            },
+            {
+              "name": "r/UFOs, Dorval pulsing-light report",
+              "credit": "Eyewitness/community report posted October 28, 2026; no independent corroboration",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xi0nb0/pulsing_ball_of_energy_moved_straight_and_steady/"
             },
             {
               "name": "r/UFOs, Palomar photographs thread",
@@ -156,6 +186,26 @@
               "name": "YouTube search, UAP whistleblower",
               "credit": "Current result index surfaced NewsNation, VICE, and other older/recirculated whistleblower coverage; search results are not new-event verification",
               "url": "https://www.youtube.com/results?search_query=UAP+whistleblower+October+2026"
+            },
+            {
+              "name": "Google News, British Airways / Heathrow report",
+              "credit": "Indexed October 29, 2026; secondary media report of an alleged pilot encounter, not independently verified",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "Google News, Ohio pill-shaped-object report",
+              "credit": "Indexed October 29, 2026; media report describing pilot footage, not independently verified",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "Google News, Outer Banks vessel report",
+              "credit": "Indexed October 29, 2026; regional report of a social-media debate, not an identified anomalous object",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "LAmag, silent black triangle coverage",
+              "credit": "Indexed October 29, 2026; secondary coverage of Release 07, not a new official release",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
@@ -187,7 +237,7 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. Fresh media headlines repeated the already logged Release 07 documents, while public X search did not expose attributable watchlist post text. Reddit supplied attention signals and possible leads, including a football-match video and a California sighting report, but no primary data or independent corroboration sufficient for the verified feed. Keep the existing Release 07 item and related source-watch entries; do not convert repetition, community discussion, or commentary into a verified finding.",
+          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this later edition window. The fresh headlines are attributed reports, recycled Release 07 coverage, and regional mystery stories; Reddit RSS was inaccessible and public X search exposed no attributable watchlist posts. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
           "sources": [
             {
               "name": "Google Search, “Historical UAP Record Report” and Andre Carson",
