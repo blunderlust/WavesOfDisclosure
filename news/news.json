@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-10-29T15:08:23Z",
+    "checked_at": "2026-10-30T15:11:42Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-29T12:00:40Z/2026-10-29T15:08:23Z",
-      "date": "2026-10-29",
-      "title": "COMMUNITY ROUNDUP: the silent triangle returns, plus fresh pilot and coastal mysteries",
-      "lede": "During this later edition window, the public Google News UAP/UFO feed and official watch pages were checked; Reddit RSS returned an access error and public X search did not expose attributable watchlist post text. Search-indexed coverage was dominated by commentary and recycled Release 07 discussion, alongside new public-interest stories about a reported British Airways encounter near Heathrow, a pill-shaped object over Ohio, and a strange vessel off North Carolina’s Outer Banks. These are attributed media and community signals, not independent verification. No separate new government action or independently verified anomalous event was identified.",
+      "window": "2026-10-30T00:00:00Z/2026-10-30T15:11:42Z",
+      "date": "2026-10-30",
+      "title": "COMMUNITY ROUNDUP: Release 07 still dominates; Ohio report circulates",
+      "lede": "During this edition window, the public Google News UAP/UFO feed and official watch pages were checked. Reddit’s public RSS feeds were blocked by a network policy, and public X search exposed no attributable watchlist post text; two public X profiles remained readable for handle verification. Search-indexed attention centered on recycled Release 07 coverage, alleged Utah witness drawings, a reported pill-shaped object over Ohio, and older regional cases. These are community and media signals, not independent verification. No separate new government action or independently verified anomalous event was identified.",
       "sections": [
         {
           "heading": "RELEVANT CONTEXT: Release 07 remains the news-cycle center",
-          "body": "The last 12 hours produced fresh search-index coverage of the October 23 Department of War Release 07, including reports framed around a new Trump-era batch of files and a silent black triangle over a western U.S. site. Those headlines point back to the already logged release rather than documenting a distinct new tranche. The official portal returned HTTP 403 in this scan, so the desk has not promoted the recirculated headlines into a new verified item.",
+          "body": "The edition window produced fresh search-index coverage of the October 23 Department of War Release 07, including LAmag and BroBible treatments of alleged Utah ‘Skinwalker’ material and a silent black triangle. Those headlines point back to the already logged release rather than documenting a distinct new tranche. The official portal returned HTTP 403 in this scan, so the desk has not promoted the recirculated headlines into a new verified item.",
           "sources": [
             {
               "name": "MeriTalk via Google News",
@@ -21,12 +21,12 @@
             },
             {
               "name": "Fox News via Google News",
-              "credit": "Indexed October 28 headline describing a new batch; direct government record was not readable in this scan",
+              "credit": "Indexed coverage checked October 30; describes the existing release; direct government record was not readable in this scan",
               "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/UFOs, active feed",
-              "credit": "First 20-item public feed checked October 25, 2026; community signal, not independent verification",
+              "credit": "Public feed requested October 30, 2026; blocked by a network policy in this scan, so no current thread was treated as verified",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
@@ -90,7 +90,7 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s active threads are leads, not findings",
-          "body": "The latest accessible discovery feed is noisier than it is conclusive. Google News indexed same-day coverage of a reported British Airways close encounter near Heathrow, a pilot video described as a pill-shaped object over Ohio, and a strange vessel off North Carolina’s Outer Banks that prompted social-media debate. The same feed carried a fresh LAmag treatment of the Department of War’s “silent black triangle” material, plus lighter regional UFO and alleged-abduction stories. These are reports and headlines, not a common event: no primary flight data, chain of custody, sensor package, or accountable independent corroboration was available in this scan. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
+          "body": "The accessible discovery feed was noisier than it was conclusive. Google News indexed coverage of a reported pill-shaped object over Ohio, alleged Utah witness drawings tied to Release 07, a 1958 case, and regional UFO stories. These are reports and headlines, not a common event: no primary flight data, chain of custody, sensor package, or accountable independent corroboration was available in this scan. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
           "sources": [
             {
               "name": "r/UFOs, World Series photograph thread",
@@ -114,7 +114,7 @@
             },
             {
               "name": "r/UFOs, current public feed",
-              "credit": "First 20-item public feed retrieved October 29, 2026; titles and links are community leads, not verified findings",
+              "credit": "First 20-item public feed requested October 30, 2026; blocked by a network policy, so no current titles were treated as verified findings",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
@@ -211,8 +211,13 @@
         },
         {
           "heading": "FUN / INTERESTING: Jacques Vallée, AI, and the ontological weather",
-          "body": "One of the active threads promoted a new UAP Files Podcast interview with Jacques Vallée and framed AI as a possible route to contact before humans manage it. That is a public discussion topic and an interesting consciousness-adjacent question, not evidence that AI has contacted anyone. Other threads recycled older files and personal testimony. The useful rule remains the unglamorous one: attention finds leads; documents, data, and accountable witnesses do the heavier lifting.",
+          "body": "One of the active threads promoted a new UAP Files Podcast interview with Jacques Vallée and framed AI as a possible route to contact before humans manage it. That is a public discussion topic and an interesting consciousness-adjacent question, not evidence that AI has contacted anyone. Other threads recycled older files and personal testimony. The useful rule remains the unglamorous one: attention finds leads; documents, data, and accountable witnesses do the heavier lifting. The current r/UFOs feed also surfaced a historical post by u/Oneiroi_Coeus about Hans-Adam II of Liechtenstein and his reported funding of parapsychology and UFO research alongside Hal Puthoff. It is a lead for checking the historical record, not proof that the prince endorsed any particular explanation.",
           "sources": [
+            {
+              "name": "r/UFOs, u/Oneiroi_Coeus",
+              "credit": "Historical community post retrieved October 30, 2026; claims about Hans-Adam II’s funding require primary-source checking",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xjf4k6/before_becoming_the_prince_of_liechtenstein/"
+            },
             {
               "name": "r/UFOs, u/Golemfrost",
               "credit": "First-person community account posted October 24, 2026; links a 2005 NUFORC record, which was behind a security check during retrieval",
@@ -237,7 +242,7 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this later edition window. The fresh headlines are attributed reports, recycled Release 07 coverage, and regional mystery stories; Reddit RSS was inaccessible and public X search exposed no attributable watchlist posts. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
+          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The fresh headlines are attributed reports, recycled Release 07 coverage, and regional mystery stories; Reddit RSS was blocked and public X search exposed no attributable watchlist posts. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
           "sources": [
             {
               "name": "Google Search, “Historical UAP Record Report” and Andre Carson",
