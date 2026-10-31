@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-10-30T15:11:42Z",
+    "checked_at": "2026-10-31T12:01:53Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-10-30T00:00:00Z/2026-10-30T15:11:42Z",
-      "date": "2026-10-30",
-      "title": "COMMUNITY ROUNDUP: Release 07 still dominates; Ohio report circulates",
-      "lede": "During this edition window, the public Google News UAP/UFO feed and official watch pages were checked. Reddit’s public RSS feeds were blocked by a network policy, and public X search exposed no attributable watchlist post text; two public X profiles remained readable for handle verification. Search-indexed attention centered on recycled Release 07 coverage, alleged Utah witness drawings, a reported pill-shaped object over Ohio, and older regional cases. These are community and media signals, not independent verification. No separate new government action or independently verified anomalous event was identified.",
+      "window": "2026-10-30T12:00:00Z/2026-10-31T12:01:53Z",
+            "date": "2026-10-31",
+            "title": "COMMUNITY ROUNDUP: Release 07 recirculates; no new development verified",
+            "lede": "During this edition window, the desk requested roughly 20 newest Reddit items from r/UFOs and attempted the same across r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. One r/UFOs feed returned a current public sample before Reddit rate-limited subsequent requests; no thread was treated as verified evidence. Public X search loaded, but exposed no attributable post text or usable timeline. All 50 watchlist profile URLs returned HTTP 200. Google News indexed recirculated Release 07 coverage, a reported Ohio pill-shaped object, black-triangle claims, and a Cybernews dispute report. These are community and media signals, not independent verification. No separate new government action or independently verified anomalous event was identified.",
       "sections": [
         {
           "heading": "RELEVANT CONTEXT: Release 07 remains the news-cycle center",
-          "body": "The edition window produced fresh search-index coverage of the October 23 Department of War Release 07, including LAmag and BroBible treatments of alleged Utah ‘Skinwalker’ material and a silent black triangle. Those headlines point back to the already logged release rather than documenting a distinct new tranche. The official portal returned HTTP 403 in this scan, so the desk has not promoted the recirculated headlines into a new verified item.",
+          "body": "The edition window produced fresh search-index coverage of the October 23 Department of War Release 07, including treatments of alleged Utah ‘Skinwalker’ material and a silent black triangle. Those headlines point back to the already logged release rather than documenting a distinct new tranche. The official portal returned HTTP 403 in this scan, so the desk has not promoted the recirculated headlines into a new verified item.",
           "sources": [
             {
               "name": "MeriTalk via Google News",
@@ -26,7 +26,7 @@
             },
             {
               "name": "r/UFOs, active feed",
-              "credit": "Public feed requested October 30, 2026; blocked by a network policy in this scan, so no current thread was treated as verified",
+              "credit": "First 20-item public feed requested October 31, 2026; Reddit returned HTTP 429, so no current thread was treated as verified",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
@@ -90,7 +90,7 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s active threads are leads, not findings",
-          "body": "The accessible discovery feed was noisier than it was conclusive. Google News indexed coverage of a reported pill-shaped object over Ohio, alleged Utah witness drawings tied to Release 07, a 1958 case, and regional UFO stories. These are reports and headlines, not a common event: no primary flight data, chain of custody, sensor package, or accountable independent corroboration was available in this scan. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
+          "body": "The desk requested first-page/20-item feeds across r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. A current r/UFOs RSS response was reachable, but subsequent Reddit requests were rate-limited; because the full set could not be read consistently, no current thread was summarized as a verified finding. Google News indexed recirculated Release 07 coverage, a reported pill-shaped object over Ohio, alleged black-triangle sightings, and a Cybernews dispute report. These are reports and headlines, not a common event: no primary flight data, chain of custody, sensor package, or accountable independent corroboration was available in this scan. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
           "sources": [
             {
               "name": "r/UFOs, World Series photograph thread",
@@ -114,8 +114,13 @@
             },
             {
               "name": "r/UFOs, current public feed",
-              "credit": "First 20-item public feed requested October 30, 2026; blocked by a network policy, so no current titles were treated as verified findings",
+              "credit": "First 20-item RSS feed requested October 31, 2026; one current public response was reachable before subsequent subreddit requests were rate-limited, so no current thread was treated as a verified finding",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+            },
+            {
+              "name": "Public X search",
+              "credit": "Search for UAP posts in the edition window loaded October 31, 2026, but exposed no attributable post text or usable timeline; community signal only",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-10-30%20until%3A2026-11-01&f=live"
             },
             {
               "name": "r/UFOs, Porterville diamond-shaped-object report",
@@ -242,7 +247,7 @@
         },
         {
           "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The fresh headlines are attributed reports, recycled Release 07 coverage, and regional mystery stories; Reddit RSS was blocked and public X search exposed no attributable watchlist posts. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
+          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The fresh headlines are attributed reports, recycled Release 07 coverage, and regional mystery stories; Reddit supplied one current public feed response before subsequent requests were rate-limited, and public X search exposed no attributable watchlist posts. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
           "sources": [
             {
               "name": "Google Search, “Historical UAP Record Report” and Andre Carson",

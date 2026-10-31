@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-30T15:11:42Z",
-  "window": "2026-10-30T00:00:00Z/2026-10-30T15:11:42Z",
-  "method": "The maintained watchlist contains 50 public profile URLs. Public X search returned no attributable post text or usable timeline in this scan, so no account was treated as having posted and no handle was added. Public profile pages for NASA and Lue Elizondo returned readable identity metadata; that verifies handles, not expertise, identity beyond the public profile, or any claim. Google News was checked separately; its headlines are secondary discovery signals. No new handle was added without fresh public profile verification.",
+  "checked_at": "2026-10-31T12:01:53Z",
+    "window": "2026-10-30T12:00:00Z/2026-10-31T12:01:53Z",
+    "method": "The maintained watchlist contains 50 public profile URLs. The public X search page loaded, but no attributable post text or usable timeline was exposed in this scan, so no account was treated as having posted and no handle was added. All 50 public profile URLs returned HTTP 200; that verifies reachable profile URLs, not expertise, identity beyond the public profile, or any claim. Google News was checked separately; its headlines are secondary discovery signals. No new handle was added without fresh public profile verification.",
   "accounts": [
     {
       "handle": "NASA",
