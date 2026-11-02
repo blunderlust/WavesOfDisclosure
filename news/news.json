@@ -1,326 +1,111 @@
 {
   "meta": {
-    "checked_at": "2026-11-01T15:20:00Z",
+    "checked_at": "2026-11-02T15:22:17Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-01T13:00:41Z/2026-11-01T15:20:00Z",
-      "date": "2026-11-01",
-      "title": "COMMUNITY ROUNDUP: Carson’s AARO-release demand becomes the loudest disclosure thread",
-      "lede": "The loudest new community thread is a Reddit discussion of a New York Post report in which Rep. Andre Carson calls for the immediate release of a historical UAP record he says AARO has delayed for almost two years. The Post reports that Democrats may seek a UFO caucus and select committee if they take the House after the midterms. Those are public statements and reported political plans—not proof that the underlying record contains extraordinary findings. The existing Release 07 tranche remains the latest independently logged official release in this desk.",
+      "window": "2026-11-02T13:00:59Z/2026-11-02T15:22:17Z",
+      "date": "2026-11-02",
+      "title": "COMMUNITY ROUNDUP: Stratton interview tease, triangle arguments, and the UFO news carousel",
+      "lede": "Today’s accessible public scan found a lively mix rather than a new official disclosure: Reddit is watching a promised interview with former AARO director Jay Stratton’s son, a former AARO chief is being quoted in a dispute over an FBI black-triangle account, and media outlets are recycling the week’s politics and historical sightings into fresh conversation. The loudest material is attributed community discussion, not independently verified evidence.",
       "sections": [
         {
-          "heading": "RELEVANT CONTEXT: Release 07 remains the news-cycle center",
-          "body": "The edition window produced fresh search-index coverage of reported black-triangle sightings in Britain, a New York Post story about Democrats seeking the UFO-disclosure issue after the midterms, and older or recycled alien claims. None supplied a readable primary document or a distinct new government release in this scan. The existing Release 07 record remains the latest verified official tranche in the local desk.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a proposed congressional fight is still a proposal",
+          "body": "The Mary Sue is circulating a report that Democrats are preparing a select committee to take up the UFO-disclosure issue, quoting Rep. Andre Carson on distrust of another president and the need for congressional action. This is consequential public political reporting worth watching, but the accessible scan did not locate a committee resolution, official notice, hearing date, or new government record. The strongest conventional reading is election-season pressure and oversight strategy. The strongest anomalous reading is that lawmakers may be trying to force out a historical record they believe has been delayed. For now, it is a reported plan and an attributed argument—not an enacted committee or a fresh disclosure.",
           "sources": [
             {
-              "name": "New York Post via Google News",
-              "credit": "Indexed November 1 report about UFO-disclosure politics; secondary media coverage, not a primary committee notice",
+              "name": "The Mary Sue, via Google News RSS",
+              "credit": "Indexed November 2, 2026; secondary report about statements attributed to Rep. Andre Carson",
               "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
-            {
-              "name": "Yorkshire Live via Google News",
-              "credit": "Indexed November 1 coverage of reported UK black-triangle sightings; secondary reporting, not independent case verification",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "r/UFOs, active feed",
-              "credit": "First 20-item public feed requested October 31, 2026; Reddit returned HTTP 429, so no current thread was treated as verified",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "Google News, UAP/UFO search",
-              "credit": "Fresh same-day headlines from NewsNation, VICE, and Fox News; secondary coverage of Release 07",
-              "url": "https://news.google.com/rss/search?q=(UAP+OR+UFO)+when:1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Leonard David, Inside Outer Space",
-              "credit": "Same-day secondary report describing Release 07 and linking Project Capella; direct government records not readable to this desk",
-              "url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/"
-            },
-            {
-              "name": "U.S. Department of War UAP portal",
-              "credit": "Linked Release 07 page; returned HTTP 403 during retrieval",
-              "url": "https://www.war.gov/ufo/?releaseDate=Release+07&release=07"
-            }
-          ]
-        },
-        {
-          "heading": "TRENDING / LOUDEST: Carson calls for the delayed AARO historical record",
-          "body": "A current r/UFOs thread is circulating a New York Post report by Shane Galvin, published October 31, 2026. The report quotes Rep. Andre Carson (D-Ind.) saying the administration has “slow walked” statutory UAP-disclosure requirements and that AARO has delayed a “key historical UAP record report” for almost two years. Carson says the report may address historical military and intelligence investigations, classified programs, and whether relevant activities were disclosed to Congress. The Post also reports that Democrats may form a UFO caucus and select committee if they win the House. The strongest ordinary reading is political pressure around a reportedly delayed government record. The stronger anomalous reading is that the record could contain historically important cases or evidence. At present, the underlying report, the claimed deadline, and the specific file location are not identified in the public article; no new record has been independently examined here.",
-          "sources": [
             {
               "name": "New York Post, Shane Galvin",
-              "credit": "Public report published October 31, 2026; quotes Carson and notes that his office did not identify the specific file, deadline, or location",
+              "credit": "October 31, 2026 report previously logged by this desk; source of the underlying political claim",
               "url": "https://nypost.com/2026/10/31/us-news/democrats-plot-taking-ufo-disclosure-issue-from-gop-after-midterms/"
             },
             {
-              "name": "r/UFOs, u/Courtly-Chris",
-              "credit": "Community post linking the New York Post report; discussion signal, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xl3idk/rep_andre_carson_is_calling_for_the_immediate/"
-            },
-            {
               "name": "AARO public site",
-              "credit": "Primary-source watch page checked in this run; no independently readable matching report was located",
+              "credit": "Primary-source watch page checked in this run; no matching public report was independently located",
               "url": "https://www.aaro.mil/"
             }
           ]
         },
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Germany’s official answer is still a documented non-structure",
-          "body": "The German government’s written response, Bundestag document 21/8662 dated October 16, 2026, says responsibility for monitoring German airspace lies with the interior, transport, and defense ministries, while near-Earth object cataloguing belongs to the research/technology/space and defense ministries. It says ‘Über UAP liegen keine Erkenntnisse vor’ (there are no findings on UAP), no definitions are used, no separate UAP reporting channels exist, no cross-departmental structures or working groups exist, and no revision of existing procedures is planned. It also says airspace sensors produce fused data and space objects are compared with the public TLE catalogue, with access to partner sensor data. This establishes the government’s stated policy and information posture—not that anomalous objects do or do not exist, and not the Reddit interpretation that Germany is deliberately hiding them.",
+          "heading": "TRENDING / LOUDEST: the Stratton family interview tease",
+          "body": "A new r/UFOs feed item says Jon Stratton, son of former AARO director Jay Stratton, is preparing an interview with his father. The post is a lead about a forthcoming conversation, not the conversation itself; no transcript, recording, date, or claim was available to independently assess in this scan. If it appears, the useful questions will be mundane and unglamorous: what is first-hand, what is remembered, what documents can be named, and what can be checked outside the family or podcast ecosystem.",
           "sources": [
             {
-              "name": "Deutscher Bundestag, Drucksache 21/8662",
-              "credit": "Official German federal-government response, dated 2026-10-16; primary document",
-              "url": "https://dserver.bundestag.de/btd/21/086/2108662.pdf"
-            },
-            {
-              "name": "r/UFOs",
-              "credit": "Community discussion and interpretation of the official document; not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xcgkab/update_the_german_government_officially_responded/"
+              "name": "r/UFOs public new feed",
+              "credit": "Item titled “Jay Stratton’s son Jon Stratton releasing an interview with his father soon,” retrieved November 2, 2026; Reddit community signal only",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             }
           ]
         },
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: no new confirmation arrived",
-          "body": "The Release 07 story is now the edition's consequential public development, but the evidence chain has a missing link: secondary reports and a Google News listing point to a government publication, while the Department of War portal and linked PDF were inaccessible to this desk. The previously logged Cybernews/Coulthart report and Jay Stratton book discussion remain attributed claims and community attention. The distinction is not pedantry; it is the whole job.",
+          "heading": "TRENDING / LOUDEST: former AARO chief questions the FBI triangle account",
+          "body": "The public Reddit feed is also highlighting a media report titled “Former AARO chief Sean Kirkpatrick doubts FBI triangular UAP sighting.” The underlying dispute appears to concern the recently logged FBI FD-302 and the interpretation of a triangular object report. That is an argument about an official document—not a finding that the report is false, and not proof that the object was extraordinary. The community’s real interest is the old disclosure question in miniature: when an agency releases a record, who gets to interpret it, and on what technical basis?",
           "sources": [
             {
-              "name": "Cybernews via Google News",
-              "credit": "Report about Ross Coulthart’s attributed claim; not independently verified",
-              "url": "https://news.google.com/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "NewsNation via Google News",
-              "credit": "Fresh media coverage of an ex-government investigator’s book and claimed experiences",
-              "url": "https://news.google.com/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "NASA Science",
-              "credit": "Primary context page checked; no new NASA UAP release identified",
-              "url": "https://science.nasa.gov/uap/"
-            },
-            {
-              "name": "Inside Outer Space",
-              "credit": "Secondary report dated October 23, 2026; direct government records not independently inspected",
-              "url": "https://www.leonarddavid.com/seventh-release-of-files-on-unidentified-anomalous-phenomena-uap-project-capella-detailed/"
-            }
-          ]
-        },
-        {
-          "heading": "COMMUNITY ROUNDUP: Reddit’s active threads are leads, not findings",
-          "body": "COMMUNITY ROUNDUP: The desk checked roughly the first 20 newest-item targets for r/UFOs, r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. A current r/UFOs feed was readable; the other subreddit requests were rate-limited, so no inaccessible thread was treated as evidence. Public X search redirected to login, and no watchlist account was treated as having posted without readable post text. Google News indexed a New York Post political-disclosure story and a Fox News report describing a dispute over alleged black-triangle evidence, alongside festival, historical-sighting, and recycled alien-claim coverage. These are separate reports and claims, not a common event. No primary flight data, chain of custody, sensor package, or accountable independent corroboration was available. A consciousness-first reading can take witness experience seriously as a subject of inquiry without turning a headline, memory, or interpretation into proof of a non-corporeal mechanism.",
-          "sources": [
-            {
-              "name": "Reddit public feeds",
-              "credit": "Newest-item feeds for five relevant communities checked November 1, 2026; r/UFOs returned a current public sample, while the other requests were rate-limited; community signal only",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "r/UFOs, Santa Catalina files thread",
-              "credit": "Community discussion of the official Release 07 records; interpretation is not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xhh4gf/declassified_air_force_files_document_three_1950s/"
-            },
-            {
-              "name": "r/UFOs, ex-Navy interview claim thread",
-              "credit": "Community post retrieved October 28, 2026; relays an interview claim about beings, portals, and alleged video; not independently verified",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xi2zkt/i_met_nordic_aliens_inside_a_secret_military_base/"
-            },
-            {
-              "name": "r/UFOs, Release 07 triangle-file analysis thread",
-              "credit": "Community document comparison retrieved October 28, 2026; useful lead, not independent identification of the object",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xi1ygc/a_june_2026_black_triangle_sat_in_the_pentagons/"
-            },
-            {
-              "name": "r/UFOs, current public feed",
-              "credit": "First 20-item RSS feed requested November 1, 2026; current public sample returned, while other subreddit requests were rate-limited; no thread was treated as a verified finding",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "Public X search and maintained watchlist",
-              "credit": "Search for UAP posts and the 50 public profile URLs checked November 1, 2026; X redirected search to login and exposed no attributable post text or usable timeline; community signal only",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-10-31%20until%3A2026-11-01&f=live"
-            },
-            {
-              "name": "r/UFOs, Porterville diamond-shaped-object report",
-              "credit": "Eyewitness/community report posted October 29, 2026; no independent sensor corroboration",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xifb8k/diamondshaped_object_paced_car_with_erratic/"
-            },
-            {
-              "name": "r/UFOs, insider-program allegation thread",
-              "credit": "Community relay of a lengthy public allegation posted October 29, 2026; not independently verified",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xifb7h/lengthy_twitter_post_alleging_insider_program/"
-            },
-            {
-              "name": "r/UFOs, Release 07 black-triangle discussion",
-              "credit": "Community document analysis posted October 28, 2026; does not identify the object or establish cause",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xi1yfg/a_june_2026_black_triangle_sat_in_the_pentagons/"
-            },
-            {
-              "name": "r/UFOs, Dorval pulsing-light report",
-              "credit": "Eyewitness/community report posted October 28, 2026; no independent corroboration",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xi0nb0/pulsing_ball_of_energy_moved_straight_and_steady/"
-            },
-            {
-              "name": "r/UFOs, Palomar photographs thread",
-              "credit": "Community post retrieved October 28, 2026; historical photographic claim and open challenge, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xhgk9h/76_years_after_palomar_photographed_nine_stars/"
-            },
-            {
-              "name": "Google News UAP/UFO feed",
-              "credit": "Date-bounded discovery feed checked October 28, 2026; headlines are not primary-source verification",
+              "name": "MEAWW News, via Google News RSS",
+              "credit": "Indexed November 2, 2026; secondary report attributing a skeptical interpretation to Sean Kirkpatrick",
               "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs, Florence anniversary recreation",
-              "credit": "Community post retrieved October 27, 2026; computer-generated technical recreation, not contemporaneous evidence",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xh2wbo/todays_the_72nd_anniversary_of_the_florence_mass/"
-            },
-            {
-              "name": "r/UFOs, Roswell evidence thread",
-              "credit": "Community post retrieved October 27, 2026; historical-source discussion, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xgn8ev/roswell_part_one_the_1947_record_and_the_material/"
-            },
-            {
-              "name": "r/UFOs newest feed",
-              "credit": "First feed request returned a public sample; subsequent subreddit requests were rate-limited",
+              "name": "r/UFOs public new feed",
+              "credit": "Community item titled “Former AARO chief Sean Kirkpatrick doubts FBI triangular UAP sighting”; discussion signal, not independent verification",
               "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
-              "name": "r/UFOs, u/TommyShelbyPFB",
-              "credit": "Community post linking The Hill, posted October 24, 2026; community signal, not evidence of a new hearing or policy",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe640b/the_hill_how_will_congress_address_ufos_if/"
-            },
-            {
-              "name": "r/UFOs, u/teheditor",
-              "credit": "Community post linking a Cold War-files article, posted October 24, 2026; interpretation of Release 07, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe43bm/declassified_cold_war_files_show_nasa_cia_and/"
-            },
-            {
-              "name": "r/UFOs / launch schedule post",
-              "credit": "Routine launch-identification reference posted October 24, 2026; not a UAP report",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe4zip/upcoming_space_launches_for_october_24_2026/"
-            },
-            {
-              "name": "r/UFOs, u/douwebeerda",
-              "credit": "Community post with 155 upvotes and 52 comments at retrieval; interpretation of a 1983 Army Gateway document, not evidence of contact",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe2dde/be_intellectually_prepared_to_react_to_possible/"
-            },
-            {
-              "name": "YouTube search, UAP whistleblower",
-              "credit": "Current result index surfaced NewsNation, VICE, and other older/recirculated whistleblower coverage; search results are not new-event verification",
-              "url": "https://www.youtube.com/results?search_query=UAP+whistleblower+October+2026"
-            },
-            {
-              "name": "Google News, British Airways / Heathrow report",
-              "credit": "Indexed October 29, 2026; secondary media report of an alleged pilot encounter, not independently verified",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Google News, Ohio pill-shaped-object report",
-              "credit": "Indexed October 29, 2026; media report describing pilot footage, not independently verified",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Google News, Outer Banks vessel report",
-              "credit": "Indexed October 29, 2026; regional report of a social-media debate, not an identified anomalous object",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "LAmag, silent black triangle coverage",
-              "credit": "Indexed October 29, 2026; secondary coverage of Release 07, not a new official release",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:6h&hl=en-US&gl=US&ceid=US:en"
+              "name": "Release 07 document index",
+              "credit": "Local document deep dives for the relevant official tranche; records remain evidence to interpret, not automatic proof of an exotic cause",
+              "url": "news/articles/release-07/index.html"
             }
           ]
         },
         {
-          "heading": "FUN / INTERESTING: Jacques Vallée, AI, and the ontological weather",
-          "body": "One of the active threads promoted a new UAP Files Podcast interview with Jacques Vallée and framed AI as a possible route to contact before humans manage it. That is a public discussion topic and an interesting consciousness-adjacent question, not evidence that AI has contacted anyone. Other threads recycled older files and personal testimony. The useful rule remains the unglamorous one: attention finds leads; documents, data, and accountable witnesses do the heavier lifting. The current r/UFOs feed also surfaced a historical post by u/Oneiroi_Coeus about Hans-Adam II of Liechtenstein and his reported funding of parapsychology and UFO research alongside Hal Puthoff. It is a lead for checking the historical record, not proof that the prince endorsed any particular explanation.",
+          "heading": "FUN / INTERESTING: Kurt Russell, Roswell, and the internet’s durable folklore machine",
+          "body": "The day’s media carousel includes VICE revisiting Kurt Russell’s reported connection to the 1997 Phoenix Lights story, a Coast to Coast AM episode on Roswell, and local British newspapers mapping historical sightings. These are good examples of how UAP culture keeps old cases alive through new formats: celebrity recollection, podcast retelling, and map-based nostalgia. They are entertaining leads, not fresh sensor evidence. A consciousness-first reading can take the persistence and meaning of witness memory seriously as a cultural and experiential phenomenon; it still cannot turn recollection or repetition into proof of a particular mechanism.",
           "sources": [
             {
-              "name": "r/UFOs, u/Oneiroi_Coeus",
-              "credit": "Historical community post retrieved October 30, 2026; claims about Hans-Adam II’s funding require primary-source checking",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xjf4k6/before_becoming_the_prince_of_liechtenstein/"
+              "name": "VICE, via Google News RSS",
+              "credit": "Indexed November 2, 2026; secondary feature about Kurt Russell and the Phoenix Lights story",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs, u/Golemfrost",
-              "credit": "First-person community account posted October 24, 2026; links a 2005 NUFORC record, which was behind a security check during retrieval",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe7noi/21_years_ago_i_reported_a_tic_tac_ufo_to_nuforc/"
+              "name": "The Best of Coast to Coast AM, via Google News RSS",
+              "credit": "Episode 128, published November 1, 2026; entertainment/podcast discussion of Roswell claims",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "NUFORC report 42936",
-              "credit": "Direct archive link supplied by the Reddit post; page could not be read during this scan",
-              "url": "https://nuforc.org/sighting/?id=42936"
-            },
-            {
-              "name": "r/UFOs, u/VolarRecords",
-              "credit": "Community post linking a video and Medium essays about the Magenta narrative; claims and interpretation, not independently verified",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xe2bqx/the_allen_dulles_pipeline_starting_with_the_1933/"
-            },
-            {
-              "name": "Google News UAP/UFO feed",
-              "credit": "Date-bounded discovery feed checked during this run",
-              "url": "https://news.google.com/search?q=UAP%20OR%20UFO%20when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs public new feed",
+              "credit": "Also surfaced historical analysis of Thomas Mantell, Project Sign/Grudge, and the disputed JFK UFO memo; community discussion, not archival confirmation",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             }
           ]
         },
         {
-          "heading": "DESK JUDGMENT: SOURCE WATCH; no separate new development verified",
-          "body": "SOURCE WATCH: no separate new UAP development was independently verified in this edition window. The fresh headlines are attributed reports, political framing, regional mystery stories, and recycled claims; the local primary-source watch pages did not yield a new readable release. Keep the existing Release 07 item and related source-watch entries. Do not convert a search result, community debate, or media framing into a verified finding.",
+          "heading": "SOURCE NOTE: today’s feed is a map of attention, not a lab result",
+          "body": "Google News returned fresh headlines from multiple outlets, while Reddit returned a readable public sample before rate limiting. Public X search exposed no attributable post text in the maintained watchlist. No new government release, court filing, hearing notice, or independently examined sensor package was located in this window. Community claims remain welcome as leads; they are labeled as claims because that is how a newsroom keeps its shoes on.",
           "sources": [
             {
-              "name": "Google Search, “Historical UAP Record Report” and Andre Carson",
-              "credit": "Indexed result for The Hill report, checked October 26, 2026; secondary index, not a substitute for the article or primary documents",
-              "url": "https://www.google.com/search?q=%22Historical+UAP+Record+Report%22+Andre+Carson"
+              "name": "Google News UAP/UFO RSS",
+              "credit": "Same-day headline discovery; secondary-source index",
+              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "NASA Science",
-              "credit": "Primary-source watch page checked during this run",
-              "url": "https://science.nasa.gov/uap/"
+              "name": "r/UFOs public new feed",
+              "credit": "Public Reddit feed requested November 2, 2026; current sample was readable before rate limiting; community signal only",
+              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
             },
             {
-              "name": "AARO",
-              "credit": "Primary-source watch page; automated request returned HTTP 403",
-              "url": "https://www.aaro.mil/"
-            },
-            {
-              "name": "Department of Defense releases",
-              "credit": "Primary-source watch page; automated request returned HTTP 403",
-              "url": "https://www.defense.gov/News/Releases/"
+              "name": "Public X search",
+              "credit": "Search/watchlist check; no readable attributable post text was exposed in this run",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-01%20until%3A2026-11-02&f=live"
             }
           ]
         }
-      ],
-      "media": [
-        {
-          "title": "Release 07: 28 individually read case files and recreations",
-          "credit": "Completed PyMuPDF-grounded package: 28 PDF analyses, 28 articles, and 28 article-specific SVG recreations",
-          "url": "news/articles/release-07/index.html"
-        },
-        {
-          "title": "Trump briefed on secret UFO program, Ross Coulthart claims",
-          "credit": "Cybernews via Google News; consequential attributed claim awaiting verification",
-          "url": "https://news.google.com/search?q=Ross+Coulthart+Trump+briefed+secret+UFO+program&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Ex-government UAP hunter pens book, describes aliens he’s seen",
-          "credit": "NewsNation via Google News; media report about claimed experiences",
-          "url": "https://news.google.com/search?q=UAP+NewsNation+ex-government+UAP+hunter&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Aliens and UAPs: What can radar really tell us about an unidentified object?",
-          "credit": "WION via Google News; explanatory media coverage",
-          "url": "https://news.google.com/search?q=UFO+WION+radar+scientists+investigate&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Valley of Juárez creature mystery draws Mexico UFO researcher",
-          "credit": "El Paso Times via Google News; reported creature account, not corroborated here",
-          "url": "https://news.google.com/search?q=Valley+of+Ju%C3%A1rez+creature+mystery&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "editorial_note": "COMMUNITY ROUNDUP: Release 07 is logged as an official documents-only release. The database records the eight PDFs and preserves the official descriptions. The Catalina Island grouping and D176/FBI-D043 pairing are editorial connections in the released metadata, not proof of a common cause or non-human technology."
+      ]
     }
   },
   "items": [

@@ -1083,7 +1083,7 @@ function renderNews(errorMessage = '') {
       <h3 class="community-roundup-title">${escapeHtml(roundup.title || 'What the community is talking about')}</h3>
       ${roundup.date ? `<div class="news-item-meta">${escapeHtml(roundup.date)}</div>` : ''}
       ${roundup.lede ? `<p class="community-roundup-lede">${escapeHtml(roundup.lede)}</p>` : ''}
-      <p class="community-roundup-reading-link"><a href="news/articles/jre-2560-david-grusch-fine-tooth-comb.html">Read the full fine-tooth-comb breakdown ↗</a></p>
+      <p class="community-roundup-reading-link"><a href="news/articles/jre-2560-david-grusch-fine-tooth-comb.html">Read the full fine-tooth-comb breakdown ↗</a> · <a href="news/articles/release-07/index.html">Browse all 28 document deep dives ↗</a></p>
       ${(Array.isArray(roundup.sections) ? roundup.sections : []).map(section => `
         <section class="community-roundup-section">
           <h4>${escapeHtml(section.heading || '')}</h4>
