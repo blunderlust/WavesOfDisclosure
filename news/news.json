@@ -1,111 +1,76 @@
 {
   "meta": {
-    "checked_at": "2026-11-03T15:25:28Z",
+    "checked_at": "2026-11-04T13:00:47Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-02T13:00:00Z/2026-11-03T13:00:00Z",
-      "date": "2026-11-03",
-      "title": "COMMUNITY ROUNDUP: Tehran files, Area 51 folklore, and a thin news cycle",
-      "lede": "The latest 24-hour scan found no independently verified new disclosure. Reddit’s active r/UFOs sample is concentrating on a reposted 1976 Tehran F-4 document package, a former Army sniper’s Area 51 story, older FBI and Navy records, and fresh sighting reports. Google News produced secondary coverage and recycled material, while public X search exposed no attributable post text from the maintained watchlist. The attention is real; the evidentiary upgrade is not.",
+      "window": "2026-11-04T15:28:40Z/2026-11-04T15:28:40Z",
+      "date": "2026-11-04",
+      "title": "COMMUNITY ROUNDUP: Aztec gets a documentary audit while Reddit reaches for the Renaissance",
+      "lede": "Today’s accessible community scan found no independently verified new UAP disclosure, official release, hearing notice, court filing, or newly examined sensor package. Reddit’s readable r/UFOs feed is lively, though: one long-form series is rechecking the Aztec/Hottel record and another is revisiting disputed “vanishing star” data, while a separate post makes sweeping recovered-technology and spiritual-battle claims without supporting evidence. YouTube search is still dominated by older whistleblower and congressional videos. The signal is cultural attention and argument—not a new evidentiary breakthrough.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the Tehran case is being re-read, not newly disclosed",
-          "body": "A current r/UFOs thread is drawing attention to the 1976 Tehran F-4 incident with scans described as the original DIA teletype and a U.S. evaluation sheet. The thread is a lead to primary-source material, not independent authentication of the scans or a new government release. The conventional task is to establish provenance, translation, aircraft configuration, radar/visual chronology, and the historical evaluation. The anomalous interpretation remains that the reported interference and performance exceeded what the crew and analysts expected. Neither reading should be upgraded on the strength of a repost alone.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: a community post does the unglamorous work on Aztec",
+          "body": "Reddit user u/Yud07’s Part 26 in a continuing Magenta/Aztec series is the strongest piece of community material in the accessible scan—not because it proves a crash, but because it separates records from the story built around them. The post says the 1950 Hottel memo is second- or third-hand, the March 31 FBI memo names Silas Newton as a source of circulating claims, J. P. Cahn reported Newton’s alleged metal as commercial aluminum, and the documented El Vado radar installation postdates the alleged 1948 event. It also notes that later testimony and a purported briefing remain unauthenticated. That is a useful evidentiary habit: a real memo proves a memo exists, not that the event inside it happened. The anomalous interpretation survives only as an unresolved historical claim; the consciousness-first angle is more modest here—why certain narratives acquire symbolic force and persist—rather than a substitute for provenance.",
           "sources": [
             {
-              "name": "r/UFOs public new feed",
-              "credit": "Thread titled “The 1976 Tehran F-4 incident: original DIA teletype and the US evaluation sheet attached to it,” retrieved November 3, 2026; community lead only",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xmnrfq/the_1976_tehran_f4_incident_original_dia_teletype/"
+              "name": "r/UFOs / u/Yud07",
+              "credit": "“Three Feet Tall: Aztec, Scully, Newton and the Hottel Memo,” retrieved November 4, 2026; community analysis, not independent verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xnils4/three_feet_tall_aztec_scully_newton_and_the_hottel_memo/"
             },
             {
-              "name": "U.S. Defense Intelligence Agency historical record",
-              "credit": "Primary-source target identified by the Reddit thread; document provenance and context still require checking",
-              "url": "https://www.dia.mil/"
-            },
-            {
-              "name": "AARO Congressional/Press Products",
-              "credit": "Live public page checked November 3, 2026; lists the FY25 UAP annual report as added July 20, 2026. That is an official document, but not a new event in this roundup window.",
-              "url": "https://www.aaro.mil/Congressional-Press-Products/"
+              "name": "FBI Vault",
+              "credit": "Linked and discussed by the Reddit post as the primary record target; the community summary is not a substitute for checking the scan",
+              "url": "https://vault.fbi.gov/UFO"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Area 51 testimony and fresh sighting reports",
-          "body": "The active sample also includes a former Army sniper’s account of a deadly shootout near Area 51 and reports of bright or diamond-shaped objects over Australia, Spain, and Anaheim. These are community posts and witness material, not verified incidents. Their useful value is as a lead for checking dates, locations, aviation activity, weather, launch schedules, and original media. Repetition can tell us what the community is watching; it cannot supply corroboration.",
+          "heading": "TRENDING / LOUDEST: recovered-tech certainty and a spiritual frame",
+          "body": "u/VolarRecords posted that a “new Renaissance” involving recovered UAP technology has arrived, tying the claim to post-Grusch testimony, alleged Eisenhower-era agreements, the 1933 Magenta story, and a broad spiritual struggle. The post is plainly a community belief statement: it supplies no documents, named firsthand witness, sensor record, or independently checkable new event. It belongs in the roundup because it shows how disclosure talk now functions as political cosmology as much as aerospace argument. Readers interested in consciousness-first interpretations can take seriously the experiential and myth-making dimensions of that frame; they should not confuse psychological or cultural meaning with evidence that recovered technology exists.",
           "sources": [
             {
-              "name": "r/UFOs public new feed",
-              "credit": "Active r/UFOs sample retrieved November 3, 2026; posts are community signal and witness claims only",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+              "name": "r/UFOs / u/VolarRecords",
+              "credit": "“What’s coming is a new Renaissance involving the integration of recovered UAP tech,” retrieved November 4, 2026; unattributed community claims",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xnk7go/whats_coming_is_a_new_renaissance_involving_the/"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: old records, new arguments",
-          "body": "Other active threads revisit the FBI’s 1949 “Vital Installations” memo, a 2020 Navy “jellyfish” report, the Socorro symbol, and the long-running Project Sign/Project Grudge debate. These are archival or interpretive discussions, not new official findings. A consciousness-first reading can take seriously why symbols, memory, and unresolved narratives retain force for witnesses and communities; it still cannot turn symbolic resemblance or online agreement into evidence for a particular mechanism.",
+          "heading": "FUN / INTERESTING: the “vanishing stars” argument gets a technical sequel",
+          "body": "Another u/Yud07 post, Part 25 of the same documentary series, revisits historical Palomar plates and the VASCO “vanishing stars” question. Its summary distinguishes reproducible star-like marks from claims about their cause, and reports competing analyses over Earth-shadow statistics, nuclear-test timing, catalogue selection, and optical artefacts. The post points to an August 2026 machine-learning paper and a later Hamburg study, but its own conclusion is appropriately narrow: unexplained marks are not automatically artificial objects, and a correlation with nuclear tests is disputed. This is the kind of weird, technically literate rabbit hole the community does well when it remembers that “unexplained” is a starting line.",
           "sources": [
             {
-              "name": "r/UFOs public new feed",
-              "credit": "Active archival-discussion threads retrieved November 3, 2026; community interpretation, not independent verification",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
+              "name": "r/UFOs / u/Yud07",
+              "credit": "“The Vanishing Stars: The Only Thread With New Data,” retrieved November 4, 2026; community synthesis of disputed research",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xniirz/the_vanishing_stars_the_only_thread_with_new_data/"
             },
             {
-              "name": "NASA UAP material",
-              "credit": "Primary scientific background checked; NASA page still points to the 2023 independent study and does not verify these community claims",
-              "url": "https://science.nasa.gov/uap/"
-            },
-            {
-              "name": "Release 07 document index",
-              "credit": "Local document deep dives for the relevant official tranche; records remain evidence to interpret, not automatic proof of an exotic cause",
-              "url": "https://www.war.gov/UFO/"
+              "name": "YouTube search / NewsNation and VETTED",
+              "credit": "Search results checked November 4, 2026; surfaced older whistleblower and congressional videos, not a same-day development",
+              "url": "https://www.youtube.com/results?search_query=UAP+whistleblower+November+2026"
             }
           ]
         },
         {
-          "heading": "SOURCE NOTE: secondary headlines do not add a verified event",
-          "body": "Google News returned a fresh headline about Pentagon files and a report of a triangular object over Utah, but the accessible trail did not establish a new government release, a newly authenticated sensor package, or an official finding. AARO’s public Congressional/Press Products page currently lists its Fiscal Year 2025 Consolidated Annual Report on UAP, added July 20, 2026; that is a consequential official record worth reviewing, but it is not new in this 24-hour window. The already logged Release 07 remains the relevant newer document tranche. Public X search returned only the logged-out search shell, with no readable attributable post text from the 50-account watchlist. This is a map of attention, not a lab result.",
+          "heading": "SOURCE NOTE: attention is not authentication",
+          "body": "The accessible r/UFOs page supplied readable posts and direct links in this run. Public X search remained a logged-out shell without attributable post text from the maintained watchlist. YouTube search returned prominent older material—including NewsNation’s David Grusch congressional video and a Jeremy Corbell/George Knapp whistleblower-waiver discussion—so those are discovery leads, not new reports. No official page checked in the run established a new release or finding.",
           "sources": [
-            {
-              "name": "Google News UAP/UFO RSS",
-              "credit": "Same-day secondary headline discovery; no new primary release independently established",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
-            },
             {
               "name": "Public X search",
-              "credit": "Watchlist search for November 2–3, 2026; logged-out shell exposed no attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-02%20until%3A2026-11-03&f=live"
+              "credit": "Watchlist search for November 4, 2026; no attributable post text visible",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-04%20until%3A2026-11-05&f=live"
             },
             {
-              "name": "AARO Congressional/Press Products",
-              "credit": "Official page checked November 3, 2026; FY25 UAP annual report is listed as added July 20, 2026, not as a same-day release.",
-              "url": "https://www.aaro.mil/Congressional-Press-Products/"
-            }
-          ]
-        },
-        {
-          "heading": "SOURCE NOTE: today’s feed is a map of attention, not a lab result",
-          "body": "Google News returned fresh secondary headlines, including a Yahoo item saying new Pentagon files reveal California-coast sightings; the accessible search trail is consistent with coverage of the already logged October 23 Release 07 tranche, not a newly verified release. Reddit’s r/UFOs feed was readable for a sample of roughly 10–20 active threads; other requested subreddit feeds returned rate limits or stale material in this run. Public X search exposed no attributable post text in the maintained 50-account watchlist. No new government release, court filing, hearing notice, or independently examined sensor package was located. Community claims remain leads, not facts.",
-          "sources": [
-            {
-              "name": "Google News UAP/UFO RSS",
-              "credit": "Same-day headline discovery; secondary-source index",
-              "url": "https://news.google.com/rss/search?q=(UAP%20OR%20UFO)%20when:1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "r/UFOs public new feed",
-              "credit": "Public Reddit feed retrieved November 3, 2026; roughly 20 active r/UFOs threads readable; other requested feeds returned HTTP 429",
-              "url": "https://www.reddit.com/r/UFOs/new/.rss?limit=20"
-            },
-            {
-              "name": "Public X search",
-              "credit": "Search/watchlist check; logged-out search shell returned no readable attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-02%20until%3A2026-11-03&f=live"
+              "name": "r/UFOs public feed",
+              "credit": "Readable public page retrieved November 4, 2026; posts remain community claims and analysis",
+              "url": "https://www.reddit.com/r/UFOs/new/?t=day"
             }
           ]
         }
-      ]
+      ],
+      "media": []
     }
   },
   "items": [
