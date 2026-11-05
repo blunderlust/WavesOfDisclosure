@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-04T13:00:47Z",
-"window": "2026-11-04T01:00:32Z/2026-11-04T13:00:47Z",
-  "method": "The maintained watchlist contains 50 public profile URLs. Public X search returned a logged-out search shell with no attributable post text or usable timeline in this run, so no account was treated as having posted and no handle was added. Profile URLs remain watch targets, not evidence of a post, expertise, or any claim.",
-    "accounts": [
-      {
+  "checked_at": "2026-11-05T13:01:42Z",
+  "window": "2026-11-05T01:00:00Z/2026-11-05T13:01:42Z",
+  "method": "The maintained watchlist contains 50 public profile URLs. Public X search returned a logged-out search shell with no attributable post text or usable timeline in this edition window, so no account was treated as having posted and no handle was added. Profile URLs remain watch targets, not evidence of a post, expertise, or any claim.",
+  "accounts": [
+    {
       "handle": "NASA",
       "url": "https://x.com/NASA",
       "role": "official science agency",
