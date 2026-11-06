@@ -1,70 +1,80 @@
 {
   "meta": {
-    "checked_at": "2026-11-05T15:31:47Z",
+    "checked_at": "2026-11-06T15:34:25Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-05T01:00:00Z/2026-11-05T15:31:47Z",
-      "date": "2026-11-05",
-      "title": "COMMUNITY ROUNDUP: a Pentagon-file report lands, while the community argues over what “release” means",
-      "lede": "Today’s accessible scan found one consequential public report awaiting editorial verification: ABC News says the Pentagon released declassified UFO files from multiple federal agencies. The official source page was not reachable to this checker, so the desk is flagging the report—not presenting it as independently verified. Around that hard-news lead, the public conversation ranges from a fresh commercial-pilot video report to a Carbondale alien festival. Disclosure is a document trail; the internet, naturally, has supplied a carnival barker and a PDF-shaped question mark.",
+      "window": "2026-11-06T13:01:14Z/2026-11-06T15:34:25Z",
+      "date": "2026-11-06",
+      "title": "COMMUNITY ROUNDUP: a night-vision V hangs over Schriever, while old files and new arguments collide",
+      "lede": "The latest accessible scan brings a fresh first-person report from Reddit, a revival of the Wilbert Smith/Sarbacher memo fight, and the continuing NASA-livestream “near miss” story. None of the witness accounts or viral interpretations below is authenticated sensor evidence. The community is doing what it always does when the sky supplies a question mark: comparing notes, reopening archives, and occasionally building a very confident theory on a very small video.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: ABC reports a new Pentagon file release — REVIEW ALERT",
-          "body": "ABC News reported early November 5 that the Pentagon released declassified UFO files from various federal agencies. That would be a consequential official action if confirmed, and it may relate to the seventh file release that appeared in October coverage. The desk has not promoted it to verified news: the public AARO and Defense Department pages returned access errors in this run, and the ABC item was discovered through Google News rather than independently matched to an official release page. Paul’s review question is simple: can the underlying files and issuing office be confirmed before publication? Until then, this is a public report and a review alert, not settled fact.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: the paper trail keeps pulling people back to old claims",
+          "body": "The loudest archival discussion is a Reddit post revisiting the 1950 memo associated with Canadian engineer Wilbert Smith and the physicist Robert Sarbacher. The post is a community interpretation of a historically disputed document, not a newly released government finding. The useful question is narrower than “does this prove UFOs?”: what can be established about the memo’s provenance, what Sarbacher later said, and how much later retelling has been mistaken for corroboration? A separate thread is also circulating Sean Kirkpatrick’s public skepticism about alleged craft or body photographs and Jay Stratton-era testimony. That is a documented argument about evidence standards, not a resolution of the underlying claims.",
           "sources": [
             {
-              "name": "ABC News",
-              "credit": "“Pentagon releases declassified UFO files from various federal agencies,” published November 5, 2026; report awaiting primary-source confirmation",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5"
+              "name": "r/UFOs — Wilbert Smith / Robert Sarbacher memo",
+              "credit": "Community post, November 6, 2026; historical interpretation and source discussion",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xp8cat/higher_than_the_hbomb_wilbert_smith_robert/"
             },
             {
-              "name": "AARO / U.S. Department of Defense",
-              "credit": "Official source watch checked November 5, 2026; page returned HTTP 403 to the checker",
-              "url": "https://www.aaro.mil/"
-            }
-          ]
-        },
-        {
-          "heading": "TRENDING / LOUDEST: the release story is already being folded into the disclosure argument",
-          "body": "Google News also surfaced coverage saying key UAP advocates were reelected in the 2026 midterms. That is political context, not proof of a new UAP finding. The useful distinction is between an election result, a reported government release, and the much larger claim that the files establish exotic craft or non-human technology. Community attention tends to weld those three together at speed. The record may not.",
-          "sources": [
-            {
-              "name": "NewsNation",
-              "credit": "“Key UAP advocates reelected in 2026 midterms,” November 4, 2026; political context, not independent evidence",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMHh0dWZzUUwtclZvVG1MYmszWHlFSDZXUkg5WVhQbzg0dUJROGF3NUZqRXBqR2NSVzBtUlJYVzhJT3ZvYlZIdTB4VGpQZXZsVV9JZDBjUUttcGM1Z1J1LUtjUEpYdllxVnQ3Szk5LUIwbFMwbUE2SjRodU9sNWhHSmZYVzhZUko4YVIyclctSmpXWmRzalc2MUprcXZRbkNQNmFMMDBid9IBrAFBVV95cUxQUDJXTnZlV3NDR1JiekNZeFZtV045eEk3R3RTc3dWTlM4QkhsZFVqT3IwcTBjbXN2WHZQTkhSckxuRXNXNTlRbVJ2ZURPNjJzd3lBeHF6RXdRZ3pKN1VvNmVfd2k4ZGxJNnRDbmlPY3dzMWVGd0paR19VMVVNVjFrb2xzUzBxbnYwWGg2aFQ4bjFPeFdmWHdudlFrZWRnbkZ2UjZlZEdaaHd0MUUx?oc=5"
-            }
-          ]
-        },
-        {
-          "heading": "FUN / INTERESTING: pilot lights, and an alien festival with excellent timing",
-          "body": "A same-day SWNS item says a commercial pilot filmed mysterious lights after repeated UFO sightings. It is an attributed media report, not a released cockpit dataset; the clip, flight details, weather, route, and raw file would matter before anyone infers more than “a pilot reported lights.” Meanwhile WNEP is promoting Carbondalien, an Illinois festival that turns extraterrestrial folklore into public spectacle. One is a witness account worth preserving; the other is a reminder that disclosure culture is also culture—sometimes with food trucks.",
-          "sources": [
-            {
-              "name": "Discover SWNS",
-              "credit": "“Commercial pilot films mysterious lights after repeated UFO sightings,” November 5, 2026; media-reported account",
-              "url": "C"
+              "name": "r/UFOs — Kirkpatrick / Stratton evidence dispute",
+              "credit": "Community post quoting an attributed public statement; checked November 6, 2026",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xoikhi/sean_kirkpatrick_on_meeting_jay_stratton_as_for/"
             },
             {
-              "name": "WNEP",
-              "credit": "“Aliens Are Invading Carbondale! Carbondalien Festival promises out-of-this-world fun,” November 5, 2026; cultural item",
-              "url": "A"
+              "name": "Google News RSS discovery",
+              "credit": "Indexed UAP/UFO discussion results, checked November 6, 2026; index only",
+              "url": "https://news.google.com/rss/search?q=UFO+whistleblower+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
             }
           ]
         },
         {
-          "heading": "SOURCE NOTE: attention is not authentication",
-          "body": "The scan used public Google News RSS discovery plus official NASA, AARO, and Defense Department pages. Google News is a useful index, not a primary source. Reddit’s public endpoints were blocked in this run and public X search remained a logged-out shell, so no Reddit or X post is represented as current evidence. The absence of a readable feed is a limitation of access, not evidence that discussion was quiet. The strongest new lead is therefore the reported Pentagon release, which remains explicitly awaiting primary-source confirmation.",
+          "heading": "TRENDING / LOUDEST: a witness says night vision revealed a V-shaped object over Schriever",
+          "body": "A new r/UFOs post attributes to Logan Labby a striking account: through night-vision goggles he says he saw a large, silent V-shaped object over Schriever Air Force Base, then could not see it after lowering the goggles. That is a first-person report, not a video, radar track, or independent witness package. The night-vision detail is the story’s interesting hinge: it raises questions about wavelength sensitivity, contrast, and device artifacts while also leaving open the community’s more anomalous reading. The post does not by itself settle whether anything physical was overhead.",
           "sources": [
+            {
+              "name": "r/UFOs — Logan Labby account",
+              "credit": "First-person account as posted November 6, 2026; not independently corroborated",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xpdzgi/through_nightvision_goggles_logan_labby_says_he/"
+            }
+          ]
+        },
+        {
+          "heading": "FUN / INTERESTING: the NASA livestream claim refuses to leave the room",
+          "body": "WION, BroBible, and other outlets continue to amplify Scott Waring’s claim that a NASA livestream showed a roughly 23-foot object near the ISS and Dragon spacecraft. The coverage does not establish the object’s identity, distance, trajectory, or that a collision was imminent; another headline explicitly says no near miss was confirmed. This is a good example of how a visual ambiguity becomes a headline, then a community event. Until the underlying timestamped video, orbital geometry, and an independent technical analysis are available, it remains a reported claim in the roundup—not a NASA finding.",
+          "sources": [
+            {
+              "name": "WION / Scott Waring claim",
+              "credit": "Media report published November 6, 2026; attributed claim, not primary confirmation",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcHdkQ3UwTkNrd2EzLTZfX3ppT1YxVmQ2Z1pvbE0teDFWbFQ0NE5BZDdpdkVQUUc0UG1Ma0RUdU5jajFzeE1TWVVNZ3NEclR4Q244UHNON3d6N0VFMWZZdGEzOC1HdG8wM09Nclp1Z0NYNFlnNWduRmxaaUpmWjg3T0Q0VWt4QVgzdDh0NkoxQjAtWjZWbWdkV29HamNfdzlreHYybmxfaEdJaWQtekFSYzBDUWs2M3pNeGt0anZYc3Y2Y19hNDZPZGJn0gHPAUFVX3lxTE81LUUxT1R5aC0tSy1WUGhjRVVzNGZHRERwcUEtajE0dDFGTWxhLU1fSVF4bDZ3MzJyYXpEN0hQLTBqNEhnQ3FWSVNkbm9TcVRLc0lGcjRSc1k3Zl9HR0UzcWkxVWpjNlU4cXpMdi14blhGME8yTzNWZmdnYy1LVUJMcnQybUs0TXN4TWx1OFNmSC12RzV2YVhsWFJ6RjZwaUtQWThqbXRlTzFmV0I1bFctSHNMSDBVUjJ1V1hkRnRzNEhONC1GeE1HdkhzSHZQcw?oc=5"
+            },
+            {
+              "name": "NASA UAP page",
+              "credit": "Official source watch checked November 6, 2026; not confirmation of the reported object",
+              "url": "https://science.nasa.gov/uap/"
+            }
+          ]
+        },
+        {
+          "heading": "SOURCE NOTE: discussion is not authentication",
+          "body": "This edition used the public r/UFOs Atom feed, Google News RSS, direct media/index pages, and NASA’s public UAP material. The Reddit feed was reachable for this run; r/UAP direct access was rate-limited. Public X search still did not yield attributable post text, so no X account is credited here. The archive’s earlier Pentagon-file report remains a review alert awaiting primary-source confirmation. Source limitations are part of the record; they are not evidence that a claim is true or false.",
+          "sources": [
+            {
+              "name": "r/UFOs public Atom feed",
+              "credit": "Accessible community feed checked November 6, 2026",
+              "url": "https://www.reddit.com/r/UFOs/.rss"
+            },
             {
               "name": "Google News RSS",
-              "credit": "Searches for UAP/UFO disclosure, sightings, and whistleblower coverage; checked November 5, 2026",
-              "url": "https://news.google.com/rss/search?q=UFO+disclosure&hl=en-US&gl=US&ceid=US:en"
+              "credit": "UAP/UFO disclosure, whistleblower, Congress, and sighting searches checked November 6, 2026",
+              "url": "https://news.google.com/rss/search?q=UAP+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
             },
             {
-              "name": "NASA UAP",
-              "credit": "Official page checked November 5, 2026; reachable, no new UAP development identified",
+              "name": "NASA Science UAP",
+              "credit": "Official page checked November 6, 2026",
               "url": "https://science.nasa.gov/uap/"
             }
           ]
