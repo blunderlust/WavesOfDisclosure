@@ -1,81 +1,87 @@
 {
   "meta": {
-    "checked_at": "2026-11-06T15:34:25Z",
+    "checked_at": "2026-11-07T13:00:25Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-06T13:01:14Z/2026-11-06T15:34:25Z",
-      "date": "2026-11-06",
-      "title": "COMMUNITY ROUNDUP: a night-vision V hangs over Schriever, while old files and new arguments collide",
-      "lede": "The latest accessible scan brings a fresh first-person report from Reddit, a revival of the Wilbert Smith/Sarbacher memo fight, and the continuing NASA-livestream “near miss” story. None of the witness accounts or viral interpretations below is authenticated sensor evidence. The community is doing what it always does when the sky supplies a question mark: comparing notes, reopening archives, and occasionally building a very confident theory on a very small video.",
+      "window": "2026-11-07T13:00:25Z/2026-11-07T15:36:38Z",
+      "date": "2026-11-07",
+      "title": "COMMUNITY ROUNDUP: Barber, old files, and a missing general dominate the conversation",
+      "lede": "The afternoon scan found no independently verified new UAP development. Reddit’s active r/UFOs feed is still orbiting the reported Jake Barber congressional staffing move, older intelligence-community material, the twentieth anniversary of the O’Hare sighting, and a fresh historical post about a reported 1990 Montréal sighting. Google News is carrying the McCasland disappearance story and disclosure-themed opinion pieces; public X remains a login wall without attributable post text. Attention is not corroboration, even when the algorithm is wearing a little parade hat.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the paper trail keeps pulling people back to old claims",
-          "body": "The loudest archival discussion is a Reddit post revisiting the 1950 memo associated with Canadian engineer Wilbert Smith and the physicist Robert Sarbacher. The post is a community interpretation of a historically disputed document, not a newly released government finding. The useful question is narrower than “does this prove UFOs?”: what can be established about the memo’s provenance, what Sarbacher later said, and how much later retelling has been mistaken for corroboration? A separate thread is also circulating Sean Kirkpatrick’s public skepticism about alleged craft or body photographs and Jay Stratton-era testimony. That is a documented argument about evidence standards, not a resolution of the underlying claims.",
+          "heading": "MOST DISCUSSED: Jake Barber and the Burlison connection",
+          "body": "The r/UFOs feed continues to circulate the November 6 Paradigm report that Jake Barber has joined Rep. Eric Burlison’s staff for UAP work. The staffing report is attributable to a published account citing Burlison spokesman Nate Lucas; the alleged retrievals associated with Barber remain uncorroborated claims. Reddit discussion is adding older Jon Estridge text-message material and broader intelligence-community theories, but those are separate lines of inquiry, not confirmation.",
           "sources": [
             {
-              "name": "r/UFOs — Wilbert Smith / Robert Sarbacher memo",
-              "credit": "Community post, November 6, 2026; historical interpretation and source discussion",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xp8cat/higher_than_the_hbomb_wilbert_smith_robert/"
+              "name": "Paradigm — Jake Barber joins Burlison staff",
+              "credit": "Ben Schreckinger, published November 6, 2026; reports confirmation by Burlison spokesman Nate Lucas",
+              "url": "https://www.paradigm.news/p/confirmed-ufo-whistleblower-jake"
             },
             {
-              "name": "r/UFOs — Kirkpatrick / Stratton evidence dispute",
-              "credit": "Community post quoting an attributed public statement; checked November 6, 2026",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xoikhi/sean_kirkpatrick_on_meeting_jay_stratton_as_for/"
-            },
-            {
-              "name": "Google News RSS discovery",
-              "credit": "Indexed UAP/UFO discussion results, checked November 6, 2026; index only",
-              "url": "https://news.google.com/rss/search?q=UFO+whistleblower+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
+              "name": "r/UFOs — Barber congressional staffing discussion",
+              "credit": "Community discussion checked November 7, 2026; signal of attention, not independent confirmation",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xph0jv/confirmed_jake_barber_is_working_for_burlison/"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: a witness says night vision revealed a V-shaped object over Schriever",
-          "body": "A new r/UFOs post attributes to Logan Labby a striking account: through night-vision goggles he says he saw a large, silent V-shaped object over Schriever Air Force Base, then could not see it after lowering the goggles. That is a first-person report, not a video, radar track, or independent witness package. The night-vision detail is the story’s interesting hinge: it raises questions about wavelength sensitivity, contrast, and device artifacts while also leaving open the community’s more anomalous reading. The post does not by itself settle whether anything physical was overhead.",
+          "heading": "NEW REPORT, NOT A UAP FINDING: a missing former Air Force general",
+          "body": "Google News is carrying an ABC7 Los Angeles report that retired Maj. Gen. William Neil McCasland is missing and that a congressman has sought FBI help. McCasland’s past command of the Air Force Research Laboratory at Wright-Patterson has drawn UFO-community attention, but the reporting available in this scan does not establish a UAP connection, a disappearance motive, or any disclosure significance. This belongs in the community roundup, not the verified UAP feed, until the underlying public record is read and corroborated.",
           "sources": [
             {
-              "name": "r/UFOs — Logan Labby account",
-              "credit": "First-person account as posted November 6, 2026; not independently corroborated",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xpdzgi/through_nightvision_goggles_logan_labby_says_he/"
+              "name": "ABC7 Los Angeles report indexed by Google News",
+              "credit": "Headline and publication metadata checked November 7, 2026; underlying page was not independently readable in this scan",
+              "url": "https://news.google.com/rss/search?q=%22William+Neil+McCasland%22+missing&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "FUN / INTERESTING: the NASA livestream claim refuses to leave the room",
-          "body": "WION, BroBible, and other outlets continue to amplify Scott Waring’s claim that a NASA livestream showed a roughly 23-foot object near the ISS and Dragon spacecraft. The coverage does not establish the object’s identity, distance, trajectory, or that a collision was imminent; another headline explicitly says no near miss was confirmed. This is a good example of how a visual ambiguity becomes a headline, then a community event. Until the underlying timestamped video, orbital geometry, and an independent technical analysis are available, it remains a reported claim in the roundup—not a NASA finding.",
-          "sources": [
-            {
-              "name": "WION / Scott Waring claim",
-              "credit": "Media report published November 6, 2026; attributed claim, not primary confirmation",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcHdkQ3UwTkNrd2EzLTZfX3ppT1YxVmQ2Z1pvbE0teDFWbFQ0NE5BZDdpdkVQUUc0UG1Ma0RUdU5jajFzeE1TWVVNZ3NEclR4Q244UHNON3d6N0VFMWZZdGEzOC1HdG8wM09Nclp1Z0NYNFlnNWduRmxaaUpmWjg3T0Q0VWt4QVgzdDh0NkoxQjAtWjZWbWdkV29HamNfdzlreHYybmxfaEdJaWQtekFSYzBDUWs2M3pNeGt0anZYc3Y2Y19hNDZPZGJn0gHPAUFVX3lxTE81LUUxT1R5aC0tSy1WUGhjRVVzNGZHRERwcUEtajE0dDFGTWxhLU1fSVF4bDZ3MzJyYXpEN0hQLTBqNEhnQ3FWSVNkbm9TcVRLc0lGcjRSc1k3Zl9HR0UzcWkxVWpjNlU4cXpMdi14blhGME8yTzNWZmdnYy1LVUJMcnQybUs0TXN4TWx1OFNmSC12RzV2YVhsWFJ6RjZwaUtQWThqbXRlTzFmV0I1bFctSHNMSDBVUjJ1V1hkRnRzNEhONC1GeE1HdkhzSHZQcw?oc=5"
-            },
-            {
-              "name": "NASA UAP page",
-              "credit": "Official source watch checked November 6, 2026; not confirmation of the reported object",
-              "url": "https://science.nasa.gov/uap/"
-            }
-          ]
-        },
-        {
-          "heading": "SOURCE NOTE: discussion is not authentication",
-          "body": "This edition used the public r/UFOs Atom feed, Google News RSS, direct media/index pages, and NASA’s public UAP material. The Reddit feed was reachable for this run; r/UAP direct access was rate-limited. Public X search still did not yield attributable post text, so no X account is credited here. The archive’s earlier Pentagon-file report remains a review alert awaiting primary-source confirmation. Source limitations are part of the record; they are not evidence that a claim is true or false.",
+          "heading": "REDDIT’S OTHER THREADS: O’Hare, old records, and congressional speculation",
+          "body": "The first twenty active r/UFOs entries also include a technical recreation of the 2006 Chicago O’Hare report, Project Second Storey and Project Magnet records, discussion of Lockheed Martin and PURSUE claims, and election-linked speculation about future disclosure efforts. These are community topics and archival leads, not newly verified developments. No watchlisted X account was credited with a post: public X search returned no attributable post text or usable timeline for this window.",
           "sources": [
             {
               "name": "r/UFOs public Atom feed",
-              "credit": "Accessible community feed checked November 6, 2026",
+              "credit": "First 20 active/relevant entries checked November 7, 2026; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/.rss"
             },
             {
+              "name": "Public X search",
+              "credit": "Logged-out search shell checked November 7, 2026; no attributable posts credited",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-07%20until%3A2026-11-08&src=typed_query"
+            }
+          ]
+        },
+        {
+          "heading": "FUN / INTERESTING: a Montréal anniversary report arrives with a very old question mark",
+          "body": "A new r/UFOs post by u/SlpwalkerX revisits a reported November 7, 1990 Montréal sighting, saying unusual lights remained visible for hours and that air-traffic controllers reported no corresponding radar activity. The post also says the event appears in a 2025 Canadian government report, but it does not link that report in the accessible text. That makes this a community lead and a historical anecdote—not a verified radar case or evidence of an extraterrestrial craft. The interesting question is whether the alleged documentary trail can be located and read rather than passed around as folklore with footnotes.",
+          "sources": [
+            {
+              "name": "r/UFOs — November 7, 1990 Montréal UFO sighting",
+              "credit": "u/SlpwalkerX, posted November 7, 2026; first-person/community historical claim, not independently corroborated",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xq942u/november_7_1990_montr%C3%A9al_ufo_sighting/"
+            }
+          ]
+        },
+        {
+          "heading": "SOURCE NOTE: no new verified item added",
+          "body": "This edition checked the maintained 50-account X watchlist, public X search, the accessible r/UFOs web feed, Google News RSS, Paradigm’s Barber report, NASA’s UAP and news pages, AARO, and Defense Department releases. Reddit and Google News supplied community leads; X exposed no attributable post text; AARO and Defense.gov remained unavailable to the source checker. No new independently verifiable UAP development cleared the desk’s threshold, so the verified items remain unchanged.",
+          "sources": [
+            {
               "name": "Google News RSS",
-              "credit": "UAP/UFO disclosure, whistleblower, Congress, and sighting searches checked November 6, 2026",
-              "url": "https://news.google.com/rss/search?q=UAP+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
+              "credit": "UAP/UFO, disclosure, McCasland, and Congress searches checked November 7, 2026",
+              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "NASA Science UAP",
-              "credit": "Official page checked November 6, 2026",
+              "credit": "Official page checked November 7, 2026",
               "url": "https://science.nasa.gov/uap/"
+            },
+            {
+              "name": "AARO / U.S. Department of Defense",
+              "credit": "Official source watch attempted November 7, 2026",
+              "url": "https://www.aaro.mil/"
             }
           ]
         }
@@ -83,6 +89,15 @@
     }
   },
   "items": [
+    {
+      "date": "2026-11-06",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT",
+      "headline": "Paradigm reports Jake Barber has joined Rep. Eric Burlison’s staff for UAP work",
+      "summary": "Paradigm published on November 6, 2026 that Jake Barber joined Rep. Eric Burlison’s congressional staff to assist on UAP work, citing confirmation from Burlison spokesman Nate Lucas. The report says Barber replaces David Grusch and notes that Barber has not publicly testified under oath about his retrieval claims. This verifies a published report and its attributed confirmation; it does not verify the retrieval claims or establish a new government finding.",
+      "source_name": "Paradigm / Ben Schreckinger",
+      "source_url": "https://www.paradigm.news/p/confirmed-ufo-whistleblower-jake"
+    },
     {
       "date": "2026-10-23",
       "status": "DOCUMENT",
