@@ -1,38 +1,54 @@
 {
   "meta": {
-    "checked_at": "2026-11-08T15:42:35Z",
-    "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today.",
+    "checked_at": "2026-11-09T15:45:00Z",
+    "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-08T02:00:50Z/2026-11-08T15:42:35Z",
-      "date": "2026-11-08",
-      "title": "COMMUNITY ROUNDUP: O’Hare anniversaries, PURSUE files, and a congressional rumor mill",
-      "lede": "No independently verified new UAP development cleared the desk in this edition window. The active Reddit sample moved through the twentieth anniversary of the O’Hare report, fresh readings of the Department of War’s PURSUE release, historical Blue Book material, and congressional-disclosure speculation. Public X search again exposed no attributable post text. This is a map of attention, not a certificate of truth.",
+      "window": "2026-11-09T13:00:39Z/2026-11-09T15:45:00Z",
+      "date": "2026-11-09",
+      "title": "COMMUNITY ROUNDUP: Trump’s 60 Minutes remarks, O’Hare, and the archive appetite",
+      "lede": "The latest scan finds no new official UAP release or independently corroborated case. The public record still includes CBS’s November 8 60 Minutes transcript, where President Donald Trump recounted what he said Air Force pilots told him about a fast, round object—and said he had no evidence of a secret program hidden from presidents. Meanwhile, Reddit’s live conversation has moved through Trump’s remarks, Jon Stewart’s speculation, fresh first-person sighting reports, and the O’Hare anniversary. This is a map of attention, not a certificate of truth.",
       "sections": [
         {
-          "heading": "THE BIG THREAD: O’Hare at twenty",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Trump’s 60 Minutes interview",
+          "body": "The transcript of the November 8 60 Minutes interview records Ross Douthat asking Trump about UFO footage and alleged secret programs. Trump said he was ‘not too much of a believer,’ but said Air Force pilots had told him that something round had passed an F-22 at three times its speed. When asked about a secret program hidden even from presidents, Trump answered that he had seen no evidence and had not heard of it. The primary record therefore establishes a presidential account of second-hand conversations and a denial of evidence for the most dramatic claim—not an independently verified encounter.",
+          "sources": [
+            {
+              "name": "CBS News — 60 Minutes transcript",
+              "credit": "Primary transcript published November 9, 2026; direct quotation and attribution checked",
+              "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/"
+            },
+            {
+              "name": "CBS News — full episode listing",
+              "credit": "Episode page identifies the November 8, 2026 Trump interview",
+              "url": "https://www.cbsnews.com/video/60minutes-2026-11-08/"
+            }
+          ]
+        },
+        {
+          "heading": "TRENDING/LOUDEST: O’Hare at twenty",
           "body": "Several of the most active r/UFOs threads revisited the November 7, 2006 O’Hare airport report, including a technical recreation and a post promising to walk through the FOIA trail. The anniversary is a genuine community attention point, not a new case file. The underlying episode remains a historical report whose witness accounts, weather conditions, airport records, and later interpretations should be kept in separate folders—even if the internet prefers one overflowing drawer.",
           "sources": [
             {
               "name": "r/UFOs — O’Hare twentieth-anniversary thread",
-              "credit": "Community discussion checked November 8, 2026; signal of attention, not independent confirmation",
+              "credit": "Community discussion checked November 9, 2026; signal of attention, not independent confirmation",
               "url": "https://www.reddit.com/r/UFOs/comments/1xq8gpr/20_years_ago_today_united_workers_watched_a_disc/"
             },
             {
               "name": "r/UFOs — O’Hare technical recreation",
-              "credit": "Community discussion checked November 8, 2026; interpretation, not new sensor evidence",
+              "credit": "Community discussion checked November 9, 2026; interpretation, not new sensor evidence",
               "url": "https://www.reddit.com/r/UFOs/comments/1xq5n9i/todays_the_20th_anniversary_of_the_chicago_ohare/"
             }
           ]
         },
         {
-          "heading": "PURSUE, Blue Book, and the archive appetite",
+          "heading": "ARCHIVE & RESEARCH: PURSUE, Blue Book, and the document appetite",
           "body": "The Reddit sample also featured a reader’s analysis of two PURSUE Release 7 files concerning a reported black-triangle encounter, a Fort Monmouth/Blue Book history thread, and a discussion of 1962’s Bluegill Triple Prime test. These are leads into records and historical claims, not independently verified new incidents. The official release remains the primary source; a Reddit interpretation is useful for locating questions, not for answering them.",
           "sources": [
             {
               "name": "r/UFOs — PURSUE Release 7 discussion",
-              "credit": "Community analysis checked November 8, 2026; claims require comparison with the official files",
+              "credit": "Community analysis checked November 9, 2026; claims require comparison with the official files",
               "url": "https://www.reddit.com/r/UFOs/comments/1xqg29k/pursue_release_7_has_two_files_on_the_black/"
             },
             {
@@ -43,54 +59,64 @@
           ]
         },
         {
-          "heading": "REDDIT’S LIVE DISCUSSION: history, hearings, and old arguments",
-          "body": "The first active/relevant r/UFOs sample also included a thread about a possible House disclosure push, a Weaponized conversation with Matt Laslo about the midterms, a return to the 2024 New Jersey drone flap, and speculative material about gravity control and crashed craft. Those posts show what readers are connecting today; they do not independently establish a hearing, a technology, or a recovered vehicle. Other UAP communities were checked for accessible public feeds but did not provide a usable corroborating item for this edition.",
+          "heading": "FRESH REPORTS & COMMUNITY CLAIMS: Reddit’s live discussion",
+          "body": "The newest public RSS sample also shows discussion of Trump’s 60 Minutes appearance, Jon Stewart’s claim that Trump might unveil UFO proof as a distraction, and several fresh first-person reports: a triangular object over Weymouth Township, multicolored lights over New Haven, and a flashing object over San Francisco. These are community posts and witness accounts, not corroborated sensor records. The feed also keeps circulating the alleged Navy-cruiser triangle story, the O’Hare anniversary, the 2024 New Jersey drone flap, and historical cases. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
           "sources": [
             {
-              "name": "r/UFOs public feed",
-              "credit": "First 20 active/relevant entries checked November 8, 2026; community signal, not proof",
-              "url": "https://www.reddit.com/r/UFOs/.rss"
+              "name": "r/UFOs hot public feed",
+              "credit": "RSS sample checked November 9, 2026 at 15:45 UTC; community signal, not proof",
+              "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
-              "name": "r/UFOs — congressional-disclosure discussion",
-              "credit": "Community post checked November 8, 2026; political claim not independently corroborated",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xq5jq8/now_that_democrats_control_the_house_they_plan_to/"
+              "name": "r/UFOs — Jon Stewart/Trump discussion",
+              "credit": "Community post checked November 9, 2026; speculation about motive and future disclosure, not evidence",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xrf7v3/jon_stewart_claims_trump_could_unveil_ufo_proof/"
             },
             {
-              "name": "r/UFOs — Weaponized/Matt Laslo discussion",
-              "credit": "Community post checked November 8, 2026; discussion signal, not transcript evidence",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xqtceq/jeremy_corbell_and_george_knapp_of_weaponized/"
+              "name": "r/UFOs — Weymouth Township report",
+              "credit": "Community witness report checked November 9, 2026; unverified account",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xrum5c/triangular_object_hovered_and_moved_erratically/"
+            },
+            {
+              "name": "r/UFOs — New Haven report",
+              "credit": "Community witness report checked November 9, 2026; unverified account",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xrtm4e/erratic_multicolored_blinking_lights_hovered/"
+            },
+            {
+              "name": "r/UFOs — San Francisco report",
+              "credit": "Community witness report checked November 9, 2026; unverified account",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xrc3vk/flashing_red_black_and_white_object_hovered/"
             }
           ]
         },
         {
           "heading": "X AND PODCASTS: attention visible, attribution thin",
-          "body": "The maintained 50-account X watchlist was checked, but public search again exposed no attributable post text. No watchlisted account is therefore credited with posting during this window. The Reddit feed linked a Weaponized/Matt Laslo discussion, but the thread itself is not a substitute for the underlying episode or a transcript. No new independently verifiable UAP development appeared in the Google News searches used for this desk.",
+          "body": "The maintained 50-account X watchlist was checked through logged-out public search, but no attributable post text was exposed. No watchlisted account is therefore credited with posting during this window. The accessible RSS and direct publisher pages did provide attributable material, including the CBS transcript and the existing Paradigm report on Jake Barber’s congressional role. Google News repeated the Trump interview story across outlets; the roundup treats the CBS transcript as the primary record and the Reddit feed as a record of community attention.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Logged-out public search checked November 8, 2026; no posts attributed",
+              "credit": "Logged-out public search checked November 9, 2026; no posts attributed",
               "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-08%20until%3A2026-11-09&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
-              "credit": "Search checked November 8, 2026; irrelevant or non-corrobating results excluded",
+              "credit": "Search checked November 9, 2026; irrelevant or non-corrobating results excluded",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified item",
-          "body": "The strongest conclusion is a negative one: no new verified item belongs in the desk’s `items` array. Reddit shows where attention is clustering—O’Hare, PURSUE, historical programs, and congressional hopes—while public X yielded no attributable posts. The Barber staffing report remains a reported development from the prior scan, not a fresh event in this window. The verified items array is unchanged.",
+          "body": "The strongest conclusion remains restrained: one public interview transcript is newly reported, while no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: Trump’s remarks, Jon Stewart’s speculation, O’Hare, PURSUE, historical programs, fresh witness reports, and the alleged naval encounter are all circulating. They are not equivalent kinds of evidence. The transcript records what a president says he was told; it does not verify the pilots’ identities, the alleged observation, or an exotic explanation.",
           "sources": [
             {
               "name": "Google News RSS",
-              "credit": "UAP/UFO and named-topic searches checked November 8, 2026",
+              "credit": "UAP/UFO and named-topic searches checked November 9, 2026",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "NASA Science UAP",
-              "credit": "Official source watch checked November 8, 2026",
+              "credit": "Official source watch checked November 9, 2026",
               "url": "https://science.nasa.gov/uap/"
             },
             {
@@ -121,6 +147,19 @@
     }
   },
   "items": [
+    {
+      "date": "2026-11-09",
+      "status": "REPORTED",
+      "source_type": "PUBLIC INTERVIEW TRANSCRIPT",
+      "headline": "Trump recounts Air Force pilots’ alleged strange UFO observations in 60 Minutes interview",
+      "summary": "The CBS transcript of President Donald Trump’s November 8, 2026 60 Minutes interview records him saying that Air Force pilots had told him a round object passed an F-22 at roughly three times its speed. Trump said he was not much of a believer. Asked about an alleged secret program hidden even from presidents, he said he had seen no evidence and had not heard of it. This verifies the public remarks and their attribution; it does not verify the pilots’ identities, the alleged observation, the speed estimate, the object’s nature, or a secret program.",
+      "source_name": "CBS News / 60 Minutes",
+      "source_url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "related_urls": [
+        "https://www.cbsnews.com/video/60minutes-2026-11-08/",
+        "https://www.newsnationnow.com/politics/trump-says-air-force-pilots-revealed-strange-sightings-while-up-in-the-air/"
+      ]
+    },
     {
       "date": "2026-11-06",
       "status": "REPORTED",
