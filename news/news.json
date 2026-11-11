@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-11-10T13:01:04Z",
+    "checked_at": "2026-11-11T15:50:40Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-10T01:00:00Z/2026-11-10T13:01:04Z",
-      "date": "2026-11-10",
-      "title": "COMMUNITY ROUNDUP: Barber, Stockholm videos, and a quieter evidence ledger",
-      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. Reddit’s active r/UFOs threads continue to center Jake Barber’s comments about Skywatcher, videos from the Beyond Institute’s Stockholm event, historical documents, launch schedules, and first-person sighting reports. Public X search exposed no attributable watchlisted post text. This is a map of attention, not a certificate of truth.",
+      "window": "2026-11-11T01:00:22Z/2026-11-11T15:50:40Z",
+      "date": "2026-11-11",
+      "title": "COMMUNITY ROUNDUP: Eric Davis, Casimir-effect speculation, and the evidence problem",
+      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. The accessible r/UFOs sample is circulating Eric Davis’s reported remarks about craft allegedly handed over rather than crash-recovered, a Casimir-effect theory thread, renewed Westall and Roswell discussion, a remote-viewing claim, and a jellyfish-shaped Alaska video now being recycled by multiple news outlets. Public X search exposed no attributable watchlisted post text. This is a map of attention, not a certificate of truth.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the Trump transcript remains the verified public development",
-          "body": "The CBS transcript of the November 8 60 Minutes interview remains the only clearly new public record driving the conversation: Trump said Air Force pilots told him a round object passed an F-22 at roughly three times its speed, while also saying he had seen no evidence of a secret program hidden from presidents. The transcript establishes what Trump said and how he attributed it; it does not verify the pilots, the observation, the speed estimate, or an exotic explanation.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: no new verified development cleared the desk",
+          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. The recent CBS transcript of the November 8 60 Minutes interview remains the principal public record driving discussion: Trump said Air Force pilots told him a round object passed an F-22 at roughly three times its speed, while also saying he had seen no evidence of a secret program hidden from presidents. The transcript establishes what Trump said and how he attributed it; it does not verify the pilots, the observation, the speed estimate, or an exotic explanation.",
           "sources": [
             {
               "name": "CBS News — 60 Minutes transcript",
@@ -27,55 +27,65 @@
           ]
         },
         {
-          "heading": "TRENDING/LOUDEST: Jake Barber and the Skywatcher argument",
-          "body": "A high-ranking r/UFOs thread quotes Jake Barber saying Skywatcher ‘was not unsuccessful’ but became complicated. The thread is a community relay of a public comment, not a government finding or independently checkable account of an anomalous event. It is worth watching because it connects the current congressional UAP conversation to an unresolved evidentiary question: what, exactly, was observed, recorded, or concluded—and what remains testimony?",
+          "heading": "TRENDING/LOUDEST: Eric Davis’s reported remarks and the Barber aftershock",
+          "body": "A prominent r/UFOs thread relays a reported Eric Davis comment that he had been officially briefed on craft allegedly handed over, not merely recovered from crashes. The post supplies a community relay, not a transcript or independently checkable briefing record. The earlier Jake Barber/Skywatcher discussion remains active for the same reason: the unresolved question is what was observed, recorded, or concluded—and what remains testimony.",
           "sources": [
             {
-              "name": "r/UFOs — Jake Barber / Skywatcher discussion",
-              "credit": "Community discussion checked November 10, 2026; quotation relay and interpretation, not independent confirmation",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xs4mb4/jake_barber_skywatcher_was_not_unsuccessful_but/"
+              "name": "r/UFOs — Eric Davis discussion",
+              "credit": "Community discussion checked November 11, 2026; reported quotation relay, not independent confirmation",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xsx1rq/eric_davis_says_hes_been_officially_briefed_on/"
             }
           ]
         },
         {
-          "heading": "ARCHIVE & RESEARCH: Stockholm videos and the weekly digest",
-          "body": "Another prominent thread points readers to videos from the Beyond Institute’s first Stockholm event, while a separate post compiles UAP developments from November 2–8. These may be useful research leads, but a link list is not a primary record and an event video is not automatically evidence for every claim made around it. The desk will treat any underlying presentation, document, or dataset separately when it can be read and attributed.",
+          "heading": "ARCHIVE & RESEARCH: Westall, Roswell, and old evidence in new circulation",
+          "body": "The active sample is also revisiting the Westall incident and claims of threats against Roswell eyewitnesses, alongside older documents and the existing Stockholm-video archive. Historical testimony can be important without becoming self-authenticating: the desk will treat the underlying testimony, record, image, or dataset separately when it can be read and attributed.",
           "sources": [
             {
-              "name": "r/UFOs — Beyond Institute Stockholm videos",
-              "credit": "Community link post checked November 10, 2026; event links and discussion, not independent confirmation",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xrynwk/dr_beatriz_villaroel_has_linked_all_the_videos/"
+              "name": "r/UFOs — Westall discussion",
+              "credit": "Community discussion checked November 11, 2026; historical case discussion, not independent confirmation",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xt101y/the_incredible_ufo_incident_at_westall_resurfaces/"
             },
             {
-              "name": "r/UFOs — weekly UAP update thread",
-              "credit": "Community digest checked November 10, 2026; secondary compilation, not a primary source",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xs2f5w/all_the_relevant_uap_updates_from_nov_28_2026/"
+              "name": "r/UFOs — Roswell eyewitness discussion",
+              "credit": "Community discussion checked November 11, 2026; testimony relay, not independent confirmation",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xt19lq/death_threats_were_made_to_roswell_eyewitnesses/"
             }
           ]
         },
         {
           "heading": "FRESH REPORTS & COMMUNITY CLAIMS: Reddit’s live discussion",
-          "body": "The newest public r/UFOs sample includes a white-light report over Austin, a new orb report over Rabat, orange lights over North Dakota, a cigar-shaped-object report from Texas, and older New Haven and San Francisco reports still circulating. It also revisits the Trump interview, Jon Stewart’s speculation, historical cases, and the 1965 Heflin photographs. These are community posts and witness accounts, not corroborated sensor records. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
+          "body": "The first 20 accessible r/UFOs hot-feed entries include launch-watch material, historical cases, the Eric Davis and Barber discussions, a Casimir-effect paper discussion, a remote-viewing/targeting claim, an AI speculation thread, and new witness or experiencer material. A June 2026 Alaska jellyfish-shaped-object report is also being recirculated by WION, Metro and NDTV, but those stories do not independently establish the object’s identity or the military-base detail. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "RSS sample checked November 10, 2026 at 13:01 UTC; community signal, not proof",
+              "credit": "RSS sample of the first 20 active/relevant entries checked November 11, 2026 at 13:01 UTC; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
-              "name": "r/UFOs — Austin report",
-              "credit": "Community witness report checked November 10, 2026; unverified account",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xruj9q/silent_white_light_orbs_moved_erratically_and/"
+              "name": "r/UFOs — Casimir-effect discussion",
+              "credit": "Community discussion checked November 11, 2026; paper and interpretation require independent technical review",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xtcfof/karl_nell_among_others_stressed_the_importance_of/"
             },
             {
-              "name": "r/UFOs — Rabat report",
-              "credit": "Community witness report checked November 10, 2026; unverified account",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xs867m/white_light_orb_moved_smoothly_and_randomly_above/"
+              "name": "r/UFOs — November 11 launch schedule",
+              "credit": "Community launch-watch post checked November 11, 2026; schedule lead, not a UAP report",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xte68n/upcoming_space_launches_for_november_11_2026/"
             },
             {
-              "name": "r/UFOs — North Dakota report",
-              "credit": "Community witness report checked November 10, 2026; unverified account",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xs1dl8/orange_lights_appearing_dimming_and_floating/"
+              "name": "r/UFOs — targeting/remote-viewing claim",
+              "credit": "Community post checked November 11, 2026; personal claim and interpretation, not corroborated evidence",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xt71nx/ive_targeted_100s_of_ufos_they_arent_what_you/"
+            },
+            {
+              "name": "r/UFOs — Alaska jellyfish-shaped object report",
+              "credit": "Community witness/video post checked November 11, 2026; unverified account, later recirculated by media",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xt6x5g/jellyfishshaped_object_with_dangling_tentacles/"
+            },
+            {
+              "name": "WION — Alaska jellyfish-shaped object report",
+              "credit": "Public media report published November 11, 2026; reports a witness/video claim, not independent confirmation",
+              "url": "https://www.wionews.com/world/aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch-1762855200000"
             }
           ]
         },
@@ -85,19 +95,19 @@
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Logged-out public search checked November 10, 2026; no posts attributed",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-10%20until%3A2026-11-11&src=typed_query"
+              "credit": "Logged-out public search checked November 11, 2026; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-11%20until%3A2026-11-12&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
-              "credit": "Search checked November 10, 2026; irrelevant or non-corroborating results excluded",
+              "credit": "Google News RSS sample checked November 11, 2026 at 15:50 UTC; current media coverage and community signal, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified item",
-          "body": "The strongest conclusion remains restrained: one public interview transcript is newly reported, while no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: Trump’s remarks, Jon Stewart’s speculation, O’Hare, PURSUE, historical programs, fresh witness reports, and the alleged naval encounter are all circulating. They are not equivalent kinds of evidence. The transcript records what a president says he was told; it does not verify the pilots’ identities, the alleged observation, or an exotic explanation.",
+          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: Eric Davis and Jake Barber discussions, Casimir-effect speculation, historical cases, remote-viewing claims, the Alaska jellyfish video, and fresh witness reports are all circulating. They are not equivalent kinds of evidence. The CBS transcript records what a president says he was told; it does not verify the pilots’ identities, the alleged observation, or an exotic explanation.",
           "sources": [
             {
               "name": "Google News RSS",
