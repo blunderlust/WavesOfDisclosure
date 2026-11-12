@@ -1,22 +1,22 @@
 {
   "meta": {
-    "checked_at": "2026-11-11T15:50:40Z",
+    "checked_at": "2026-11-12T15:53:43Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-11T01:00:22Z/2026-11-11T15:50:40Z",
-      "date": "2026-11-11",
-      "title": "COMMUNITY ROUNDUP: Eric Davis, Casimir-effect speculation, and the evidence problem",
-      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. The accessible r/UFOs sample is circulating Eric Davis’s reported remarks about craft allegedly handed over rather than crash-recovered, a Casimir-effect theory thread, renewed Westall and Roswell discussion, a remote-viewing claim, and a jellyfish-shaped Alaska video now being recycled by multiple news outlets. Public X search exposed no attributable watchlisted post text. This is a map of attention, not a certificate of truth.",
+      "window": "2026-11-12T01:00:31Z/2026-11-12T15:53:43Z",
+      "date": "2026-11-12",
+      "title": "COMMUNITY ROUNDUP: fresh sighting reports, PURSUE mapping, and a locked X search",
+      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. The accessible r/UFOs sample is discussing fresh witness reports from Quebec, Kentucky, Massachusetts, New York, and Hawaii, alongside PURSUE file mapping, Casimir-effect speculation, remote-viewing claims, and the Eric Davis discussion. Public X search redirected to login and exposed no attributable watchlisted post text. This is a map of attention, not a certificate of truth.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: no new verified development cleared the desk",
-          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. The recent CBS transcript of the November 8 60 Minutes interview remains the principal public record driving discussion: Trump said Air Force pilots told him a round object passed an F-22 at roughly three times its speed, while also saying he had seen no evidence of a secret program hidden from presidents. The transcript establishes what Trump said and how he attributed it; it does not verify the pilots, the observation, the speed estimate, or an exotic explanation.",
+          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. Google News is recirculating the Department of War’s PURSUE portal, but the portal and Release 07 are already represented in this desk’s October 23 document item; the attention spike is not itself a new release. The recent CBS transcript of the November 8 60 Minutes interview remains the principal public record driving discussion: Trump said Air Force pilots told him a round object passed an F-22 at roughly three times its speed. The transcript establishes what Trump said and how he attributed it; it does not verify the pilots, the observation, the speed estimate, or an exotic explanation.",
           "sources": [
             {
               "name": "CBS News — 60 Minutes transcript",
-              "credit": "Primary transcript published November 9, 2026; direct quotation and attribution checked",
+              "credit": "Primary transcript published November 9, 2026; direct quotation and attribution retained as checked source",
               "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/"
             },
             {
@@ -28,7 +28,7 @@
         },
         {
           "heading": "TRENDING/LOUDEST: Eric Davis’s reported remarks and the Barber aftershock",
-          "body": "A prominent r/UFOs thread relays a reported Eric Davis comment that he had been officially briefed on craft allegedly handed over, not merely recovered from crashes. The post supplies a community relay, not a transcript or independently checkable briefing record. The earlier Jake Barber/Skywatcher discussion remains active for the same reason: the unresolved question is what was observed, recorded, or concluded—and what remains testimony.",
+          "body": "A prominent r/UFOs thread relays a reported Eric Davis comment that he had been officially briefed on craft allegedly handed over, not merely recovered from crashes. The post supplies a community relay, not a transcript or independently checkable briefing record. The earlier Jake Barber/Skywatcher discussion remains active for the same reason: the unresolved question is what was observed, recorded, or concluded—and what remains testimony. No new corroborating record was found in this window.",
           "sources": [
             {
               "name": "r/UFOs — Eric Davis discussion",
@@ -39,7 +39,7 @@
         },
         {
           "heading": "ARCHIVE & RESEARCH: Westall, Roswell, and old evidence in new circulation",
-          "body": "The active sample is also revisiting the Westall incident and claims of threats against Roswell eyewitnesses, alongside older documents and the existing Stockholm-video archive. Historical testimony can be important without becoming self-authenticating: the desk will treat the underlying testimony, record, image, or dataset separately when it can be read and attributed.",
+          "body": "The active sample is also revisiting the Westall incident and claims of threats against Roswell eyewitnesses, alongside older documents and the existing Stockholm-video archive. Historical testimony can be important without becoming self-authenticating: the desk will treat the underlying testimony, record, image, or dataset separately when it can be read and attributed. These remain archive discussions, not new developments.",
           "sources": [
             {
               "name": "r/UFOs — Westall discussion",
@@ -55,11 +55,11 @@
         },
         {
           "heading": "FRESH REPORTS & COMMUNITY CLAIMS: Reddit’s live discussion",
-          "body": "The first 20 accessible r/UFOs hot-feed entries include launch-watch material, historical cases, the Eric Davis and Barber discussions, a Casimir-effect paper discussion, a remote-viewing/targeting claim, an AI speculation thread, and new witness or experiencer material. A June 2026 Alaska jellyfish-shaped-object report is also being recirculated by WION, Metro and NDTV, but those stories do not independently establish the object’s identity or the military-base detail. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
+          "body": "The accessible r/UFOs hot feed includes new witness reports from Quebec, Kentucky, Massachusetts, New York, and Hawaii, plus a late discussion framed in spiritual/consciousness terms; the PURSUE file map; launch-watch material; the Eric Davis discussion; a Casimir-effect paper discussion; and a remote-viewing/targeting claim. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "RSS sample of the first 20 active/relevant entries checked November 11, 2026 at 13:01 UTC; community signal, not proof",
+              "credit": "RSS sample of the first 20 active/relevant entries checked November 12, 2026 at 15:53 UTC; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
@@ -91,12 +91,12 @@
         },
         {
           "heading": "X AND PODCASTS: attention visible, attribution thin",
-          "body": "The maintained 50-account X watchlist was checked through logged-out public search, but no attributable post text was exposed. No watchlisted account is therefore credited with posting during this window. The accessible RSS and direct publisher pages did provide attributable material, including the CBS transcript and the existing Paradigm report on Jake Barber’s congressional role. Google News repeated the Trump interview story across outlets; the roundup treats the CBS transcript as the primary record and the Reddit feed as a record of community attention.",
+          "body": "The maintained 50-account X watchlist was checked through public profile pages and a logged-out search request. The search redirected to X’s login flow and exposed no attributable post text, so no watchlisted account is credited with posting during this window. Google News recirculated the PURSUE portal and coverage of the Alaska video, including a NewsNation item presenting expert explanations, while the Reddit feed supplied the clearest record of current attention. The roundup treats those as discussion signals and keeps the CBS transcript as the primary record for the earlier presidential remarks.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Logged-out public search checked November 11, 2026; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-11%20until%3A2026-11-12&src=typed_query"
+              "credit": "Public search checked November 12, 2026; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-12%20until%3A2026-11-13&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
@@ -107,11 +107,11 @@
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified item",
-          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: Eric Davis and Jake Barber discussions, Casimir-effect speculation, historical cases, remote-viewing claims, the Alaska jellyfish video, and fresh witness reports are all circulating. They are not equivalent kinds of evidence. The CBS transcript records what a president says he was told; it does not verify the pilots’ identities, the alleged observation, or an exotic explanation.",
+          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: PURSUE file mapping, Eric Davis and Jake Barber discussions, Casimir-effect speculation, historical cases, remote-viewing claims, the Alaska jellyfish video, and fresh witness reports are all circulating. They are not equivalent kinds of evidence. The PURSUE attention spike appears to be recirculation of an existing official portal, not a newly verified release.",
           "sources": [
             {
               "name": "Google News RSS",
-              "credit": "UAP/UFO and named-topic searches checked November 9, 2026",
+              "credit": "UAP/UFO search checked November 12, 2026 at 15:53 UTC; current coverage is treated as a discovery aid, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
