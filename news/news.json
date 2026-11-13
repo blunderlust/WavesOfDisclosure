@@ -1,39 +1,44 @@
 {
   "meta": {
-    "checked_at": "2026-11-12T15:53:43Z",
+    "checked_at": "2026-11-13T15:56:45Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-12T01:00:31Z/2026-11-12T15:53:43Z",
-      "date": "2026-11-12",
-      "title": "COMMUNITY ROUNDUP: fresh sighting reports, PURSUE mapping, and a locked X search",
-      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. The accessible r/UFOs sample is discussing fresh witness reports from Quebec, Kentucky, Massachusetts, New York, and Hawaii, alongside PURSUE file mapping, Casimir-effect speculation, remote-viewing claims, and the Eric Davis discussion. Public X search redirected to login and exposed no attributable watchlisted post text. This is a map of attention, not a certificate of truth.",
+      "window": "2026-11-13T01:01:09Z/2026-11-13T15:56:45Z",
+      "date": "2026-11-13",
+      "title": "COMMUNITY ROUNDUP: the Alaska jellyfish aftershock, telescope plans, and AI-video anxiety",
+      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. Fresh search traffic is still circling the Alaska ‘jellyfish’ video: Fox affiliates are carrying an expert-explanation follow-up, while HackerNoon notes that the underlying data remain thin. Elsewhere, NewsNation reports Avi Loeb is planning a UFO-observing telescope and Cybernews warns that synthetic video is muddying the evidentiary pool. Public X search exposed no attributable watchlisted post text; repeated discussion is not evidence.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: no new verified development cleared the desk",
-          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. Google News is recirculating the Department of War’s PURSUE portal, but the portal and Release 07 are already represented in this desk’s October 23 document item; the attention spike is not itself a new release. The recent CBS transcript of the November 8 60 Minutes interview remains the principal public record driving discussion: Trump said Air Force pilots told him a round object passed an F-22 at roughly three times its speed. The transcript establishes what Trump said and how he attributed it; it does not verify the pilots, the observation, the speed estimate, or an exotic explanation.",
+          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. The most consequential public conversation is about evidence quality rather than a new finding: follow-up coverage of the Alaska video is now presenting competing interpretations, while a separate report says the available data remain insufficient. NewsNation’s telescope story is a reported plan attributed to Avi Loeb, not evidence of a detected object or an official finding.",
           "sources": [
             {
-              "name": "CBS News — 60 Minutes transcript",
-              "credit": "Primary transcript published November 9, 2026; direct quotation and attribution retained as checked source",
-              "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/"
+              "name": "FOX 8 News — Tentacled UFO? Experts have explanation for bizarre Alaskan sight",
+              "credit": "Public media follow-up published November 13, 2026; expert explanation and witness/video reporting, not independent confirmation",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa3hKMmpWVTg2YVZRU0xaRTF2RXZnRkxhaGVnS01HcEVyUDhJM3hOWlBlT1ZzbWlmNlVnZjRubTZzM1ZtY2xaWXpLWmkzSnVTRWxTOE5ldkNCR2VtS2lBOTd5NnJNVVVnU21TRHhPaXBwTXZrOEZFTjd5UkUyc0hnOS1kcmRFc2x3V2pfOHU0cV_SAZYBQVVfeXFMT21GSUZrVXJZRUZDcmc2eHQ0cFExR3dtSC1qR0l0M01NVjgwXzVFVXpmblNpaGRrZDdWMHQ1N291MmVPTWxJYjFIdHAtRUwzY3NBYXB5UWFwLXJyR0lRNDVJWTUwanQ2cmtnYWIxdDRrV0FqY1N2cF9acGZJazh1X3dUcXVQVE0xMEhxU21DVjRHc0E2bG9B?oc=5"
             },
             {
-              "name": "CBS News — full episode listing",
-              "credit": "Episode page identifies the November 8, 2026 Trump interview",
-              "url": "https://www.cbsnews.com/video/60minutes-2026-11-08/"
+              "name": "HackerNoon — AARO solved Iraq’s “Jellyfish” as balloons; Alaska still lacks data",
+              "credit": "Analysis published November 13, 2026; secondary commentary, not a primary sensor record",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdC1mbWh0RFl0YTJDLXdkZU9RbnpaR3ozT29kbHQwRGFnX2d4R1d0LWxkMmExX2pKUHBXU2Z2aDh3UXQ1WV9mVUxFYXhuZzVuSzctb2ZpUG1qZ1dnVDNVaHVQdnhKNGtWM0YyUEhnZ1BLSnJseDc3UXBfUHBMc21YMjlXbENxamk4T1RLTVZYSk1aampzcEk5MmpUX1NOeGE2SVlJTTBmckU?oc=5"
             }
           ]
         },
         {
-          "heading": "TRENDING/LOUDEST: Eric Davis’s reported remarks and the Barber aftershock",
-          "body": "A prominent r/UFOs thread relays a reported Eric Davis comment that he had been officially briefed on craft allegedly handed over, not merely recovered from crashes. The post supplies a community relay, not a transcript or independently checkable briefing record. The earlier Jake Barber/Skywatcher discussion remains active for the same reason: the unresolved question is what was observed, recorded, or concluded—and what remains testimony. No new corroborating record was found in this window.",
+          "heading": "TRENDING/LOUDEST: telescope plans and the AI-video problem",
+          "body": "The loudest fresh thread is the Alaska object’s second life in mainstream and specialist-ish coverage. FOX 8’s headline promises an expert explanation; HackerNoon’s headline emphasizes the missing data. Those are not the same as an identified object. The strongest conventional possibilities remain balloons, equipment, perspective, and image-processing artifacts; the strongest anomalous reading is that the footage may depict an unusual object not yet identified. The public record presently cannot discriminate between them.",
           "sources": [
             {
-              "name": "r/UFOs — Eric Davis discussion",
-              "credit": "Community discussion checked November 11, 2026; reported quotation relay, not independent confirmation",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xsx1rq/eric_davis_says_hes_been_officially_briefed_on/"
+              "name": "NewsNation — New UFO-spotting telescope planned, Avi Loeb says",
+              "credit": "Public media report published November 13, 2026; report and attribution, not independent confirmation",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tTEFvdlFXLXdTRXlXZE5xaURLUGEzdnI1eXRuNElJSDVoc2g0RkxUV2NCc0ZNckZMeXNwRl90WTlHMU1Id011QTNSSEI2ZDFjZTRBTmowUEFKRVV1X1ZsWFNRbGFENHVzVWdyYXdrVWxqRkE5U1HSAXtBVV95cUxNVEZEYTRFRTBCWHQxMm5vLU9SSjVyS2x5X2NRd3dOTkRTOFBYVGpDanJqTFRKTVlmWGJSVnNWVGk1NWJFcklQX0J4VGRLSkJsOWZFRnBpakpRMGRoeVVoS2Y1TDBZYXJxdVI0UnNxNUozYmZoQlBZX0V2Umc?oc=5"
+            },
+            {
+              "name": "Cybernews — AI-generated UFO videos threaten UAP disclosure trust",
+              "credit": "Public technology report published November 13, 2026; headline-level reporting and media-literacy concern, not a technical audit of a specific video",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ITnJOYVlJVUl0QzhDVnZLRFZaek1TYkxKamNhTkdYREFJZHdPRDRiSUkydlhUX2Flcm54SVVMN0toNlVBYzdNbkdGSW1QeGVmV21HeVo5aV9WYV94Vmc5QU9OYWZwYkpJay1JV0ViS2Jidw?oc=5"
             }
           ]
         },
@@ -54,12 +59,12 @@
           ]
         },
         {
-          "heading": "FRESH REPORTS & COMMUNITY CLAIMS: Reddit’s live discussion",
-          "body": "The accessible r/UFOs hot feed includes new witness reports from Quebec, Kentucky, Massachusetts, New York, and Hawaii, plus a late discussion framed in spiritual/consciousness terms; the PURSUE file map; launch-watch material; the Eric Davis discussion; a Casimir-effect paper discussion; and a remote-viewing/targeting claim. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. The useful distinction is not ‘believe’ or ‘dismiss’; it is account, image, sensor, record, and interpretation—different drawers, labeled before the internet tips them onto the floor.",
+          "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
+          "body": "The prior accessible r/UFOs sample remains the clearest record of current community attention: fresh witness reports, the Alaska video aftershock, PURSUE file mapping, Casimir-effect speculation, and the Barber/Davis disputes. During this refresh, Reddit’s additional public feeds were rate-limited, so no new community claim is promoted from them. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. Account, image, sensor, record, and interpretation belong in different drawers.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "RSS sample of the first 20 active/relevant entries checked November 12, 2026 at 15:53 UTC; community signal, not proof",
+              "credit": "RSS sample of the first 20 active/relevant entries checked November 13, 2026 at 01:01 UTC; later refresh was rate-limited; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
@@ -90,28 +95,28 @@
           ]
         },
         {
-          "heading": "X AND PODCASTS: attention visible, attribution thin",
-          "body": "The maintained 50-account X watchlist was checked through public profile pages and a logged-out search request. The search redirected to X’s login flow and exposed no attributable post text, so no watchlisted account is credited with posting during this window. Google News recirculated the PURSUE portal and coverage of the Alaska video, including a NewsNation item presenting expert explanations, while the Reddit feed supplied the clearest record of current attention. The roundup treats those as discussion signals and keeps the CBS transcript as the primary record for the earlier presidential remarks.",
+          "heading": "X: attention visible, attribution thin",
+          "body": "The maintained 50-account X watchlist was checked through public profile URLs and a logged-out search request. The search redirected to X’s login flow and exposed no attributable post text, so no watchlisted account is credited with posting during this window. The watchlist remains a target list, not evidence of expertise or activity.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Public search checked November 12, 2026; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-12%20until%3A2026-11-13&src=typed_query"
+              "credit": "Public search checked November 13, 2026 at 13:01 UTC; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-13%20until%3A2026-11-14&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
-              "credit": "Google News RSS sample checked November 11, 2026 at 15:50 UTC; current media coverage and community signal, not proof",
+              "credit": "Google News RSS sample checked November 13, 2026 at 01:01 UTC; current media coverage and community signal, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified item",
-          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The community lane is busier: PURSUE file mapping, Eric Davis and Jake Barber discussions, Casimir-effect speculation, historical cases, remote-viewing claims, the Alaska jellyfish video, and fresh witness reports are all circulating. They are not equivalent kinds of evidence. The PURSUE attention spike appears to be recirculation of an existing official portal, not a newly verified release.",
+          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The Alaska video is attracting fresh explanation and criticism, the telescope is still a plan, and AI-generated footage is an increasingly practical problem for anyone trying to report anomalous imagery. The community has a story; it does not yet have a verdict.",
           "sources": [
             {
               "name": "Google News RSS",
-              "credit": "UAP/UFO search checked November 12, 2026 at 15:53 UTC; current coverage is treated as a discovery aid, not proof",
+              "credit": "UAP/UFO search checked November 13, 2026 at 13:01 UTC; current coverage is treated as a discovery aid, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
