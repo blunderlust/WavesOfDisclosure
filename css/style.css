@@ -2032,5 +2032,32 @@ iframe, video, img {
   background: rgba(11, 121, 120, 0.1) !important;
 }
 
+/* Editorial reading layer: wider newspaper rhythm, near full-bleed shell, restrained color. */
+:root {
+  --editorial-ink: #f4f1e8;
+  --editorial-muted: #b6b8b4;
+  --editorial-black: #050607;
+  --editorial-rule: rgba(244,241,232,.17);
+}
+body { background: var(--editorial-black); color: var(--editorial-ink); }
+.wrapper { max-width: 1680px; padding-left: clamp(14px, 2vw, 32px); padding-right: clamp(14px, 2vw, 32px); }
+header.navbar { padding: 18px 0; border-bottom-color: var(--editorial-rule); }
+.view-container { max-width: none; }
+.community-blog-box, .terminal-news-box { width: 100%; max-width: none; background: #080a0c; border-color: var(--editorial-rule); }
+.community-roundup { max-width: 1360px; margin: 0 auto; padding: clamp(26px, 4vw, 68px) clamp(18px, 4vw, 80px); background: #080a0c; }
+.community-roundup-title { max-width: 1120px; overflow-wrap: anywhere; word-break: normal; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.15rem, 5vw, 5.6rem); line-height: .98; letter-spacing: -.045em; color: var(--editorial-ink); }
+.community-roundup-lede { max-width: 960px; font: 1.18rem/1.65 Georgia, 'Times New Roman', serif; color: #d4d1c7; }
 
+.community-roundup-section { max-width: 900px; margin-left: auto; margin-right: auto; border-top-color: var(--editorial-rule); }
+.community-roundup-section p { font: clamp(1.05rem, 1.3vw, 1.25rem)/1.78 Georgia, 'Times New Roman', serif; color: #eeeae0; }
+.community-roundup-section h4 { color: #d99a5b; font-family: var(--font-mono); }
+.community-roundup-links a, .community-roundup-media a { color: #8fd0cc; }
+.community-roundup-disclaimer { color: var(--editorial-muted); border-top-color: var(--editorial-rule); }
+.article-page { max-width: 1680px; padding-left: clamp(14px, 2vw, 32px); padding-right: clamp(14px, 2vw, 32px); }
+.article-shell { max-width: 1360px; margin: 0 auto; background: #080a0c; border-color: var(--editorial-rule); padding: clamp(28px, 5vw, 88px) clamp(18px, 6vw, 120px); }
+.article-reading { max-width: 940px; }
+.article-shell h1, .article-shell p, .article-shell li { font-family: Georgia, 'Times New Roman', serif; }
+.article-shell p, .article-shell li { color: #eeeae0; font-size: clamp(1.05rem, 1.3vw, 1.25rem); line-height: 1.82; }
+.article-shell h1 { font-size: clamp(2.4rem, 6vw, 6rem); color: var(--editorial-ink); }
+@media (max-width: 768px) { .community-roundup, .article-shell { padding: 28px 18px 48px; } .community-roundup-section p, .article-shell p, .article-shell li { font-size: 1.05rem; line-height: 1.7; } }
 
