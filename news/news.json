@@ -1,23 +1,23 @@
 {
   "meta": {
-    "checked_at": "2026-11-13T15:56:45Z",
+    "checked_at": "2026-11-14T13:01:13Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-13T01:01:09Z/2026-11-13T15:56:45Z",
-      "date": "2026-11-13",
-      "title": "COMMUNITY ROUNDUP: the Alaska jellyfish aftershock, telescope plans, and AI-video anxiety",
-      "lede": "This edition finds no new official UAP release, announced hearing, or independently corroborated case in the checked window. Fresh search traffic is still circling the Alaska ‘jellyfish’ video: Fox affiliates are carrying an expert-explanation follow-up, while HackerNoon notes that the underlying data remain thin. Elsewhere, NewsNation reports Avi Loeb is planning a UFO-observing telescope and Cybernews warns that synthetic video is muddying the evidentiary pool. Public X search exposed no attributable watchlisted post text; repeated discussion is not evidence.",
+      "window": "2026-11-14T01:01:13Z/2026-11-14T13:01:13Z",
+      "date": "2026-11-14",
+      "title": "COMMUNITY ROUNDUP: Lakenheath drones, passive radar, and the politics of attention",
+      "lede": "The most consequential fresh public development remains a reported security incident, not an exotic object: the U.S. Air Force responded to suspected unauthorised drone activity at RAF Lakenheath, while the UK Ministry of Defence said the situation was resolved and facts were still being established. Reddit’s current discussion also includes new witness posts, a Lakenheath follow-up, an automated index of released WAR.GOV records, and older case arguments. Public X search exposed no attributable watchlisted post text; repetition remains attention, not evidence.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: no new verified development cleared the desk",
-          "body": "The checked official and public-news sources produced no new document, announced hearing, or independently corroborated case during this edition window. The most consequential public conversation is about evidence quality rather than a new finding: follow-up coverage of the Alaska video is now presenting competing interpretations, while a separate report says the available data remain insufficient. NewsNation’s telescope story is a reported plan attributed to Avi Loeb, not evidence of a detected object or an official finding.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: Lakenheath reports remain a conventional security story, not a UAP finding",
+          "body": "The Guardian reports that the U.S. Air Force responded to suspected unauthorised drone activity at RAF Lakenheath on November 13, 2026. The USAF said no personnel, aircraft, or infrastructure were affected; the UK Ministry of Defence said the situation was resolved and that it was working with the Americans to establish the facts. This verifies public statements about the response, not the number, identity, origin, or capabilities of any drone. It is a conventional security report, not a verified UAP case.",
           "sources": [
             {
-              "name": "FOX 8 News — Tentacled UFO? Experts have explanation for bizarre Alaskan sight",
-              "credit": "Public media follow-up published November 13, 2026; expert explanation and witness/video reporting, not independent confirmation",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa3hKMmpWVTg2YVZRU0xaRTF2RXZnRkxhaGVnS01HcEVyUDhJM3hOWlBlT1ZzbWlmNlVnZjRubTZzM1ZtY2xaWXpLWmkzSnVTRWxTOE5ldkNCR2VtS2lBOTd5NnJNVVVnU21TRHhPaXBwTXZrOEZFTjd5UkUyc0hnOS1kcmRFc2x3V2pfOHU0cV_SAZYBQVVfeXFMT21GSUZrVXJZRUZDcmc2eHQ0cFExR3dtSC1qR0l0M01NVjgwXzVFVXpmblNpaGRrZDdWMHQ1N291MmVPTWxJYjFIdHAtRUwzY3NBYXB5UWFwLXJyR0lRNDVJWTUwanQ2cmtnYWIxdDRrV0FqY1N2cF9acGZJazh1X3dUcXVQVE0xMEhxU21DVjRHc0E2bG9B?oc=5"
+              "name": "The Guardian — US Air Force responds to suspected drone activity at RAF Lakenheath",
+              "credit": "Public report published November 13, 2026; quotes USAF and UK Ministry of Defence statements; no independent identification of the reported drones",
+              "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath"
             },
             {
               "name": "HackerNoon — AARO solved Iraq’s “Jellyfish” as balloons; Alaska still lacks data",
@@ -27,8 +27,8 @@
           ]
         },
         {
-          "heading": "TRENDING/LOUDEST: telescope plans and the AI-video problem",
-          "body": "The loudest fresh thread is the Alaska object’s second life in mainstream and specialist-ish coverage. FOX 8’s headline promises an expert explanation; HackerNoon’s headline emphasizes the missing data. Those are not the same as an identified object. The strongest conventional possibilities remain balloons, equipment, perspective, and image-processing artifacts; the strongest anomalous reading is that the footage may depict an unusual object not yet identified. The public record presently cannot discriminate between them.",
+          "heading": "TRENDING/LOUDEST: Lakenheath, passive radar, and political bandwidth",
+          "body": "Reddit’s loudest fresh threads concern the Lakenheath report, Avi Loeb’s proposed passive-radar telescope, and a Matt Laslo item quoting Rep. Eric Burlison about the political consequences of Stephen Miller’s promotion. None of those discussions establishes an exotic object or a new government finding. The Lakenheath account is a reported security incident; the telescope is a plan; the Burlison remarks are an attributed political opinion.",
           "sources": [
             {
               "name": "NewsNation — New UFO-spotting telescope planned, Avi Loeb says",
@@ -60,11 +60,11 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
-          "body": "The prior accessible r/UFOs sample remains the clearest record of current community attention: fresh witness reports, the Alaska video aftershock, PURSUE file mapping, Casimir-effect speculation, and the Barber/Davis disputes. During this refresh, Reddit’s additional public feeds were rate-limited, so no new community claim is promoted from them. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. Account, image, sensor, record, and interpretation belong in different drawers.",
+          "body": "The current Reddit sample is dominated by the Lakenheath report and follow-up, fresh witness posts, launch-watch material, a user-built search over WAR.GOV releases, and renewed arguments about Jay Stratton and older cases. Google News’ Reddit-indexed results also surfaced a discussion of the Loeb telescope and a post about the Barber/Tejon RCS story. Direct r/UFOs and r/UAP feeds were rate-limited during this pass, so those indexed results are treated as discovery leads rather than a complete ranking of active threads; the other requested feeds were not promoted. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. Account, image, sensor, record, and interpretation belong in different drawers.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "RSS sample of the first 20 active/relevant entries checked November 13, 2026 at 01:01 UTC; later refresh was rate-limited; community signal, not proof",
+              "credit": "Direct feed requested November 14, 2026 at 13:01 UTC; public endpoint returned rate limiting, so current Reddit-indexed results were used only as discovery leads; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
@@ -100,7 +100,7 @@
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Public search checked November 13, 2026 at 13:01 UTC; redirected to login and exposed no attributable post text",
+              "credit": "Public search checked November 14, 2026 at 13:01 UTC; redirected to login and exposed no attributable post text",
               "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-13%20until%3A2026-11-14&src=typed_query"
             },
             {
@@ -111,8 +111,8 @@
           ]
         },
         {
-          "heading": "DESK BOTTOM LINE: no new verified item",
-          "body": "The strongest conclusion remains restrained: no new official document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The Alaska video is attracting fresh explanation and criticism, the telescope is still a plan, and AI-generated footage is an increasingly practical problem for anyone trying to report anomalous imagery. The community has a story; it does not yet have a verdict.",
+          "heading": "DESK BOTTOM LINE: no new verified UAP finding",
+          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The Lakenheath report concerns suspected drones and remains unresolved in its particulars; the telescope is still a plan. The community has several stories, but none supplies a verdict about exotic craft.",
           "sources": [
             {
               "name": "Google News RSS",
@@ -196,6 +196,18 @@
       "summary": "In Bundestag Drucksache 21/8662, dated October 16, 2026, the German federal government says it has no findings on UAP, no uniform UAP/UFO definitions, no separate reporting channels, no cross-departmental structures or working groups, and no planned revision of existing procedures. It says airspace sensors produce fused data, space objects are compared with the public TLE catalogue, and partner sensor data are available. The document verifies the government’s stated policy and information posture; it does not establish that anomalous objects do or do not exist, nor does it substantiate community claims that the government is deliberately concealing them.",
       "source_name": "German Bundestag / Federal Government of Germany",
       "source_url": "https://dserver.bundestag.de/btd/21/086/2108662.pdf"
+    },
+    {
+      "date": "2026-11-13",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT / OFFICIAL STATEMENTS",
+      "headline": "U.S. Air Force and UK Ministry of Defence report resolved suspected drone activity at RAF Lakenheath",
+      "summary": "The Guardian reported that the U.S. Air Force responded to suspected unauthorised drone activity at RAF Lakenheath on November 13, 2026. The USAF said no personnel, aircraft, or infrastructure were affected; the UK Ministry of Defence said the situation was resolved and that officials were working to establish the facts. This verifies the public statements and reported response, not the number, identity, origin, or capabilities of any drone, and does not establish a UAP case.",
+      "source_name": "The Guardian, quoting the U.S. Air Force and UK Ministry of Defence",
+      "source_url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
+      "related_urls": [
+        "https://www.gov.uk/government/organisations/ministry-of-defence"
+      ]
     },
     {
       "date": "2026-09-27",
