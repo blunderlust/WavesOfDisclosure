@@ -1,44 +1,44 @@
 {
   "meta": {
-    "checked_at": "2026-11-14T13:01:13Z",
+    "checked_at": "2026-11-15T16:12:05Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-14T01:01:13Z/2026-11-14T13:01:13Z",
-      "date": "2026-11-14",
-      "title": "COMMUNITY ROUNDUP: Lakenheath drones, passive radar, and the politics of attention",
-      "lede": "The most consequential fresh public development remains a reported security incident, not an exotic object: the U.S. Air Force responded to suspected unauthorised drone activity at RAF Lakenheath, while the UK Ministry of Defence said the situation was resolved and facts were still being established. Reddit’s current discussion also includes new witness posts, a Lakenheath follow-up, an automated index of released WAR.GOV records, and older case arguments. Public X search exposed no attributable watchlisted post text; repetition remains attention, not evidence.",
+      "window": "2026-11-14T16:12:05Z/2026-11-15T16:12:05Z",
+      "date": "2026-11-15",
+      "title": "COMMUNITY ROUNDUP: Alaska’s recycled jellyfish video, disclosure politics, and thin evidence",
+      "lede": "The freshest public conversation is clustering around an Alaska ‘jellyfish’ video, a NewsNation discussion of disclosure politics, and a reported Pentagon/WAR.GOV PURSUE listing. News coverage supplies attention and competing interpretations, but the Alaska footage is described as originating in June and no independent sensor record was located in this scan. The official listing is a lead for document review, not by itself proof of an exotic event. Reddit feeds were publicly rate-limited, and logged-out X search exposed no attributable watchlisted post text.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: Lakenheath reports remain a conventional security story, not a UAP finding",
-          "body": "The Guardian reports that the U.S. Air Force responded to suspected unauthorised drone activity at RAF Lakenheath on November 13, 2026. The USAF said no personnel, aircraft, or infrastructure were affected; the UK Ministry of Defence said the situation was resolved and that it was working with the Americans to establish the facts. This verifies public statements about the response, not the number, identity, origin, or capabilities of any drone. It is a conventional security report, not a verified UAP case.",
+          "heading": "MOST DISCUSSED: Alaska footage is circulating again, but the clock matters",
+          "body": "Fresh coverage revisited a video described as showing a jellyfish-shaped object over Alaska. The current reports say the footage dates to June, so the November attention spike is recirculation, not a newly observed event. NewsNation’s follow-up asks whether the object was a balloon; other coverage quotes a former Pentagon investigator comparing the motion to a kite. Those are competing interpretations, not an identification. No independent sensor record or chain-of-custody analysis was located in this scan.",
           "sources": [
             {
-              "name": "The Guardian — US Air Force responds to suspected drone activity at RAF Lakenheath",
-              "credit": "Public report published November 13, 2026; quotes USAF and UK Ministry of Defence statements; no independent identification of the reported drones",
-              "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath"
+              "name": "FOX 8 News — Tentacled UFO? Experts have explanation for bizarre Alaskan sight",
+              "credit": "Public report published November 14, 2026; reports competing explanations and treats the footage as an older recording, not independent confirmation",
+              "url": "https://fox8.com/news/tentacled-ufo-experts-have-explanation-for-bizarre-alaskan-sight/"
             },
             {
-              "name": "HackerNoon — AARO solved Iraq’s “Jellyfish” as balloons; Alaska still lacks data",
-              "credit": "Analysis published November 13, 2026; secondary commentary, not a primary sensor record",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdC1mbWh0RFl0YTJDLXdkZU9RbnpaR3ozT29kbHQwRGFnX2d4R1d0LWxkMmExX2pKUHBXU2Z2aDh3UXQ1WV9mVUxFYXhuZzVuSzctb2ZpUG1qZ1dnVDNVaHVQdnhKNGtWM0YyUEhnZ1BLSnJseDc3UXBfUHBMc21YMjlXbENxamk4T1RLTVZYSk1aampzcEk5MmpUX1NOeGE2SVlJTTBmckU?oc=5"
+              "name": "FOX News — Former Pentagon UFO investigator offers simple theory",
+              "credit": "Public report published November 14, 2026; quotes an attributed interpretation, not a technical identification",
+              "url": "https://www.foxnews.com/us/pentagons-former-ufo-investigator-offers-simple-theory-mysterious-jellyfish-shaped-object-video"
             }
           ]
         },
         {
-          "heading": "TRENDING/LOUDEST: Lakenheath, passive radar, and political bandwidth",
-          "body": "Reddit’s loudest fresh threads concern the Lakenheath report, Avi Loeb’s proposed passive-radar telescope, and a Matt Laslo item quoting Rep. Eric Burlison about the political consequences of Stephen Miller’s promotion. None of those discussions establishes an exotic object or a new government finding. The Lakenheath account is a reported security incident; the telescope is a plan; the Burlison remarks are an attributed political opinion.",
+          "heading": "OFFICIAL LEAD: WAR.GOV search results point to a PURSUE page, but the record needs reading",
+          "body": "Google News indexed a WAR.GOV page titled ‘Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)’ on November 14, while NewsNation published a November 15 discussion about what Stephen Miller’s appointment might mean for UFO disclosure. The former is a verifiable public listing in the search feed and worth checking against the underlying government page and any attached records; the latter is political analysis. Neither, by itself, establishes a new UAP encounter, a finding, or the contents of a release; no new verified item is added to the desk on these leads alone.",
           "sources": [
             {
-              "name": "NewsNation — New UFO-spotting telescope planned, Avi Loeb says",
-              "credit": "Public media report published November 13, 2026; report and attribution, not independent confirmation",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tTEFvdlFXLXdTRXlXZE5xaURLUGEzdnI1eXRuNElJSDVoc2g0RkxUV2NCc0ZNckZMeXNwRl90WTlHMU1Id011QTNSSEI2ZDFjZTRBTmowUEFKRVV1X1ZsWFNRbGFENHVzVWdyYXdrVWxqRkE5U1HSAXtBVV95cUxNVEZEYTRFRTBCWHQxMm5vLU9SSjVyS2x5X2NRd3dOTkRTOFBYVGpDanJqTFRKTVlmWGJSVnNWVGk1NWJFcklQX0J4VGRLSkJsOWZFRnBpakpRMGRoeVVoS2Y1TDBZYXJxdVI0UnNxNUozYmZoQlBZX0V2Umc?oc=5"
+              "name": "U.S. Department of War — PURSUE search result",
+              "credit": "WAR.GOV page indexed in Google News on November 14, 2026; listing checked as a lead, not treated as proof until the underlying record is read",
+              "url": "https://www.war.gov/UFO/"
             },
             {
-              "name": "Cybernews — AI-generated UFO videos threaten UAP disclosure trust",
-              "credit": "Public technology report published November 13, 2026; headline-level reporting and media-literacy concern, not a technical audit of a specific video",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ITnJOYVlJVUl0QzhDVnZLRFZaek1TYkxKamNhTkdYREFJZHdPRDRiSUkydlhUX2Flcm54SVVMN0toNlVBYzdNbkdGSW1QeGVmV21HeVo5aV9WYV94Vmc5QU9OYWZwYkpJay1JV0ViS2Jidw?oc=5"
+              "name": "Google News RSS — PURSUE result",
+              "credit": "Public index checked November 15, 2026 at 16:12 UTC; search result and title only, not an independent reading of the government page",
+              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
@@ -60,11 +60,11 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
-          "body": "The current Reddit sample is dominated by the Lakenheath report and follow-up, fresh witness posts, launch-watch material, a user-built search over WAR.GOV releases, and renewed arguments about Jay Stratton and older cases. Google News’ Reddit-indexed results also surfaced a discussion of the Loeb telescope and a post about the Barber/Tejon RCS story. Direct r/UFOs and r/UAP feeds were rate-limited during this pass, so those indexed results are treated as discovery leads rather than a complete ranking of active threads; the other requested feeds were not promoted. These are community posts, witness or commentator claims, and media reports—not corroborated sensor records. Account, image, sensor, record, and interpretation belong in different drawers.",
+          "body": "The Reddit lane supplied no readable live thread sample in this edition. Public Google News results instead show discussion clustering around the Alaska video, the WAR.GOV/PURSUE listing, and older disclosure arguments. Those are discovery signals, not a ranking of the first 10–20 active Reddit threads and not corroborated sensor records. The requested communities remain watch sources; account, image, sensor, record, and interpretation belong in different drawers.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "Direct feed requested November 14, 2026 at 13:01 UTC; public endpoint returned rate limiting, so current Reddit-indexed results were used only as discovery leads; community signal, not proof",
+              "credit": "Direct feed requested November 15, 2026 at 16:12 UTC; public endpoint returned rate limiting, so no live thread ranking was claimed; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
@@ -96,27 +96,27 @@
         },
         {
           "heading": "X: attention visible, attribution thin",
-          "body": "The maintained 50-account X watchlist was checked through public profile URLs and a logged-out search request. The search redirected to X’s login flow and exposed no attributable post text, so no watchlisted account is credited with posting during this window. The watchlist remains a target list, not evidence of expertise or activity.",
+          "body": "The maintained 50-account X watchlist was checked through its public profile URLs and a logged-out search request for the edition window. X redirected the search to its login flow and exposed no attributable post text, so no watchlisted account is credited with posting. The watchlist remains a target list, not evidence of expertise or activity.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Public search checked November 14, 2026 at 13:01 UTC; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-13%20until%3A2026-11-14&src=typed_query"
+              "credit": "Public search checked November 15, 2026 at 16:12 UTC; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-14%20until%3A2026-11-16&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
-              "credit": "Google News RSS sample checked November 13, 2026 at 01:01 UTC; current media coverage and community signal, not proof",
+              "credit": "Google News RSS sample checked November 15, 2026 at 16:12 UTC; current media coverage and community signal, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified UAP finding",
-          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk in this scan. The Lakenheath report concerns suspected drones and remains unresolved in its particulars; the telescope is still a plan. The community has several stories, but none supplies a verdict about exotic craft.",
+          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk for verified publication in this scan. The Alaska video is older footage under renewed attention; the PURSUE result is a document lead requiring direct review. Community volume supplies a map of attention, not a verdict about exotic craft.",
           "sources": [
             {
               "name": "Google News RSS",
-              "credit": "UAP/UFO search checked November 13, 2026 at 13:01 UTC; current coverage is treated as a discovery aid, not proof",
+              "credit": "UAP/UFO search checked November 15, 2026 at 16:12 UTC; current coverage is treated as a discovery aid, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
