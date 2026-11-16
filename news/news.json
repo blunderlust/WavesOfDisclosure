@@ -1,23 +1,23 @@
 {
   "meta": {
-    "checked_at": "2026-11-15T16:12:05Z",
+    "checked_at": "2026-11-16T13:01:04Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-14T16:12:05Z/2026-11-15T16:12:05Z",
-      "date": "2026-11-15",
-      "title": "COMMUNITY ROUNDUP: Alaska’s recycled jellyfish video, disclosure politics, and thin evidence",
-      "lede": "The freshest public conversation is clustering around an Alaska ‘jellyfish’ video, a NewsNation discussion of disclosure politics, and a reported Pentagon/WAR.GOV PURSUE listing. News coverage supplies attention and competing interpretations, but the Alaska footage is described as originating in June and no independent sensor record was located in this scan. The official listing is a lead for document review, not by itself proof of an exotic event. Reddit feeds were publicly rate-limited, and logged-out X search exposed no attributable watchlisted post text.",
+      "window": "2026-11-15T13:01:04Z/2026-11-16T13:01:04Z",
+      "date": "2026-11-16",
+      "title": "COMMUNITY ROUNDUP: Alaska footage, a Cheyenne swarm report, and no verified breakthrough",
+      "lede": "The last-day attention map remains concentrated on the older Alaska ‘jellyfish’ footage, a fresh local-radio report of a possible swarm over Cheyenne, and continuing disclosure-politics discussion. Reddit was checked through the public r/UFOs feed, but subsequent requests were rate-limited and no comparable live sample was available from the other requested communities. Logged-out X search redirected to login; all 50 watchlist profiles returned HTTP 200, but no attributable post text was exposed. No new official document, sensor dataset, hearing notice, or independently corroborated UAP case cleared the verified lane.",
       "sections": [
         {
           "heading": "MOST DISCUSSED: Alaska footage is circulating again, but the clock matters",
-          "body": "Fresh coverage revisited a video described as showing a jellyfish-shaped object over Alaska. The current reports say the footage dates to June, so the November attention spike is recirculation, not a newly observed event. NewsNation’s follow-up asks whether the object was a balloon; other coverage quotes a former Pentagon investigator comparing the motion to a kite. Those are competing interpretations, not an identification. No independent sensor record or chain-of-custody analysis was located in this scan.",
+          "body": "NewsNation published a November 16 follow-up saying Ross Coulthart wants a closer look at the Alaska ‘jellyfish’ footage before reaching a final verdict. The current coverage says the recording dates to June, so the present attention spike is recirculation, not a newly observed event. Competing public interpretations include a balloon, kite, or something not identified; none is a technical identification. No independent sensor record or chain-of-custody analysis was located in this scan.",
           "sources": [
             {
-              "name": "FOX 8 News — Tentacled UFO? Experts have explanation for bizarre Alaskan sight",
-              "credit": "Public report published November 14, 2026; reports competing explanations and treats the footage as an older recording, not independent confirmation",
-              "url": "https://fox8.com/news/tentacled-ufo-experts-have-explanation-for-bizarre-alaskan-sight/"
+              "name": "NewsNation — Ross Coulthart wants closer look at Alaska ‘jellyfish’ UFO",
+              "credit": "Google News RSS result published November 16, 2026; headline and source attribution checked, not independent confirmation of the footage",
+              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Alaska+jellyfish+UFO&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "FOX News — Former Pentagon UFO investigator offers simple theory",
@@ -60,63 +60,68 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
-          "body": "The Reddit lane supplied no readable live thread sample in this edition. Public Google News results instead show discussion clustering around the Alaska video, the WAR.GOV/PURSUE listing, and older disclosure arguments. Those are discovery signals, not a ranking of the first 10–20 active Reddit threads and not corroborated sensor records. The requested communities remain watch sources; account, image, sensor, record, and interpretation belong in different drawers.",
+          "body": "The public r/UFOs hot feed was checked for the edition, with the first roughly 20 active links requested; Reddit’s public rate limiting then prevented a reliable repeat sample and blocked comparable reads of r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. The available discussion continued to circulate Alaska footage, congressional/disclosure claims, alleged sighting videos, and experiencer-style interpretations. These are thread topics and user claims, not verified findings; no sensor record or official confirmation was established from the community material.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "Direct feed requested November 15, 2026 at 16:12 UTC; public endpoint returned rate limiting, so no live thread ranking was claimed; community signal, not proof",
+              "credit": "Public hot feed checked November 16, 2026 during the 13:01 UTC edition window; first roughly 20 active links requested; later requests were rate-limited; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
-              "name": "r/UFOs — Casimir-effect discussion",
-              "credit": "Community discussion checked November 11, 2026; paper and interpretation require independent technical review",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xtcfof/karl_nell_among_others_stressed_the_importance_of/"
+              "name": "r/UFOs — new interviews and alleged Magenta revelations",
+              "credit": "Active community thread sampled November 16, 2026; claims and discussion require primary-source and technical review",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xx93oj/new_interviews_and_revelations_on_the_magenta/"
             },
             {
-              "name": "r/UFOs — November 11 launch schedule",
-              "credit": "Community launch-watch post checked November 11, 2026; schedule lead, not a UAP report",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xte68n/upcoming_space_launches_for_november_11_2026/"
+              "name": "r/UFOs — House Oversight Committee discussion",
+              "credit": "Active community thread sampled November 16, 2026; reported political development requires committee-source verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xwtuxu/joe_khalil_reports_that_house_oversight_committee/"
             },
             {
-              "name": "r/UFOs — targeting/remote-viewing claim",
-              "credit": "Community post checked November 11, 2026; personal claim and interpretation, not corroborated evidence",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xt71nx/ive_targeted_100s_of_ufos_they_arent_what_you/"
+              "name": "r/UFOs — Guatemala and Mexico footage claim",
+              "credit": "Active community thread sampled November 16, 2026; video context and provenance not independently established",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xwqksk/craft_captured_in_guatemala_and_mexico_now/"
             },
             {
-              "name": "r/UFOs — Alaska jellyfish-shaped object report",
-              "credit": "Community witness/video post checked November 11, 2026; unverified account, later recirculated by media",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xt6x5g/jellyfishshaped_object_with_dangling_tentacles/"
+              "name": "r/UFOs — predicted 2027 contact claim",
+              "credit": "Active community thread sampled November 16, 2026; prediction and testimony, not corroborated evidence",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xw3uml/whistleblower_says_contact_will_happen_in_2027/"
             },
             {
               "name": "WION — Alaska jellyfish-shaped object report",
               "credit": "Public media report published November 11, 2026; reports a witness/video claim, not independent confirmation",
               "url": "https://www.wionews.com/world/aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch-1762855200000"
+            },
+            {
+              "name": "K2 Radio — A Swarm Of UFOs Over Cheyenne?",
+              "credit": "Google News RSS result published November 16, 2026; local-media report and question headline, not corroboration",
+              "url": "https://news.google.com/rss/search?q=%22A+Swarm+Of+UFOs+Over+Cheyenne%22&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "X: attention visible, attribution thin",
-          "body": "The maintained 50-account X watchlist was checked through its public profile URLs and a logged-out search request for the edition window. X redirected the search to its login flow and exposed no attributable post text, so no watchlisted account is credited with posting. The watchlist remains a target list, not evidence of expertise or activity.",
+          "heading": "X: profiles reachable, post attribution unavailable",
+          "body": "All 50 maintained public profile URLs returned HTTP 200 during the edition check. The logged-out public X search redirected to the login flow and exposed no attributable post text or usable timeline, so no watchlisted account is credited with a post. The watchlist remains a target list, not evidence of expertise, activity, or any claim.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Public search checked November 15, 2026 at 16:12 UTC; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-14%20until%3A2026-11-16&src=typed_query"
+              "credit": "Public search checked November 16, 2026 during the edition window; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-15%20until%3A2026-11-17&src=typed_query"
             },
             {
               "name": "Google News RSS — UAP/UFO search",
-              "credit": "Google News RSS sample checked November 15, 2026 at 16:12 UTC; current media coverage and community signal, not proof",
+              "credit": "Google News RSS sample checked November 16, 2026 during the edition window; current media coverage and community signal, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "DESK BOTTOM LINE: no new verified UAP finding",
-          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk for verified publication in this scan. The Alaska video is older footage under renewed attention; the PURSUE result is a document lead requiring direct review. Community volume supplies a map of attention, not a verdict about exotic craft.",
+          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk for verified publication in this scan. The Alaska video is older footage under renewed attention, and the Cheyenne item is a local-media report requiring primary-source and technical follow-up. Community volume supplies a map of attention, not a verdict about exotic craft.",
           "sources": [
             {
               "name": "Google News RSS",
-              "credit": "UAP/UFO search checked November 15, 2026 at 16:12 UTC; current coverage is treated as a discovery aid, not proof",
+              "credit": "UAP/UFO search checked November 16, 2026 during the edition window; current coverage is treated as a discovery aid, not proof",
               "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
