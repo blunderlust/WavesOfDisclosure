@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-11-16T13:01:04Z",
+    "checked_at": "2026-11-17T01:01:37Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-15T13:01:04Z/2026-11-16T13:01:04Z",
-      "date": "2026-11-16",
-      "title": "COMMUNITY ROUNDUP: Alaska footage, a Cheyenne swarm report, and no verified breakthrough",
-      "lede": "The last-day attention map remains concentrated on the older Alaska ‘jellyfish’ footage, a fresh local-radio report of a possible swarm over Cheyenne, and continuing disclosure-politics discussion. Reddit was checked through the public r/UFOs feed, but subsequent requests were rate-limited and no comparable live sample was available from the other requested communities. Logged-out X search redirected to login; all 50 watchlist profiles returned HTTP 200, but no attributable post text was exposed. No new official document, sensor dataset, hearing notice, or independently corroborated UAP case cleared the verified lane.",
+      "window": "2026-11-16T13:01:04Z/2026-11-17T01:01:37Z",
+      "date": "2026-11-17",
+      "title": "COMMUNITY ROUNDUP: old footage, congressional talk, and a UFO-summoning story draw attention",
+      "lede": "The last 12-hour attention map is led by renewed discussion of the older Alaska ‘jellyfish’ footage, a NewsNation segment about a UFO-summoning experiment, congressional disclosure talk, and fresh Reddit posts recirculating alleged military-video and legacy-program claims. Reddit’s public r/UFOs feed yielded roughly 20 active links; the other requested subreddit feeds were rate-limited. Logged-out X search redirected to login; all 50 watchlist profiles returned HTTP 200, but no attributable post text was exposed. No new official document, sensor dataset, hearing notice, or independently corroborated UAP case cleared the verified lane.",
       "sections": [
         {
           "heading": "MOST DISCUSSED: Alaska footage is circulating again, but the clock matters",
@@ -23,6 +23,17 @@
               "name": "FOX News — Former Pentagon UFO investigator offers simple theory",
               "credit": "Public report published November 14, 2026; quotes an attributed interpretation, not a technical identification",
               "url": "https://www.foxnews.com/us/pentagons-former-ufo-investigator-offers-simple-theory-mysterious-jellyfish-shaped-object-video"
+            }
+          ]
+        },
+        {
+          "heading": "CONSCIOUSNESS / MEDIA: NewsNation revisits a UFO-summoning experiment",
+          "body": "NewsNation’s November 16 Reality Check item reports on what Ross Coulthart witnessed during a UFO-summoning experiment in Australia. That is a public media account of an alleged anomalous experience and a consciousness-linked practice, not experimental proof that summoning works or evidence of an external craft. The appropriate reporting question is what was observed, under what controls, and whether any independent record exists; the current index provides a lead, not those answers.",
+          "sources": [
+            {
+              "name": "NewsNation — The UFO summoning experiment: What Ross Coulthart witnessed in Australia",
+              "credit": "Google News RSS result published November 16, 2026; headline and attribution checked, not independent confirmation of the experience",
+              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+UFO+summoning+experiment+Australia&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
@@ -60,16 +71,31 @@
         },
         {
           "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
-          "body": "The public r/UFOs hot feed was checked for the edition, with the first roughly 20 active links requested; Reddit’s public rate limiting then prevented a reliable repeat sample and blocked comparable reads of r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens. The available discussion continued to circulate Alaska footage, congressional/disclosure claims, alleged sighting videos, and experiencer-style interpretations. These are thread topics and user claims, not verified findings; no sensor record or official confirmation was established from the community material.",
+          "body": "The public r/UFOs hot feed was sampled for roughly 20 active links during the window. Its live topics included Tim Burchett appearing on Fox with alleged alien-ship imagery in the background, a post analyzing six objects in a declassified infrared video, contractor-source claims about a ‘Legacy Program,’ a House Oversight investigation discussion, Magenta crash-retrieval interviews, Varginha, and consciousness/telepathy interpretations. These are thread topics and user claims, not verified findings; the post titles and community framing do not establish provenance, sensor performance, or an official investigation. Reddit rate limiting prevented comparable live reads of r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens in this scan.",
           "sources": [
             {
               "name": "r/UFOs hot public feed",
-              "credit": "Public hot feed checked November 16, 2026 during the 13:01 UTC edition window; first roughly 20 active links requested; later requests were rate-limited; community signal, not proof",
+              "credit": "Public hot feed checked November 17, 2026 during the 13:01–01:01 UTC edition window; roughly 20 active links sampled; community signal, not proof",
               "url": "https://www.reddit.com/r/UFOs/hot/.rss"
             },
             {
+              "name": "r/UFOs — Tim Burchett Fox News appearance and background imagery",
+              "credit": "Active community thread sampled November 17, 2026; post framing and imagery claim require primary-source and technical review",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xxwvl7/tim_burchett_on_fox_news_this_morning_with_alien/"
+            },
+            {
+              "name": "r/UFOs — six objects in declassified infrared-video discussion",
+              "credit": "Active community thread sampled November 17, 2026; user analysis is not independent sensor verification",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xxzn87/six_objects_reported_at_480_mph_in_a_declassified/"
+            },
+            {
+              "name": "r/UFOs — contractor-source ‘Legacy Program’ discussion",
+              "credit": "Active community thread sampled November 17, 2026; source claims are not independently corroborated",
+              "url": "https://www.reddit.com/r/UFOs/comments/1xxvbd6/hunt_for_zero_point_author_contractor_sources/"
+            },
+            {
               "name": "r/UFOs — new interviews and alleged Magenta revelations",
-              "credit": "Active community thread sampled November 16, 2026; claims and discussion require primary-source and technical review",
+              "credit": "Active community thread sampled November 16–17, 2026; claims and discussion require primary-source and technical review",
               "url": "https://www.reddit.com/r/UFOs/comments/1xx93oj/new_interviews_and_revelations_on_the_magenta/"
             },
             {

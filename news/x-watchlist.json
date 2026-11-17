@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-16T13:01:04Z",
-  "window": "2026-11-15T13:01:04Z/2026-11-16T13:01:04Z",
+  "checked_at": "2026-11-17T01:01:37Z",
+  "window": "2026-11-16T13:01:04Z/2026-11-17T01:01:37Z",
   "method": "The maintained watchlist contains 50 public profile URLs. All 50 profile URLs returned HTTP 200 during this edition check. Public X search for UAP/UFO/disclosure redirected to the logged-out login flow and exposed no attributable post text or usable timeline, so no account was treated as having posted and no handle was added. No handle was added without verification. Profile URLs remain watch targets, not evidence of a post, expertise, or any claim.",
   "accounts": [
     {
