@@ -1,164 +1,91 @@
 {
   "meta": {
-    "checked_at": "2026-11-17T01:01:37Z",
+    "checked_at": "2026-11-18T13:01:12Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-16T13:01:04Z/2026-11-17T01:01:37Z",
-      "date": "2026-11-17",
-      "title": "COMMUNITY ROUNDUP: old footage, congressional talk, and a UFO-summoning story draw attention",
-      "lede": "The last 12-hour attention map is led by renewed discussion of the older Alaska ‘jellyfish’ footage, a NewsNation segment about a UFO-summoning experiment, congressional disclosure talk, and fresh Reddit posts recirculating alleged military-video and legacy-program claims. Reddit’s public r/UFOs feed yielded roughly 20 active links; the other requested subreddit feeds were rate-limited. Logged-out X search redirected to login; all 50 watchlist profiles returned HTTP 200, but no attributable post text was exposed. No new official document, sensor dataset, hearing notice, or independently corroborated UAP case cleared the verified lane.",
+      "window": "2026-11-18T01:01:12Z/2026-11-18T16:21:33Z",
+      "date": "2026-11-18",
+      "title": "COMMUNITY ROUNDUP: a new Pentagon-files story takes the oxygen; CE5 and old footage keep the weirdness alive",
+      "lede": "The day’s loudest disclosure story is a fresh wave of reporting that the Pentagon has released another batch of declassified UFO records, with ABC News, CBS, NBC, USA Today, Scientific American and others describing documents, photos, videos, and historical encounter files. The official portal was not readable by the checker, so this roundup records the public reporting and the community reaction without treating headlines as independent verification. Alongside it: renewed attention to an Australian CE5/summoning experiment, Reddit discussion of jellyfish footage and Jake Barber, and a YouTube ecosystem already asking whether paperwork is the same thing as disclosure.",
       "sections": [
         {
-          "heading": "MOST DISCUSSED: Alaska footage is circulating again, but the clock matters",
-          "body": "NewsNation published a November 16 follow-up saying Ross Coulthart wants a closer look at the Alaska ‘jellyfish’ footage before reaching a final verdict. The current coverage says the recording dates to June, so the present attention spike is recirculation, not a newly observed event. Competing public interpretations include a balloon, kite, or something not identified; none is a technical identification. No independent sensor record or chain-of-custody analysis was located in this scan.",
+          "heading": "MOST IMPORTANT TO DISCLOSURE: the Pentagon-files story is the story to watch",
+          "body": "Multiple major outlets appeared in the November 18 search window with versions of the same consequential claim: the Pentagon has released a new batch of declassified UFO/UAP records, including videos, photographs, and older encounter material. The official Department of War UAP portal and its PURSUE page are the primary-source trail, but the portal returned HTTP 403 to the automated checker today. That leaves an important distinction: the public reporting is real and attributable; the size, contents, provenance, and technical meaning of the release still require a direct read of the government records. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
           "sources": [
             {
-              "name": "NewsNation — Ross Coulthart wants closer look at Alaska ‘jellyfish’ UFO",
-              "credit": "Google News RSS result published November 16, 2026; headline and source attribution checked, not independent confirmation of the footage",
-              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+Alaska+jellyfish+UFO&hl=en-US&gl=US&ceid=US:en"
+              "name": "ABC News — Pentagon releases declassified UFO files from various federal agencies",
+              "credit": "Google News RSS result published November 18, 2026 at 11:17 UTC; public media report, underlying government records not independently read in this scan",
+              "url": "https://news.google.com/rss/search?q=%22Pentagon+releases+declassified+UFO+files+from+various+federal+agencies%22&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "FOX News — Former Pentagon UFO investigator offers simple theory",
-              "credit": "Public report published November 14, 2026; quotes an attributed interpretation, not a technical identification",
-              "url": "https://www.foxnews.com/us/pentagons-former-ufo-investigator-offers-simple-theory-mysterious-jellyfish-shaped-object-video"
-            }
-          ]
-        },
-        {
-          "heading": "CONSCIOUSNESS / MEDIA: NewsNation revisits a UFO-summoning experiment",
-          "body": "NewsNation’s November 16 Reality Check item reports on what Ross Coulthart witnessed during a UFO-summoning experiment in Australia. That is a public media account of an alleged anomalous experience and a consciousness-linked practice, not experimental proof that summoning works or evidence of an external craft. The appropriate reporting question is what was observed, under what controls, and whether any independent record exists; the current index provides a lead, not those answers.",
-          "sources": [
+              "name": "CBS News — Pentagon releases 3rd batch of UFO files",
+              "credit": "Google News RSS result surfaced in the same search; headline-level discovery, not independent confirmation",
+              "url": "https://news.google.com/rss/search?q=%22Pentagon+releases+3rd+batch+of+UFO+files%22&hl=en-US&gl=US&ceid=US:en"
+            },
             {
-              "name": "NewsNation — The UFO summoning experiment: What Ross Coulthart witnessed in Australia",
-              "credit": "Google News RSS result published November 16, 2026; headline and attribution checked, not independent confirmation of the experience",
-              "url": "https://news.google.com/rss/search?q=Ross+Coulthart+UFO+summoning+experiment+Australia&hl=en-US&gl=US&ceid=US:en"
-            }
-          ]
-        },
-        {
-          "heading": "OFFICIAL LEAD: WAR.GOV search results point to a PURSUE page, but the record needs reading",
-          "body": "Google News indexed a WAR.GOV page titled ‘Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)’ on November 14, while NewsNation published a November 15 discussion about what Stephen Miller’s appointment might mean for UFO disclosure. The former is a verifiable public listing in the search feed and worth checking against the underlying government page and any attached records; the latter is political analysis. Neither, by itself, establishes a new UAP encounter, a finding, or the contents of a release; no new verified item is added to the desk on these leads alone.",
-          "sources": [
-            {
-              "name": "U.S. Department of War — PURSUE search result",
-              "credit": "WAR.GOV page indexed in Google News on November 14, 2026; listing checked as a lead, not treated as proof until the underlying record is read",
+              "name": "U.S. Department of War — UAP/PURSUE portal",
+              "credit": "Primary-source page checked November 18, 2026; portal returned HTTP 403 to the checker, so contents were not asserted",
               "url": "https://www.war.gov/UFO/"
             },
             {
-              "name": "Google News RSS — PURSUE result",
-              "credit": "Public index checked November 15, 2026 at 16:12 UTC; search result and title only, not an independent reading of the government page",
-              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "Scientific American — Pentagon UFO-file coverage",
+              "credit": "Public reporting surfaced November 18, 2026; useful for the skeptical response, not a substitute for the records",
+              "url": "https://news.google.com/rss/search?q=%22The+Pentagon+just+started+releasing+UFO+files%22&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "ARCHIVE & RESEARCH: Westall, Roswell, and old evidence in new circulation",
-          "body": "The active sample is also revisiting the Westall incident and claims of threats against Roswell eyewitnesses, alongside older documents and the existing Stockholm-video archive. Historical testimony can be important without becoming self-authenticating: the desk will treat the underlying testimony, record, image, or dataset separately when it can be read and attributed. These remain archive discussions, not new developments.",
+          "heading": "TRENDING / LOUDEST: Reddit is chewing on jellyfish, Jake Barber, and the paperwork itself",
+          "body": "The indexed r/UFOs conversation is clustering around renewed arguments over the older jellyfish footage, a Vetted/Jake Barber deep dive, a claimed Pterodactyl in the latest document batch, and the more prosaic question of whether a declassified file is evidence or merely an official record of somebody seeing something. These are community topics and claims, not findings. Direct Reddit feeds remained blocked, so the links below preserve the discovery trail rather than pretending to be a complete hot-page sample.",
           "sources": [
             {
-              "name": "r/UFOs — Westall discussion",
-              "credit": "Community discussion checked November 11, 2026; historical case discussion, not independent confirmation",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xt101y/the_incredible_ufo_incident_at_westall_resurfaces/"
+              "name": "r/UFOs — jellyfish footage discussion",
+              "credit": "Indexed community result checked November 18, 2026; discussion and user comparison, not technical identification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22jellyfish+UFO%22+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — Roswell eyewitness discussion",
-              "credit": "Community discussion checked November 11, 2026; testimony relay, not independent confirmation",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xt19lq/death_threats_were_made_to_roswell_eyewitnesses/"
+              "name": "r/UFOs — Vetted’s Jake Barber / Skywatcher deep dive",
+              "credit": "Indexed community result checked November 18, 2026; community signal, claims not independently corroborated",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22Jake+Barber%22+Vetted+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "r/UFOs — alleged Pterodactyl report",
+              "credit": "Indexed community result checked November 18, 2026; title-level claim, primary record not read",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+Pterodactyl+disclosed+batch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "COMMUNITY ROUNDUP: Reddit’s live discussion",
-          "body": "The public r/UFOs hot feed was sampled for roughly 20 active links during the window. Its live topics included Tim Burchett appearing on Fox with alleged alien-ship imagery in the background, a post analyzing six objects in a declassified infrared video, contractor-source claims about a ‘Legacy Program,’ a House Oversight investigation discussion, Magenta crash-retrieval interviews, Varginha, and consciousness/telepathy interpretations. These are thread topics and user claims, not verified findings; the post titles and community framing do not establish provenance, sensor performance, or an official investigation. Reddit rate limiting prevented comparable live reads of r/UAP, r/HighStrangeness, r/Experiencers, and r/aliens in this scan.",
+          "heading": "CONSCIOUSNESS / FUN: the Australian “make a beacon” experiment",
+          "body": "NewsNation and follow-on coverage are circulating an account of UAP researchers attempting to summon orbs near the Bass Strait mystery. That is exactly the kind of story that deserves curiosity without a free pass: it puts attention, intention, expectation, and anomalous perception into the same room, then asks whether anything external happened. At present the public record in this scan is media reporting about an alleged experience and an experiment—not controlled evidence that CE5 works, and not proof that the observers encountered a craft. The useful questions are controls, contemporaneous records, independent observers, and what happened when nobody knew what result was hoped for.",
           "sources": [
             {
-              "name": "r/UFOs hot public feed",
-              "credit": "Public hot feed checked November 17, 2026 during the 13:01–01:01 UTC edition window; roughly 20 active links sampled; community signal, not proof",
-              "url": "https://www.reddit.com/r/UFOs/hot/.rss"
+              "name": "NewsNation — Australian desert summoning report",
+              "credit": "Public media result published November 18, 2026; reported account, not experimental confirmation",
+              "url": "https://news.google.com/rss/search?q=%22This+Australian+desert+has+become+an+alleged+hotspot+for+summoning+UFOs%22&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — Tim Burchett Fox News appearance and background imagery",
-              "credit": "Active community thread sampled November 17, 2026; post framing and imagery claim require primary-source and technical review",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xxwvl7/tim_burchett_on_fox_news_this_morning_with_alien/"
-            },
-            {
-              "name": "r/UFOs — six objects in declassified infrared-video discussion",
-              "credit": "Active community thread sampled November 17, 2026; user analysis is not independent sensor verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xxzn87/six_objects_reported_at_480_mph_in_a_declassified/"
-            },
-            {
-              "name": "r/UFOs — contractor-source ‘Legacy Program’ discussion",
-              "credit": "Active community thread sampled November 17, 2026; source claims are not independently corroborated",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xxvbd6/hunt_for_zero_point_author_contractor_sources/"
-            },
-            {
-              "name": "r/UFOs — new interviews and alleged Magenta revelations",
-              "credit": "Active community thread sampled November 16–17, 2026; claims and discussion require primary-source and technical review",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xx93oj/new_interviews_and_revelations_on_the_magenta/"
-            },
-            {
-              "name": "r/UFOs — House Oversight Committee discussion",
-              "credit": "Active community thread sampled November 16, 2026; reported political development requires committee-source verification",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xwtuxu/joe_khalil_reports_that_house_oversight_committee/"
-            },
-            {
-              "name": "r/UFOs — Guatemala and Mexico footage claim",
-              "credit": "Active community thread sampled November 16, 2026; video context and provenance not independently established",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xwqksk/craft_captured_in_guatemala_and_mexico_now/"
-            },
-            {
-              "name": "r/UFOs — predicted 2027 contact claim",
-              "credit": "Active community thread sampled November 16, 2026; prediction and testimony, not corroborated evidence",
-              "url": "https://www.reddit.com/r/UFOs/comments/1xw3uml/whistleblower_says_contact_will_happen_in_2027/"
-            },
-            {
-              "name": "WION — Alaska jellyfish-shaped object report",
-              "credit": "Public media report published November 11, 2026; reports a witness/video claim, not independent confirmation",
-              "url": "https://www.wionews.com/world/aliens-near-us-military-base-woman-captures-bizarre-jellyfish-like-ufo-in-alaska-watch-1762855200000"
-            },
-            {
-              "name": "K2 Radio — A Swarm Of UFOs Over Cheyenne?",
-              "credit": "Google News RSS result published November 16, 2026; local-media report and question headline, not corroboration",
-              "url": "https://news.google.com/rss/search?q=%22A+Swarm+Of+UFOs+Over+Cheyenne%22&hl=en-US&gl=US&ceid=US:en"
+              "name": "IBT UK — make-a-beacon report",
+              "credit": "Public media result published November 18, 2026; secondary account, claims require primary documentation",
+              "url": "https://news.google.com/rss/search?q=%22Make+a+beacon%22+UAP+experts+summon+orbs&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "X: profiles reachable, post attribution unavailable",
-          "body": "All 50 maintained public profile URLs returned HTTP 200 during the edition check. The logged-out public X search redirected to the login flow and exposed no attributable post text or usable timeline, so no watchlisted account is credited with a post. The watchlist remains a target list, not evidence of expertise, activity, or any claim.",
+          "heading": "VIDEO / X: plenty of noise, little attributable text",
+          "body": "The YouTube search stream supplied the usual mixture: a video titled The Military is Talking to Aliens, a new secret-aircraft investigation, a 6 Pentagon UFO RELEASES explainer, and a Campfire Stories episode with sightings and UFO material. They are leads and entertainment, not evidence. Logged-out X search still redirected to login, so no watchlisted account is credited with a post. The watchlist remains a set of targets, not a magic source of verification.",
           "sources": [
+            {
+              "name": "Google News — YouTube UAP/UFO results",
+              "credit": "Public index checked November 18, 2026; titles and creators are discovery signals, not verification",
+              "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com+UFO+UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
             {
               "name": "Public X search",
-              "credit": "Public search checked November 16, 2026 during the edition window; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-15%20until%3A2026-11-17&src=typed_query"
-            },
-            {
-              "name": "Google News RSS — UAP/UFO search",
-              "credit": "Google News RSS sample checked November 16, 2026 during the edition window; current media coverage and community signal, not proof",
-              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            }
-          ]
-        },
-        {
-          "heading": "DESK BOTTOM LINE: no new verified UAP finding",
-          "body": "The strongest conclusion remains restrained: no new official UAP document, sensor dataset, announced hearing, or independently corroborated UAP case cleared the desk for verified publication in this scan. The Alaska video is older footage under renewed attention, and the Cheyenne item is a local-media report requiring primary-source and technical follow-up. Community volume supplies a map of attention, not a verdict about exotic craft.",
-          "sources": [
-            {
-              "name": "Google News RSS",
-              "credit": "UAP/UFO search checked November 16, 2026 during the edition window; current coverage is treated as a discovery aid, not proof",
-              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+OR+disclosure+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "NASA Science UAP",
-              "credit": "Official source watch checked November 9, 2026",
-              "url": "https://science.nasa.gov/uap/"
-            },
-            {
-              "name": "AARO / U.S. Department of Defense",
-              "credit": "Official source watch retained; public page access status recorded internally",
-              "url": "https://www.aaro.mil/"
+              "credit": "Checked November 18, 2026; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-18%20until%3A2026-11-19&src=typed_query"
             }
           ]
         }
