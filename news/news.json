@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-11-18T13:01:12Z",
+    "checked_at": "2026-11-19T16:27:00Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-18T01:01:12Z/2026-11-18T16:21:33Z",
-      "date": "2026-11-18",
-      "title": "COMMUNITY ROUNDUP: a new Pentagon-files story takes the oxygen; CE5 and old footage keep the weirdness alive",
-      "lede": "The day’s loudest disclosure story is a fresh wave of reporting that the Pentagon has released another batch of declassified UFO records, with ABC News, CBS, NBC, USA Today, Scientific American and others describing documents, photos, videos, and historical encounter files. The official portal was not readable by the checker, so this roundup records the public reporting and the community reaction without treating headlines as independent verification. Alongside it: renewed attention to an Australian CE5/summoning experiment, Reddit discussion of jellyfish footage and Jake Barber, and a YouTube ecosystem already asking whether paperwork is the same thing as disclosure.",
+      "window": "2026-11-19T01:01:07Z/2026-11-19T16:27:00Z",
+      "date": "2026-11-19",
+      "title": "COMMUNITY ROUNDUP: Barber, the Pentagon files, and the eternal argument over evidence",
+      "lede": "During this edition window, indexed Reddit discussion continued to circulate Jake Barber’s House role and the reported Pentagon-file release, alongside fresh sighting posts and consciousness-oriented experiencer discussion. A public X search returned the logged-out application shell without attributable post text, so no watchlisted account is credited with a claim. These are community signals and reported claims, not independent confirmation of an anomalous event.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: the Pentagon-files story is the story to watch",
-          "body": "Multiple major outlets appeared in the November 18 search window with versions of the same consequential claim: the Pentagon has released a new batch of declassified UFO/UAP records, including videos, photographs, and older encounter material. The official Department of War UAP portal and its PURSUE page are the primary-source trail, but the portal returned HTTP 403 to the automated checker today. That leaves an important distinction: the public reporting is real and attributable; the size, contents, provenance, and technical meaning of the release still require a direct read of the government records. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
+          "body": "The reported Pentagon-file release remains the central disclosure topic carried into this window, with Reddit discussion now pairing it with the question of what evidence the Barber story actually supplies. The underlying public reporting is attributable, but the primary Department of War UAP portal was not independently read in this scan. That distinction matters: a report can establish that a report was published; it cannot by itself establish what the underlying records show. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
           "sources": [
             {
               "name": "ABC News — Pentagon releases declassified UFO files from various federal agencies",
@@ -38,7 +38,7 @@
         },
         {
           "heading": "TRENDING / LOUDEST: Reddit is chewing on jellyfish, Jake Barber, and the paperwork itself",
-          "body": "The indexed r/UFOs conversation is clustering around renewed arguments over the older jellyfish footage, a Vetted/Jake Barber deep dive, a claimed Pterodactyl in the latest document batch, and the more prosaic question of whether a declassified file is evidence or merely an official record of somebody seeing something. These are community topics and claims, not findings. Direct Reddit feeds remained blocked, so the links below preserve the discovery trail rather than pretending to be a complete hot-page sample.",
+          "body": "Indexed Reddit results during the window clustered around Jake Barber’s reported House appointment, questions about where the evidence is, a claimed radar-data analysis of the 2008 Stephenville incident, fresh orb/sighting posts, and the recurring demand for a standard of proof. A jellyfish-kite comparison also resurfaced. These are community topics and claims, not findings; the sample is an index of active discussion rather than a census of Reddit’s front page.",
           "sources": [
             {
               "name": "r/UFOs — jellyfish footage discussion",
@@ -54,12 +54,17 @@
               "name": "r/UFOs — alleged Pterodactyl report",
               "credit": "Indexed community result checked November 18, 2026; title-level claim, primary record not read",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+Pterodactyl+disclosed+batch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "r/UFOs — what evidence would change minds",
+              "credit": "Indexed community result checked November 18, 2026; discussion of standards of proof, not evidence of an event",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22what+specific+piece+of+evidence%22+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "CONSCIOUSNESS / FUN: the Australian “make a beacon” experiment",
-          "body": "NewsNation and follow-on coverage are circulating an account of UAP researchers attempting to summon orbs near the Bass Strait mystery. That is exactly the kind of story that deserves curiosity without a free pass: it puts attention, intention, expectation, and anomalous perception into the same room, then asks whether anything external happened. At present the public record in this scan is media reporting about an alleged experience and an experiment—not controlled evidence that CE5 works, and not proof that the observers encountered a craft. The useful questions are controls, contemporaneous records, independent observers, and what happened when nobody knew what result was hoped for.",
+          "heading": "CONSCIOUSNESS / EXPERIENCE: testimony, perception, and the external-world question",
+          "body": "Consciousness-first discussion remained visible in the Experiencers and High Strangeness index: astral projection, dreams, psychosis, channeling, djinn interpretations, and a fresh discussion of Jacques Vallée’s ideas about predisposition and UAP perception. These are testimony and interpretation, not controlled evidence. The serious question is not whether subjective experience matters—it plainly does to the witness—but what, if anything, it establishes about an external cause. Controls, contemporaneous records, clinical care where relevant, and independent observers still do the unglamorous work.",
           "sources": [
             {
               "name": "NewsNation — Australian desert summoning report",
@@ -70,13 +75,28 @@
               "name": "IBT UK — make-a-beacon report",
               "credit": "Public media result published November 18, 2026; secondary account, claims require primary documentation",
               "url": "https://news.google.com/rss/search?q=%22Make+a+beacon%22+UAP+experts+summon+orbs&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "r/HighStrangeness — psychedelic and paranormal discussion",
+              "credit": "Indexed community results checked November 18, 2026; personal discussion and interpretation, not controlled evidence",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+paranormal+psychedelics+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "r/Experiencers — first-person anomalous-experience discussion",
+              "credit": "Indexed community results checked November 18–19, 2026; testimony and community support, not independent verification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+UFO+experience+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "VIDEO / X: plenty of noise, little attributable text",
-          "body": "The YouTube search stream supplied the usual mixture: a video titled The Military is Talking to Aliens, a new secret-aircraft investigation, a 6 Pentagon UFO RELEASES explainer, and a Campfire Stories episode with sightings and UFO material. They are leads and entertainment, not evidence. Logged-out X search still redirected to login, so no watchlisted account is credited with a post. The watchlist remains a set of targets, not a magic source of verification.",
+          "body": "Public X search returned the logged-out application shell without attributable post text, timelines, or usable search results in this scan; no watchlisted account is credited with a post. The 50-account watchlist remains a set of targets, not evidence of activity, expertise, or a claim. Reddit and indexed media supplied the usable community signal, including a fresh Coast to Coast AM interview listing about Jake Barber’s claims.",
           "sources": [
+            {
+              "name": "Coast to Coast AM — Jake Barber interview listing",
+              "credit": "Google News RSS result published November 19, 2026; podcast/interview claims attributed to Barber, not independently corroborated",
+              "url": "https://news.google.com/rss/search?q=%22Jake+Barber+Reveals+New+Details%22&hl=en-US&gl=US&ceid=US:en"
+            },
             {
               "name": "Google News — YouTube UAP/UFO results",
               "credit": "Public index checked November 18, 2026; titles and creators are discovery signals, not verification",
