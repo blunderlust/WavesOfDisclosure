@@ -1,18 +1,18 @@
 {
   "meta": {
-    "checked_at": "2026-11-19T16:27:00Z",
+    "checked_at": "2026-11-20T13:00:46Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-19T01:01:07Z/2026-11-19T16:27:00Z",
-      "date": "2026-11-19",
-      "title": "COMMUNITY ROUNDUP: Barber, the Pentagon files, and the eternal argument over evidence",
-      "lede": "During this edition window, indexed Reddit discussion continued to circulate Jake Barber’s House role and the reported Pentagon-file release, alongside fresh sighting posts and consciousness-oriented experiencer discussion. A public X search returned the logged-out application shell without attributable post text, so no watchlisted account is credited with a claim. These are community signals and reported claims, not independent confirmation of an anomalous event.",
+      "window": "2026-11-20T01:00:27Z/2026-11-20T13:00:46Z",
+      "date": "2026-11-20",
+      "title": "COMMUNITY ROUNDUP: no verified change; Barber, Vallée, and the sky-octopus debate",
+      "lede": "No new independently verifiable UAP or disclosure development was identified in this edition window. The standing Reddit discussion themes remain Jake Barber, the reported Pentagon-file release, fresh sighting claims, the ‘sky octopus’ comparison, and Jacques Vallée’s ideas about perception and predisposition. Public X search again exposed no attributable post text, so no watchlisted account is credited with a claim. These are community signals and reported claims, not independent confirmation of an anomalous event.",
       "sections": [
         {
           "heading": "MOST IMPORTANT TO DISCLOSURE: the Pentagon-files story is the story to watch",
-          "body": "The reported Pentagon-file release remains the central disclosure topic carried into this window, with Reddit discussion now pairing it with the question of what evidence the Barber story actually supplies. The underlying public reporting is attributable, but the primary Department of War UAP portal was not independently read in this scan. That distinction matters: a report can establish that a report was published; it cannot by itself establish what the underlying records show. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
+          "body": "The reported Pentagon-file release and Jake Barber’s congressional role remain the central disclosure topics carried into this window. New indexed media attention also included a Cybernews report about a White House UAP adviser, but that is a secondary report and was not promoted to the verified desk. The primary Department of War UAP portal was not independently read in this scan. A report can establish that a report was published; it cannot by itself establish what the underlying records show. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
           "sources": [
             {
               "name": "ABC News — Pentagon releases declassified UFO files from various federal agencies",
@@ -37,8 +37,8 @@
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Reddit is chewing on jellyfish, Jake Barber, and the paperwork itself",
-          "body": "Indexed Reddit results during the window clustered around Jake Barber’s reported House appointment, questions about where the evidence is, a claimed radar-data analysis of the 2008 Stephenville incident, fresh orb/sighting posts, and the recurring demand for a standard of proof. A jellyfish-kite comparison also resurfaced. These are community topics and claims, not findings; the sample is an index of active discussion rather than a census of Reddit’s front page.",
+          "heading": "TRENDING / LOUDEST: Reddit is chewing on sky-octopus footage, sightings, and the paperwork itself",
+          "body": "Indexed Reddit results during the window clustered around fresh orb and plane-window sighting claims, the ‘sky octopus’ comparison, a claimed physics/propulsion discussion, and the recurring demand for a standard of proof. Barber and Pentagon-file discussion remains in the background. These are community topics and claims, not findings; the sample is an index of active discussion rather than a census of Reddit’s front page.",
           "sources": [
             {
               "name": "r/UFOs — jellyfish footage discussion",
@@ -64,7 +64,7 @@
         },
         {
           "heading": "CONSCIOUSNESS / EXPERIENCE: testimony, perception, and the external-world question",
-          "body": "Consciousness-first discussion remained visible in the Experiencers and High Strangeness index: astral projection, dreams, psychosis, channeling, djinn interpretations, and a fresh discussion of Jacques Vallée’s ideas about predisposition and UAP perception. These are testimony and interpretation, not controlled evidence. The serious question is not whether subjective experience matters—it plainly does to the witness—but what, if anything, it establishes about an external cause. Controls, contemporaneous records, clinical care where relevant, and independent observers still do the unglamorous work.",
+          "body": "Consciousness-first discussion remained visible in the Experiencers, High Strangeness, and aliens indexes: dream incubation, astral projection, psychosis, djinn interpretations, and a renewed discussion of Jacques Vallée’s ideas about predisposition and UAP perception. These are testimony and interpretation, not controlled evidence. The serious question is not whether subjective experience matters—it plainly does to the witness—but what, if anything, it establishes about an external cause. Controls, contemporaneous records, clinical care where relevant, and independent observers still do the unglamorous work.",
           "sources": [
             {
               "name": "NewsNation — Australian desert summoning report",
@@ -90,7 +90,7 @@
         },
         {
           "heading": "VIDEO / X: plenty of noise, little attributable text",
-          "body": "Public X search returned the logged-out application shell without attributable post text, timelines, or usable search results in this scan; no watchlisted account is credited with a post. The 50-account watchlist remains a set of targets, not evidence of activity, expertise, or a claim. Reddit and indexed media supplied the usable community signal, including a fresh Coast to Coast AM interview listing about Jake Barber’s claims.",
+          "body": "Public X search returned the logged-out application shell without attributable post text, timelines, or usable search results in this scan; no watchlisted account is credited with a post. The 50-account watchlist remains a set of targets, not evidence of activity, expertise, or a claim. Indexed media supplied additional attention signals, including a Joe Rogan Experience listing featuring Bob Gymlan; a listing is not a transcript and does not establish a new finding.",
           "sources": [
             {
               "name": "Coast to Coast AM — Jake Barber interview listing",
@@ -99,13 +99,18 @@
             },
             {
               "name": "Google News — YouTube UAP/UFO results",
-              "credit": "Public index checked November 18, 2026; titles and creators are discovery signals, not verification",
+              "credit": "Public index checked November 19–20, 2026; titles and creators are discovery signals, not verification",
               "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com+UFO+UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
+              "name": "Joe Rogan Experience — Bob Gymlan listing",
+              "credit": "Google News RSS result published November 19, 2026; listing-level discovery, not a transcript or independent verification",
+              "url": "https://news.google.com/rss/search?q=%22Joe+Rogan+Experience+%232583%22+%22Bob+Gymlan%22&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
               "name": "Public X search",
-              "credit": "Checked November 18, 2026; redirected to login and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-18%20until%3A2026-11-19&src=typed_query"
+              "credit": "Checked November 20, 2026; redirected to login and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-19%20until%3A2026-11-20&src=typed_query"
             }
           ]
         }
