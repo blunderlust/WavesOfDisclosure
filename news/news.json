@@ -1,115 +1,125 @@
 {
   "meta": {
-    "checked_at": "2026-11-20T13:00:46Z",
+    "checked_at": "2026-11-21T16:31:14Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-20T01:00:27Z/2026-11-20T13:00:46Z",
-      "date": "2026-11-20",
-      "title": "COMMUNITY ROUNDUP: no verified change; Barber, Vallée, and the sky-octopus debate",
-      "lede": "No new independently verifiable UAP or disclosure development was identified in this edition window. The standing Reddit discussion themes remain Jake Barber, the reported Pentagon-file release, fresh sighting claims, the ‘sky octopus’ comparison, and Jacques Vallée’s ideas about perception and predisposition. Public X search again exposed no attributable post text, so no watchlisted account is credited with a claim. These are community signals and reported claims, not independent confirmation of an anomalous event.",
+      "window": "2026-11-21T01:00:52Z/2026-11-21T16:31:14Z",
+      "date": "2026-11-21",
+      "title": "COMMUNITY ROUNDUP: Release 08 remains the center of gravity",
+      "lede": "The November 20 U.S. Department of War release remains the center of gravity, with Saturday coverage and discussion adding newly surfaced military footage, alleged witness implants, Skinwalker Ranch material, and a radar description that media reports characterize as near Mach 2.5. Reddit and public search are treating the tranche as both a document story and a prompt for the usual leap from records to extraordinary conclusions. That leap remains unearned here: discussion is attention data, not independent confirmation of an anomalous event.",
       "sections": [
         {
-          "heading": "MOST IMPORTANT TO DISCLOSURE: the Pentagon-files story is the story to watch",
-          "body": "The reported Pentagon-file release and Jake Barber’s congressional role remain the central disclosure topics carried into this window. New indexed media attention also included a Cybernews report about a White House UAP adviser, but that is a secondary report and was not promoted to the verified desk. The primary Department of War UAP portal was not independently read in this scan. A report can establish that a report was published; it cannot by itself establish what the underlying records show. The internet has already skipped to aliens. The documents, as usual, are less obliging.",
+          "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
+          "body": "The Department of War's public release title, indexed by Google News at 13:09 UTC on November 20, says the agency published its eighth release of UAP files. ABC, BBC, CBS, NewsNation, and other outlets reported on the release and its contents, but the WAR.GOV pages returned no readable body to this checker. The desk therefore records the official announcement as a document-level development while avoiding claims about what the files prove. A release of records is evidence that records were released; it is not, by itself, evidence of extraterrestrial technology, recovered material, or a hidden program.",
           "sources": [
             {
               "name": "ABC News — Pentagon releases declassified UFO files from various federal agencies",
-              "credit": "Google News RSS result published November 18, 2026 at 11:17 UTC; public media report, underlying government records not independently read in this scan",
-              "url": "https://news.google.com/rss/search?q=%22Pentagon+releases+declassified+UFO+files+from+various+federal+agencies%22&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Google News RSS result published November 20, 2026 at 19:21 UTC; public media report, underlying government records not independently read in this scan",
+              "url": "https://news.google.com/rss/search?q=UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "CBS News — Pentagon releases 3rd batch of UFO files",
-              "credit": "Google News RSS result surfaced in the same search; headline-level discovery, not independent confirmation",
-              "url": "https://news.google.com/rss/search?q=%22Pentagon+releases+3rd+batch+of+UFO+files%22&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Google News RSS result published November 20, 2026 at 13:09 UTC; official release title indexed, portal body not independently read",
+              "url": "https://www.war.gov/UFO/"
             },
             {
               "name": "U.S. Department of War — UAP/PURSUE portal",
-              "credit": "Primary-source page checked November 18, 2026; portal returned HTTP 403 to the checker, so contents were not asserted",
+              "credit": "Primary-source portal checked November 21, 2026; contents were not independently read in this scan",
               "url": "https://www.war.gov/UFO/"
             },
             {
               "name": "Scientific American — Pentagon UFO-file coverage",
-              "credit": "Public reporting surfaced November 18, 2026; useful for the skeptical response, not a substitute for the records",
-              "url": "https://news.google.com/rss/search?q=%22The+Pentagon+just+started+releasing+UFO+files%22&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Google News RSS search checked November 21, 2026; secondary coverage, not a substitute for the records",
+              "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "BBC — newly declassified UFO footage filmed in the Middle East",
+              "credit": "Google News RSS result published November 20, 2026; headline-level secondary report, footage and official records not independently reviewed in this scan",
+              "url": "https://news.google.com/rss/search?q=UFO+footage+Middle+East+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "NewsNation — alleged implants and radar discussion",
+              "credit": "Google News RSS results published November 21, 2026; reported testimony/document interpretation, not independent confirmation",
+              "url": "https://news.google.com/rss/search?q=UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Reddit is chewing on sky-octopus footage, sightings, and the paperwork itself",
-          "body": "Indexed Reddit results during the window clustered around fresh orb and plane-window sighting claims, the ‘sky octopus’ comparison, a claimed physics/propulsion discussion, and the recurring demand for a standard of proof. Barber and Pentagon-file discussion remains in the background. These are community topics and claims, not findings; the sample is an index of active discussion rather than a census of Reddit’s front page.",
+          "heading": "TRENDING / LOUDEST: Reddit is reading the new tranche as a document story",
+          "body": "Indexed results from the active Reddit/media sample clustered around the eighth tranche: alleged planning for a vault, a 2009 AAWSAP/BAASS report, older Lockheed and CIA records, the archive's file count, radar language, and questions about whether the documents challenge AARO's historical conclusions. Saturday headlines also pushed newly declassified military footage and Skinwalker Ranch back into the conversation, while Avi Loeb's reported criticism supplied a ready-made skeptic-versus-believer subplot. These are community topics and reported claims, not findings; the sample is an index of active discussion rather than a census of Reddit's front page.",
           "sources": [
             {
-              "name": "r/UFOs — jellyfish footage discussion",
-              "credit": "Indexed community result checked November 18, 2026; discussion and user comparison, not technical identification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22jellyfish+UFO%22+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs — eighth-tranche discussion",
+              "credit": "Indexed community results checked November 21, 2026; community claims and document commentary, not independent verification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — Vetted’s Jake Barber / Skywatcher deep dive",
-              "credit": "Indexed community result checked November 18, 2026; community signal, claims not independently corroborated",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22Jake+Barber%22+Vetted+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UAP — eighth-batch and Lockheed-record discussion",
+              "credit": "Indexed community results checked November 21, 2026; community interpretation of released records, not independent verification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — alleged Pterodactyl report",
-              "credit": "Indexed community result checked November 18, 2026; title-level claim, primary record not read",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+Pterodactyl+disclosed+batch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs — AAWSAP/BAASS and AARO discussion",
+              "credit": "Indexed community results checked November 21, 2026; claims about file contents require reading the primary records",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+AAWSAP+OR+AARO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — what evidence would change minds",
-              "credit": "Indexed community result checked November 18, 2026; discussion of standards of proof, not evidence of an event",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+%22what+specific+piece+of+evidence%22+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "Reddit search across UAP communities",
+              "credit": "Indexed community results checked November 21, 2026; attention signal only",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2F%28UAP+OR+HighStrangeness+OR+Experiencers+OR+aliens%29+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "CONSCIOUSNESS / EXPERIENCE: testimony, perception, and the external-world question",
-          "body": "Consciousness-first discussion remained visible in the Experiencers, High Strangeness, and aliens indexes: dream incubation, astral projection, psychosis, djinn interpretations, and a renewed discussion of Jacques Vallée’s ideas about predisposition and UAP perception. These are testimony and interpretation, not controlled evidence. The serious question is not whether subjective experience matters—it plainly does to the witness—but what, if anything, it establishes about an external cause. Controls, contemporaneous records, clinical care where relevant, and independent observers still do the unglamorous work.",
+          "heading": "CONSCIOUSNESS / EXPERIENCE: the document release did not end the subjective story",
+          "body": "The HighStrangeness, Experiencers, and aliens indexes continued to surface dream, liminal-state, entity, and possible-beacon discussions alongside release-driven traffic. Media reports in the same window repeated witness claims about alleged implants and a near-Mach-2.5 radar description; those are reported claims about records or testimony, not independent confirmation of implants, extraordinary performance, or a non-human cause. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that is a serious interpretive question, not a demonstrated conclusion. The practical test remains whether claims acquire contemporaneous records, independent observers, and controls strong enough to distinguish an external cause from memory, culture, and physiology.",
           "sources": [
             {
               "name": "NewsNation — Australian desert summoning report",
-              "credit": "Public media result published November 18, 2026; reported account, not experimental confirmation",
-              "url": "https://news.google.com/rss/search?q=%22This+Australian+desert+has+become+an+alleged+hotspot+for+summoning+UFOs%22&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Indexed community/media discussion checked November 21, 2026; reported account, not experimental confirmation",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+dream+OR+beacon+OR+entity+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "IBT UK — make-a-beacon report",
-              "credit": "Public media result published November 18, 2026; secondary account, claims require primary documentation",
-              "url": "https://news.google.com/rss/search?q=%22Make+a+beacon%22+UAP+experts+summon+orbs&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Indexed discussion checked November 21, 2026; personal reports and interpretations, not controlled evidence",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+consciousness+OR+paranormal+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/HighStrangeness — psychedelic and paranormal discussion",
-              "credit": "Indexed community results checked November 18, 2026; personal discussion and interpretation, not controlled evidence",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+paranormal+psychedelics+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Indexed community results checked November 21, 2026; personal discussion and interpretation, not controlled evidence",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/Experiencers — first-person anomalous-experience discussion",
-              "credit": "Indexed community results checked November 18–19, 2026; testimony and community support, not independent verification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+UFO+experience+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "credit": "Indexed community results checked November 21, 2026; testimony and community support, not independent verification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "VIDEO / X: plenty of noise, little attributable text",
-          "body": "Public X search returned the logged-out application shell without attributable post text, timelines, or usable search results in this scan; no watchlisted account is credited with a post. The 50-account watchlist remains a set of targets, not evidence of activity, expertise, or a claim. Indexed media supplied additional attention signals, including a Joe Rogan Experience listing featuring Bob Gymlan; a listing is not a transcript and does not establish a new finding.",
+          "heading": "X WATCH: public search supplied no attributable post text",
+          "body": "Public X search for UAP activity during the edition window exposed no attributable post text or timeline available for verification. All 50 watchlist profile URLs returned HTTP 200, but profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
           "sources": [
             {
-              "name": "Coast to Coast AM — Jake Barber interview listing",
-              "credit": "Google News RSS result published November 19, 2026; podcast/interview claims attributed to Barber, not independently corroborated",
-              "url": "https://news.google.com/rss/search?q=%22Jake+Barber+Reveals+New+Details%22&hl=en-US&gl=US&ceid=US:en"
+              "name": "Public X search",
+              "credit": "Checked November 21, 2026; logged-out search exposed no attributable post text",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-20%20until%3A2026-11-21&src=typed_query"
             },
             {
-              "name": "Google News — YouTube UAP/UFO results",
-              "credit": "Public index checked November 19–20, 2026; titles and creators are discovery signals, not verification",
-              "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com+UFO+UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "X watchlist — 50 public profiles",
+              "credit": "Profile URLs checked November 21, 2026; all returned HTTP 200, no post attribution made",
+              "url": "https://x.com/NASA"
             },
             {
-              "name": "Joe Rogan Experience — Bob Gymlan listing",
-              "credit": "Google News RSS result published November 19, 2026; listing-level discovery, not a transcript or independent verification",
-              "url": "https://news.google.com/rss/search?q=%22Joe+Rogan+Experience+%232583%22+%22Bob+Gymlan%22&hl=en-US&gl=US&ceid=US:en"
+              "name": "Google News — UAP/UFO results",
+              "credit": "Public index checked November 21, 2026; titles are discovery signals, not verification",
+              "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Public X search",
-              "credit": "Checked November 20, 2026; redirected to login and exposed no attributable post text",
+              "credit": "Checked November 21, 2026; redirected to logged-out onboarding and exposed no attributable post text",
               "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-19%20until%3A2026-11-20&src=typed_query"
             }
           ]
@@ -263,6 +273,18 @@
       "summary": "The New York Post reported on October 10, 2026 that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. The report says some witnesses have met lawmakers privately and have not shared all alleged footage. This verifies the publication and attributed statement, not an announced hearing, the witnesses’ identities, the encounter’s interpretation, or the authenticity and completeness of the evidence. The report points to an underlying government-released first-person narrative that should be read separately.",
       "source_name": "New York Post / Shane Galvin",
       "source_url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
+    },
+    {
+      "date": "2026-11-20",
+      "status": "DOCUMENT",
+      "source_type": "OFFICIAL GOVERNMENT RELEASE / PUBLIC INDEX",
+      "headline": "Department of War announces eighth release of UAP files",
+      "summary": "The U.S. Department of War's public release title, indexed on November 20, 2026, says it published an eighth release of unidentified anomalous phenomena files. Public coverage during the following day also described newly declassified military footage and records involving historical cases and alleged program planning. The official portal was not readable in this scan, so this item verifies the announcement and public reporting—not the contents of every record, the truth of witness claims, the authenticity of footage, the existence of recovered material, or an exotic explanation.",
+      "source_name": "U.S. Department of War / WAR.GOV-UFO portal",
+      "source_url": "https://www.war.gov/UFO/",
+      "related_urls": [
+        "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+      ]
     }
   ]
 }
