@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-11-21T16:31:14Z",
+    "checked_at": "2026-11-22T16:34:21Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-21T01:00:52Z/2026-11-21T16:31:14Z",
-      "date": "2026-11-21",
-      "title": "COMMUNITY ROUNDUP: Release 08 remains the center of gravity",
-      "lede": "The November 20 U.S. Department of War release remains the center of gravity, with Saturday coverage and discussion adding newly surfaced military footage, alleged witness implants, Skinwalker Ranch material, and a radar description that media reports characterize as near Mach 2.5. Reddit and public search are treating the tranche as both a document story and a prompt for the usual leap from records to extraordinary conclusions. That leap remains unearned here: discussion is attention data, not independent confirmation of an anomalous event.",
+      "window": "2026-11-22T01:01:38Z/2026-11-22T16:34:21Z",
+      "date": "2026-11-22",
+      "title": "COMMUNITY ROUNDUP: Release 08 keeps the disclosure crowd arguing",
+      "lede": "The November 20 U.S. Department of War release is still the conversation's center of gravity. In the latest public-index window, EarthSky highlighted radar-track analysis, NewsNation carried Avi Loeb's sharply skeptical reaction, and Reddit kept arguing over Jake Barber, George Knapp, a supposed Jellyfish-kite identification, and a new James Fox archive. The same feeds supplied ordinary sightings and the usual consciousness-and-entity material. Public X search exposed no attributable post text. Attention is not evidence, and a document release is not a finding about the objects described in it.",
       "sections": [
         {
           "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
@@ -48,79 +48,100 @@
         },
         {
           "heading": "TRENDING / LOUDEST: Reddit is reading the new tranche as a document story",
-          "body": "Indexed results from the active Reddit/media sample clustered around the eighth tranche: alleged planning for a vault, a 2009 AAWSAP/BAASS report, older Lockheed and CIA records, the archive's file count, radar language, and questions about whether the documents challenge AARO's historical conclusions. Saturday headlines also pushed newly declassified military footage and Skinwalker Ranch back into the conversation, while Avi Loeb's reported criticism supplied a ready-made skeptic-versus-believer subplot. These are community topics and reported claims, not findings; the sample is an index of active discussion rather than a census of Reddit's front page.",
+          "body": "Indexed results from the active Reddit sample continued to cluster around Release 08, but the newest threads broadened the argument: one asked how Jake Barber was introduced to the public, another debated George Knapp, while older threads revisited the claimed 43-file index, radar analysis, alleged implants, Avi Loeb's criticism, the Jellyfish-kite interpretation, and James Fox's free archive. A separate thread compared civilian NUFORC reports with military holdings and claimed technology trends explain one rise but not the other; that comparison is a community analysis, not a peer-reviewed result. The sample is an index of active discussion rather than a census of Reddit's front page.",
           "sources": [
             {
-              "name": "r/UFOs — eighth-tranche discussion",
-              "credit": "Indexed community results checked November 21, 2026; community claims and document commentary, not independent verification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs — Jake Barber introduction discussion",
+              "credit": "Indexed result checked November 22, 2026; community discussion of a public whistleblower narrative, not independent verification",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+Jake+Barber+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UAP — eighth-batch and Lockheed-record discussion",
-              "credit": "Indexed community results checked November 21, 2026; community interpretation of released records, not independent verification",
+              "name": "r/UAP — George Knapp and James Fox discussion",
+              "credit": "Indexed results checked November 22, 2026; community discussion and linked media, not independent verification",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — AAWSAP/BAASS and AARO discussion",
-              "credit": "Indexed community results checked November 21, 2026; claims about file contents require reading the primary records",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+AAWSAP+OR+AARO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs — civilian versus military report comparison",
+              "credit": "Indexed result checked November 22, 2026; user analysis, not peer-reviewed research or an official finding",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+NUFORC+AARO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "Reddit search across UAP communities",
-              "credit": "Indexed community results checked November 21, 2026; attention signal only",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2F%28UAP+OR+HighStrangeness+OR+Experiencers+OR+aliens%29+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "Google News — EarthSky radar-track coverage",
+              "credit": "Published November 22, 2026; secondary coverage of the release, not independent confirmation of extraordinary performance",
+              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "Google News — NewsNation/Avi Loeb reaction",
+              "credit": "Published November 22, 2026; attributed public reaction, not a technical adjudication of the files",
+              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "CONSCIOUSNESS / EXPERIENCE: the document release did not end the subjective story",
-          "body": "The HighStrangeness, Experiencers, and aliens indexes continued to surface dream, liminal-state, entity, and possible-beacon discussions alongside release-driven traffic. Media reports in the same window repeated witness claims about alleged implants and a near-Mach-2.5 radar description; those are reported claims about records or testimony, not independent confirmation of implants, extraordinary performance, or a non-human cause. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that is a serious interpretive question, not a demonstrated conclusion. The practical test remains whether claims acquire contemporaneous records, independent observers, and controls strong enough to distinguish an external cause from memory, culture, and physiology.",
+          "body": "The HighStrangeness and Experiencers indexes continued to surface first-person reports involving visions, astral projection, entities, clairalience, and possible contact, while aliens threads folded the new tranche into broader speculation about secrecy and non-human intelligence. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that is a serious interpretive question, not a demonstrated conclusion. The practical test remains whether claims acquire contemporaneous records, independent observers, and controls strong enough to distinguish an external cause from memory, culture, and physiology.",
           "sources": [
             {
               "name": "NewsNation — Australian desert summoning report",
-              "credit": "Indexed community/media discussion checked November 21, 2026; reported account, not experimental confirmation",
+              "credit": "Indexed community results checked November 22, 2026; first-person report, not experimental confirmation",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+dream+OR+beacon+OR+entity+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "IBT UK — make-a-beacon report",
-              "credit": "Indexed discussion checked November 21, 2026; personal reports and interpretations, not controlled evidence",
+              "credit": "Indexed discussion checked November 22, 2026; personal reports and interpretations, not controlled evidence",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+consciousness+OR+paranormal+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/HighStrangeness — psychedelic and paranormal discussion",
-              "credit": "Indexed community results checked November 21, 2026; personal discussion and interpretation, not controlled evidence",
+              "credit": "Indexed community results checked November 22, 2026; personal discussion and interpretation, not controlled evidence",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "r/Experiencers — first-person anomalous-experience discussion",
-              "credit": "Indexed community results checked November 21, 2026; testimony and community support, not independent verification",
+              "credit": "Indexed community results checked November 22, 2026; testimony and community support, not independent verification",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
+          "heading": "PODCAST WATCH: episode pages checked; no new timestamped claim promoted",
+          "body": "Weaponized's official episode index still showed Episode 127 dated October 30 and no newer episode in the checked page. That UFO Podcast's public site was also checked. No fresh episode with a verifiable transcript or timestamped caption was promoted from those pages in this edition. An episode page—or a headline about an episode—is not a substitute for transcript review, and no quotation is attributed here.",
+          "sources": [
+            {
+              "name": "Weaponized — official episode index",
+              "credit": "Jeremy Corbell and George Knapp; official show page checked November 22, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
+              "url": "https://www.weaponizedpodcast.com/episodes-5"
+            },
+            {
+              "name": "That UFO Podcast — official site",
+              "credit": "Hosted by Andy McGrillen; public site checked November 22, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
+              "url": "https://www.thatufopodcast.com/"
+            }
+          ]
+        },
+        {
           "heading": "X WATCH: public search supplied no attributable post text",
-          "body": "Public X search for UAP activity during the edition window exposed no attributable post text or timeline available for verification. All 50 watchlist profile URLs returned HTTP 200, but profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
+          "body": "Public X search for UAP activity during the edition window ending 2026-11-22T16:34:21Z exposed no attributable post text or timeline available for verification. All 50 watchlist profile URLs returned HTTP 200 on November 22, but profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Checked November 21, 2026; logged-out search exposed no attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-20%20until%3A2026-11-21&src=typed_query"
+              "credit": "Checked November 22, 2026; public search exposed no attributable post text",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-21%20until%3A2026-11-22&src=typed_query"
             },
             {
               "name": "X watchlist — 50 public profiles",
-              "credit": "Profile URLs checked November 21, 2026; all returned HTTP 200, no post attribution made",
+              "credit": "Profile URLs checked November 22, 2026; all returned HTTP 200, no post attribution made",
               "url": "https://x.com/NASA"
             },
             {
               "name": "Google News — UAP/UFO results",
-              "credit": "Public index checked November 21, 2026; titles are discovery signals, not verification",
+              "credit": "Public index checked November 22, 2026; titles are discovery signals, not verification",
               "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Public X search",
-              "credit": "Checked November 21, 2026; redirected to logged-out onboarding and exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-19%20until%3A2026-11-20&src=typed_query"
+              "credit": "Checked November 22, 2026; exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-20%20until%3A2026-11-22&src=typed_query"
             }
           ]
         }
