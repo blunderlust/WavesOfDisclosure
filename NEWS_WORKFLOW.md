@@ -23,7 +23,20 @@ For the verified desk:
 5. Run `node --check js/app.js && python -m json.tool news/news.json >/dev/null && git diff --check`.
 6. Serve the folder with any static server and open `?route=news` before an editorial publish decision.
 
-`SOURCE WATCH` is intentionally available for days when the record has not produced a verified new development. It is not a headline claiming that something happened.
+## Community roundup media rule
+The Community Blog is intended to be an informative, entertaining one-stop shop for UFO/UAP enthusiasts. It should not miss relevant discussion simply because a claim is weak; label the claim and let readers judge it.
+
+Every Community Blog roundup must include at least one visual asset whenever a suitable public asset exists, and the workflow should actively search for one before publication:
+
+1. Prefer an embeddable video when the story has one. Preserve the original video URL, show/creator credit, and timestamp when a specific moment is discussed.
+2. Otherwise use a relevant public image, document thumbnail, screenshot of a public record, or source-provided still. Preserve the direct image URL, original page, creator/agency credit, and license/usage note when available.
+3. If no suitable source visual exists, create a clearly labeled **RECREATION / ILLUSTRATION** rather than implying it depicts the event. Never fabricate evidence, logos, documents, or eyewitness imagery.
+4. Store media entries in `community_roundup.media[]` with `type` (`video`, `image`, or `link`), `title`, `credit`, `url`, and, where applicable, `embed_url` or `image_url`.
+5. Render media as visual cards in the blog. A plain raw URL is only a fallback link, not the preferred presentation.
+6. Keep source links human-friendly: show the source/publication name as the link text, with technical retrieval notes in a tooltip or secondary text.
+
+A text-heavy roundup without an attempted visual search should be treated as incomplete during editorial review.
+
 
 ## Hosting notes
 

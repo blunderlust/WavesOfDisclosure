@@ -1088,10 +1088,18 @@ function renderNews(errorMessage = '') {
         <section class="community-roundup-section">
           <h4>${escapeHtml(section.heading || '')}</h4>
           <p>${escapeHtml(section.body || '')}</p>
-          ${Array.isArray(section.sources) && section.sources.length ? `<div class="community-roundup-links">${section.sources.map(source => `<a href="${escapeHtml(source.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.credit || source.name || 'Source')} ↗</a>`).join('')}</div>` : ''}
+          ${Array.isArray(section.sources) && section.sources.length ? `<div class="community-roundup-links"><span class="community-roundup-links-label">Sources</span>${section.sources.map(source => `<a href="${escapeHtml(source.url || '')}" title="${escapeHtml(source.credit || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name || source.credit || 'Source')} ↗</a>`).join('')}</div>` : ''}
         </section>
       `).join('')}
-      ${Array.isArray(roundup.media) && roundup.media.length ? `<div class="community-roundup-media"><strong>Videos / images / links</strong>${roundup.media.map(media => `<a href="${escapeHtml(media.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(media.title || media.credit || 'Open media')} ↗</a>`).join('')}</div>` : ''}
+      ${Array.isArray(roundup.media) && roundup.media.length ? `<div class="community-roundup-media"><strong>Visual context</strong><div class="community-roundup-media-grid">${roundup.media.map(media => {
+        const title = escapeHtml(media.title || media.credit || 'Open media');
+        const credit = escapeHtml(media.credit || media.source || 'Source media');
+        const url = escapeHtml(media.url || media.embed_url || '#');
+        const kind = String(media.type || '').toLowerCase();
+        if (kind === 'video' && media.embed_url) return `<article class="community-media-card community-media-video"><div class="community-media-frame"><iframe src="${escapeHtml(media.embed_url)}" title="${title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="community-media-card-body"><h5>${title}</h5><span>${credit}</span><a href="${url}" target="_blank" rel="noopener noreferrer">Open original video ↗</a></div></article>`;
+        if (kind === 'image' && media.image_url) return `<article class="community-media-card community-media-image"><a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${escapeHtml(media.image_url)}" alt="${title}" loading="lazy"></a><div class="community-media-card-body"><h5>${title}</h5><span>${credit}</span><a href="${url}" target="_blank" rel="noopener noreferrer">Open original image/source ↗</a></div></article>`;
+        return `<article class="community-media-card community-media-link"><div class="community-media-link-icon">↗</div><div class="community-media-card-body"><h5>${title}</h5><span>${credit}</span><a href="${url}" target="_blank" rel="noopener noreferrer">Open source media ↗</a></div></article>`;
+      }).join('')}</div></div>` : `<div class="community-roundup-media community-roundup-media-missing"><strong>Visual context</strong><p>No source media was attached to this edition yet. The next roundup should add at least one video, image, document preview, or clearly labeled recreation.</p></div>`}
       <div class="community-roundup-disclaimer">Community discussion is reported as discussion. Claims remain unverified unless separately labeled and sourced in the News Desk.</div>
     </article>
   ` : '';
