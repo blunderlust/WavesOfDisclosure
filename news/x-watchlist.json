@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-21T13:00:52Z",
-  "window": "2026-11-21T01:00:52Z/2026-11-21T13:00:52Z",
-  "method": "The maintained watchlist contains 50 public profile URLs. Public X search redirected to the logged-out onboarding shell without attributable post text, timelines, or usable search results in this edition scan, so no account was treated as having posted and no handle was added. All 50 public profile URLs returned HTTP 200 in the profile check; no handle was added without verification. Profile URLs remain watch targets, not evidence of activity, expertise, or any claim.",
+  "checked_at": "2026-11-23T16:35:57Z",
+  "window": "2026-11-23T01:00:00Z/2026-11-23T16:35:57Z",
+  "method": "The maintained watchlist contains 50 public profile URLs. Public X search redirected to the logged-out onboarding shell without attributable post text, timelines, or usable search results in this edition scan, so no account was treated as having posted and no handle was added. All 50 public profile URLs returned HTTP 200 in the profile check on November 23, 2026; profile reachability is not evidence of activity, expertise, or any claim. No handle was added without verification.",
   "accounts": [
     {
       "handle": "NASA",

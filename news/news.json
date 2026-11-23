@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-11-22T16:34:21Z",
+    "checked_at": "2026-11-23T16:35:57Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-22T01:01:38Z/2026-11-22T16:34:21Z",
-      "date": "2026-11-22",
-      "title": "COMMUNITY ROUNDUP: Release 08 keeps the disclosure crowd arguing",
-      "lede": "The November 20 U.S. Department of War release is still the conversation's center of gravity. In the latest public-index window, EarthSky highlighted radar-track analysis, NewsNation carried Avi Loeb's sharply skeptical reaction, and Reddit kept arguing over Jake Barber, George Knapp, a supposed Jellyfish-kite identification, and a new James Fox archive. The same feeds supplied ordinary sightings and the usual consciousness-and-entity material. Public X search exposed no attributable post text. Attention is not evidence, and a document release is not a finding about the objects described in it.",
+      "window": "2026-11-23T01:00:00Z/2026-11-23T16:35:57Z",
+      "date": "2026-11-23",
+      "title": "COMMUNITY ROUNDUP: Release 08 meets college credit, orbs, and the usual argument",
+      "lede": "The Department of War's November 20 UAP-file release remains the loudest conversation in the public index, but today's scan added three different flavors of disclosure culture: a Society for UAP Studies college-credit course now taking registrations, a first-person V-shaped sighting report from Wales, and a media account of researchers who say they can summon orbs by intention. The claims are attributed, not upgraded into proof. A NewsNation item also reports Ross Coulthart saying he is confident President Trump is being briefed; the underlying page was not readable here, so that remains an approval-gated alert rather than verified news.",
       "sections": [
         {
           "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
@@ -48,58 +48,54 @@
         },
         {
           "heading": "TRENDING / LOUDEST: Reddit is reading the new tranche as a document story",
-          "body": "Indexed results from the active Reddit sample continued to cluster around Release 08, but the newest threads broadened the argument: one asked how Jake Barber was introduced to the public, another debated George Knapp, while older threads revisited the claimed 43-file index, radar analysis, alleged implants, Avi Loeb's criticism, the Jellyfish-kite interpretation, and James Fox's free archive. A separate thread compared civilian NUFORC reports with military holdings and claimed technology trends explain one rise but not the other; that comparison is a community analysis, not a peer-reviewed result. The sample is an index of active discussion rather than a census of Reddit's front page.",
+          "body": "The Reddit index sample kept Release 08 at the center, with discussion of the batch overview and a proposed December 5 livestream AMA with Dan Farah, Jay Stratton, and Leslie Kean. Newer indexed conversation also asked whether non-human life could be confirmed before political disclosure and revisited spiritual/paranormal interpretations of the phenomenon. Direct subreddit JSON requests were blocked during this scan, so this is an indexed sample rather than a census of live threads. These are community signals and linked claims, not independent verification.",
           "sources": [
             {
-              "name": "r/UFOs — Jake Barber introduction discussion",
-              "credit": "Indexed result checked November 22, 2026; community discussion of a public whistleblower narrative, not independent verification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+Jake+Barber+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs — December 5 multi-subreddit AMA",
+              "credit": "Google News index checked November 23, 2026; community event listing, not an official government proceeding",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UAP — George Knapp and James Fox discussion",
-              "credit": "Indexed results checked November 22, 2026; community discussion and linked media, not independent verification",
+              "name": "r/UFOs — non-human life before disclosure discussion",
+              "credit": "Google News index checked November 23, 2026; community discussion, not evidence of confirmation",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "r/UFOs / r/UAP — Release 08 discussion",
+              "credit": "Google News index checked November 23, 2026; community discussion and linked media, not independent verification",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "r/UFOs — civilian versus military report comparison",
-              "credit": "Indexed result checked November 22, 2026; user analysis, not peer-reviewed research or an official finding",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+NUFORC+AARO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Google News — EarthSky radar-track coverage",
-              "credit": "Published November 22, 2026; secondary coverage of the release, not independent confirmation of extraordinary performance",
-              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "Google News — NewsNation/Avi Loeb reaction",
-              "credit": "Published November 22, 2026; attributed public reaction, not a technical adjudication of the files",
-              "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
           "heading": "CONSCIOUSNESS / EXPERIENCE: the document release did not end the subjective story",
-          "body": "The HighStrangeness and Experiencers indexes continued to surface first-person reports involving visions, astral projection, entities, clairalience, and possible contact, while aliens threads folded the new tranche into broader speculation about secrecy and non-human intelligence. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that is a serious interpretive question, not a demonstrated conclusion. The practical test remains whether claims acquire contemporaneous records, independent observers, and controls strong enough to distinguish an external cause from memory, culture, and physiology.",
+          "body": "The indexed experience sample included a proposed December 5 AMA, first-person accounts, autobiographical contact-team material, and questions about dreams, bodily sensations, and altered-state interpretations. The day's most arresting headline came from a BroBible report about researchers who say they can make mysterious orbs appear by thinking about them. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that remains an interpretive question, not a demonstrated conclusion. Testimony is worth treating humanely, but it is not the same as controlled evidence.",
           "sources": [
             {
-              "name": "NewsNation — Australian desert summoning report",
-              "credit": "Indexed community results checked November 22, 2026; first-person report, not experimental confirmation",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+dream+OR+beacon+OR+entity+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "BroBible — intention and mysterious-orb report",
+              "credit": "Published November 23, 2026; secondary report of researchers' claims, not experimental confirmation",
+              "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "IBT UK — make-a-beacon report",
-              "credit": "Indexed discussion checked November 22, 2026; personal reports and interpretations, not controlled evidence",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+consciousness+OR+paranormal+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "r/UFOs / r/HighStrangeness — spiritual and paranormal discussion",
+              "credit": "Google News index checked November 23, 2026; personal discussion and interpretation, not controlled evidence",
+              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            }
+          ]
+        },
+        {
+          "heading": "FUN / INTERESTING: a V-shaped sighting, a college course, and one ambitious orb claim",
+          "body": "North Wales Live published a witness account from a woman who says she broke a 33-year silence about a V-shaped object seen above the Llangollen hills. Meanwhile, the Society for UAP Studies opened registration for what it describes as one of the first college-credit courses in UAP studies. Neither item settles the phenomenon: one is a late-reported memory and the other is an academic development. The orb story is more combustible still—a media report about researchers who say intention can make orbs appear. That is exactly the sort of claim that needs protocols, timestamps, controls, and independent replication before the metaphysics gets ahead of the paperwork.",
+          "sources": [
+            {
+              "name": "North Wales Live — V-shaped sighting account",
+              "credit": "Published November 23, 2026; witness report, not independently corroborated",
+              "url": "https://news.google.com/rss/search?q=UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/HighStrangeness — psychedelic and paranormal discussion",
-              "credit": "Indexed community results checked November 22, 2026; personal discussion and interpretation, not controlled evidence",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FHighStrangeness+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "r/Experiencers — first-person anomalous-experience discussion",
-              "credit": "Indexed community results checked November 22, 2026; testimony and community support, not independent verification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FExperiencers+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              "name": "Society for UAP Studies — college-credit course registration report",
+              "credit": "Courier-Journal result indexed November 23, 2026; underlying page was not readable in this scan",
+              "url": "https://news.google.com/rss/search?q=UAP+course+when%3A2d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
@@ -109,39 +105,39 @@
           "sources": [
             {
               "name": "Weaponized — official episode index",
-              "credit": "Jeremy Corbell and George Knapp; official show page checked November 22, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
+              "credit": "Jeremy Corbell and George Knapp; official show page checked November 23, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
               "url": "https://www.weaponizedpodcast.com/episodes-5"
             },
             {
               "name": "That UFO Podcast — official site",
-              "credit": "Hosted by Andy McGrillen; public site checked November 22, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
+              "credit": "Hosted by Andy McGrillen; public site checked November 23, 2026; page review found no newer timestamped episode claim promoted; no new timestamped transcript claim promoted",
               "url": "https://www.thatufopodcast.com/"
             }
           ]
         },
         {
           "heading": "X WATCH: public search supplied no attributable post text",
-          "body": "Public X search for UAP activity during the edition window ending 2026-11-22T16:34:21Z exposed no attributable post text or timeline available for verification. All 50 watchlist profile URLs returned HTTP 200 on November 22, but profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
+          "body": "Public X search for UAP activity during the edition window ending 2026-11-23T16:35:57Z redirected to the logged-out onboarding shell and exposed no attributable post text or usable timeline for verification. All 50 watchlist profile URLs returned HTTP 200 on November 23. Profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Checked November 22, 2026; public search exposed no attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-21%20until%3A2026-11-22&src=typed_query"
+              "credit": "Checked November 23, 2026; public search redirected to the logged-out shell and exposed no attributable post text",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-22%20until%3A2026-11-23&src=typed_query"
             },
             {
               "name": "X watchlist — 50 public profiles",
-              "credit": "Profile URLs checked November 22, 2026; all returned HTTP 200, no post attribution made",
+              "credit": "Profile URLs checked November 23, 2026; all 50 returned HTTP 200, no post attribution made",
               "url": "https://x.com/NASA"
             },
             {
               "name": "Google News — UAP/UFO results",
-              "credit": "Public index checked November 22, 2026; titles are discovery signals, not verification",
+              "credit": "Public index checked November 23, 2026; titles are discovery signals, not verification",
               "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Public X search",
-              "credit": "Checked November 22, 2026; exposed no attributable post text",
-              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-20%20until%3A2026-11-22&src=typed_query"
+              "credit": "Checked November 23, 2026; exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-22%20until%3A2026-11-23&src=typed_query"
             }
           ]
         }
