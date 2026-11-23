@@ -1634,6 +1634,23 @@ header.navbar {
 }
 
 @media(max-width: 600px) {
+  .wrapper {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .terminal-news-box,
+  .community-blog-box {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .community-roundup {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .news-item {
+    padding-left: 6px;
+    padding-right: 0;
+  }
   .news-hero {
     padding-top: 14px !important;
     padding-bottom: 10px !important;
@@ -1643,11 +1660,12 @@ header.navbar {
     letter-spacing: 0.06em;
   }
   .terminal-news-box {
-    padding: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
   .news-item {
-    padding-left: 16px;
-    padding-right: 2px;
+    padding-left: 6px;
+    padding-right: 0;
   }
   .news-item-title {
     font-size: 18px;
