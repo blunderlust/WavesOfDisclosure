@@ -1642,14 +1642,19 @@ header.navbar {
   .community-blog-box {
     padding-left: 6px;
     padding-right: 6px;
+    border-left: 0;
+    border-right: 0;
   }
   .community-roundup {
     padding-left: 8px;
     padding-right: 8px;
+    border-left: 0;
+    border-right: 0;
   }
   .news-item {
     padding-left: 6px;
     padding-right: 0;
+    border-left: 0;
   }
   .news-hero {
     padding-top: 14px !important;
