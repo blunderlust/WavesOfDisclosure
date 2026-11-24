@@ -1592,6 +1592,23 @@ header.navbar {
 }
 .news-source-link:hover { color: var(--color-orange); text-decoration: underline; }
 
+.news-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(11, 121, 120, 0.35);
+  color: var(--text-muted);
+  font: 11px var(--font-mono);
+}
+
+.news-pagination a,
+.news-share-link {
+  color: var(--color-orange);
+}
+
 /* News Desk: make the reporting feed the feature, not a cramped terminal inset. */
 .news-hero {
   align-items: flex-start;

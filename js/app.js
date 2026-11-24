@@ -1075,8 +1075,22 @@ function escapeHtml(value = '') {
   return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 }
 
+function newsSlug(item = {}) {
+  return String(item.slug || item.id || item.headline || 'article')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 90);
+}
+
 function renderNews(errorMessage = '') {
   const roundup = NEWS_META.community_roundup;
+  const params = new URLSearchParams(window.location.search);
+  const requestedArticle = params.get('article');
+  const requestedPage = Math.max(1, Number.parseInt(params.get('page') || '1', 10) || 1);
+  const pageSize = 8;
+  const articleMatch = requestedArticle ? NEWS_ITEMS.find(item => newsSlug(item) === requestedArticle) : null;
+  const filteredItems = articleMatch ? [articleMatch] : NEWS_ITEMS;
+  const pageCount = Math.max(1, Math.ceil(filteredItems.length / pageSize));
+  const currentPage = Math.min(requestedPage, pageCount);
+  const visibleItems = articleMatch ? filteredItems : filteredItems.slice((currentPage - 1) * pageSize, currentPage * pageSize);
   const roundupHtml = roundup && typeof roundup === 'object' ? `
     <article class="community-roundup">
       <div class="community-roundup-kicker">COMMUNITY DAILY ROUNDUP · DISCUSSION SIGNALS, NOT VERIFIED NEWS</div>
@@ -1103,20 +1117,21 @@ function renderNews(errorMessage = '') {
       <div class="community-roundup-disclaimer">Community discussion is reported as discussion. Claims remain unverified unless separately labeled and sourced in the News Desk.</div>
     </article>
   ` : '';
-  const itemsHtml = NEWS_ITEMS.length ? NEWS_ITEMS.map(item => `
-    <article class="news-item">
+  const itemsHtml = visibleItems.length ? visibleItems.map(item => `
+    <article class="news-item" id="article-${escapeHtml(newsSlug(item))}">
       <div class="news-item-meta">${escapeHtml(item.date)} · ${escapeHtml(item.status)} · ${escapeHtml(item.source_type)}</div>
       <h4 class="news-item-title">${escapeHtml(item.headline)}</h4>
       <p class="news-item-content">${escapeHtml(item.summary)}</p>
       <div class="news-item-footer">
         <span class="news-source-name">Source: ${escapeHtml(item.source_name)}</span>
-        <a class="news-source-link" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">Read original source ↗</a>
+        <span class="news-item-actions"><a class="news-source-link" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">Read original source ↗</a> · <a class="news-share-link" href="?route=news&article=${encodeURIComponent(newsSlug(item))}">Share article</a></span>
       </div>
     </article>
   `).join('') : '<div class="news-item"><h4 class="news-item-title">No briefing items are loaded.</h4><p class="news-item-content">The desk publishes only sourced material.</p></div>';
+  const paginationHtml = articleMatch ? `<div class="news-pagination"><a href="?route=news">← All News Desk entries</a></div>` : `<div class="news-pagination">${currentPage > 1 ? `<a href="?route=news&page=${currentPage - 1}">← Newer entries</a>` : '<span></span>'}<span>Page ${currentPage} of ${pageCount}</span>${currentPage < pageCount ? `<a href="?route=news&page=${currentPage + 1}">Older entries →</a>` : '<span></span>'}</div>`;
 
   const targets = [
-    { feed: document.getElementById('terminal-news-feed'), status: document.getElementById('news-desk-status'), html: itemsHtml },
+    { feed: document.getElementById('terminal-news-feed'), status: document.getElementById('news-desk-status'), html: itemsHtml + paginationHtml },
     { feed: document.getElementById('community-news-feed'), status: document.getElementById('community-news-status'), html: roundupHtml || '<div class="news-item"><h4 class="news-item-title">No community roundup is loaded.</h4></div>' }
   ];
   targets.forEach(target => {
