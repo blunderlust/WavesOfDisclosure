@@ -1,11 +1,11 @@
 {
   "meta": {
-    "checked_at": "2026-11-23T16:35:57Z",
+    "checked_at": "2026-11-23T19:12:00Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-23T01:00:00Z/2026-11-23T16:35:57Z",
+      "window": "2026-11-23T01:00:00Z/2026-11-23T19:12:00Z",
       "date": "2026-11-23",
       "title": "COMMUNITY ROUNDUP: Release 08 meets college credit, orbs, and the usual argument",
       "lede": "The Department of War's November 20 UAP-file release remains the loudest conversation in the public index, but today's scan added three different flavors of disclosure culture: a Society for UAP Studies college-credit course now taking registrations, a first-person V-shaped sighting report from Wales, and a media account of researchers who say they can summon orbs by intention. The claims are attributed, not upgraded into proof. A NewsNation item also reports Ross Coulthart saying he is confident President Trump is being briefed; the underlying page was not readable here, so that remains an approval-gated alert rather than verified news.",
@@ -143,22 +143,25 @@
         }
       ],
       "media": [
-        {
-          "title": "Jake Barber / Burlison staffing report",
-          "credit": "Paradigm / Ben Schreckinger",
-          "url": "https://www.paradigm.news/p/confirmed-ufo-whistleblower-jake"
-        },
-        {
-          "title": "McCasland report search and source trail",
-          "credit": "ABC7 Los Angeles via Google News RSS",
-          "url": "https://news.google.com/rss/search?q=%22William+Neil+McCasland%22+missing&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Weaponized official episode page",
-          "credit": "Weaponized Podcast",
-          "url": "https://www.weaponizedpodcast.com/"
-        }
-      ]
+              {
+                "type": "source_link",
+                "title": "Pentagon's latest UFO release coverage",
+                "credit": "Yahoo / Google News RSS discovery result",
+                "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              },
+              {
+                "type": "source_link",
+                "title": "Snopes review: 'jellyfish UFO' videos",
+                "credit": "Snopes / Google News RSS discovery result",
+                "url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+              },
+              {
+                "type": "source_link",
+                "title": "Society for UAP Studies college-credit course",
+                "credit": "Knoxville News Sentinel / Google News RSS",
+                "url": "https://news.google.com/rss/search?q=UAP+course+when%3A2d&hl=en-US&gl=US&ceid=US:en"
+              }
+            ]
     }
   },
   "items": [
