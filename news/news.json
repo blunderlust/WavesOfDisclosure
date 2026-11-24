@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-11-23T19:12:00Z",
+    "checked_at": "2026-11-24T03:01:18Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-23T01:00:00Z/2026-11-23T19:12:00Z",
-      "date": "2026-11-23",
-      "title": "COMMUNITY ROUNDUP: Release 08 meets college credit, orbs, and the usual argument",
-      "lede": "The Department of War's November 20 UAP-file release remains the loudest conversation in the public index, but today's scan added three different flavors of disclosure culture: a Society for UAP Studies college-credit course now taking registrations, a first-person V-shaped sighting report from Wales, and a media account of researchers who say they can summon orbs by intention. The claims are attributed, not upgraded into proof. A NewsNation item also reports Ross Coulthart saying he is confident President Trump is being briefed; the underlying page was not readable here, so that remains an approval-gated alert rather than verified news.",
+      "window": "2026-11-23T01:00:00Z/2026-11-24T03:01:18Z",
+      "date": "2026-11-24",
+      "title": "COMMUNITY ROUNDUP: Release 08 still dominates, while Reddit turns toward belief and experience",
+      "lede": "The public index remains dominated by discussion of the Department of War's reported eighth UAP-file release. Reddit's freshest visible threads ranged from spiritual and paranormal interpretations to questions about confirmation before disclosure, while experience-oriented communities discussed mantid encounters, orbs, dreams, and autobiographical contact claims. Those are community signals and attributed claims, not independently verified developments. Public X search produced no attributable post text in this scan, so no watchlisted account is credited with a claim.",
       "sections": [
         {
           "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
@@ -117,26 +117,26 @@
         },
         {
           "heading": "X WATCH: public search supplied no attributable post text",
-          "body": "Public X search for UAP activity during the edition window ending 2026-11-23T16:35:57Z redirected to the logged-out onboarding shell and exposed no attributable post text or usable timeline for verification. All 50 watchlist profile URLs returned HTTP 200 on November 23. Profile reachability is not evidence that an account posted. No watchlisted account is credited with a claim in this edition.",
+          "body": "Public X search for UAP activity during the edition window ending 2026-11-24T03:01:18Z redirected to the logged-out onboarding shell and exposed no attributable post text or usable timeline for verification. The maintained watchlist still contains 50 public profiles; reachability is not evidence that an account posted, endorsed a claim, or supplied evidence. No watchlisted account is credited with a claim in this edition.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Checked November 23, 2026; public search redirected to the logged-out shell and exposed no attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-22%20until%3A2026-11-23&src=typed_query"
+              "credit": "Checked November 24, 2026; public search redirected to the logged-out shell and exposed no attributable post text",
+              "url": "https://x.com/search?q=UAP%20since%3A2026-11-23%20until%3A2026-11-24&src=typed_query"
             },
             {
               "name": "X watchlist — 50 public profiles",
-              "credit": "Profile URLs checked November 23, 2026; all 50 returned HTTP 200, no post attribution made",
+              "credit": "Profile URLs checked November 24, 2026; maintained list contains 50 profiles; no post attribution made",
               "url": "https://x.com/NASA"
             },
             {
               "name": "Google News — UAP/UFO results",
-              "credit": "Public index checked November 23, 2026; titles are discovery signals, not verification",
+              "credit": "Public index checked November 24, 2026; titles are discovery signals, not verification",
               "url": "https://news.google.com/rss/search?q=UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
               "name": "Public X search",
-              "credit": "Checked November 23, 2026; exposed no attributable post text",
+              "credit": "Checked November 24, 2026; exposed no attributable post text",
               "url": "https://x.com/search?q=(UAP%20OR%20UFO%20OR%20disclosure)%20since%3A2026-11-22%20until%3A2026-11-23&src=typed_query"
             }
           ]
