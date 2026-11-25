@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checked_at": "2026-11-24T13:02:47Z",
+    "checked_at": "2026-11-25T01:00:19Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-23T13:02:47Z/2026-11-24T13:02:47Z",
-      "date": "2026-11-24",
-      "title": "COMMUNITY ROUNDUP: Release 08 remains the campfire, with a new briefing claim and a Jupiter reality check",
-      "lede": "The public index remains centered on the Department of War's reported eighth UAP-file release. During this edition window, indexed Reddit discussion circulated a CBS report about an underground-vault planning document, a post arguing that one supposedly unresolved card identifies Jupiter, and a Skywatcher-related first-person claim. NewsNation also published a report attributing a briefing claim to Ross Coulthart; that is a public media report, not proof that a briefing occurred. Reddit's direct JSON endpoints were unavailable to this scan, and public X search supplied no attributable post text. Community attention is not evidence.",
+      "window": "2026-11-24T01:00:19Z/2026-11-25T01:00:19Z",
+            "date": "2026-11-25",
+            "title": "COMMUNITY ROUNDUP: Release 08 gets a page-by-page audit while testimony and Skywatcher claims circulate",
+            "lede": "The public conversation remains fixed on the Department of War's reported eighth UAP-file release. Indexed Reddit discussion during this window included a page-by-page criticism of a card labeled unresolved while naming Jupiter, Skywatcher-related claims about Jordan Jozak, a Skinwalker Ranch story, and arguments over whistleblower credibility. NewsNation also published a report about a former Air Force member describing missing time and a UFO encounter. Those are public reports and community claims, not independent confirmation. Direct Reddit JSON endpoints were unavailable and public X search exposed no attributable post text, so neither platform is treated as evidence of a new event.",
       "sections": [
         {
           "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
@@ -68,8 +68,8 @@
           ]
         },
         {
-          "heading": "CONSCIOUSNESS / EXPERIENCE: claims of briefing, intention, and contact remain claims",
-          "body": "The indexed experience sample continued to mix first-person contact material with consciousness-first interpretations. A current media item attributed to Ross Coulthart says he is very confident the President is being briefed on UAP; the verifiable fact is that NewsNation published that report, not that a briefing occurred. The earlier orb-by-intention story also remained in circulation. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that remains an interpretive question, not a demonstrated conclusion. Testimony deserves humane treatment, but it is not the same as controlled evidence.",
+          "heading": "CONSCIOUSNESS / EXPERIENCE: missing time, contact, and intention remain claims",
+                    "body": "The indexed experience sample mixed first-person contact and missing-time accounts with consciousness-first interpretations. NewsNation published a report in which a former Air Force member described missing time and a UFO encounter; the verifiable fact is the publication and attributed testimony, not the encounter's cause. Reddit also circulated Skywatcher-related claims about intention and anomalous interaction. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that remains an interpretive question, not a demonstrated conclusion. Testimony deserves humane treatment, but it is not the same as controlled evidence.",
           "sources": [
             {
               "name": "BroBible — intention and mysterious-orb report",
@@ -105,7 +105,7 @@
           "sources": [
             {
               "name": "NewsNation — Ross Coulthart briefing report",
-              "credit": "Published November 24, 2026; public media report checked via Google News index; underlying page returned an access-denied response, so claim is not independently verified",
+              "credit": "Published November 24, 2026; public media report checked via Google News index; underlying page was not independently readable, so claim is not independently verified",
               "url": "https://www.newsnationnow.com/politics/trump-and-uap-disclosure-ross-coulthart-says-hes-very-confident-the-president-is-being-briefed/"
             },
             {
@@ -293,6 +293,15 @@
       "summary": "The New York Post reported on October 10, 2026 that Rep. Eric Burlison said he would explore whether intelligence-community witnesses connected to a late-2025 orange-orb encounter could testify before Congress. The report says some witnesses have met lawmakers privately and have not shared all alleged footage. This verifies the publication and attributed statement, not an announced hearing, the witnesses’ identities, the encounter’s interpretation, or the authenticity and completeness of the evidence. The report points to an underlying government-released first-person narrative that should be read separately.",
       "source_name": "New York Post / Shane Galvin",
       "source_url": "https://nypost.com/2026/10/10/us-news/us-intel-community-witnesses-to-2025-ufo-orb-incident-could-testify-before-congress/"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "REPORTED",
+      "source_type": "PUBLIC MEDIA REPORT / TESTIMONY",
+      "headline": "NewsNation reports a former Air Force member's missing-time and UFO-encounter account",
+      "summary": "NewsNation published a November 24, 2026 Reality Check item in which a former Air Force member described missing time and a UFO encounter. This verifies the publication and the attributed testimony; it does not verify the encounter, the missing-time interpretation, the object's identity, or an extraterrestrial or consciousness-first cause. The account is a candidate for deeper reporting only if primary records or independently corroborating witnesses emerge.",
+      "source_name": "NewsNation / Reality Check with Ross Coulthart",
+      "source_url": "https://news.google.com/rss/search?q=UAP+OR+UFO+when%3A1d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "date": "2026-11-20",
