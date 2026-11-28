@@ -1,22 +1,22 @@
 {
   "meta": {
-    "checked_at": "2026-11-25T01:00:19Z",
+    "checked_at": "2026-11-28T01:01:05Z",
     "method": "This desk separates community attention from independently verified facts. Items marked SOURCE WATCH are monitored primary-source pages, not claims that a new event occurred today. The community lane preserves attributable discussion and witness claims with explicit labels; the verified lane remains approval-gated.",
     "workflow": "Edit items here after checking the original page. Keep the retrieval date, source URL, and evidence label visible.",
     "community_roundup": {
       "label": "COMMUNITY DAILY ROUNDUP",
-      "window": "2026-11-24T01:00:19Z/2026-11-25T01:00:19Z",
-            "date": "2026-11-25",
-            "title": "COMMUNITY ROUNDUP: Release 08 gets a page-by-page audit while testimony and Skywatcher claims circulate",
-            "lede": "The public conversation remains fixed on the Department of War's reported eighth UAP-file release. Indexed Reddit discussion during this window included a page-by-page criticism of a card labeled unresolved while naming Jupiter, Skywatcher-related claims about Jordan Jozak, a Skinwalker Ranch story, and arguments over whistleblower credibility. NewsNation also published a report about a former Air Force member describing missing time and a UFO encounter. Those are public reports and community claims, not independent confirmation. Direct Reddit JSON endpoints were unavailable and public X search exposed no attributable post text, so neither platform is treated as evidence of a new event.",
+      "window": "2026-11-27T01:01:05Z/2026-11-28T01:01:05Z",
+            "date": "2026-11-28",
+            "title": "COMMUNITY ROUNDUP: Release 08 fallout, a bunker headline, and the evidence argument",
+            "lede": "During this edition window, public reporting and indexed Reddit discussion clustered around the Pentagon's declassified UFO-file release, sensational interpretations of older AAWSAP/BAASS planning documents, fresh sighting-video threads, and the recurring argument over future-human and consciousness-first explanations. Public X search exposed no attributable post text. These are attention signals and public reports—not independent confirmation of the underlying claims.",
       "sections": [
         {
-          "heading": "VERIFIED DEVELOPMENT: Department of War announces an eighth UAP-file release",
-          "body": "The Department of War's public release title, indexed by Google News at 13:09 UTC on November 20, says the agency published its eighth release of UAP files. ABC, BBC, CBS, NewsNation, and other outlets reported on the release and its contents, but the WAR.GOV pages returned no readable body to this checker. The desk therefore records the official announcement as a document-level development while avoiding claims about what the files prove. A release of records is evidence that records were released; it is not, by itself, evidence of extraterrestrial technology, recovered material, or a hidden program.",
+          "heading": "COMMUNITY ROUNDUP: Pentagon release coverage is being reread through older documents",
+          "body": "ABC News and other indexed outlets again discussed the Pentagon's declassified UFO files during the window. Reddit discussion then concentrated on the release's alleged implications, including a Newsweek headline about a 'giant underground UFO bunker' and a corrective thread arguing that the underlying 2008 Bigelow Aerospace documents say something more limited. The public record establishes a release and public arguments about its interpretation; it does not establish a bunker for alien tissue, recovered non-human material, or an exotic explanation.",
           "sources": [
             {
               "name": "ABC News — Pentagon releases declassified UFO files from various federal agencies",
-              "credit": "Google News RSS result published November 20, 2026 at 19:21 UTC; public media report, underlying government records not independently read in this scan",
+              "credit": "Google News RSS result published November 27, 2026 at 15:07 UTC; public media report, underlying government records not independently read in this scan",
               "url": "https://news.google.com/rss/search?q=UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
@@ -47,29 +47,29 @@
           ]
         },
         {
-          "heading": "TRENDING / LOUDEST: Reddit is reading the new tranche as a document story",
-          "body": "The indexed Reddit sample kept Release 08 at the center. Freshly surfaced discussion included a CBS report about a 538-page contractor document said to contemplate an underground vault for alleged exotic material, a skeptical post noting that one 'unresolved' card appears to identify Jupiter, and a Skywatcher-related first-person claim. Other indexed threads revisited spiritual/paranormal interpretations and the problem of distinguishing a document's existence from the truth of what it describes. Direct subreddit JSON requests returned access-denied responses, so this is an indexed sample rather than a census of live threads. These are community signals and linked claims, not independent verification.",
+          "heading": "TRENDING / LOUDEST: Reddit is mixing fresh videos with old-case arguments",
+          "body": "The indexed Reddit sample included an r/UFOs thread titled 'Is this happening elsewhere?', a discussion of a flight video near the southeastern United States in r/HighStrangeness, a Texas recording thread, renewed Jay Stratton/AAWSAP discussion, and posts debating whether UFOs could be future humans rather than extraterrestrials. The sample also included moderation discussion and low-information speculation. Direct subreddit JSON requests were blocked, so this is an indexed sample rather than a census of live threads. These are community signals and linked claims, not independent verification.",
           "sources": [
             {
-              "name": "r/UFOs — December 5 multi-subreddit AMA",
-              "credit": "Google News index checked November 24, 2026; community discussion and linked media, not an official government proceeding",
+              "name": "Google News index — r/UFOs discussion",
+              "credit": "Google News index checked November 28, 2026; community post, not independently corroborated",
+              "url": "https://news.google.com/rss/search?q=UAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+            },
+            {
+              "name": "Google News index — r/HighStrangeness flight-video discussion",
+              "credit": "Google News index checked November 28, 2026; witness-post discussion, not independently corroborated",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             },
             {
-              "name": "r/UFOs — non-human life before disclosure discussion",
-              "credit": "Google News index checked November 24, 2026; community discussion, not evidence of confirmation",
+              "name": "Google News index — r/UFOs / 1977 Italian Air Force case discussion",
+              "credit": "Google News index checked November 26, 2026; community discussion and attributed account, not independent verification",
               "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUFOs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-            },
-            {
-              "name": "r/UFOs / r/UAP — Release 08 discussion",
-              "credit": "Google News index checked November 24, 2026; community discussion and linked media, not independent verification",
-              "url": "https://news.google.com/rss/search?q=site%3Areddit.com%2Fr%2FUAP+when%3A1d&hl=en-US&gl=US&ceid=US:en"
             }
           ]
         },
         {
-          "heading": "CONSCIOUSNESS / EXPERIENCE: missing time, contact, and intention remain claims",
-                    "body": "The indexed experience sample mixed first-person contact and missing-time accounts with consciousness-first interpretations. NewsNation published a report in which a former Air Force member described missing time and a UFO encounter; the verifiable fact is the publication and attributed testimony, not the encounter's cause. Reddit also circulated Skywatcher-related claims about intention and anomalous interaction. A consciousness-first reading may treat perception, expectation, and altered states as part of the phenomenon rather than mere noise; that remains an interpretive question, not a demonstrated conclusion. Testimony deserves humane treatment, but it is not the same as controlled evidence.",
+          "heading": "CONSCIOUSNESS / EXPERIENCE: the 'woo' argument remains a live community question",
+                    "body": "The indexed discussion included future-human arguments, interdimensional speculation, abduction testimony, and a DMT-related 'hidden matrix' claim. A serious consciousness-first account treats perception, expectation, altered states, and observer participation as potentially relevant variables rather than merely noise. That remains an interpretive framework, not a demonstrated conclusion; testimony is important to document but is not controlled evidence. The desk keeps the distinction visible rather than pretending the subject is simpler than the record.",
           "sources": [
             {
               "name": "BroBible — intention and mysterious-orb report",
@@ -84,8 +84,8 @@
           ]
         },
         {
-          "heading": "FUN / INTERESTING: a V-shaped memory, a college course, and a Jupiter card",
-          "body": "The indexed conversation still carried a 33-year-old V-shaped sighting account and discussion of a college-credit UAP course. Neither settles the phenomenon: one is a late-reported memory and the other is an educational development. More useful as a cautionary tale was a Reddit discussion of a Release 08 card described as unresolved even though the card reportedly names Jupiter. If the community is going to audit the files, that kind of page-by-page reading is healthier than treating every dramatic label as a discovery.",
+          "heading": "FUN / INTERESTING: the internet still wants a 2027 deadline",
+          "body": "A public report and matching Reddit discussion claimed pastors at a secret UFO meeting warned of face-to-face contact with aliens in 2027. That is a public claim about a meeting and a prediction, not evidence that the prediction is sound or that the meeting's account is complete. Prophecy remains the one field where the calendar is forever being asked to do laboratory work.",
           "sources": [
             {
               "name": "North Wales Live — V-shaped sighting account",
@@ -101,7 +101,7 @@
         },
         {
           "heading": "MEDIA WATCH: current reporting is attributable, not independently confirmed",
-          "body": "NewsNation's indexed November 24 report says Ross Coulthart is 'very confident' the President is being briefed on UAP. The underlying page was blocked to this checker, so the desk records only the publication and attribution, not the briefing claim as fact. Weaponized's official episode index and That UFO Podcast's public site were also checked; no fresh timestamped transcript claim was promoted from those pages. A headline is not a transcript, and a report about a briefing is not proof of a briefing.",
+          "body": "The current indexed news sample was dominated by Pentagon-file coverage, the bunker interpretation, and a small number of fresh witness-video and prediction stories. No new official statement or independently readable primary document was found in this scan that would justify adding a new verified item. A headline is not a transcript, and a report about a claim is not proof of the claim.",
           "sources": [
             {
               "name": "NewsNation — Ross Coulthart briefing report",
@@ -117,16 +117,16 @@
         },
         {
           "heading": "X WATCH: public search supplied no attributable post text",
-          "body": "Public X search for UAP activity during the edition window ending 2026-11-24T03:01:18Z redirected to the logged-out onboarding shell and exposed no attributable post text or usable timeline for verification. The maintained watchlist still contains 50 public profiles; reachability is not evidence that an account posted, endorsed a claim, or supplied evidence. No watchlisted account is credited with a claim in this edition.",
+          "body": "Public X search for UAP activity during the edition window ending 2026-11-28T01:01:05Z returned the public application shell and exposed no attributable post text or usable timeline for verification. The maintained watchlist still contains 50 public profiles; reachability is not evidence that an account posted, endorsed a claim, or supplied evidence. No watchlisted account is credited with a claim in this edition.",
           "sources": [
             {
               "name": "Public X search",
-              "credit": "Checked November 24, 2026; public search redirected to the logged-out shell and exposed no attributable post text",
-              "url": "https://x.com/search?q=UAP%20since%3A2026-11-23%20until%3A2026-11-24&src=typed_query"
+              "credit": "Checked November 26, 2026; public search returned the application shell and exposed no attributable post text",
+              "url": "https://x.com/search?q=(UAP%20OR%20UFO)%20since%3A2026-11-25%20until%3A2026-11-26&src=typed_query"
             },
             {
               "name": "X watchlist — 50 public profiles",
-              "credit": "Profile URLs checked November 24, 2026; maintained list contains 50 profiles; no post attribution made",
+              "credit": "Profile URLs checked November 26, 2026; maintained list contains 50 profiles; no post attribution made",
               "url": "https://x.com/NASA"
             },
             {
